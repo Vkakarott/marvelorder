@@ -20,7 +20,7 @@
                     `listing-card-container flex gap-8 ${outerDirection} h-screen justify-${modes.outer}`,
                 ]"
 
-                @click.prevent.capture="expand()"
+                @click.capture="handleCardClick"
             >
                 <div
                     :class="`inner-container flex ${outerDirection} h-full w-full justify-end`"
@@ -227,6 +227,13 @@ export default defineComponent( {
         },
     },
     methods: {
+        handleCardClick ( event: MouseEvent ): void {
+            if ( ( event.target as Element ).closest( 'a, button' ) ) {
+                return
+            }
+
+            this.expand()
+        },
         expand (): void {
             this.$emit( 'expand', this.listing )
 
