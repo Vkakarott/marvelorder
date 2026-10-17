@@ -21,13 +21,17 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 		<title>{content.title ? `${content.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
 		<style>
 			body.main-layout {
-				background: #080a10;
+				background: #070912;
 				color: #f3f4f6;
 			}
 			.detail-header {
-				width: min(100% - 2rem, 72rem);
+				position: absolute;
+				z-index: 10;
+				left: 50%;
+				transform: translateX(-50%);
+				width: min(100% - 3rem, 80rem);
 				margin: 0 auto;
-				padding: 1.25rem 0;
+				padding: 1.75rem 0;
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
@@ -35,24 +39,37 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 			}
 			.detail-brand {
 				color: #f3f4f6;
-				font-size: 1.25rem;
+				font-size: 1.4rem;
 				font-weight: 800;
 				letter-spacing: -0.04em;
 				text-decoration: none;
 			}
 			.detail-back-link {
-				color: #d1d5db;
+				padding: 0.6rem 0.9rem;
+				border: 1px solid rgba(255, 255, 255, 0.3);
+				border-radius: 999px;
+				background: rgba(5, 7, 16, 0.45);
+				color: #f3f4f6;
 				font-size: 0.875rem;
 				text-decoration: none;
+				backdrop-filter: blur(12px);
 			}
 			.detail-back-link:hover,
 			.detail-brand:hover {
 				color: #fb7185;
 			}
 			.detail-main {
-				width: min(100% - 2rem, 72rem);
-				margin: 0 auto;
+				width: 100%;
 				flex: 1;
+			}
+			@media (max-width: 40rem) {
+				.detail-header {
+					width: min(100% - 2rem, 80rem);
+					padding: 1rem 0;
+				}
+				.detail-back-link {
+					font-size: 0.75rem;
+				}
 			}
 		</style>
 	</head>

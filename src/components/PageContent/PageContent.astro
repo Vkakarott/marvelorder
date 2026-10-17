@@ -30,67 +30,137 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 ---
 
 <article class="detail-page">
-    { listing.backdrop_path && (
-        <div class="detail-art">
-            <TmdbImage
-                src={ listing.backdrop_path }
-                alt={ `Imagem de ${ title }` }
-                sizes={ [ 550, 850, 1440, 2200 ] }
-                displaySizes="(max-width: 1152px) 100vw, 1152px"
-                class="detail-backdrop"
-            />
-        </div>
-    ) }
+    <section class="hero" aria-labelledby="overview">
+        { listing.backdrop_path && (
+            <div class="hero-atmosphere" aria-hidden="true">
+                <TmdbImage
+                    src={ listing.backdrop_path }
+                    alt=""
+                    sizes={ [ 850, 1440, 2200 ] }
+                    displaySizes="100vw"
+                />
+            </div>
+        ) }
+        <div class="hero-shade" aria-hidden="true"></div>
 
-    <div class="detail-body">
-        <div class="detail-heading">
-            <div class="detail-heading-text">
-                <p class="detail-kicker">{ mediaType }</p>
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <div class="hero-eyebrow">
+                    <span class="hero-eyebrow-line" aria-hidden="true"></span>
+                    <span>CineArc apresenta</span>
+                </div>
+
                 { listing.logo_on_black && (
                     <ListingLogo
                         src={ listing.logo_on_black }
                         alt=""
-                        baseSize={ 420 }
+                        baseSize={ 360 }
                         loading="eager"
-                        class="detail-logo"
+                        class="hero-logo"
                     />
                 ) }
-                <h1 id="overview">{ title }</h1>
+
+                <h1 id="overview" class={ listing.logo_on_black ? 'hero-title-with-logo' : undefined }>{ title }</h1>
+
+                <div class="hero-meta" aria-label="Informações do título">
+                    <span>{ mediaType }</span>
+                    <span class="meta-divider" aria-hidden="true"></span>
+                    <span>{ releaseDate }</span>
+                    { rating && (
+                        <>
+                            <span class="meta-divider" aria-hidden="true"></span>
+                            <span><span class="rating-star" aria-hidden="true">★</span> { rating }/10</span>
+                        </>
+                    ) }
+                </div>
+
+                { daysUntilRelease !== null && daysUntilRelease > 0 && (
+                    <p class="hero-upcoming">Estreia em { daysUntilRelease } { daysUntilRelease === 1 ? 'dia' : 'dias' }</p>
+                ) }
+
+                <p class="hero-summary">{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
+
+                <div class="hero-actions">
+                    <a class="hero-primary-action" href="#sinopse">
+                        Explorar detalhes <span aria-hidden="true">↓</span>
+                    </a>
+                    { listing.id && <SeenButton listing={ listing } showLabel client:load /> }
+                </div>
             </div>
-            { listing.id && <SeenButton listing={ listing } showLabel client:load /> }
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="visual-orbit"></div>
+                <div class="visual-glow"></div>
+                { listing.poster_path
+                    ? (
+                        <div class="poster-frame">
+                            <TmdbImage
+                                src={ listing.poster_path }
+                                alt=""
+                                sizes={ [ 275, 550, 850, 1100 ] }
+                                displaySizes="(max-width: 640px) 55vw, 420px"
+                            />
+                        </div>
+                    )
+                    : listing.backdrop_path
+                        ? (
+                            <div class="backdrop-frame">
+                                <TmdbImage
+                                    src={ listing.backdrop_path }
+                                    alt=""
+                                    sizes={ [ 550, 850, 1440 ] }
+                                    displaySizes="(max-width: 640px) 75vw, 600px"
+                                />
+                            </div>
+                        )
+                        : <div class="visual-monogram">C</div>
+                }
+                <span class="visual-spark visual-spark-one"></span>
+                <span class="visual-spark visual-spark-two"></span>
+            </div>
         </div>
 
-        <dl class="detail-facts">
-            <div>
-                <dt>Lançamento</dt>
-                <dd>{ releaseDate }</dd>
-            </div>
-            <div>
-                <dt>Tipo</dt>
-                <dd>{ mediaType }</dd>
-            </div>
-            { rating && (
-                <div>
-                    <dt>Avaliação no TMDB</dt>
-                    <dd>{ rating }/10</dd>
+        <div class="hero-bottom-line" aria-hidden="true">
+            <span>UM UNIVERSO PARA EXPLORAR</span>
+            <span>↓</span>
+        </div>
+    </section>
+
+    <div class="detail-content">
+        <div class="detail-grid">
+            <section id="sinopse" class="detail-overview" aria-labelledby="detail-overview-title">
+                <p class="section-number">01 / SOBRE</p>
+                <h2 id="detail-overview-title">Sinopse</h2>
+                <p>{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
+            </section>
+
+            <aside class="detail-side" aria-label="Informações e links">
+                <div class="detail-side-card">
+                    <p class="section-number">FICHA RÁPIDA</p>
+                    <dl>
+                        <div>
+                            <dt>Lançamento</dt>
+                            <dd>{ releaseDate }</dd>
+                        </div>
+                        <div>
+                            <dt>Formato</dt>
+                            <dd>{ mediaType }</dd>
+                        </div>
+                        { rating && (
+                            <div>
+                                <dt>Avaliação no TMDB</dt>
+                                <dd>{ rating }/10</dd>
+                            </div>
+                        ) }
+                    </dl>
+                    { isValidHttpUrl( watchLink ) && (
+                        <a class="watch-link" href={ watchLink } target="_blank" rel="noopener noreferrer">
+                            Ver na Amazon <span aria-hidden="true">↗</span>
+                        </a>
+                    ) }
                 </div>
-            ) }
-        </dl>
-
-        { daysUntilRelease !== null && daysUntilRelease > 0 && (
-            <p class="detail-upcoming">Estreia em { daysUntilRelease } { daysUntilRelease === 1 ? 'dia' : 'dias' }</p>
-        ) }
-
-        <section class="detail-overview" aria-labelledby="detail-overview-title">
-            <h2 id="detail-overview-title">Sinopse</h2>
-            <p>{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
-        </section>
-
-        { isValidHttpUrl( watchLink ) && (
-            <a class="detail-watch-link" href={ watchLink } target="_blank" rel="noopener noreferrer">
-                Ver na Amazon <span aria-hidden="true">↗</span>
-            </a>
-        ) }
+            </aside>
+        </div>
 
         <ListingTimeline listing={ listing } />
 
@@ -106,109 +176,340 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
 <style>
     .detail-page {
-        overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 1.5rem;
-        background: #11151e;
-    }
-    .detail-art {
         width: 100%;
-        aspect-ratio: 16 / 9;
-        max-height: 38rem;
-        background: #05070c;
+        overflow: hidden;
     }
-    .detail-art :global(img) {
+    .hero {
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        min-height: min(56rem, 100svh);
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        background: radial-gradient(circle at 80% 35%, #442039 0, #11172b 38%, #070912 78%);
+    }
+    .hero-atmosphere {
+        position: absolute;
+        z-index: -3;
+        inset: -2rem;
+        opacity: 0.72;
+    }
+    .hero-atmosphere :global(img) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(22px) saturate(1.35);
+        transform: scale(1.06);
+    }
+    .hero-shade {
+        position: absolute;
+        z-index: -2;
+        inset: 0;
+        background:
+            linear-gradient(90deg, rgba(5, 7, 17, 0.96) 0%, rgba(5, 7, 17, 0.82) 43%, rgba(5, 7, 17, 0.48) 100%),
+            linear-gradient(0deg, #070912 0%, transparent 28%, transparent 72%, rgba(5, 7, 17, 0.48) 100%);
+    }
+    .hero-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.95fr);
+        align-items: center;
+        gap: clamp(2rem, 5vw, 6rem);
+        width: min(100% - 3rem, 80rem);
+        margin: 0 auto;
+        padding: 8rem 0 5rem;
+    }
+    .hero-copy {
+        position: relative;
+        z-index: 2;
+        min-width: 0;
+    }
+    .hero-eyebrow {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 2.25rem;
+        color: #fda4af;
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+    .hero-eyebrow-line {
+        width: 2.25rem;
+        height: 2px;
+        background: #fb7185;
+    }
+    .hero-copy :global(.hero-logo) {
+        display: block;
+        width: min(100%, 22.5rem);
+        max-height: 8rem;
+        margin-bottom: 1.75rem;
+        object-fit: contain;
+        object-position: left center;
+    }
+    .hero h1 {
+        max-width: 12ch;
+        margin: 0;
+        color: #fff;
+        font-size: clamp(3rem, 5vw, 5.75rem);
+        font-weight: 900;
+        letter-spacing: -0.06em;
+        line-height: 0.98;
+        text-wrap: balance;
+        text-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    }
+    .hero h1.hero-title-with-logo {
+        max-width: 19ch;
+        color: #e5e7eb;
+        font-size: clamp(1.8rem, 3vw, 3.1rem);
+        letter-spacing: -0.04em;
+        line-height: 1.08;
+    }
+    .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.7rem;
+        margin-top: 1.75rem;
+        color: #e5e7eb;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    .meta-divider {
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background: #fb7185;
+    }
+    .rating-star {
+        color: #fb7185;
+    }
+    .hero-upcoming {
+        width: fit-content;
+        margin-top: 1.5rem;
+        padding: 0.45rem 0.7rem;
+        border: 1px solid rgba(251, 113, 133, 0.55);
+        border-radius: 0.5rem;
+        background: rgba(136, 19, 55, 0.25);
+        color: #fecdd3;
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+    .hero-summary {
+        display: -webkit-box;
+        max-width: 55ch;
+        margin-top: 1.75rem;
+        overflow: hidden;
+        color: #cbd5e1;
+        font-size: clamp(1rem, 1.4vw, 1.125rem);
+        line-height: 1.7;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem;
+        margin-top: 2rem;
+    }
+    .hero-primary-action {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        min-height: 3rem;
+        padding: 0.7rem 1.15rem;
+        border-radius: 0.6rem;
+        background: #fb7185;
+        color: #190b12;
+        font-weight: 800;
+        text-decoration: none;
+        transition: transform 180ms ease, background 180ms ease;
+    }
+    .hero-primary-action:hover {
+        transform: translateY(-2px);
+        background: #fda4af;
+        color: #190b12;
+    }
+    .hero-actions :global(button) {
+        min-height: 3rem;
+        padding: 0.7rem 1rem;
+        border-color: rgba(255, 255, 255, 0.5);
+        border-radius: 0.6rem;
+        background: rgba(5, 7, 17, 0.48);
+        color: #fff;
+        backdrop-filter: blur(10px);
+    }
+    .hero-visual {
+        position: relative;
+        display: grid;
+        min-height: 35rem;
+        place-items: center;
+    }
+    .visual-orbit {
+        position: absolute;
+        width: min(100%, 36rem);
+        aspect-ratio: 1;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 50%;
+        transform: rotate(-20deg) scaleX(0.78);
+    }
+    .visual-orbit::after {
+        position: absolute;
+        inset: 12%;
+        border: 1px solid rgba(251, 113, 133, 0.26);
+        border-radius: 50%;
+        content: '';
+    }
+    .visual-glow {
+        position: absolute;
+        width: 75%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: #f43f5e;
+        filter: blur(100px);
+        opacity: 0.23;
+    }
+    .poster-frame,
+    .backdrop-frame {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 1rem;
+        background: #111827;
+        box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.6), 0 0 4rem rgba(251, 113, 133, 0.18);
+    }
+    .poster-frame {
+        width: min(72%, 24rem);
+        aspect-ratio: 2 / 3;
+        transform: rotate(4deg);
+    }
+    .backdrop-frame {
+        width: min(100%, 38rem);
+        aspect-ratio: 16 / 9;
+        transform: rotate(3deg);
+    }
+    .poster-frame :global(img),
+    .backdrop-frame :global(img) {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    .detail-body {
-        width: min(100%, 56rem);
-        margin: 0 auto;
-        padding: clamp(1.5rem, 4vw, 3.5rem);
+    .visual-monogram {
+        display: grid;
+        width: min(72%, 24rem);
+        aspect-ratio: 2 / 3;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 1rem;
+        background: linear-gradient(145deg, #2a1830, #0d1222);
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 12rem;
+        font-weight: 900;
+        box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
+        transform: rotate(4deg);
     }
-    .detail-heading {
+    .visual-spark {
+        position: absolute;
+        z-index: 2;
+        width: 0.55rem;
+        height: 0.55rem;
+        border-radius: 50%;
+        background: #fb7185;
+        box-shadow: 0 0 1rem #fb7185;
+    }
+    .visual-spark-one {
+        top: 15%;
+        right: 12%;
+    }
+    .visual-spark-two {
+        bottom: 12%;
+        left: 14%;
+    }
+    .hero-bottom-line {
         display: flex;
-        align-items: end;
+        align-items: center;
         justify-content: space-between;
-        gap: 1.5rem;
+        width: min(100% - 3rem, 80rem);
+        margin: auto auto 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 0.65rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
     }
-    .detail-heading-text {
-        min-width: 0;
+    .hero-bottom-line span:last-child {
+        font-size: 1.3rem;
     }
-    .detail-kicker {
-        margin-bottom: 0.75rem;
+    .detail-content {
+        width: min(100% - 3rem, 80rem);
+        margin: 0 auto;
+        padding: clamp(4rem, 7vw, 7rem) 0 3rem;
+    }
+    .detail-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.3fr) minmax(16rem, 0.7fr);
+        gap: clamp(2.5rem, 7vw, 8rem);
+    }
+    .section-number {
+        margin-bottom: 1.25rem;
         color: #fb7185;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         font-weight: 800;
         letter-spacing: 0.14em;
-        text-transform: uppercase;
     }
-    .detail-heading :global(.detail-logo) {
-        display: block;
-        width: min(100%, 26rem);
-        max-height: 10rem;
-        margin-bottom: 1.25rem;
-        object-fit: contain;
-        object-position: left center;
+    .detail-overview h2 {
+        margin: 0 0 1.5rem;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        letter-spacing: -0.05em;
     }
-    .detail-heading h1 {
-        margin: 0;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        line-height: 1.05;
+    .detail-overview > p:last-child {
+        max-width: 65ch;
+        color: #d1d5db;
+        font-size: clamp(1rem, 1.6vw, 1.25rem);
+        line-height: 1.8;
     }
-    .detail-heading :global(button) {
-        flex-shrink: 0;
+    .detail-side-card {
+        padding: 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.04);
     }
-    .detail-facts {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        gap: 1.25rem;
-        margin-top: 2.5rem;
-        padding: 1.5rem 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    .detail-side-card dl > div {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.85rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .detail-facts dt {
+    .detail-side-card dt {
         color: #9ca3af;
         font-size: 0.8rem;
     }
-    .detail-facts dd {
-        margin-top: 0.35rem;
-        font-size: 1.1rem;
+    .detail-side-card dd {
+        text-align: right;
+        font-size: 0.85rem;
         font-weight: 700;
     }
-    .detail-upcoming {
-        margin-top: 1.5rem;
-        color: #fda4af;
-        font-weight: 700;
-    }
-    .detail-overview {
-        margin-top: 2.5rem;
-    }
-    .detail-overview h2 {
-        margin: 0 0 1rem;
-        font-size: 1.5rem;
-    }
-    .detail-overview p {
-        max-width: 70ch;
-        color: #d1d5db;
-        line-height: 1.7;
-    }
-    .detail-watch-link {
-        display: inline-flex;
+    .watch-link {
+        display: flex;
         align-items: center;
-        gap: 0.5rem;
-        margin-top: 1.75rem;
-        padding: 0.75rem 1.1rem;
-        border-radius: 0.75rem;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        padding: 0.85rem 1rem;
+        border-radius: 0.6rem;
         background: #f59e0b;
         color: #171717;
         font-weight: 800;
         text-decoration: none;
     }
-    .detail-watch-link:hover {
+    .watch-link:hover {
         background: #fbbf24;
         color: #171717;
     }
@@ -216,7 +517,7 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem 1.25rem;
-        margin-top: 3rem;
+        margin-top: 4rem;
         padding-top: 1.5rem;
         border-top: 1px solid rgba(255, 255, 255, 0.12);
         color: #9ca3af;
@@ -226,19 +527,62 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         color: #d1d5db;
         text-decoration: underline;
     }
-    @media (max-width: 40rem) {
-        .detail-page {
-            border-radius: 1rem;
+    @media (max-width: 60rem) {
+        .hero-inner {
+            grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.75fr);
         }
-        .detail-heading {
-            align-items: stretch;
-            flex-direction: column;
+        .hero-visual {
+            min-height: 29rem;
         }
-        .detail-heading :global(button) {
-            align-self: flex-start;
+    }
+    @media (max-width: 46rem) {
+        .hero {
+            min-height: 0;
         }
-        .detail-facts {
-            gap: 1rem;
+        .hero-inner {
+            grid-template-columns: 1fr;
+            gap: 0;
+            width: min(100% - 2rem, 80rem);
+            padding: 6.5rem 0 2rem;
+        }
+        .hero-copy {
+            order: 2;
+            margin-top: -2rem;
+        }
+        .hero-visual {
+            order: 1;
+            min-height: 21rem;
+        }
+        .poster-frame {
+            width: min(48%, 12rem);
+        }
+        .backdrop-frame {
+            width: min(82%, 26rem);
+        }
+        .visual-orbit {
+            width: min(80%, 22rem);
+        }
+        .visual-glow {
+            width: 50%;
+        }
+        .hero-eyebrow {
+            margin-bottom: 1.25rem;
+        }
+        .hero h1 {
+            max-width: 16ch;
+            font-size: clamp(2.6rem, 10vw, 4.25rem);
+        }
+        .hero-bottom-line,
+        .detail-content {
+            width: min(100% - 2rem, 80rem);
+        }
+        .detail-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .hero-primary-action {
+            transition: none;
         }
     }
 </style>
