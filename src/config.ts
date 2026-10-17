@@ -1,5 +1,5 @@
 export const SITE = {
-    title: 'Tela Temporal',
+    title: 'CineArc',
     description: 'Explore filmes e séries da Marvel em uma linha do tempo interativa.',
     defaultLanguage: 'pt_BR',
 }

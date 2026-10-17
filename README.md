@@ -1,6 +1,6 @@
-# Tela Temporal
+# CineArc
 
-Tela Temporal is a Portuguese-language timeline for exploring Marvel films and series and tracking watched titles.
+CineArc is a Portuguese-language timeline for exploring Marvel films and series and tracking watched titles.
 
 ## Local development
 
@@ -16,6 +16,6 @@ The development server prints its local URL. Run `npm run build` to generate the
 
 ## Project origin
 
-This fork is based on [ThatGuySam/marvelorder](https://github.com/ThatGuySam/marvelorder). The original project provided the starting code and data. Tela Temporal has independent branding and is not affiliated with Marvel.
+This fork is based on [ThatGuySam/marvelorder](https://github.com/ThatGuySam/marvelorder). The original project provided the starting code and data. CineArc has independent branding and is not affiliated with Marvel.
 
 Film and series artwork and metadata retain their respective owners and sources. The checked-in data supports offline builds; synchronization scripts are separate from the render path.
