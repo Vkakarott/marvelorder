@@ -12,10 +12,9 @@
                 :key="index"
             >
                 <ListingColumn
-                    :ref="listing.elementId"
                     :listing="listing"
                     :index="index"
-                    :visibility-class="visibilityClass(listing)"
+                    :image-loading="isFocusedListing(listing) ? 'eager' : 'lazy'"
                     :class="[
                         isFocusedListing(listing) ? 'listing-card-initial' : '',
                     ]"
@@ -64,8 +63,6 @@
 
 <script lang="ts">
 import { defineComponent, type PropType } from 'vue'
-import scrollIntoView from 'scroll-into-view-if-needed'
-
 import ListingColumn from './listing-column.vue'
 import CircleButton from './circle-button.vue'
 import {
@@ -77,14 +74,6 @@ import type { Listing } from '~/src/helpers/types'
 
 type ListingLike = Listing | MappedListing
 type ActiveListingFilters = Array<[Function, boolean]>
-type ListingColumnRef = {
-    $el: HTMLElement
-}
-
-function hasLogo ( listing: MappedListing ): boolean {
-    return Boolean( listing.hasLogo )
-}
-
 export default defineComponent( {
     components: {
         ListingColumn,
@@ -103,7 +92,6 @@ export default defineComponent( {
     data () {
         return {
             activeListingFilters: [] as ActiveListingFilters,
-            showAllListings: false,
             expandedListingId: null as string | null,
         }
     },
@@ -137,81 +125,9 @@ export default defineComponent( {
             return this.nextUpcomingListing
         },
     },
-    mounted () {
-        // Reveal all listings after a delay
-        setTimeout( () => {
-            this.showAllListings = true
-        }, 1000 )
-
-        void this.scrollToUpcomingListing()
-
-        // Count listings with logos
-        const hasLogoListings = this.sortedListings.filter( hasLogo )
-        const noLogoListings = this.sortedListings.filter( listing => !hasLogo( listing ) )
-
-        console.log( `Listings with Logos: ${ hasLogoListings.length } / ${ this.sortedListings.length }` )
-
-        console.log( 'Listings without Logos:' )
-        for ( const listing of noLogoListings ) {
-            console.log( `${ listing.title } (${ listing.id })` )
-        }
-
-        // const marvelKnights = new FilteredListings( {
-        //     listings: this.listings,
-        //     initialFilters: new Map( [
-        //         [ isMarvelKnightsAnimated, true ],
-        //     ] ),
-        // } )
-
-        // console.log('marvelKnights', marvelKnights.list)
-    },
     methods: {
-        async scrollToUpcomingListing (): Promise<void> {
-            if ( !this.focusedListing ) {
-                return
-            }
-
-            const { elementId } = this.focusedListing
-            const listingRefs = this.$refs[ elementId ] as ListingColumnRef[] | undefined
-            const elementRef = listingRefs?.[ 0 ]
-            const elementNode = elementRef?.$el
-
-            if ( !elementNode ) {
-                return
-            }
-
-            const targetNode = elementNode.previousElementSibling?.previousElementSibling
-
-            if ( !targetNode ) {
-                return
-            }
-
-            // Instant scroll to element before
-            // so we can setup a small scroll animation
-            // this.$refs.row.scrollLeft = elementNode.previousElementSibling.offsetLeft - window.innerWidth + 275
-
-            // Animate scroll to element before
-            //  so that our whole column is visible
-            await scrollIntoView( targetNode, {
-                scrollMode: 'always',
-                behavior: 'smooth',
-                block: 'start',
-                inline: 'start',
-                duration: 1500,
-            } )
-        },
-
         isFocusedListing ( listing: MappedListing ): boolean {
             return listing.elementId === this.focusedListing?.elementId
-        },
-
-        visibilityClass ( listing: MappedListing ): string {
-            // Show our upcoming listing first
-            if ( listing.elementId === this.focusedListing?.elementId ) {
-                return ''
-            }
-
-            return this.showAllListings ? '' : 'opacity-0'
         },
 
         // Scrolls by window width time ratio

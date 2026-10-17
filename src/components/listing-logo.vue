@@ -1,8 +1,10 @@
 <template>
     <img
-        :data-src="srcImage"
-        :data-srcset="srcSet"
-        class="lazyload"
+        :src="srcImage"
+        :srcset="srcSet"
+        :loading="loading"
+        :fetchpriority="loading === 'eager' ? 'high' : undefined"
+        decoding="async"
         :alt="alt"
     >
 </template>
@@ -11,7 +13,6 @@
 import { defineComponent, type PropType } from 'vue'
 import { formatUrlLikeInput } from '~/src/helpers/image-paths'
 
-import 'lazysizes/plugins/attrchange/ls.attrchange'
 import type { Listing } from '~/src/helpers/types'
 
 type ListingLogoSource = string | Pick<Listing, 'logo_on_black'>
@@ -38,9 +39,13 @@ export default defineComponent( {
             type: Number,
             default: 275,
         },
+        loading: {
+            type: String as PropType<'eager' | 'lazy'>,
+            default: 'lazy',
+        },
         sizes: {
             type: Array as PropType<number[]>,
-            default: () => [ 1, 1.5, 2, 4, 5, 8 ],
+            default: () => [ 1, 2, 3 ],
         },
     },
     computed: {
@@ -63,7 +68,7 @@ export default defineComponent( {
             return srcSet.join( ', ' )
         },
         srcImage (): string {
-            return makeSizedImageUrl( this.logoUrl, this.sizes[ 1 ] )
+            return makeSizedImageUrl( this.logoUrl, Math.round( this.baseSize * this.sizes[ 0 ] ) )
         },
     },
 } )

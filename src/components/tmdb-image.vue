@@ -1,10 +1,10 @@
 <template>
     <img
         v-once
-        :data-src="smallestImage"
-        :data-srcset="srcSet"
-        :sizes="`(max-width: ${maxWidth}px) 100vw, ${maxWidth}px`"
-        class="lazyload"
+        :src="smallestImage"
+        :srcset="srcSet"
+        sizes="(max-width: 540px) 100vw, 540px"
+        decoding="async"
         :alt="alt"
     >
 </template>
@@ -17,8 +17,6 @@ import {
 import {
     makeTmdbImageUrl,
 } from '~/src/helpers/listing'
-
-import 'lazysizes/plugins/attrchange/ls.attrchange'
 
 function makeSizedImageUrl ( imageUrl: string, size: number ) {
     const sizeUrl = new URL( imageUrl, 'https://example.com' )
@@ -44,9 +42,6 @@ export default defineComponent( {
         },
     },
     computed: {
-        maxWidth (): number {
-            return this.sizes[ this.sizes.length - 1 ]
-        },
         imageUrl (): string {
             return makeTmdbImageUrl( this.src )
         },

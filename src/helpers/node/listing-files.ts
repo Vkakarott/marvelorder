@@ -57,27 +57,27 @@ export async function getListingFromFile ( filePath: string ) {
     } )
 }
 
+async function readListingDetails ( filePaths: string[] ) {
+    const listingDetails: Array<Awaited<ReturnType<typeof getListingFromFile>>> = []
+    const batchSize = 32
+
+    for ( let start = 0; start < filePaths.length; start += batchSize ) {
+        const batch = filePaths.slice( start, start + batchSize )
+        listingDetails.push( ...await Promise.all( batch.map( getListingFromFile ) ) )
+    }
+
+    return listingDetails
+}
+
 export async function getListingsFromFilePaths ( filePaths: string[] ) {
-    const listings: Listing[] = []
+    const listingDetails = await readListingDetails( filePaths )
 
-    for ( const filePath of filePaths ) {
-        const { listing, tmdb } = await getListingFromFile( filePath )
-
-        // if the listing is disabled, skip it
-        // Draft doubles as disable since it's used by Astro
-        // https://docs.astro.build/en/guides/markdown-content/#markdown-drafts
-        if ( listing?.draft === true ) {
-            continue
-        }
-
-        // Merge listing data
-        listings.push( normalizeListingObservation(
+    return listingDetails
+        .filter( ( { listing } ) => listing?.draft !== true )
+        .map( ( { listing, tmdb } ): Listing => normalizeListingObservation(
             mergeListingData( tmdb, listing ),
             tmdb,
         ) )
-    }
-
-    return listings
 }
 
 export async function getAllListings () {
@@ -108,22 +108,9 @@ export async function getSingleListingFromUrl ( rawUrl: string ) {
 }
 
 export async function getListingDetailsFromPaths ( filePaths: string[] ) {
-    const listings = []
+    const listingDetails = await readListingDetails( filePaths )
 
-    for ( const filePath of filePaths ) {
-        const details = await getListingFromFile( filePath )
-
-        // if the listing is disabled, skip it
-        // Draft doubles as disable since it's used by Astro
-        // https://docs.astro.build/en/guides/markdown-content/#markdown-drafts
-        if ( details.listing?.draft === true ) {
-            continue
-        }
-
-        listings.push( details )
-    }
-
-    return listings
+    return listingDetails.filter( ( { listing } ) => listing?.draft !== true )
 }
 
 export async function getDefaultFilteredListings () {

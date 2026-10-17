@@ -4,6 +4,7 @@
             <ListingLogo
                 :src="mappedListing"
                 :base-size="540"
+                loading="eager"
                 class="h-auto w-full relative transition-all"
             />
         </div>

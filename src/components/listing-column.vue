@@ -23,10 +23,7 @@
                 @click.prevent.capture="expand()"
             >
                 <div
-                    class="transition-opacity ease-in-out duration-750" :class="[
-                        `inner-container flex ${outerDirection} h-full w-full justify-end`,
-                        visibilityClass,
-                    ]"
+                    :class="`inner-container flex ${outerDirection} h-full w-full justify-end`"
                 >
                     <div class="inner-container relative py-16">
                         <a
@@ -42,6 +39,7 @@
                                     class="h-auto relative"
                                     :alt="title"
                                     :base-size="markWidth"
+                                    :loading="imageLoading"
                                     :style="{ width: `${markWidth}px` }"
                                 />
                                 <h2
@@ -123,7 +121,7 @@
         </Transition>
 
         <div
-            v-if="!expanded"
+            v-if="!expanded && nearViewport"
             class="overlay w-60 flex justify-center items-center pointer-events-none absolute inset-y-0 left-1/2 -translate-x-1/2"
         >
             <div class="relative flex justify-center w-full">
@@ -146,6 +144,7 @@ import CircleButton from './circle-button.vue'
 import SeenButton from './seen-button.vue'
 import TmdbImage from './tmdb-image.vue'
 import { getLayoutModes, type LayoutModes } from '~/src/helpers/layout'
+import { observeNearViewport } from '~/src/helpers/near-viewport'
 import type { MappedListing } from '~/src/helpers/node/listing'
 
 export default defineComponent( {
@@ -173,9 +172,9 @@ export default defineComponent( {
             type: Number,
             default: 110,
         },
-        visibilityClass: {
-            type: String,
-            default: '',
+        imageLoading: {
+            type: String as PropType<'eager' | 'lazy'>,
+            default: 'lazy',
         },
         expanded: {
             type: Boolean,
@@ -186,6 +185,20 @@ export default defineComponent( {
         'expand',
         'contract',
     ],
+    data () {
+        return {
+            nearViewport: false,
+            stopObserving: null as (() => void) | null,
+        }
+    },
+    mounted () {
+        this.stopObserving = observeNearViewport( this.$el, () => {
+            this.nearViewport = true
+        } )
+    },
+    beforeUnmount () {
+        this.stopObserving?.()
+    },
     computed: {
         title (): string {
             return this.listing.title
