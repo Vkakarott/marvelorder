@@ -8,15 +8,17 @@ const excludedUrls = new Set( [
 // Fetch urls from a sitemap.xml file
 export async function fetchSitemapUrls ( sitemapUrl: string ): Promise<string[]> {
     const response = await fetch( sitemapUrl )
+    if ( !response.ok ) return []
+
     const text = await response.text()
 
     // Find all urls in the sitemap
-    const urls = text
+    const urls = ( text
         // Replace all left and right brackets
         .replace( /</g, ' ' )
         .replace( />/g, ' ' )
         // Match all urls
-        .match( /((http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?)/g )
+        .match( /((http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?)/g ) ?? [] )
         // Filter out common sitemap reference urls
         .filter( url => !excludedUrls.has( url ) )
 

@@ -7,17 +7,10 @@ export const prerender = false
 
 const url = Astro.url
 
-// Get the listing id from the url pathname
-const listingId: string = url.pathname
-    .split('-')
-    .slice( -1 )[ 0 ]
-    // Replace any trailing slashes
-    .replace('/', '')
-
-const hasListingId = listingId.length > 2
+const listingId = url.pathname.match( /^\/en\/[^/]*-(\d+)\/?$/ )?.[ 1 ]
 
 async function tryFindingNewListingUrl (): Promise<string | undefined> {
-    if ( !hasListingId ) {
+    if ( import.meta.env.DEV || !listingId ) {
         return undefined
     }
 
@@ -27,9 +20,6 @@ async function tryFindingNewListingUrl (): Promise<string | undefined> {
         const sitemapUrl = new URL( site )
         sitemapUrl.pathname = '/sitemap-0.xml'
 
-        // console.log({ sitemapUrl })
-
-        // Fetch sitemap urls
         const sitemapUrls = await fetchSitemapUrls( sitemapUrl.href )
 
         // Find the listing url with the listing id
@@ -37,7 +27,7 @@ async function tryFindingNewListingUrl (): Promise<string | undefined> {
 
         return listingUrl
 
-    } catch ( error ) {
+    } catch {
         return undefined
     }
 }
@@ -53,13 +43,14 @@ if ( !!newListingUrl ) {
 ---
 <Layout
 	content={{
-		title: 'Page not found - 404',
-		description: 'From Howard the Duck to Nick Fury, the extensive list of Marvel films and series before May 2, 2008, the day we were first grace with Robert Downey Jr as Iron-Man. Browse the list, watch, and track what you\'ve seen.',
+		title: 'Página não encontrada',
+		description: 'A página solicitada não foi encontrada.',
 	}}
 >
 	
 	<div class="w-screen h-screen flex flex-col justify-center items-center gap-4">
-        <h1 class="text-4xl font-bold">🔎 Page not Found</h1>
-        <div class="opacity-75">Who is Peter Parker and what is this page you're looking for? </div>
+        <h1 class="text-4xl font-bold">🔎 Página não encontrada</h1>
+        <div class="opacity-75">Confira o endereço ou volte para a lista principal.</div>
+        <a class="underline" href="/">Voltar ao início</a>
     </div>
 </Layout>
