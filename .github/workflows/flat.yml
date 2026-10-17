@@ -24,7 +24,6 @@ jobs:
         # https://www.base64encode.org/
         run: |
           echo ${{ secrets.ACTIONS_ENV }} | base64 -d > ./.env
-          cat ./.env
       - name: Bun Install
         run: bun install --frozen-lockfile
       - name: Pull MCU Timeline Sheet
