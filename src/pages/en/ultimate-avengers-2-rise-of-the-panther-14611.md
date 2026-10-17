@@ -12,7 +12,7 @@ type: movie
 logo_on_black: "{fanart-path}/ultimate-avengers-2-5044de8d0d8f3.png"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B000FP2YYA?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B000FP2YYA?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

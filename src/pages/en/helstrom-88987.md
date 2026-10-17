@@ -10,7 +10,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-helstrom-5f7ec53e1c83f.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07TP6D1DP?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 550
 ---
 ## TMDB Data

@@ -9,7 +9,7 @@ type: movie
 logo_on_black: "{tmdb-path}/wceJWXt0neJ0biXKOajMoAz2vaY.webp?crop.top=0.82"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B001FD5KJM?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B001FD5KJM?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 25
 release_date: '2008-05-02'
 ---

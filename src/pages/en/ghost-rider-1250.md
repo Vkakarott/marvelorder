@@ -13,7 +13,7 @@ logo_on_black: >-
   {tmdb-path}/8LaVQiXBsnlo7MXCPK1nXTVARUZ.webp?crop.top=0.02&crop.bottom=0.85
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B000RVK1AQ?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B000RVK1AQ?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

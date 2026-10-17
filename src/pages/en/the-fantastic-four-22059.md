@@ -11,7 +11,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/fantastic-four-5703a9f669d5f.png"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B01LWVLYEN?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B01LWVLYEN?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

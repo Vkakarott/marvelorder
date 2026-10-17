@@ -13,7 +13,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-agent-carter-547ef538a02d8.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00RWAOJ7G?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00RWAOJ7G?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 1
 ---
 ## TMDB Data

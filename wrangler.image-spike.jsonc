@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "marvelorder-image-spike",
+  "name": "tela-temporal-images",
   "main": "workers/image-spike/src/index.ts",
   "compatibility_date": "2026-03-12",
   "workers_dev": true,

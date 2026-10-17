@@ -9,7 +9,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-into-the-spider-verse-5a59e4c641c88.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07L8NHKP4?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07L8NHKP4?linkCode=osi&th=1&psc=1
 backdrop_path: /x2IqsMlpbOhS8zIUJfyl1yO4gHF.jpg
 ---
 ## TMDB Data

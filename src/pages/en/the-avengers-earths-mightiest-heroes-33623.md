@@ -10,7 +10,7 @@ logo_on_black: >-
   {fanart-path}/the-avengers-earths-mightiest-heroes-54c1bc8fa9bcb.webp
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00M81R6JC?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00M81R6JC?linkCode=osi&th=1&psc=1
 tags: 
   - has-thor
 ---

@@ -10,7 +10,7 @@ type: tv
 logo_on_black: "{fanart-path}/iron-man-2010-50cf8c2b3f830.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00DIR8AB8?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00DIR8AB8?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

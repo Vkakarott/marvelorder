@@ -1,15 +1,7 @@
 export const SITE = {
-    title: 'MarvelOrder.com',
-    description: 'List of Marvel movies and shows ordered chronologically, release, and more. ',
-    defaultLanguage: 'en_US',
-}
-
-export const OPEN_GRAPH = {
-    image: {
-        src: 'https://marvelorder.com/og-image.png',
-        alt: 'MarvelOrder.com',
-    },
-    twitter: 'thatguysam',
+    title: 'Tela Temporal',
+    description: 'Explore filmes e séries da Marvel em uma linha do tempo interativa.',
+    defaultLanguage: 'pt_BR',
 }
 
 export const KNOWN_LANGUAGES = {
@@ -17,7 +9,7 @@ export const KNOWN_LANGUAGES = {
 }
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
-export const GITHUB_EDIT_URL = 'https://github.com/ThatGuySam/marvelorder/blob/main/'
+export const GITHUB_EDIT_URL = ''
 
 // Uncomment this to add an "Join our Community" button to every page of documentation.
 export const COMMUNITY_INVITE_URL = '';
@@ -57,7 +49,7 @@ export const NETLIFY_TMDB_IMAGE_PATH = `${ NETLIFY_FUNCTIONS_PATH_PREFIX }/tmdb-
 
 export const NETLIFY_FANART_IMAGE_PATH = `${ NETLIFY_FUNCTIONS_PATH_PREFIX }/fanart`
 
-export const IMAGE_WORKER_ORIGIN = 'https://marvelorder-image-spike.samcarlton.workers.dev'
+export const IMAGE_WORKER_ORIGIN = ''
 
 export const TMDB_IMAGE_PATH = `${ IMAGE_WORKER_ORIGIN }${ NETLIFY_TMDB_IMAGE_PATH }`
 

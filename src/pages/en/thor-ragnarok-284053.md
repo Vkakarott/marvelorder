@@ -12,7 +12,7 @@ logo_on_black: >-
   {tmdb-path}/wmKML1hNmHS2m7RCpISyB0uMLxS.webp?crop.bottom=0.86
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B076XWTHP8?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B076XWTHP8?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 384
 tags:
   - has-thor

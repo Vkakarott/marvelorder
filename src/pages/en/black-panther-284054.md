@@ -15,7 +15,7 @@ type: movie
 logo_on_black: "{fanart-path}/black-panther-579698eae2bd2.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07CSKDGFF?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07CSKDGFF?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 239
 ---
 ## TMDB Data

@@ -13,7 +13,7 @@ type: tv
 logo_on_black: "{tmdb-path}/sbRrk3dAkjXbVV644Wr7ogOKp7w.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B097S4N99J?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B097S4N99J?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

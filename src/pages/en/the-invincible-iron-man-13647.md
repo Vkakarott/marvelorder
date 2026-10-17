@@ -9,7 +9,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/invincible-iron-man-5ccd4a2e2817a.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B008Y5QKMU?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B008Y5QKMU?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

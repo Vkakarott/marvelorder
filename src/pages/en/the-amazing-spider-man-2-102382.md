@@ -14,7 +14,7 @@ type: movie
 logo_on_black: "{fanart-path}/the-amazing-spider-man-2-519c7fd6a53e3.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00JPNZPCG?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00JPNZPCG?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 564
 ---
 ## TMDB Data

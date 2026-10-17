@@ -19,7 +19,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/mutant-x-512671c120573.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07BPPH1Q8?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07BPPH1Q8?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

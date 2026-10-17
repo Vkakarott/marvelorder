@@ -12,7 +12,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/b3wR7lmidhv1xYz6i50XI6NcOV1.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07SJJ44HB?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07SJJ44HB?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

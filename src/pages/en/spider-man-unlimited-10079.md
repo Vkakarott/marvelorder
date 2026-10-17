@@ -9,7 +9,7 @@ type: tv
 logo_on_black: "{fanart-path}/spider-man-unlimited-605d96a6818a5.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00M2DQL6U?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00M2DQL6U?linkCode=osi&th=1&psc=1
 backdrop_path: /3WRvDj6od3V6PB90LXFthFLBJmL.jpg
 ---
 ## TMDB Data

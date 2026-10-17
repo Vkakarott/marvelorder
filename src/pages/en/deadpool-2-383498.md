@@ -8,7 +8,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/deadpool-2-5ace35fc5f5cd.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B07D5KWFJ7?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B07D5KWFJ7?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

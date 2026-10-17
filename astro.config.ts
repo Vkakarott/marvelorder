@@ -11,7 +11,7 @@ export default defineConfig( {
     // Netlify Adapter - https://docs.astro.build/en/guides/integrations-guide/netlify/
     // Netlify Deploy Guide - https://docs.astro.build/en/guides/deploy/netlify/#adapter-for-ssredge
     adapter: netlify(),
-    site: 'https://marvelorder.com',
+    site: process.env.PUBLIC_SITE_URL || process.env.URL || 'http://localhost:4321',
     integrations: [// Enable Preact to support Preact JSX components.
         preact( {
             include: [

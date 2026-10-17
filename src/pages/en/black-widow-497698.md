@@ -12,7 +12,7 @@ type: movie
 logo_on_black: "{tmdb-path}/3EM7YdUjcOWOV8rZoYUAGtrVzyc.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B09BSD5GGK?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B09BSD5GGK?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 234
 ---
 ## TMDB Data

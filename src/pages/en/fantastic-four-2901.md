@@ -14,7 +14,7 @@ type: tv
 logo_on_black: "{fanart-path}/the-fantastic-four-5ccdbd3222058.png"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B000KCJQ1C?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B000KCJQ1C?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

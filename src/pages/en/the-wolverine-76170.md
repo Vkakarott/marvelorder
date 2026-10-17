@@ -8,7 +8,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/the-wolverine-57c9026be2d94.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00G70JQZC?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00G70JQZC?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

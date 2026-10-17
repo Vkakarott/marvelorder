@@ -12,7 +12,7 @@ logo_on_black: >-
   {fanart-path}/fantastic-four-rise-of-the-silver-surfer-503e3270821a1.png
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B000VL6GRO?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B000VL6GRO?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

@@ -11,7 +11,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/x-men-first-class-5071af664ca92.png"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B009YMKL4A?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B009YMKL4A?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

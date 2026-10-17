@@ -10,7 +10,7 @@ type: tv
 logo_on_black: "{fanart-path}/wolverine-and-the-x-men-52375c6d29f1e.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00CMVT4CA?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00CMVT4CA?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

@@ -11,7 +11,7 @@ type: tv
 logo_on_black: "{fanart-path}/wolverine-540569e035577.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00DIR8ATA?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00DIR8ATA?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

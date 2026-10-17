@@ -11,7 +11,7 @@ type: movie
 logo_on_black: "{fanart-path}/marvels-the-avengers-53f39d73300c2.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B009GEEMLY?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B009GEEMLY?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 38
 tags:
   - has-thor

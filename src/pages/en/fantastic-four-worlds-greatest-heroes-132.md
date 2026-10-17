@@ -11,7 +11,7 @@ logo_on_black: >-
   {fanart-path}/fantastic-four-worlds-greatest-heroes-5cce5d9274152.png
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B007PAQ6KG?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B007PAQ6KG?linkCode=osi&th=1&psc=1
 ---
 ## TMDB Data
 ```json

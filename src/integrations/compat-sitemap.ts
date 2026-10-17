@@ -7,7 +7,7 @@ import * as generateSitemapModule from '../../node_modules/@astrojs/sitemap/dist
 import * as validateOptionsModule from '../../node_modules/@astrojs/sitemap/dist/validate-options.js'
 import * as writeSitemapModule from '../../node_modules/@astrojs/sitemap/dist/write-sitemap.js'
 
-const PKG_NAME = '@marvelorder/compat-sitemap'
+const PKG_NAME = '@tela-temporal/compat-sitemap'
 const { generateSitemap } = generateSitemapModule as any
 const { validateOptions } = validateOptionsModule as any
 const { writeSitemap } = writeSitemapModule as any

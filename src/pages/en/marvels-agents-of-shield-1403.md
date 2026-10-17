@@ -11,7 +11,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-agents-of-shield-52521ded92142.webp"
 watchLinks:
   amazon: >-
-    https://www.amazon.com/dp/B00EY7LT9Q?tag=marvelorder-20&linkCode=osi&th=1&psc=1
+    https://www.amazon.com/dp/B00EY7LT9Q?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 46
 ---
 ## TMDB Data

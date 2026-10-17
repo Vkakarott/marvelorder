@@ -4,6 +4,7 @@ import HeadScript from '~/src/components/head-script.astro'
 import HeadStyles from '~/src/components/head-styles.astro'
 import HeadSEO from '../components/HeadSEO.astro'
 import Header from '../components/Header/Header.astro'
+import ProjectCredit from '../components/ProjectCredit.astro'
 // import PageContent from '../components/PageContent/PageContent.astro';
 // import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro';
 // import RightSidebar from '../components/RightSidebar/RightSidebar.astro';
@@ -16,13 +17,13 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`
 const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + currentFile
 ---
 
-<html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'en-us'} class="initial fill-height horizontal-layout">
+<html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'pt-BR'} class="initial fill-height horizontal-layout">
 	<head>
 		<HeadCommon />
         <HeadStyles />
         <HeadScript />
 		<HeadSEO {content} canonicalURL={Astro.url} />
-		<title>{content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+		<title>{content.title ? `${content.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
 		<style>
 
 			html.horizontal-layout,
@@ -46,7 +47,7 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 			{currentPage}
 		/>
 
-		<main>
+		<main id="main-content">
 			<!-- <aside id="grid-left" class="grid-sidebar" title="Site Navigation"></aside> -->
 			<div id="grid-main" class="fill-height bg-gradient-to-tl from-teal-900/40 via-black to-rose-900/40 bg-fixed">
 				<slot />
@@ -54,9 +55,7 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 			<!-- <aside id="grid-right" class="grid-sidebar" title="Table of Contents"></aside> -->
 		</main>
 
-		<p class="fixed bottom-2 inset-x-0 text-center text-xs opacity-20 pointer-events-none">
-			Este site não é afiliado nem endossado pela Marvel.
-		</p>
+		<ProjectCredit class="fixed bottom-2 inset-x-0 px-4 text-center text-xs text-gray-400" />
 
 	</body>
 </html>
