@@ -1,8 +1,9 @@
 <template>
     <SimpleButton
-        class="group" :class="[
-            seenListing ? 'group-hover:bg-white group-hover:text-black border-opacity-0' : 'opacity-0 group-hover:opacity-100',
+        class="group min-h-11 min-w-11" :class="[
+            seenListing ? 'group-hover:bg-white group-hover:text-black border-opacity-0' : 'opacity-100 sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100',
         ]"
+        :aria-label="label"
 
         @click="toggleSeen()"
     >
@@ -64,7 +65,7 @@ export default defineComponent( {
     },
     computed: {
         label (): string {
-            return this.seenListing ? 'Seen' : 'Mark as Seen'
+            return this.seenListing ? 'Visto' : 'Marcar como visto'
         },
     },
     mounted () {

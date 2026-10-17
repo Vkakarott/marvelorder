@@ -170,7 +170,7 @@ export class MappedListing {
             return this.dateString
         }
 
-        return `${ this.date.monthLong } ${ this.date.year }`
+        return `${ this.date.setLocale( 'pt-BR' ).monthLong } ${ this.date.year }`
     }
 
     get hasLogo (): boolean {

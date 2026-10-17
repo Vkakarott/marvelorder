@@ -4,7 +4,6 @@ import HeadScript from '~/src/components/head-script.astro'
 import HeadStyles from '~/src/components/head-styles.astro'
 import HeadSEO from '../components/HeadSEO.astro'
 import Header from '../components/Header/Header.astro'
-import Footer from '../components/Footer/Footer.astro'
 // import PageContent from '../components/PageContent/PageContent.astro';
 // import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro';
 // import RightSidebar from '../components/RightSidebar/RightSidebar.astro';
@@ -28,8 +27,7 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 
 			html.horizontal-layout,
 			.horizontal-layout body {
-				/* Disable scrolling */
-				overflow: none;
+				overflow: hidden;
 				/* Disable macOS Swipe Between Pages Gesture */
 				overscroll-behavior-x: none;
 			}
@@ -56,7 +54,9 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 			<!-- <aside id="grid-right" class="grid-sidebar" title="Table of Contents"></aside> -->
 		</main>
 
-		<Footer />
+		<p class="fixed bottom-2 inset-x-0 text-center text-xs opacity-20 pointer-events-none">
+			Este site não é afiliado nem endossado pela Marvel.
+		</p>
 
 	</body>
 </html>

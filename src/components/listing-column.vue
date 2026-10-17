@@ -243,3 +243,14 @@ export default defineComponent( {
     },
 } )
 </script>
+
+<style scoped>
+.listing-card {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 112px 100dvh;
+}
+
+.listing-card-expanded {
+    content-visibility: visible;
+}
+</style>

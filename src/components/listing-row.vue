@@ -2,14 +2,14 @@
     <div class="listing-row-container relative fill-height w-screen">
         <div
             ref="row"
-            class="listing-row flex overflow-x-auto whitespace-no-wrap px-32"
+            class="listing-row flex overflow-x-auto overflow-y-hidden whitespace-no-wrap px-32"
             style="scroll-snap-type: x mandatory;"
         >
             <div class="start-cap w-full flex-shrink-0 max-w-xs snap-start" />
 
             <template
                 v-for="(listing, index) in sortedListings"
-                :key="index"
+                :key="listing.elementId"
             >
                 <ListingColumn
                     :listing="listing"
@@ -31,7 +31,7 @@
         <CircleButton
             class="absolute left-12 transform -translate-y-1/2 -translate-x-1/2"
             style="top:50%;"
-            aria-label="Scroll to previous listings"
+            aria-label="Ver títulos anteriores"
 
             @click="scroll(-0.8)"
         >
@@ -46,7 +46,7 @@
         <CircleButton
             class="absolute right-12 transform -translate-y-1/2 translate-x-1/2"
             style="top:50%;"
-            aria-label="Scroll to next listings"
+            aria-label="Ver próximos títulos"
 
             @click="scroll(0.8)"
         >
