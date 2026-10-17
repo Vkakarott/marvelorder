@@ -1,5 +1,7 @@
 ---
 import SkipToContent from './SkipToContent.astro'
+const { showListingFilters = false } = Astro.props
 ---
 
 <SkipToContent />
+{ showListingFilters && <div id="listing-filter-controls" class="fixed left-4 top-4 z-30" /> }

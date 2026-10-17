@@ -18,6 +18,7 @@ const listings = await getHomepageListings()
 	<ListingRow 
 		client:load
 		listings={ convertNullValuesForAstro( listings ) }
+		is-global-list
 	/>
 	
   
