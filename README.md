@@ -17,6 +17,17 @@ https://www.reddit.com/r/weeklyplanetpodcast/comments/kb3ibw/updated_marvel_rele
 - ✅ **Automatic list of contributors**
 - ✅ (and, best of all) **dark mode**
 
+## Local development
+
+Use Node.js 24.4.0 (`.nvmrc`) and npm. From the repository root:
+
+```sh
+npm ci
+npm run dev
+```
+
+Astro prints the local URL when the server starts. Use `npm run netlify-build` to build with the same command configured for Netlify. The scheduled TMDB data pull still uses Deno.
+
 ## Marvel Cinematic In Universe Timeline
 
 This is the *most* official list for the Marvel Chronologically, aka by the time period in the movies, according to the [Marvel Page on Disney+](https://www.disneyplus.com/brand/marvel)

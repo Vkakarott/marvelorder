@@ -4,11 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "engines": {
-        "bun": "1.2.15",
-        "node": ">=24.4.0 <25",
-        "yarn": "forbidden, this project uses bun",
-        "pnpm": "forbidden, this project uses bun",
-        "npm": "forbidden, this project uses bun"
+        "node": ">=24.4.0 <25"
     },
     "scripts": {
         "test": "vitest",
@@ -24,11 +20,11 @@
         "preview": "astro preview",
         "deploy:worker-images": "wrangler deploy --config wrangler.image-spike.jsonc",
         "pull": "deno run -q -A --unstable scripts/pull.ts",
-        "add-amazon-links": "bunx tsx scripts/add-amazon-links.ts",
+        "add-amazon-links": "tsx scripts/add-amazon-links.ts",
         "pull-mcu-timeline-sheet": "tsx scripts/pull-mcu-timeline-sheet.ts",
         "write-filter-stories": "tsx scripts/write-filter-stories.ts",
         "write-movies-fandom-timeline": "tsx scripts/write-movies-fandom-timeline.ts",
-        "netlify-build": "bun run build-test && bun run build"
+        "netlify-build": "npm run build-test && npm run build"
     },
     "dependencies": {
         "@algolia/client-search": "4.13.1",

@@ -1,11 +1,10 @@
 [build]
   publish = "dist/"
-  command = "bun run netlify-build"
+  command = "npm run netlify-build"
 #   functions = "dist"
 
 [build.environment]
   NODE_VERSION = "24.4.0"
-  BUN_VERSION = "1.2.15"
 
 # https://docs.netlify.com/configure-builds/file-based-configuration/#functions
 [functions]
