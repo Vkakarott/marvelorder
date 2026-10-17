@@ -11,14 +11,13 @@ const rawListings = await getPublicMcuReleaseListings()
 ---
 <Layout
 	content={{
-		title: 'MCU em ordem de lançamento',
+		title: 'Filmes e séries do MCU',
 	}}
 >
 	
 	<ListingRow 
 		client:load
 		listings={ convertNullValuesForAstro( rawListings ) }
-		initial-sort="none"
 	/>
 	
   

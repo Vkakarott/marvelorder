@@ -1,7 +1,6 @@
 <template>
     <Teleport to="#footer-controls">
         <div class="flex items-center gap-2" role="group" aria-label="Ordem dos títulos">
-            <span class="hidden text-xs text-gray-300 sm:inline">Ordem</span>
             <div class="inline-flex rounded-full border border-white/30 bg-black/70 p-1 backdrop-blur">
                 <button
                     type="button"
@@ -100,6 +99,8 @@ import type { Listing } from '~/src/helpers/types'
 type ListingLike = Listing | MappedListing
 type ActiveListingFilters = Array<[Function, boolean]>
 type SortMode = 'timeline' | 'release'
+const sortStorageKey = 'cinearc:listing-order'
+
 export default defineComponent( {
     components: {
         ListingColumn,
@@ -110,16 +111,22 @@ export default defineComponent( {
             type: Array as PropType<ListingLike[]>,
             required: true,
         },
-        initialSort: {
-            type: String,
-            default: 'default',
-        },
     },
     data () {
         return {
             activeListingFilters: [] as ActiveListingFilters,
             expandedListingId: null as string | null,
-            sortMode: ( this.initialSort === 'timeline' ? 'timeline' : 'release' ) as SortMode,
+            sortMode: 'release' as SortMode,
+        }
+    },
+    mounted () {
+        try {
+            if ( window.localStorage.getItem( sortStorageKey ) === 'timeline' ) {
+                this.setSortMode( 'timeline', true )
+            }
+        }
+        catch {
+            // Browsers can disable local storage.
         }
     },
     computed: {
@@ -153,12 +160,22 @@ export default defineComponent( {
         },
     },
     methods: {
-        setSortMode ( mode: SortMode ): void {
+        setSortMode ( mode: SortMode, restoring = false ): void {
             if ( this.sortMode === mode ) {
                 return
             }
 
             this.sortMode = mode
+
+            if ( !restoring ) {
+                try {
+                    window.localStorage.setItem( sortStorageKey, mode )
+                }
+                catch {
+                    // Keep the control usable when storage is unavailable.
+                }
+            }
+
             this.$nextTick( () => {
                 const row = this.$refs.row as HTMLElement | undefined
                 const focusedCard = row?.querySelector<HTMLElement>( '.listing-card-initial' )
@@ -166,7 +183,7 @@ export default defineComponent( {
                 if ( row && focusedCard ) {
                     row.scrollTo( {
                         left: focusedCard.offsetLeft - window.innerWidth + focusedCard.offsetWidth * 1.75,
-                        behavior: 'smooth',
+                        behavior: restoring ? 'auto' : 'smooth',
                     } )
                 }
             } )

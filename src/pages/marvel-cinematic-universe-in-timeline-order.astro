@@ -11,14 +11,13 @@ const rawListings = await getPublicMcuTimelineListings()
 ---
 <Layout
 	content={{
-		title: 'MCU em ordem cronológica',
+		title: 'Seleção do MCU',
 	}}
 >
 	
 	<ListingRow 
 		client:load
 		listings={ convertNullValuesForAstro( rawListings ) }
-		initial-sort="timeline"
 	/>
 	
   
