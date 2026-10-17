@@ -40,7 +40,6 @@ function getImageType ( buffer ) {
 
 interface RequestOptions {
     width: number
-    quality: number
     cropTop: number
     cropBottom: number
     contentUrl: string
@@ -66,8 +65,6 @@ function getOptions ( eventUrlString ): RequestOptions {
         throw new Error( 'Width is not a number' )
     }
 
-    const quality = 95// parseInt(q) || 60
-
     const imagePath = eventUrl.pathname.split( splitPoint )[ 1 ]
 
     const contentUrl = `${ base_url }/${ imagePath }`
@@ -77,7 +74,6 @@ function getOptions ( eventUrlString ): RequestOptions {
 
     return {
         width,
-        quality,
         cropTop: Number( cropTop ),
         cropBottom: Number( cropBottom ),
         contentUrl,
@@ -106,7 +102,6 @@ export async function handler ( event ) {
 
     const {
         width,
-        quality,
         cropTop,
         cropBottom,
         contentUrl,
@@ -135,7 +130,9 @@ export async function handler ( event ) {
             break
         }
 
-        if ( sourceImage.status !== 404 ) break
+        if ( sourceImage.status !== 404 ) {
+            break
+        }
     }
 
     // If we don't have an image, we're done
@@ -183,10 +180,9 @@ export async function handler ( event ) {
             .toBuffer()
     }
 
-    // Trim source image
     workingBuffer = await sharp( workingBuffer )
-        .resize( width, null, { withoutEnlargement: true } )
         .trim()
+        .resize( width, null, { withoutEnlargement: true } )
         .toBuffer()
 
     // The format methods are just to set options: they don't
@@ -195,7 +191,7 @@ export async function handler ( event ) {
         .rotate()
         // .jpeg({ quality, force: requestExtension === 'jpg' })
         // .png({ quality, force: true })
-        .webp( { quality, force: true } )
+        .webp( { lossless: true, force: true } )
         // .avif({ quality, force: requestExtension === 'avif' })
         .toBuffer( { resolveWithObject: true } )
 

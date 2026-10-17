@@ -152,7 +152,9 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
             break
         }
 
-        if ( sourceImage.status !== 404 ) break
+        if ( sourceImage.status !== 404 ) {
+            break
+        }
     }
 
     // If we don't have an image, we're done
@@ -202,6 +204,15 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
             .toBuffer()
     }
 
+    let maskBuffer: Buffer | undefined
+
+    // Handle image transparency
+    if ( options.transparent ) {
+        workingBuffer = await sharp( workingBuffer )
+            .trim()
+            .toBuffer()
+    }
+
     // Rotate and Resize the image
     workingBuffer = await sharp( workingBuffer )
         .resize( width, null, { withoutEnlargement: true } )
@@ -210,15 +221,7 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
 
     // console.log('options.transparent', options.transparent)
 
-    let maskBuffer: Buffer | undefined
-
-    // Handle image transparency
     if ( options.transparent ) {
-        // Trim source image
-        workingBuffer = await sharp( workingBuffer )
-            .trim()
-            .toBuffer()
-
         // Set contrast and brightness for mask - https://github.com/lovell/sharp/issues/1958#issuecomment-552115591
         const contrast = 1.1
         const brightness = 6.5
@@ -245,7 +248,7 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
     }
 
     const { info, data: outputBuffer } = await outputPipeline
-        .webp( { quality, force: true } )
+        .webp( options.transparent ? { lossless: true, force: true } : { quality, force: true } )
         .toBuffer( { resolveWithObject: true } )
 
     if ( outputBuffer.length > MAX_RESPONSE_SIZE ) {
