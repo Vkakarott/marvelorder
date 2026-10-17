@@ -1,4 +1,29 @@
 <template>
+    <Teleport to="#footer-controls">
+        <div class="flex items-center gap-2" role="group" aria-label="Ordem dos títulos">
+            <span class="hidden text-xs text-gray-300 sm:inline">Ordem</span>
+            <div class="inline-flex rounded-full border border-white/30 bg-black/70 p-1 backdrop-blur">
+                <button
+                    type="button"
+                    class="rounded-full px-3 py-1.5 text-xs font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    :class="sortMode === 'timeline' ? 'bg-white text-black' : 'text-gray-300 hover:text-white'"
+                    :aria-pressed="sortMode === 'timeline'"
+                    @click="setSortMode('timeline')"
+                >
+                    Cronológica
+                </button>
+                <button
+                    type="button"
+                    class="rounded-full px-3 py-1.5 text-xs font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    :class="sortMode === 'release' ? 'bg-white text-black' : 'text-gray-300 hover:text-white'"
+                    :aria-pressed="sortMode === 'release'"
+                    @click="setSortMode('release')"
+                >
+                    Lançamento
+                </button>
+            </div>
+        </div>
+    </Teleport>
     <div class="listing-row-container relative fill-height w-screen">
         <div
             ref="row"
@@ -74,6 +99,7 @@ import type { Listing } from '~/src/helpers/types'
 
 type ListingLike = Listing | MappedListing
 type ActiveListingFilters = Array<[Function, boolean]>
+type SortMode = 'timeline' | 'release'
 export default defineComponent( {
     components: {
         ListingColumn,
@@ -93,6 +119,7 @@ export default defineComponent( {
         return {
             activeListingFilters: [] as ActiveListingFilters,
             expandedListingId: null as string | null,
+            sortMode: ( this.initialSort === 'timeline' ? 'timeline' : 'release' ) as SortMode,
         }
     },
     computed: {
@@ -100,7 +127,7 @@ export default defineComponent( {
             return new FilteredListings( {
                 listings: this.listings,
                 initialFilters: this.activeListingFilters,
-                listingsSort: this.initialSort,
+                listingsSort: this.sortMode === 'timeline' ? 'timeline' : 'premiere-reversed',
             } )
         },
         sortedListings (): MappedListing[] {
@@ -126,6 +153,25 @@ export default defineComponent( {
         },
     },
     methods: {
+        setSortMode ( mode: SortMode ): void {
+            if ( this.sortMode === mode ) {
+                return
+            }
+
+            this.sortMode = mode
+            this.$nextTick( () => {
+                const row = this.$refs.row as HTMLElement | undefined
+                const focusedCard = row?.querySelector<HTMLElement>( '.listing-card-initial' )
+
+                if ( row && focusedCard ) {
+                    row.scrollTo( {
+                        left: focusedCard.offsetLeft - window.innerWidth + focusedCard.offsetWidth * 1.75,
+                        behavior: 'smooth',
+                    } )
+                }
+            } )
+        },
+
         isFocusedListing ( listing: MappedListing ): boolean {
             return listing.elementId === this.focusedListing?.elementId
         },

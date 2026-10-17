@@ -70,8 +70,16 @@ export function byPremiere ( a: Listing, b: Listing ) {
 }
 
 export function byTimelineOrder ( a: Listing, b: Listing ) {
-    const aOrder = a.mcuTimelineOrder || 0
-    const bOrder = b.mcuTimelineOrder || 0
+    const aOrder = a.mcuTimelineOrder
+    const bOrder = b.mcuTimelineOrder
+
+    if ( typeof aOrder !== 'number' ) {
+        return typeof bOrder === 'number' ? 1 : byPremiereReversed( a, b )
+    }
+
+    if ( typeof bOrder !== 'number' ) {
+        return -1
+    }
 
     if ( aOrder > bOrder ) {
         return 1
@@ -81,7 +89,7 @@ export function byTimelineOrder ( a: Listing, b: Listing ) {
         return -1
     }
 
-    return 0
+    return byPremiereReversed( a, b )
 }
 
 export function byPremiereReversed ( a: Listing, b: Listing ) {

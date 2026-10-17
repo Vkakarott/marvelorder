@@ -55,7 +55,10 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 			<!-- <aside id="grid-right" class="grid-sidebar" title="Table of Contents"></aside> -->
 		</main>
 
-		<ProjectCredit class="fixed bottom-2 inset-x-0 px-4 text-center text-xs text-gray-400" />
+		<footer class="fixed inset-x-0 bottom-0 z-20 flex flex-wrap items-end justify-between gap-x-4 gap-y-2 bg-gradient-to-t from-black/90 via-black/60 to-transparent px-4 pb-3 pt-8 text-xs text-gray-400">
+			<ProjectCredit class="max-w-md" />
+			<div id="footer-controls" class="ml-auto" />
+		</footer>
 
 	</body>
 </html>
