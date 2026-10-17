@@ -21,10 +21,10 @@
             class="w-full"
         >
             <div class="text-xs">
-                Releases in
+                Estreia em
             </div>
             <div class="text-2xl font-bold">
-                {{ daysUntilRelease }} Days
+                {{ daysUntilRelease }} {{ daysUntilRelease === 1 ? 'dia' : 'dias' }}
             </div>
         </div>
 
@@ -39,30 +39,30 @@
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
                 </svg>
                 <div>
-                    Watch on Prime Video
+                Ver na Amazon
                 </div>
             </div>
         </ButtonLink>
 
         <h2 id="description" class="font-bold">
-            Description
+            Sinopse
         </h2>
         <div class="content-description">
-            {{ mappedListing.overview }}
+            {{ mappedListing.overview || 'Sinopse ainda não disponível.' }}
         </div>
 
         <div class="credits opacity-50">
-            <div>Title data via <a class="underline" href="https://www.themoviedb.org/">The Movie Database</a></div>
+            <div>Dados do título: <a class="underline" href="https://www.themoviedb.org/">The Movie Database</a></div>
             <div
                 v-if="hasFanartLogo(mappedListing)"
             >
-                Image via <a class="underline" href="https://fanart.tv/">Fanart.tv</a>
+                Logo: <a class="underline" href="https://fanart.tv/">Fanart.tv</a>
             </div>
 
             <div
                 v-if="isMcuSheetOrdered(mappedListing)"
             >
-                Timeline Order data via <a class="underline" href="https://docs.google.com/spreadsheets/d/1Xfe--9Wshbb3ru0JplA2PnEwN7mVawazKmhWJjr_wKs/edit#gid=0">r/MarvelStudios MCU Viewing</a>
+                Ordem cronológica: <a class="underline" href="https://docs.google.com/spreadsheets/d/1Xfe--9Wshbb3ru0JplA2PnEwN7mVawazKmhWJjr_wKs/edit#gid=0">r/MarvelStudios MCU Viewing</a>
             </div>
         </div>
 
@@ -149,12 +149,12 @@ export default defineComponent( {
             return [
                 {
                     enabled: this.context !== 'listing-page',
-                    label: 'Full details',
+                    label: 'Ver detalhes',
                     href: this.mappedListing.endpoint,
                 },
                 {
-                    enabled: true,
-                    label: 'Edit on GitHub',
+                    enabled: Boolean( this.mappedListing.githubEditUrl ),
+                    label: 'Editar no GitHub',
                     href: this.mappedListing.githubEditUrl,
                 },
             ]

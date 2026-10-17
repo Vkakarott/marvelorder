@@ -182,7 +182,7 @@ export class MappedListing {
     }
 
     get githubEditUrl (): string {
-        return `${ CONFIG.GITHUB_EDIT_URL }src/pages${ this.endpoint }.md`
+        return CONFIG.GITHUB_EDIT_URL ? `${ CONFIG.GITHUB_EDIT_URL }src/pages${ this.endpoint }.md` : ''
     }
 
     backdrop ( params: Record<string, string | number> = { transparent: 0 } ): string | null {

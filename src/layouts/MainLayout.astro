@@ -6,15 +6,10 @@ import HeadSEO from '../components/HeadSEO.astro';
 import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer/Footer.astro';
 import PageContent from '../components/PageContent/PageContent.astro';
-import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro';
-import RightSidebar from '../components/RightSidebar/RightSidebar.astro';
 import { expandImagePathPlaceholders } from '../helpers/image-paths';
 import * as CONFIG from '../config';
 
 const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
-const currentPage = new URL(Astro.request.url).pathname;
-const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
-const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + currentFile;
 ---
 
 <html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'pt-BR'} class="initial">
@@ -26,108 +21,53 @@ const githubEditUrl = CONFIG.GITHUB_EDIT_URL && CONFIG.GITHUB_EDIT_URL + current
 		<title>{content.title ? `${content.title} | ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
 		<style>
 			body.main-layout {
-				width: 100%;
-				/* display: grid; */
-				/* grid-template-rows: var(--theme-navbar-height) 1fr; */
-				--gutter: 0.5rem;
-				--doc-padding: 2rem;
+				background: #080a10;
+				color: #f3f4f6;
 			}
-			.layout {
-				display: grid;
-				grid-auto-flow: column;
-				grid-template-columns:
-					minmax(var(--gutter), 1fr)
-					minmax(0, var(--max-width))
-					minmax(var(--gutter), 1fr);
-				overflow-x: hidden;
-			}
-			.layout :global(> *) {
-				width: 100%;
-				height: 100%;
-			}
-			.grid-sidebar {
-				height: 100vh;
-				position: sticky;
-				top: 0;
-				padding: 0;
-			}
-			#grid-left {
-				position: fixed;
-				z-index: 10;
-				display: none;
-			}
-			#grid-main {
-				padding: var(--doc-padding) var(--gutter);
-				grid-column: 2;
+			.detail-header {
+				width: min(100% - 2rem, 72rem);
+				margin: 0 auto;
+				padding: 1.25rem 0;
 				display: flex;
-				flex-direction: column;
-				height: 100%;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1rem;
 			}
-			#grid-right {
-				display: none;
+			.detail-brand {
+				color: #f3f4f6;
+				font-size: 1.25rem;
+				font-weight: 800;
+				letter-spacing: -0.04em;
+				text-decoration: none;
 			}
-			:global(.mobile-sidebar-toggle) {
-				overflow: hidden;
+			.detail-back-link {
+				color: #d1d5db;
+				font-size: 0.875rem;
+				text-decoration: none;
 			}
-			:global(.mobile-sidebar-toggle) #grid-left {
-				display: block;
-				top: 2rem;
+			.detail-back-link:hover,
+			.detail-brand:hover {
+				color: #fb7185;
 			}
-			@media (min-width: 50em) {
-				.layout {
-					overflow: initial;
-					grid-template-columns:
-						20rem
-						minmax(0, var(--max-width));
-					gap: 1em;
-				}
-				#grid-left {
-					display: flex;
-					padding-left: 2rem;
-					position: sticky;
-					grid-column: 1;
-				}
-			}
-
-			@media (min-width: 72em) {
-				.layout {
-					grid-template-columns:
-						20rem
-						minmax(0, var(--max-width))
-						18rem;
-					padding-left: 0;
-					padding-right: 0;
-					margin: 0 auto;
-				}
-				#grid-right {
-					grid-column: 3;
-					display: flex;
-				}
+			.detail-main {
+				width: min(100% - 2rem, 72rem);
+				margin: 0 auto;
+				flex: 1;
 			}
 		</style>
 	</head>
 
 	<body class="main-layout theme-dark">
-		<Header {currentPage} />
-		<main id="main-content" class="layout min-h-screen">
-			<aside
-				id="grid-left"
-				class="grid-sidebar backdrop-blur bg-black/25"
-				title="Site Navigation"
-			>
-				<LeftSidebar {currentPage} />
-			</aside>
-			<div id="grid-main">
-				<PageContent {content} {githubEditUrl}>
-					<slot />
-				</PageContent>
-			</div>
-			<aside id="grid-right" class="grid-sidebar" title="Table of Contents">
-				<RightSidebar {content} {githubEditUrl} />
-			</aside>
+		<Header />
+		<header class="detail-header">
+			<a class="detail-brand" href="/">CineArc</a>
+			<a class="detail-back-link" href="/">← Voltar à linha do tempo</a>
+		</header>
+		<main id="main-content" class="detail-main">
+			<PageContent />
 		</main>
 
-		<Footer {content} />
+		<Footer />
 
 		<script
 			is:inline

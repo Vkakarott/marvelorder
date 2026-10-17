@@ -1,76 +1,244 @@
 ---
-// @ts-ignore
 import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files'
-
-
-import MoreMenu from '../RightSidebar/MoreMenu.astro';
+import { ensureMappedListing } from '~/src/helpers/node/listing'
+import { isValidHttpUrl } from '~/src/helpers/check'
+import { hasFanartLogo, isMcuSheetOrdered, isUpcoming } from '~/src/helpers/listing-filters'
+import type { Listing } from '~/src/helpers/types'
 
 import ListingLogo from '~/src/components/listing-logo.vue'
-import ListingContent from '~/src/components/listing-content.vue'
+import SeenButton from '~/src/components/seen-button.vue'
 import TmdbImage from '~/src/components/tmdb-image.vue'
-import ListingTimeline from '~/src/components/PageContent/listing-timeline.astro'
+import ListingTimeline from './listing-timeline.astro'
 
-const { content, githubEditUrl } = Astro.props
-
-const rawListing = await getSingleListingFromUrl( Astro.url.href )
-
-
+const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing
+const mappedListing = ensureMappedListing( listing )
+const title = listing.title || listing.name || 'Título sem nome'
+const isSeries = listing.type === 'tv' || listing.media_type === 'tv' || listing.tags?.includes( 'tv' )
+const isMovie = listing.type === 'movie' || listing.media_type === 'movie' || listing.tags?.includes( 'movie' )
+const mediaType = isSeries ? 'Série' : isMovie ? 'Filme' : 'Título'
+const releaseDate = mappedListing.hasDate ? mappedListing.dateHumanReadable : 'A confirmar'
+const rating = typeof listing.vote_average === 'number' && listing.vote_average > 0
+    ? new Intl.NumberFormat( 'pt-BR', { maximumFractionDigits: 1 } ).format( listing.vote_average )
+    : null
+const daysUntilRelease = isUpcoming( mappedListing )
+    ? Math.ceil( mappedListing.date.diffNow( 'days' ).days )
+    : null
+const watchLink = listing.watchLinks?.amazon
+const tmdbUrl = listing.id && ( isSeries || isMovie )
+    ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
+    : 'https://www.themoviedb.org/'
 ---
 
-{ !!rawListing.backdrop_path && (
-	<div
-		class="backdrop absolute inset-0"
-	>
-		<TmdbImage
-			src={ rawListing.backdrop_path }
-			class="absolute w-full h-screen object-cover inset-0 linear-mask"
-		/>
-	</div>
-)}
+<article class="detail-page">
+    { listing.backdrop_path && (
+        <div class="detail-art">
+            <TmdbImage
+                src={ listing.backdrop_path }
+                alt={ `Imagem de ${ title }` }
+                sizes={ [ 550, 850, 1440, 2200 ] }
+                displaySizes="(max-width: 1152px) 100vw, 1152px"
+                class="detail-backdrop"
+            />
+        </div>
+    ) }
 
-
-<article id="article" class="content">
-	<section class="main-section flex flex-col pt-64">
-		<!-- <nav class="block sm:hidden">
-			<TableOfContents client:media="(max-width: 50em)" {headers} />
-		</nav> -->
-
-		<ListingContent
-			listing={ rawListing }
-			context="listing-page"
-			class="relative h-full px-8"
-		/>
-
-        <div id="timeline">
-            <ListingTimeline listing={ rawListing } />
+    <div class="detail-body">
+        <div class="detail-heading">
+            <div class="detail-heading-text">
+                <p class="detail-kicker">{ mediaType }</p>
+                { listing.logo_on_black && (
+                    <ListingLogo
+                        src={ listing.logo_on_black }
+                        alt=""
+                        baseSize={ 420 }
+                        loading="eager"
+                        class="detail-logo"
+                    />
+                ) }
+                <h1 id="overview">{ title }</h1>
+            </div>
+            { listing.id && <SeenButton listing={ listing } showLabel client:load /> }
         </div>
 
-		<slot />
-	</section>
-	<nav class="block sm:hidden">
-		<MoreMenu editHref={githubEditUrl} />
-	</nav>
+        <dl class="detail-facts">
+            <div>
+                <dt>Lançamento</dt>
+                <dd>{ releaseDate }</dd>
+            </div>
+            <div>
+                <dt>Tipo</dt>
+                <dd>{ mediaType }</dd>
+            </div>
+            { rating && (
+                <div>
+                    <dt>Avaliação no TMDB</dt>
+                    <dd>{ rating }/10</dd>
+                </div>
+            ) }
+        </dl>
+
+        { daysUntilRelease !== null && daysUntilRelease > 0 && (
+            <p class="detail-upcoming">Estreia em { daysUntilRelease } { daysUntilRelease === 1 ? 'dia' : 'dias' }</p>
+        ) }
+
+        <section class="detail-overview" aria-labelledby="detail-overview-title">
+            <h2 id="detail-overview-title">Sinopse</h2>
+            <p>{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
+        </section>
+
+        { isValidHttpUrl( watchLink ) && (
+            <a class="detail-watch-link" href={ watchLink } target="_blank" rel="noopener noreferrer">
+                Ver na Amazon <span aria-hidden="true">↗</span>
+            </a>
+        ) }
+
+        <ListingTimeline listing={ listing } />
+
+        <aside class="detail-credits" aria-label="Fontes dos dados">
+            <span>Dados do título: <a href={ tmdbUrl } target="_blank" rel="noopener noreferrer">TMDB</a></span>
+            { hasFanartLogo( listing ) && <span>Logo: <a href="https://fanart.tv/" target="_blank" rel="noopener noreferrer">Fanart.tv</a></span> }
+            { isMcuSheetOrdered( listing ) && (
+                <span>Ordem cronológica: <a href="https://docs.google.com/spreadsheets/d/1Xfe--9Wshbb3ru0JplA2PnEwN7mVawazKmhWJjr_wKs/edit#gid=0" target="_blank" rel="noopener noreferrer">r/MarvelStudios MCU Viewing</a></span>
+            ) }
+        </aside>
+    </div>
 </article>
 
 <style>
-	.content {
-		padding: 0;
-		max-width: 75ch;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-	}
-	.content > section {
-		margin-bottom: 4rem;
-	}
-	.block {
-		display: block;
-	}
-
-	@media (min-width: 50em) {
-		.sm\:hidden {
-			display: none;
-		}
-	}
+    .detail-page {
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1.5rem;
+        background: #11151e;
+    }
+    .detail-art {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        max-height: 38rem;
+        background: #05070c;
+    }
+    .detail-art :global(img) {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .detail-body {
+        width: min(100%, 56rem);
+        margin: 0 auto;
+        padding: clamp(1.5rem, 4vw, 3.5rem);
+    }
+    .detail-heading {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+    .detail-heading-text {
+        min-width: 0;
+    }
+    .detail-kicker {
+        margin-bottom: 0.75rem;
+        color: #fb7185;
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+    }
+    .detail-heading :global(.detail-logo) {
+        display: block;
+        width: min(100%, 26rem);
+        max-height: 10rem;
+        margin-bottom: 1.25rem;
+        object-fit: contain;
+        object-position: left center;
+    }
+    .detail-heading h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        line-height: 1.05;
+    }
+    .detail-heading :global(button) {
+        flex-shrink: 0;
+    }
+    .detail-facts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        gap: 1.25rem;
+        margin-top: 2.5rem;
+        padding: 1.5rem 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .detail-facts dt {
+        color: #9ca3af;
+        font-size: 0.8rem;
+    }
+    .detail-facts dd {
+        margin-top: 0.35rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .detail-upcoming {
+        margin-top: 1.5rem;
+        color: #fda4af;
+        font-weight: 700;
+    }
+    .detail-overview {
+        margin-top: 2.5rem;
+    }
+    .detail-overview h2 {
+        margin: 0 0 1rem;
+        font-size: 1.5rem;
+    }
+    .detail-overview p {
+        max-width: 70ch;
+        color: #d1d5db;
+        line-height: 1.7;
+    }
+    .detail-watch-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1.75rem;
+        padding: 0.75rem 1.1rem;
+        border-radius: 0.75rem;
+        background: #f59e0b;
+        color: #171717;
+        font-weight: 800;
+        text-decoration: none;
+    }
+    .detail-watch-link:hover {
+        background: #fbbf24;
+        color: #171717;
+    }
+    .detail-credits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.25rem;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        color: #9ca3af;
+        font-size: 0.75rem;
+    }
+    .detail-credits a {
+        color: #d1d5db;
+        text-decoration: underline;
+    }
+    @media (max-width: 40rem) {
+        .detail-page {
+            border-radius: 1rem;
+        }
+        .detail-heading {
+            align-items: stretch;
+            flex-direction: column;
+        }
+        .detail-heading :global(button) {
+            align-self: flex-start;
+        }
+        .detail-facts {
+            gap: 1rem;
+        }
+    }
 </style>

@@ -3,7 +3,7 @@
         v-once
         :src="smallestImage"
         :srcset="srcSet"
-        sizes="(max-width: 540px) 100vw, 540px"
+        :sizes="displaySizes"
         decoding="async"
         :alt="alt"
     >
@@ -39,6 +39,10 @@ export default defineComponent( {
         sizes: {
             type: Array as PropType<number[]>,
             default: () => [ 75, 100, 275, 550, 850, 1440 ],
+        },
+        displaySizes: {
+            type: String,
+            default: '(max-width: 540px) 100vw, 540px',
         },
     },
     computed: {

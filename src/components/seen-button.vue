@@ -1,14 +1,14 @@
 <template>
     <SimpleButton
         class="group min-h-11 min-w-11" :class="[
-            seenListing ? 'group-hover:bg-white group-hover:text-black border-opacity-0' : 'opacity-100 sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100',
+            seenListing ? 'group-hover:bg-white group-hover:text-black border-opacity-0' : showLabel ? 'opacity-100' : 'opacity-100 sm:opacity-0 sm:group-hover:opacity-100 focus-visible:opacity-100',
         ]"
         :aria-label="label"
 
         @click="toggleSeen()"
     >
         <div
-            class="hidden group-hover:block overflow-hidden"
+            :class="showLabel ? 'block' : 'hidden group-hover:block overflow-hidden'"
         >
             {{ label }}
         </div>
@@ -52,6 +52,10 @@ export default defineComponent( {
         listing: {
             type: Object as PropType<Listing>,
             required: true,
+        },
+        showLabel: {
+            type: Boolean,
+            default: false,
         },
     },
     emits: [
