@@ -132,9 +132,14 @@ export function makeTmdbImageUrl ( tmdbImagePath = '', params = {} ) {
         ?.split( '.' )
         ?.shift()
 
-    const imageFunctionPath = `${ TMDB_IMAGE_PATH }/${ id }.webp?&transparent=0`
+    const sourceExtension = tmdbImagePath.split( /[#?]/ )[ 0 ].split( '.' ).pop()?.toLowerCase()
+    const imageFunctionPath = `${ TMDB_IMAGE_PATH }/${ id }.webp?transparent=0`
 
-    const sizeUrl = new URL( imageFunctionPath, 'https://marvelorder.com' )
+    const sizeUrl = new URL( imageFunctionPath, 'https://example.com' )
+
+    if ( sourceExtension && [ 'jpg', 'jpeg', 'png', 'webp', 'avif' ].includes( sourceExtension ) ) {
+        sizeUrl.searchParams.set( 'source.format', sourceExtension === 'jpeg' ? 'jpg' : sourceExtension )
+    }
 
     for ( const [ key, value ] of Object.entries( params ) ) {
         sizeUrl.searchParams.set( key, String( value ) )

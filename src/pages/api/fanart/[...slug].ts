@@ -114,29 +114,28 @@ export async function handler ( event ) {
     } = options
 
     let sourceImage
+    let resolvedSourceUrl = contentUrl
 
-    // Move Request Extension to the start of the list
-    // so that it is the first to be tried
     const imageTypes = new Set( [
-        // Start with the most likely
-        'png',
+        requestExtension === 'webp' ? 'png' : requestExtension,
         requestExtension,
         ...OUTPUT_FORMATS,
     ] )
 
     // Run through image types until we find one that works
     for ( const imageType of imageTypes ) {
-        const typeUrl = contentUrl.replace( `.${ requestExtension }`, `.${ imageType }` )
+        const typeUrl = contentUrl.replace( /\.[^./]+$/, `.${ imageType }` )
 
         // Fetch our image
         sourceImage = await fetch( typeUrl )
 
         // If we got a 200, we're good
         if ( sourceImage.status === 200 ) {
+            resolvedSourceUrl = typeUrl
             break
         }
 
-        // Otherwise, try the next type
+        if ( sourceImage.status !== 404 ) break
     }
 
     // If we don't have an image, we're done
@@ -163,7 +162,7 @@ export async function handler ( event ) {
         return {
             statusCode: 302,
             headers: {
-                Location: contentUrl,
+                Location: resolvedSourceUrl,
             },
         }
     }
@@ -211,7 +210,8 @@ export async function handler ( event ) {
         statusCode: 200,
         headers: {
             'Content-Type': `image/${ info.format }`,
-            'Cache-Control': 'public, max-age=365000000, immutable',
+            'Cache-Control': 'public, max-age=2592000',
+            'Netlify-CDN-Cache-Control': 'public, durable, max-age=2592000, stale-while-revalidate=604800',
             'etag': etag( outputBuffer ),
         },
         body: outputBuffer,

@@ -59,10 +59,11 @@ function getImageType ( buffer: Buffer ) {
 }
 
 function getOptions ( eventUrlString: string ): RequestOptions {
-    const eventUrl = new URL( eventUrlString, process.env.URL || 'https://marvelorder.com' )
+    const eventUrl = new URL( eventUrlString, process.env.URL || 'http://localhost:4321' )
 
     const widthParam = eventUrl.searchParams.get( 'width' ) || '750'
     const sourceWidthParam = eventUrl.searchParams.get( 'source.width' ) || 'original'
+    const sourceFormatParam = eventUrl.searchParams.get( 'source.format' )
     const cropTop = eventUrl.searchParams.get( 'crop.top' ) || '0'
     const cropBottom = eventUrl.searchParams.get( 'crop.bottom' ) || '0'
     const transparent = eventUrl.searchParams.get( 'transparent' ) || '1'
@@ -84,11 +85,14 @@ function getOptions ( eventUrlString: string ): RequestOptions {
         throw new Error( 'Invalid TMDB source width' )
     }
 
+    if ( sourceFormatParam && !OUTPUT_FORMATS.has( sourceFormatParam ) ) {
+        throw new Error( 'Invalid TMDB source format' )
+    }
+
     const sourceWidth = sourceWidthParam === 'original' ? sourceWidthParam : `w${ sourceWidthParam }`
     const contentUrl = `${ base_url.replace( /original$/, sourceWidth ) }/${ imagePath }`
 
-    // Just always assume it's a jpg source
-    const requestExtension = imagePath.split( /[#?]/ )[ 0 ].split( '.' ).pop()?.trim() || 'jpg'
+    const requestExtension = sourceFormatParam || imagePath.split( /[#?]/ )[ 0 ].split( '.' ).pop()?.trim() || 'jpg'
 
     return {
         width,
@@ -132,30 +136,28 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
     } = options
 
     let sourceImage: Awaited<ReturnType<typeof fetch>> | undefined
+    let resolvedSourceUrl = contentUrl
 
-    // Move Request Extension to the start of the list
-    // so that it is the first to be tried
     const imageTypes = new Set( [
-        // We want to try the most common format first
-        // so that we avoid extra requests
-        'jpg',
+        requestExtension === 'webp' ? 'png' : requestExtension,
         requestExtension,
         ...OUTPUT_FORMATS,
     ] )
 
     // Run through image types until we find one that works
     for ( const imageType of imageTypes ) {
-        const typeUrl = contentUrl.replace( `.${ requestExtension }`, `.${ imageType }` )
+        const typeUrl = contentUrl.replace( /\.[^./]+$/, `.${ imageType }` )
 
         // Fetch our image
         sourceImage = await fetch( typeUrl )
 
         // If we got a 200, we're good
         if ( sourceImage.status === 200 ) {
+            resolvedSourceUrl = typeUrl
             break
         }
 
-        // Otherwise, try the next type
+        if ( sourceImage.status !== 404 ) break
     }
 
     // If we don't have an image, we're done
@@ -184,7 +186,7 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
         return {
             statusCode: 302,
             headers: {
-                Location: contentUrl,
+                Location: resolvedSourceUrl,
             },
         }
     }
@@ -262,7 +264,8 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
         statusCode: 200,
         headers: {
             'Content-Type': `image/${ info.format }`,
-            'Cache-Control': 'public, max-age=365000000, immutable',
+            'Cache-Control': 'public, max-age=2592000',
+            'Netlify-CDN-Cache-Control': 'public, durable, max-age=2592000, stale-while-revalidate=604800',
             'etag': etag( outputBuffer ),
         },
         body: outputBuffer,
