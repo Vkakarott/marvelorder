@@ -22,7 +22,6 @@ function makeSizedImageUrl ( imageUrl: string, size: number ) {
     const sizeUrl = new URL( imageUrl, 'https://example.com' )
 
     sizeUrl.searchParams.set( 'width', size )
-    sizeUrl.searchParams.set( 'v', '2' )
 
     return formatUrlLikeInput( sizeUrl, imageUrl )
 }

@@ -63,7 +63,6 @@ function getOptions ( eventUrlString: string ): RequestOptions {
 
     const widthParam = eventUrl.searchParams.get( 'width' ) || '750'
     const sourceWidthParam = eventUrl.searchParams.get( 'source.width' ) || 'original'
-    const sourceFormatParam = eventUrl.searchParams.get( 'source.format' )
     const cropTop = eventUrl.searchParams.get( 'crop.top' ) || '0'
     const cropBottom = eventUrl.searchParams.get( 'crop.bottom' ) || '0'
     const transparent = eventUrl.searchParams.get( 'transparent' ) || '1'
@@ -85,14 +84,10 @@ function getOptions ( eventUrlString: string ): RequestOptions {
         throw new Error( 'Invalid TMDB source width' )
     }
 
-    if ( sourceFormatParam && !OUTPUT_FORMATS.has( sourceFormatParam ) ) {
-        throw new Error( 'Invalid TMDB source format' )
-    }
-
     const sourceWidth = sourceWidthParam === 'original' ? sourceWidthParam : `w${ sourceWidthParam }`
     const contentUrl = `${ base_url.replace( /original$/, sourceWidth ) }/${ imagePath }`
 
-    const requestExtension = sourceFormatParam || imagePath.split( /[#?]/ )[ 0 ].split( '.' ).pop()?.trim() || 'jpg'
+    const requestExtension = imagePath.split( /[#?]/ )[ 0 ].split( '.' ).pop()?.trim() || 'jpg'
 
     return {
         width,
@@ -139,7 +134,7 @@ export async function handler ( event: HandlerEvent ): Promise<HandlerResponse> 
     let resolvedSourceUrl = contentUrl
 
     const imageTypes = new Set( [
-        requestExtension === 'webp' ? 'png' : requestExtension,
+        'jpg',
         requestExtension,
         ...OUTPUT_FORMATS,
     ] )

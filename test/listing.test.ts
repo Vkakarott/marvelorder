@@ -47,5 +47,5 @@ test( 'Can map listings into listing-row friendly models', () => {
 test( 'Can build tmdb image urls against the worker by default', () => {
     expect( makeTmdbImageUrl( '/kbYbZR4FgcLTfI6HT2hiEqoPvr9.jpg', {
         width: 75,
-    } ) ).toBe( `${ TMDB_IMAGE_PATH }/kbYbZR4FgcLTfI6HT2hiEqoPvr9.webp?transparent=0&source.format=jpg&width=75` )
+    } ) ).toBe( `${ TMDB_IMAGE_PATH }/kbYbZR4FgcLTfI6HT2hiEqoPvr9.webp?transparent=0&width=75` )
 } )

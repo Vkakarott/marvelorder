@@ -117,7 +117,7 @@ export async function handler ( event ) {
     let resolvedSourceUrl = contentUrl
 
     const imageTypes = new Set( [
-        requestExtension === 'webp' ? 'png' : requestExtension,
+        'png',
         requestExtension,
         ...OUTPUT_FORMATS,
     ] )

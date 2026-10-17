@@ -34,7 +34,7 @@
                                 :style="{ width: `${markWidth}px` }"
                             >
                                 <ListingLogo
-                                    v-if="logo && (nearViewport || imageLoading === 'eager')"
+                                    v-if="logo"
                                     :src="logo"
                                     class="h-auto relative"
                                     :alt="title"
@@ -43,7 +43,7 @@
                                     :style="{ width: `${markWidth}px` }"
                                 />
                                 <h2
-                                    v-else-if="!logo"
+                                    v-else
                                     class="w-full text-3xl test-white font-bold text-center whitespace-normal"
                                 >{{ title }}</h2>
                                 <div
