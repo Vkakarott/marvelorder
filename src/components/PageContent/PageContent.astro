@@ -8,7 +8,6 @@ import ListingLogo from '~/src/components/listing-logo.vue'
 import SeenButton from '~/src/components/seen-button.vue'
 import TmdbImage from '~/src/components/tmdb-image.vue'
 import WatchProviders from '~/src/components/watch-providers.vue'
-import ListingTimeline from './listing-timeline.astro'
 
 const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing
 const mappedListing = ensureMappedListing( listing )
@@ -157,8 +156,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
                 </div>
             </aside>
         </div>
-
-        <ListingTimeline listing={ listing } />
 
         <aside class="detail-credits" aria-label="Fontes dos dados">
             <span>Dados do título: <a href={ tmdbUrl } target="_blank" rel="noopener noreferrer">TMDB</a></span>
