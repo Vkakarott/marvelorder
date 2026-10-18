@@ -51,9 +51,13 @@ export const NETLIFY_FANART_IMAGE_PATH = `${ NETLIFY_FUNCTIONS_PATH_PREFIX }/fan
 
 export const IMAGE_WORKER_ORIGIN = ''
 
-export const TMDB_IMAGE_PATH = `${ IMAGE_WORKER_ORIGIN }${ NETLIFY_TMDB_IMAGE_PATH }`
+export const TMDB_IMAGE_PATH = import.meta.env.PUBLIC_ASTRO_LOCAL_DEV
+    ? '/api/tmdb-image'
+    : `${ IMAGE_WORKER_ORIGIN }${ NETLIFY_TMDB_IMAGE_PATH }`
 
-export const FANART_IMAGE_PATH = `${ IMAGE_WORKER_ORIGIN }${ NETLIFY_FANART_IMAGE_PATH }`
+export const FANART_IMAGE_PATH = import.meta.env.PUBLIC_ASTRO_LOCAL_DEV
+    ? '/api/fanart'
+    : `${ IMAGE_WORKER_ORIGIN }${ NETLIFY_FANART_IMAGE_PATH }`
 
 export const avengersBackdrop = `${ TMDB_IMAGE_PATH }/nNmJRkg8wWnRmzQDe2FwKbPIsJV.webp?transparent=0&width=2200`
 
