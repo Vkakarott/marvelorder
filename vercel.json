@@ -1,0 +1,21 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "rewrites": [
+        {
+            "source": "/api/tmdb-image/:path",
+            "destination": "/api/image?kind=tmdb&path=:path"
+        },
+        {
+            "source": "/api/fanart/:path",
+            "destination": "/api/image?kind=fanart&path=:path"
+        },
+        {
+            "source": "/.netlify/functions/tmdb-image/:path",
+            "destination": "/api/image?kind=tmdb&path=:path"
+        },
+        {
+            "source": "/.netlify/functions/fanart/:path",
+            "destination": "/api/image?kind=fanart&path=:path"
+        }
+    ]
+}
