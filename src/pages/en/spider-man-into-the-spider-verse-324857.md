@@ -2,9 +2,15 @@
 title: 'Spider-Man: Into the Spider-Verse'
 slug: spider-man-into-the-spider-verse
 description: >-
-  Miles Morales is juggling his life between being a high school student and
-  being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others
-  from across the Spider-Verse are transported to this dimension.
+  Miles Morales descobre poderes semelhantes aos do Homem-Aranha após ser picado
+  por uma aranha. Um experimento do Rei do Crime traz heróis de outras dimensões
+  para o seu universo.
+overview: >-
+  Miles Morales tenta conciliar a escola e a vida em família no Brooklyn quando
+  é picado por uma aranha e descobre poderes semelhantes aos do Homem-Aranha.
+  Enquanto aprende a lidar com suas novas habilidades, um acelerador de
+  partículas criado por Wilson Fisk, o Rei do Crime, traz heróis de outras
+  dimensões para o seu universo.
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-into-the-spider-verse-5a59e4c641c88.webp"
 watchLinks:
