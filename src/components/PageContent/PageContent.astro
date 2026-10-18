@@ -126,33 +126,15 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
     <div class="detail-content">
         <div class="detail-grid">
-            <section id="onde-assistir" class="detail-overview" aria-labelledby="detail-overview-title">
-                <h2 id="detail-overview-title">Onde assistir</h2>
-                { listing.id && ( isSeries || isMovie )
-                    ? <WatchProviders tmdbId={ listing.id } mediaType={ isSeries ? 'tv' : 'movie' } client:load />
-                    : <p>Opções de visualização ainda não disponíveis para este título.</p>
-                }
-            </section>
+            <div class="detail-reserved-space" aria-hidden="true"></div>
 
-            <aside class="detail-side" aria-label="Informações e links">
+            <aside id="onde-assistir" class="detail-side" aria-labelledby="watch-title">
                 <div class="detail-side-card">
-                    <p class="section-number">FICHA RÁPIDA</p>
-                    <dl>
-                        <div>
-                            <dt>Lançamento</dt>
-                            <dd>{ releaseDate }</dd>
-                        </div>
-                        <div>
-                            <dt>Formato</dt>
-                            <dd>{ mediaType }</dd>
-                        </div>
-                        { rating && (
-                            <div>
-                                <dt>Avaliação no TMDB</dt>
-                                <dd>{ rating }/10</dd>
-                            </div>
-                        ) }
-                    </dl>
+                    <h2 id="watch-title" class="section-number">Onde assistir</h2>
+                    { listing.id && ( isSeries || isMovie )
+                        ? <WatchProviders tmdbId={ listing.id } mediaType={ isSeries ? 'tv' : 'movie' } client:load />
+                        : <p>Opções de visualização ainda não disponíveis para este título.</p>
+                    }
                 </div>
             </aside>
         </div>
@@ -450,38 +432,18 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         gap: clamp(2rem, 4vw, 4rem);
     }
     .section-number {
-        margin-bottom: 1.25rem;
+        margin: 0 0 1.25rem;
         color: #fb7185;
         font-size: 0.7rem;
         font-weight: 800;
         letter-spacing: 0.14em;
-    }
-    .detail-overview h2 {
-        margin: 0 0 1rem;
-        font-size: clamp(1.5rem, 2.5vw, 1.9rem);
-        letter-spacing: -0.04em;
+        text-transform: uppercase;
     }
     .detail-side-card {
         padding: 1.5rem;
         border: 1px solid rgba(255, 255, 255, 0.14);
         border-radius: 1rem;
         background: rgba(255, 255, 255, 0.04);
-    }
-    .detail-side-card dl > div {
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        padding: 0.85rem 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .detail-side-card dt {
-        color: #9ca3af;
-        font-size: 0.8rem;
-    }
-    .detail-side-card dd {
-        text-align: right;
-        font-size: 0.85rem;
-        font-weight: 700;
     }
     .detail-credits {
         display: flex;
@@ -548,6 +510,9 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         }
         .detail-grid {
             grid-template-columns: 1fr;
+        }
+        .detail-reserved-space {
+            display: none;
         }
     }
     @media (prefers-reduced-motion: reduce) {
