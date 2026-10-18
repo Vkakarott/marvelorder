@@ -14,6 +14,31 @@ test( 'Detail pages use the same release dates as the homepage', async () => {
     expect( punisherSpecial.release_date ).toBe( '2026-05-12' )
 } )
 
+test( 'Detail pages use TMDB artwork when no artwork is defined in frontmatter', async () => {
+    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/en/eyes-of-wakanda-241388/' )
+
+    expect( eyesOfWakanda.poster_path ).toBe( '/bG23nZW96LxmWkJjsagRZI9hF6t.jpg' )
+    expect( eyesOfWakanda.backdrop_path ).toBe( '/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg' )
+} )
+
+test( 'Artwork explicitly defined in frontmatter takes precedence over TMDB artwork', () => {
+    const normalizedListing = normalizeListingObservation(
+        {
+            id: 241388,
+            title: 'Eyes of Wakanda',
+            poster_path: '/custom-poster.jpg',
+            backdrop_path: '/custom-backdrop.jpg',
+        } as any,
+        {
+            poster_path: '/tmdb-poster.jpg',
+            backdrop_path: '/tmdb-backdrop.jpg',
+        } as any,
+    )
+
+    expect( normalizedListing.poster_path ).toBe( '/custom-poster.jpg' )
+    expect( normalizedListing.backdrop_path ).toBe( '/custom-backdrop.jpg' )
+} )
+
 test( 'Listing observation normalization restores blank TMDB dates when frontmatter clears them', () => {
     const normalizedListing = normalizeListingObservation(
         {

@@ -121,6 +121,14 @@ export function normalizeListingObservation (
         normalizedListing.first_air_date = tmdbListing.first_air_date
     }
 
+    if ( !isMeaningfulString( normalizedListing.poster_path ) && isMeaningfulString( tmdbListing.poster_path ) ) {
+        normalizedListing.poster_path = tmdbListing.poster_path
+    }
+
+    if ( !isMeaningfulString( normalizedListing.backdrop_path ) && isMeaningfulString( tmdbListing.backdrop_path ) ) {
+        normalizedListing.backdrop_path = tmdbListing.backdrop_path
+    }
+
     const releaseDateOverride = getAuthoritativeReleaseDateOverride( normalizedListing )
 
     if ( releaseDateOverride ) {
