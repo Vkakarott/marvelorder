@@ -24,7 +24,7 @@ Turn the monetization and growth research into repo-local execution plans that c
 
 ## Repo Findings
 
-- Title pages are markdown-backed files under `src/pages/en/*.md` and render through `src/layouts/MainLayout.astro`, `src/components/PageContent/PageContent.astro`, and `src/components/listing-content.vue`.
+- Title pages are markdown-backed files under `src/pages/pt-br/*.md` and render through `src/layouts/MainLayout.astro`, `src/components/PageContent/PageContent.astro`, and `src/components/listing-content.vue`.
 - The current watch-link system already supports affiliate-style links in frontmatter via `watchLinks`, and the UI currently exposes Amazon or Prime links from `src/components/listing-content.vue` and `src/layouts/list-story.astro`.
 - Existing "watch list" and anthology content under `src/pages/stories/*.md` uses `src/layouts/list-story.astro`, which outputs AMP Web Stories rather than long-form HTML articles.
 - There is no current email, push, RSS, public changelog, embed widget, or ad-rendering system in the repo.

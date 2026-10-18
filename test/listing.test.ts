@@ -40,7 +40,7 @@ test( 'Can map listings into listing-row friendly models', () => {
         } as any,
     ] )
 
-    expect( listing.endpoint ).toBe( '/en/example-listing-123' )
+    expect( listing.endpoint ).toBe( '/pt-br/example-listing-123' )
     expect( listing.elementId ).toBe( 'example-listing-123' )
 } )
 

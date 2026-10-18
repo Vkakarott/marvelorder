@@ -31,7 +31,7 @@ export default defineConfig( {
             {
                 name: 'listing',
                 label: 'Listings',
-                path: 'src/pages/en',
+                path: 'src/pages/pt-br',
                 fields: [
                     {
                         type: 'string',

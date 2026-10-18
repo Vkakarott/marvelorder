@@ -14,7 +14,7 @@ import ListingRow from '../components/listing-row.vue'
 
 type MarkdownPage = MarkdownInstance<Record<string, any>>
 
-const pages = Object.values( import.meta.glob<MarkdownPage>( '/src/pages/en/*.md', { eager: true } ) )
+const pages = Object.values( import.meta.glob<MarkdownPage>( '/src/pages/pt-br/*.md', { eager: true } ) )
 
 const allListings = await getListingsFromFilePaths( pages.map( page => page.file ) )
 

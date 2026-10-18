@@ -17,5 +17,72 @@
             "source": "/.netlify/functions/fanart/:path",
             "destination": "/api/image?kind=fanart&path=:path"
         }
+    ],
+    "redirects": [
+        {
+            "source": "/en/untitled-destin-daniel-cretton-disney-series-198178",
+            "destination": "/pt-br/wonder-man-198178",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/marvel-studios-wonder-man-198178",
+            "destination": "/pt-br/wonder-man-198178",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/untitled-marvel-halloween-special-894205",
+            "destination": "/pt-br/werewolf-by-night-894205",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/captain-america-4-894205",
+            "destination": "/pt-br/captain-america-new-world-order-822119",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/agatha-house-of-harkness-138501",
+            "destination": "/pt-br/agatha-coven-of-chaos-138501",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/shang-chi-2-912502",
+            "destination": "/pt-br/untitled-shang-chi-sequel-912502",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/i-am-groot-207867",
+            "destination": "/pt-br/i-am-groot-209930",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/i-am-groot-114469",
+            "destination": "/pt-br/i-am-groot-209930",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/i-am-groot-209135",
+            "destination": "/pt-br/i-am-groot-209930",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/marvels-avengers-secret-wars-short-206006",
+            "destination": "/pt-br/marvels-avengers-secret-wars-206006",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/guardians-of-the-galaxy-vol-3-447365",
+            "destination": "/pt-br/guardians-of-the-galaxy-volume-3-447365",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/untitled-the-punisher-special-1439930",
+            "destination": "/pt-br/the-punisher-one-last-kill-1657196",
+            "statusCode": 301
+        },
+        {
+            "source": "/en/:path*",
+            "destination": "/pt-br/:path*",
+            "statusCode": 301
+        }
     ]
 }

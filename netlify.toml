@@ -20,7 +20,7 @@
     # Include wink model
     "node_modules/wink-eng-lite-model/**",
     # Markdown files 
-    "src/pages/en/*.md",
+    "src/pages/pt-br/*.md",
   ]
 
 # https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
@@ -31,68 +31,65 @@
 
 [[redirects]]
     from = "/en/untitled-destin-daniel-cretton-disney-series-198178"
-    to = "/en/wonder-man-198178"
+    to = "/pt-br/wonder-man-198178"
     status = 301
 
 [[redirects]]
     from = "/en/marvel-studios-wonder-man-198178"
-    to = "/en/wonder-man-198178"
+    to = "/pt-br/wonder-man-198178"
     status = 301
 
 [[redirects]]
     from = "/en/untitled-marvel-halloween-special-894205"
-    to = "/en/werewolf-by-night-894205"
+    to = "/pt-br/werewolf-by-night-894205"
     status = 301
 
 [[redirects]]
     from = "/en/captain-america-4-894205"
-    to = "/en/captain-america-new-world-order-822119"
+    to = "/pt-br/captain-america-new-world-order-822119"
     status = 301
 
 [[redirects]]
     from = "/en/agatha-house-of-harkness-138501"
-    to = "/en/agatha-coven-of-chaos-138501"
+    to = "/pt-br/agatha-coven-of-chaos-138501"
     status = 301
 
 [[redirects]]
     from = "/en/shang-chi-2-912502"
-    to = "/en/untitled-shang-chi-sequel-912502"
+    to = "/pt-br/untitled-shang-chi-sequel-912502"
     status = 301
 
 [[redirects]]
     from = "/en/i-am-groot-207867"
-    to = "/en/i-am-groot-209930"
+    to = "/pt-br/i-am-groot-209930"
     status = 301
 
 [[redirects]]
     from = "/en/i-am-groot-114469"
-    to = "/en/i-am-groot-209930"
+    to = "/pt-br/i-am-groot-209930"
     status = 301
 
 [[redirects]]
     from = "/en/i-am-groot-209135"
-    to = "/en/i-am-groot-209930"
+    to = "/pt-br/i-am-groot-209930"
     status = 301
 
 [[redirects]]
     from = "/en/marvels-avengers-secret-wars-short-206006"
-    to = "/en/marvels-avengers-secret-wars-206006"
+    to = "/pt-br/marvels-avengers-secret-wars-206006"
     status = 301
 
 [[redirects]]
     from = "/en/guardians-of-the-galaxy-vol-3-447365"
-    to = "/en/guardians-of-the-galaxy-volume-3-447365"
+    to = "/pt-br/guardians-of-the-galaxy-volume-3-447365"
     status = 301
 
 [[redirects]]
     from = "/en/untitled-the-punisher-special-1439930"
-    to = "/en/the-punisher-one-last-kill-1657196"
+    to = "/pt-br/the-punisher-one-last-kill-1657196"
     status = 301
     force = true
-
-
-
-# [[redirects]]
-#     from = "/en/"
-#     to = "/en/"
-#     status = 301
+[[redirects]]
+    from = "/en/*"
+    to = "/pt-br/:splat"
+    status = 301

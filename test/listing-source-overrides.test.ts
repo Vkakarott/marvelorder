@@ -7,15 +7,15 @@ import {
 import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files.ts'
 
 test( 'Detail pages use the same release dates as the homepage', async () => {
-    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/en/eyes-of-wakanda-241388/' )
-    const punisherSpecial = await getSingleListingFromUrl( 'https://cinearc.example/en/untitled-the-punisher-special-1439930/' )
+    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/pt-br/eyes-of-wakanda-241388/' )
+    const punisherSpecial = await getSingleListingFromUrl( 'https://cinearc.example/pt-br/untitled-the-punisher-special-1439930/' )
 
     expect( eyesOfWakanda.first_air_date ).toBe( '2025-08-01' )
     expect( punisherSpecial.release_date ).toBe( '2026-05-12' )
 } )
 
 test( 'Detail pages use TMDB artwork when no artwork is defined in frontmatter', async () => {
-    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/en/eyes-of-wakanda-241388/' )
+    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/pt-br/eyes-of-wakanda-241388/' )
 
     expect( eyesOfWakanda.poster_path ).toBe( '/bG23nZW96LxmWkJjsagRZI9hF6t.jpg' )
     expect( eyesOfWakanda.backdrop_path ).toBe( '/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg' )

@@ -387,12 +387,12 @@ export async function mapStoryContentToListings ( storyMarkdown: string ) {
                 // Extract text and url from markdown link
                 const [ sectionHeadingText, listingUrlString ] = headingLink.trim().slice( 1, -1 ).split( '](' )
 
-                const url = new URL( listingUrlString, 'https://marvelorder.com' )
+                const url = new URL( listingUrlString, 'https://cinearc.local' )
 
                 sectionDetails.heading = sectionHeadingText
                 sectionDetails.url = url.pathname
 
-                const listing = ensureMappedListing( await getSingleListingFromUrl( listingUrlString ) ) as StoryContentListing
+                const listing = ensureMappedListing( await getSingleListingFromUrl( url.href ) ) as StoryContentListing
 
                 Object.assign( listing, sectionDetails )
 

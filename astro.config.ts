@@ -11,7 +11,9 @@ export default defineConfig( {
     // Netlify Adapter - https://docs.astro.build/en/guides/integrations-guide/netlify/
     // Netlify Deploy Guide - https://docs.astro.build/en/guides/deploy/netlify/#adapter-for-ssredge
     adapter: process.env.PUBLIC_ASTRO_LOCAL_DEV ? undefined : netlify(),
-    site: process.env.PUBLIC_SITE_URL || process.env.URL || 'http://localhost:4321',
+    site: process.env.PUBLIC_SITE_URL
+        || process.env.URL
+        || ( process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${ process.env.VERCEL_PROJECT_PRODUCTION_URL }` : 'http://localhost:4321' ),
     integrations: [// Enable Preact to support Preact JSX components.
         preact( {
             include: [

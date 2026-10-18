@@ -4,7 +4,7 @@ import 'dotenv/config'
 import matter from 'gray-matter'
 import { parseHTML } from 'linkedom'
 
-const directory = path.resolve( 'src/pages/en' )
+const directory = path.resolve( 'src/pages/pt-br' )
 const apiKey = process.env.TMDB_API_KEY
 const htmlDirectory = process.argv.includes( '--html-dir' ) ? process.argv[ process.argv.indexOf( '--html-dir' ) + 1 ] : undefined
 const translationDirectory = process.argv.includes( '--translations-dir' )

@@ -5,7 +5,7 @@ export const SITE = {
 }
 
 export const KNOWN_LANGUAGES = {
-    English: 'en',
+    Português: 'pt-br',
 }
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -23,15 +23,15 @@ export const COMMUNITY_INVITE_URL = '';
 // }
 
 export const SIDEBAR = {
-    en: [
+    'pt-br': [
         { text: 'Explorar', header: true },
         { text: 'Todos os títulos', link: '' },
         { text: 'Ordem de visualização', link: 'marvel-cinematic-universe-in-timeline-order' },
         { text: 'MCU por lançamento', link: 'marvel-cinematic-universe-movies-in-order' },
         { text: 'Fase 0', link: 'marvel-phase-0' },
         { text: 'Sagas', header: true },
-        { text: 'Saga do Infinito', link: 'en/lists/infinity-saga' },
-        { text: 'Saga do Multiverso', link: 'en/lists/multiverse-saga' },
+        { text: 'Saga do Infinito', link: 'pt-br/lists/infinity-saga' },
+        { text: 'Saga do Multiverso', link: 'pt-br/lists/multiverse-saga' },
     ],
 }
 
@@ -39,7 +39,7 @@ export const storePath = './src/json'
 
 export const markdownStorePath = './src/pages'
 
-export const listingsGlobPattern = 'src/pages/en/*.md'
+export const listingsGlobPattern = 'src/pages/pt-br/*.md'
 
 export const storiesGlobPattern = 'src/pages/stories/*.md'
 
