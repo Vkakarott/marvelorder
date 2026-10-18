@@ -1,13 +1,13 @@
 ---
 import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files'
 import { ensureMappedListing } from '~/src/helpers/node/listing'
-import { isValidHttpUrl } from '~/src/helpers/check'
 import { hasFanartLogo, isMcuSheetOrdered, isUpcoming } from '~/src/helpers/listing-filters'
 import type { Listing } from '~/src/helpers/types'
 
 import ListingLogo from '~/src/components/listing-logo.vue'
 import SeenButton from '~/src/components/seen-button.vue'
 import TmdbImage from '~/src/components/tmdb-image.vue'
+import WatchProviders from '~/src/components/watch-providers.vue'
 import ListingTimeline from './listing-timeline.astro'
 
 const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing
@@ -23,7 +23,6 @@ const rating = typeof listing.vote_average === 'number' && listing.vote_average 
 const daysUntilRelease = isUpcoming( mappedListing )
     ? Math.ceil( mappedListing.date.diffNow( 'days' ).days )
     : null
-const watchLink = listing.watchLinks?.amazon
 const tmdbUrl = listing.id && ( isSeries || isMovie )
     ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
     : 'https://www.themoviedb.org/'
@@ -81,8 +80,8 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
                 <p class="hero-summary">{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
 
                 <div class="hero-actions">
-                    <a class="hero-primary-action" href="#sinopse">
-                        Explorar detalhes <span aria-hidden="true">↓</span>
+                    <a class="hero-primary-action" href="#onde-assistir">
+                        Onde assistir <span aria-hidden="true">↓</span>
                     </a>
                     { listing.id && <SeenButton listing={ listing } showLabel client:load /> }
                 </div>
@@ -128,10 +127,13 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
     <div class="detail-content">
         <div class="detail-grid">
-            <section id="sinopse" class="detail-overview" aria-labelledby="detail-overview-title">
-                <p class="section-number">01 / SOBRE</p>
-                <h2 id="detail-overview-title">Sinopse</h2>
-                <p>{ listing.overview || listing.description || 'Sinopse ainda não disponível.' }</p>
+            <section id="onde-assistir" class="detail-overview" aria-labelledby="detail-overview-title">
+                <p class="section-number">01 / ASSISTIR</p>
+                <h2 id="detail-overview-title">Onde assistir</h2>
+                { listing.id && ( isSeries || isMovie )
+                    ? <WatchProviders tmdbId={ listing.id } mediaType={ isSeries ? 'tv' : 'movie' } client:load />
+                    : <p>Opções de visualização ainda não disponíveis para este título.</p>
+                }
             </section>
 
             <aside class="detail-side" aria-label="Informações e links">
@@ -153,11 +155,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
                             </div>
                         ) }
                     </dl>
-                    { isValidHttpUrl( watchLink ) && (
-                        <a class="watch-link" href={ watchLink } target="_blank" rel="noopener noreferrer">
-                            Ver na Amazon <span aria-hidden="true">↗</span>
-                        </a>
-                    ) }
                 </div>
             </aside>
         </div>
@@ -468,12 +465,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         font-size: clamp(2rem, 4vw, 3.5rem);
         letter-spacing: -0.05em;
     }
-    .detail-overview > p:last-child {
-        max-width: 65ch;
-        color: #d1d5db;
-        font-size: clamp(1rem, 1.6vw, 1.25rem);
-        line-height: 1.8;
-    }
     .detail-side-card {
         padding: 1.5rem;
         border: 1px solid rgba(255, 255, 255, 0.14);
@@ -495,23 +486,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         text-align: right;
         font-size: 0.85rem;
         font-weight: 700;
-    }
-    .watch-link {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1rem;
-        margin-top: 1.5rem;
-        padding: 0.85rem 1rem;
-        border-radius: 0.6rem;
-        background: #f59e0b;
-        color: #171717;
-        font-weight: 800;
-        text-decoration: none;
-    }
-    .watch-link:hover {
-        background: #fbbf24;
-        color: #171717;
     }
     .detail-credits {
         display: flex;

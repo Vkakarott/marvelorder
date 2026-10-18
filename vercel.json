@@ -2,6 +2,10 @@
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "rewrites": [
         {
+            "source": "/api/watch-providers",
+            "destination": "/api/watch"
+        },
+        {
             "source": "/api/tmdb-image/:path",
             "destination": "/api/image?kind=tmdb&path=:path"
         },
