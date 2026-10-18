@@ -3,7 +3,7 @@ import getImageTypeFromBuffer from 'image-type'
 import sharp from 'sharp'
 import etag from 'etag'
 import isSvg from 'is-svg'
-import sizeOf from 'image-size'
+import { imageSize as sizeOf } from 'image-size'
 
 import type { APIRoute } from 'astro'
 

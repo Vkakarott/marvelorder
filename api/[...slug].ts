@@ -1,5 +1,5 @@
-import { handler as handleFanartImage } from '../src/pages/api/fanart/[...slug]'
-import { handler as handleTmdbImage } from '../src/pages/api/tmdb-image/[...slug]'
+import { handler as handleFanartImage } from '../src/pages/api/fanart/[...slug].ts'
+import { handler as handleTmdbImage } from '../src/pages/api/tmdb-image/[...slug].ts'
 
 export default {
     async fetch ( request: Request ) {
