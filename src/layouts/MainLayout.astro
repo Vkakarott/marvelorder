@@ -6,6 +6,7 @@ import HeadSEO from '../components/HeadSEO.astro';
 import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer/Footer.astro';
 import PageContent from '../components/PageContent/PageContent.astro';
+import BackLink from '../components/BackLink.astro';
 import { expandImagePathPlaceholders } from '../helpers/image-paths';
 import * as CONFIG from '../config';
 
@@ -44,17 +45,6 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 				letter-spacing: -0.04em;
 				text-decoration: none;
 			}
-			.detail-back-link {
-				padding: 0.6rem 0.9rem;
-				border: 1px solid rgba(255, 255, 255, 0.3);
-				border-radius: 999px;
-				background: rgba(5, 7, 16, 0.45);
-				color: #f3f4f6;
-				font-size: 0.875rem;
-				text-decoration: none;
-				backdrop-filter: blur(12px);
-			}
-			.detail-back-link:hover,
 			.detail-brand:hover {
 				color: #fb7185;
 			}
@@ -67,9 +57,6 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 					width: min(100% - 2rem, 80rem);
 					padding: 1rem 0;
 				}
-				.detail-back-link {
-					font-size: 0.75rem;
-				}
 			}
 		</style>
 	</head>
@@ -78,7 +65,7 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 		<Header />
 		<header class="detail-header">
 			<a class="detail-brand" href="/">CineArc</a>
-			<a class="detail-back-link" href="/">← Voltar à linha do tempo</a>
+			<BackLink href="/" />
 		</header>
 		<main id="main-content" class="detail-main">
 			<PageContent />

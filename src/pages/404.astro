@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/HorizontalScroll.astro'
+import BackLink from '../components/BackLink.astro'
 
 import { fetchSitemapUrls } from '~/src/helpers/sitemap'
 
@@ -51,6 +52,6 @@ if ( !!newListingUrl ) {
 	<div class="w-screen h-screen flex flex-col justify-center items-center gap-4">
         <h1 class="text-4xl font-bold">🔎 Página não encontrada</h1>
         <div class="opacity-75">Confira o endereço ou volte para a lista principal.</div>
-        <a class="underline" href="/">Voltar ao início</a>
+        <BackLink href="/" />
     </div>
 </Layout>
