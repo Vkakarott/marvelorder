@@ -1,17 +1,13 @@
 ---
 title: The Fantastic Four
 slug: the-fantastic-four
-description: >-
-  The Fantastic Four is an unreleased low-budget feature film completed in 1994.
-  Created to secure copyright to the property, the producers never intended it
-  for release although the director, actors, and other participants were not
-  informed of this fact. It was produced by low-budget specialist Roger Corman
-  and Bernd Eichinger (who also produced another Fantastic Four movie in 2005).
+description: "Ao sofrerem um acidente, quatro astronaustas são atingidos por raios cósmicos. Ao descobrirem que adquiriram poderes especiais, o grupo decide formar uma equipe de super-heróis intitulada Quarteto Fantástico. Eles, então, precisarão lutar contra o vilão Dr. Doom."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/fantastic-four-5703a9f669d5f.png"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01LWVLYEN?linkCode=osi&th=1&psc=1
+overview: "Ao sofrerem um acidente, quatro astronaustas são atingidos por raios cósmicos. Ao descobrirem que adquiriram poderes especiais, o grupo decide formar uma equipe de super-heróis intitulada Quarteto Fantástico. Eles, então, precisarão lutar contra o vilão Dr. Doom."
 ---
 ## TMDB Data
 ```json

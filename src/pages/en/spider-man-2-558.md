@@ -1,13 +1,7 @@
 ---
 title: Spider-Man 2
 slug: spider-man-2
-description: >-
-  Peter Parker is going through a major identity crisis. Burned out from being
-  Spider-Man, he decides to shelve his superhero alter ego, which leaves the
-  city suffering in the wake of carnage left by the evil Doc Ock. In the
-  meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl
-  he's loved since childhood. A certain anger begins to brew in his best friend
-  Harry Osborn as well...
+description: "Dois anos se passaram desde que o tranquilo Peter Parker separou-se do grande amor de sua vida, Mary Jane Watson, e decidiu assumir o compromisso e a responsabilidade de seguir sendo o Homem-Aranha. Peter enfrenta novos desafios enquanto aprende a lidar com \"seu dom e sua maldição\", tentando desesperadamente harmonizar suas duas identidades: A do super-herói aracnídeo, o Homem-Aranha, e a do estudante universitário."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -16,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000I9YV2Q?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 545
+overview: "Dois anos se passaram desde que o tranquilo Peter Parker separou-se do grande amor de sua vida, Mary Jane Watson, e decidiu assumir o compromisso e a responsabilidade de seguir sendo o Homem-Aranha. Peter enfrenta novos desafios enquanto aprende a lidar com \"seu dom e sua maldição\", tentando desesperadamente harmonizar suas duas identidades: A do super-herói aracnídeo, o Homem-Aranha, e a do estudante universitário."
 ---
 ## TMDB Data
 ```json

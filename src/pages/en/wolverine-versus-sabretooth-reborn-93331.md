@@ -1,11 +1,7 @@
 ---
 title: 'Wolverine Versus Sabretooth: Reborn'
 slug: wolverine-versus-sabretooth-reborn
-description: >-
-  Wolverine and Sabretooth have been locked in an endless grudge match that goes
-  back longer than either can remember: or even imagine. The key to victory is
-  eons old, and it’s certain to rock their world. It’s the epic conclusion to
-  the duo’s greatest battle!
+description: "Wolverine e Dentes de Sabre estão travados em uma disputa interminável de rancor que remonta a mais tempo do que qualquer um pode se lembrar: ou mesmo imaginar. A chave para a vitória já existe há muito tempo e certamente irá abalar o seu mundo. É a conclusão épica da maior batalha da dupla!"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /8IEmEAf5hw6KGPd2216K6ayH4jL.jpg
@@ -16,11 +12,7 @@ id: 93331
 origin_country: []
 original_language: en
 original_name: 'Wolverine Versus Sabretooth: Reborn'
-overview: >-
-  Wolverine and Sabretooth have been locked in an endless grudge match that goes
-  back longer than either can remember: or even imagine. The key to victory is
-  eons old, and it’s certain to rock their world. It’s the epic conclusion to
-  the duo’s greatest battle!
+overview: "Wolverine e Dentes de Sabre estão travados em uma disputa interminável de rancor que remonta a mais tempo do que qualquer um pode se lembrar: ou mesmo imaginar. A chave para a vitória já existe há muito tempo e certamente irá abalar o seu mundo. É a conclusão épica da maior batalha da dupla!"
 poster_path: /nZUt7GqrbdQ02Z3Dfx42QiGjxah.jpg
 first_air_date: '2015-03-24'
 name: 'Wolverine Versus Sabretooth: Reborn'

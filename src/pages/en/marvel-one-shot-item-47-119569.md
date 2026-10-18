@@ -1,14 +1,13 @@
 ---
 title: 'Marvel One-Shot: Item 47'
 slug: marvel-one-shot-item-47
-description: >-
-  Benny and Claire, a down on their luck couple find a discarded Chitauri gun,
-  referred to as 'Item 47'...
+description: "Um casal se depara com uma arma Chitauri e usam ela para cometer crimes."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/marvel-one-shot-item-47-53a58d4a3a305.webp"
 watchLinks:
   amazon: none
+overview: "Um casal se depara com uma arma Chitauri e usam ela para cometer crimes."
 ---
 ## TMDB Data
 ```json

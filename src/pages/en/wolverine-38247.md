@@ -1,17 +1,14 @@
 ---
 title: Wolverine
 slug: wolverine
-description: >-
-  Wolverine is a mutant, possessing animal-keen senses, enhanced physical
-  capabilities, three retracting bone claws on each hand and a healing factor
-  that allows him to recover from virtually any wound, disease or toxin at a
-  accelerated rate.
+description: "Wolverine é um mutante que possui sentidos aguçados como animais, capacidades físicas aprimoradas, três garras ósseas retráteis em cada mão e um fator de cura que lhe permite se recuperar de praticamente qualquer ferimento, doença ou toxina em um ritmo acelerado."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/wolverine-540569e035577.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00DIR8ATA?linkCode=osi&th=1&psc=1
+overview: "Wolverine é um mutante que possui sentidos aguçados como animais, capacidades físicas aprimoradas, três garras ósseas retráteis em cada mão e um fator de cura que lhe permite se recuperar de praticamente qualquer ferimento, doença ou toxina em um ritmo acelerado."
 ---
 ## TMDB Data
 ```json

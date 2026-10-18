@@ -1,9 +1,7 @@
 ---
 title: Untitled ‘Vision’ Series
 slug: untitled-vision-series
-description: >-
-  After the events of "WandaVision", "white" Vision presumably explores his new
-  purpose in life.
+description: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,9 +12,7 @@ origin_country:
   - US
 original_language: en
 original_name: Untitled ‘Vision’ Series
-overview: >-
-  After the events of "WandaVision", "white" Vision presumably explores his new
-  purpose in life.
+overview: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 poster_path: null
 first_air_date: ''
 name: Untitled ‘Vision’ Series

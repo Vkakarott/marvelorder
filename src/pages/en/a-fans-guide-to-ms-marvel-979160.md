@@ -1,16 +1,12 @@
 ---
 title: A Fan's Guide to Ms. Marvel
 slug: a-fans-guide-to-ms-marvel
-description: >-
-  A documentary short that gives you an exclusive look behind the groundbreaking
-  original series, "Ms. Marvel", from its comic book origins to its development
-  and production as Marvel Studios’ next hit series on Disney+. It features
-  interviews with its award winning filmmaking team and the show’s captivating
-  star, newcomer Iman Vellani.
+description: "Um curta documental que explora com exclusividade os bastidores da inovadora série original \"Ms. Marvel\", desde as origens nos quadrinhos até o desenvolvimento e produção da próxima série de sucesso da Marvel Studios no Disney+ . O filme inclui entrevistas com a premiada equipe de cineastas e a encantadora estrela da série, a estreante Iman Vellani."
 layout: ../../layouts/MainLayout.astro
 tags: doc
 watchLinks:
   amazon: 'none'
+overview: "Um curta documental que explora com exclusividade os bastidores da inovadora série original \"Ms. Marvel\", desde as origens nos quadrinhos até o desenvolvimento e produção da próxima série de sucesso da Marvel Studios no Disney+ . O filme inclui entrevistas com a premiada equipe de cineastas e a encantadora estrela da série, a estreante Iman Vellani."
 ---
 ## TMDB Data
 ```json

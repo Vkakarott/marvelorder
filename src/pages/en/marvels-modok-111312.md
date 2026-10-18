@@ -1,19 +1,14 @@
 ---
 title: Marvel's M.O.D.O.K.
 slug: marvels-modok
-description: >-
-  The megalomaniacal supervillain M.O.D.O.K. has long pursued his dream of one
-  day conquering the world. But after years of setbacks and failures fighting
-  the Earth’s mightiest heroes, M.O.D.O.K. has run his evil organization A.I.M.
-  into the ground. Ousted as A.I.M.’s leader, while also dealing with his
-  crumbling marriage and family life, the Mental Organism Designed Only for
-  Killing is set to confront his greatest challenge yet: a midlife crisis!
+description: "Dominar o universo nunca pareceu algo tão distante para o supervilão megalomaníaco M.O.D.O.K., que luta para continuar tendo o controle da sua organização maligna e lidar com a sua família exigente."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/sbRrk3dAkjXbVV644Wr7ogOKp7w.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B097S4N99J?linkCode=osi&th=1&psc=1
+overview: "Dominar o universo nunca pareceu algo tão distante para o supervilão megalomaníaco M.O.D.O.K., que luta para continuar tendo o controle da sua organização maligna e lidar com a sua família exigente."
 ---
 ## TMDB Data
 ```json

@@ -1,9 +1,7 @@
 ---
 title: What If... Captain Carter Fought the Hydra Stomper?
 slug: what-if-captain-carter-fought-the-hydra-stomper
-description: >-
-  Captain Carter's mission to save Steve Rogers sets her on a collision course
-  with new enemies.
+description: "A missão da Capitã Carter para salvar Steve Rogers a coloca em rota de colisão com novos inimigos."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1223442
 original_language: en
 original_title: What If... Captain Carter Fought the Hydra Stomper?
-overview: >-
-  Captain Carter's mission to save Steve Rogers sets her on a collision course
-  with new enemies.
+overview: "A missão da Capitã Carter para salvar Steve Rogers a coloca em rota de colisão com novos inimigos."
 poster_path: /d7vKgwO5s4e9jfpkwrUf8WrKqJg.jpg
 release_date: '2023-12-26'
 video: false

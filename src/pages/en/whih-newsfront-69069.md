@@ -1,10 +1,7 @@
 ---
 title: WHIH Newsfront
 slug: whih-newsfront
-description: >-
-  WHIH Newsfront is a television program presented by Christine Everhart in the
-  WHIH World News network, informing about major events from political,
-  scientific, and entertainment news, in the Marvel Cinematic Universe.
+description: "WHIH Newsfront é um programa de televisão apresentado por Christine Everhart na rede WHIH World News, informando sobre grandes eventos de notícias políticas, científicas e de entretenimento, no Universo Cinematográfico Marvel."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/qJHO0ro7qGbEAzySZOsKCwe7JOg.webp"
 adult: false
@@ -18,10 +15,7 @@ origin_country:
   - US
 original_language: en
 original_name: WHIH Newsfront
-overview: >-
-  WHIH Newsfront is a television program presented by Christine Everhart in the
-  WHIH World News network, informing about major events from political,
-  scientific, and entertainment news, in the Marvel Cinematic Universe.
+overview: "WHIH Newsfront é um programa de televisão apresentado por Christine Everhart na rede WHIH World News, informando sobre grandes eventos de notícias políticas, científicas e de entretenimento, no Universo Cinematográfico Marvel."
 poster_path: /2RAbC1bwYvE3kYr6PdYFUo6vmO6.jpg
 first_air_date: '2015-07-02'
 name: WHIH Newsfront

@@ -1,14 +1,13 @@
 ---
 title: Ironheart
 slug: ironheart
-description: >-
-  Genius inventor Riri Williams creates the most advanced suit of armor since
-  Iron Man and becomes Ironheart.
+description: "A inventora genial Riri Williams volta a Chicago e conhece Parker Robbins, conhecido como \"O Capuz\"."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/ha1kackPwP1BLtyibzuv5hABiDk.webp"
 # Fall 2023 - https://www.marvel.com/articles/movies/sdcc-2022-all-of-the-marvel-studios-news-coming-out-of-hall-h-at-san-diego-comic-con
 # release_date: "Fall 2023"
+overview: "A inventora genial Riri Williams volta a Chicago e conhece Parker Robbins, conhecido como \"O Capuz\"."
 ---
 ## TMDB Data
 ```json

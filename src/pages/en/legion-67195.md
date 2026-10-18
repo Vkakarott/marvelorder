@@ -1,17 +1,13 @@
 ---
 title: Legion
 slug: legion
-description: >-
-  David Haller, AKA Legion, is a troubled young man who may be more than human.
-  Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals
-  for years. But after a strange encounter with a fellow patient, he’s
-  confronted with the possibility that the voices he hears and the visions he
-  sees might be real.
+description: "Atormentado por visões perturbadoras, o jovem David Haller começa a juntar o quebra-cabeças de suas lembranças e se dá conta de que pode ter poderes especiais."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/legion-585b52e9b0a15.webp"
 watchLinks:
   amazon: none
+overview: "Atormentado por visões perturbadoras, o jovem David Haller começa a juntar o quebra-cabeças de suas lembranças e se dá conta de que pode ter poderes especiais."
 ---
 ## TMDB Data
 ```json

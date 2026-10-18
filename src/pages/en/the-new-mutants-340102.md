@@ -1,16 +1,14 @@
 ---
 title: The New Mutants
 slug: the-new-mutants
-description: >-
-  Five young mutants, just discovering their abilities while held in a secret
-  facility against their will, fight to escape their past sins and save
-  themselves.
+description: "Cinco jovens mutantes descobrem o alcance de seus poderes e lidam com traumas do passado enquanto são mantidos presos contra a vontade num sinistro hospital."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/x-men-the-new-mutants-5ad3918d2486b.png"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B086M69YK2?linkCode=osi&th=1&psc=1
+overview: "Cinco jovens mutantes descobrem o alcance de seus poderes e lidam com traumas do passado enquanto são mantidos presos contra a vontade num sinistro hospital."
 ---
 ## TMDB Data
 ```json

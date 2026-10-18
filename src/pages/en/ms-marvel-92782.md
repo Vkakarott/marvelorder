@@ -1,12 +1,7 @@
 ---
 title: Ms. Marvel
 slug: ms-marvel
-description: >-
-  A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a
-  special affinity for superheroes, particularly Captain Marvel. However, she
-  struggles to fit in at home and at school — that is, until she gets
-  superpowers like the heroes she’s always looked up to. Life is easier with
-  superpowers, right?
+description: "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora jogar videogames e escrever fanfictions, além de ser fã de super-heróis e ter uma imaginação sem limites – especialmente quando se trata da Capitã Marvel. Kamala sente que não se encaixa na escola e, às vezes, nem mesmo em casa. Mas um dia ela descobre que tem superpoderes como os heróis que sempre admirou... e a vida fica bem melhor com superpoderes, não é?"
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/7UGKZ5c0HSwro6n7GChl8uyaIfy.webp"
@@ -14,6 +9,7 @@ watchLinks:
   amazon: none
 vote_average: 8
 mcuTimelineOrder: 616
+overview: "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora jogar videogames e escrever fanfictions, além de ser fã de super-heróis e ter uma imaginação sem limites – especialmente quando se trata da Capitã Marvel. Kamala sente que não se encaixa na escola e, às vezes, nem mesmo em casa. Mas um dia ela descobre que tem superpoderes como os heróis que sempre admirou... e a vida fica bem melhor com superpoderes, não é?"
 ---
 ## TMDB Data
 ```json

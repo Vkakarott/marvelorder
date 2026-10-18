@@ -1,9 +1,7 @@
 ---
 title: 'Spidey and Iron Man: Avengers Team Up!'
 slug: spidey-and-iron-man-avengers-team-up
-description: >-
-  Spidey and Iron Man team up with the Avengers to stop Ultron and Green Goblin
-  from controlling all of the city's devices.
+description: "O Homem de Ferro e os Vingadores se unem ao Homem-Aranha para impedir que Ultron e o Duende Verde assumam o controle dos dispositivos da cidade."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /5MBqVVijMPVfimKacXRkCaX90w.jpg
@@ -14,9 +12,7 @@ genre_ids:
 id: 1564058
 original_language: en
 original_title: 'Spidey and Iron Man: Avengers Team Up!'
-overview: >-
-  Spidey and Iron Man team up with the Avengers to stop Ultron and Green Goblin
-  from controlling all of the city's devices.
+overview: "O Homem de Ferro e os Vingadores se unem ao Homem-Aranha para impedir que Ultron e o Duende Verde assumam o controle dos dispositivos da cidade."
 poster_path: /aV8K3EevkFNwj41C2MwpjHfrCAi.jpg
 release_date: '2025-10-16'
 video: false

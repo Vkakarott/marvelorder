@@ -1,12 +1,7 @@
 ---
 title: 'Captain America: The First Avenger'
 slug: captain-america-the-first-avenger
-description: >-
-  During World War II, Steve Rogers is a sickly man from Brooklyn who's
-  transformed into super-soldier Captain America to aid in the war effort.
-  Rogers must stop the Red Skull – Adolf Hitler's ruthless head of weaponry, and
-  the leader of an organization that intends to use a mysterious device of
-  untold powers for world domination.
+description: "Durante a Segunda Guerra Mundial, Steve Rogers é um homem doente, do Brooklyn, que se transforma no super soldado Capitão América para ajudar nos esforços de guerra. Rogers deve parar o Caveira Vermelha, o implacável chefe de armas de Adolf Hitler e líder de uma organização que pretende usar um misterioso mecanismo de incalculáveis poderes para dominar o mundo."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -15,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B005PW3OS8?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 0
+overview: "Durante a Segunda Guerra Mundial, Steve Rogers é um homem doente, do Brooklyn, que se transforma no super soldado Capitão América para ajudar nos esforços de guerra. Rogers deve parar o Caveira Vermelha, o implacável chefe de armas de Adolf Hitler e líder de uma organização que pretende usar um misterioso mecanismo de incalculáveis poderes para dominar o mundo."
 ---
 ## TMDB Data
 ```json

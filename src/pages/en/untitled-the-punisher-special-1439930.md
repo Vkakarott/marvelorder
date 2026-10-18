@@ -1,9 +1,7 @@
 ---
 title: Untitled 'The Punisher' Special
 slug: untitled-the-punisher-special
-description: >-
-  A special presentation set in the Marvel Cinematic Universe on Disney+. Plot
-  TBA.
+description: "Uma apresentação especial ambientada no Universo Cinematográfico Marvel no Disney+. Trama a definir."
 layout: ../../layouts/MainLayout.astro
 draft: true
 adult: false
@@ -14,9 +12,7 @@ genre_ids:
 id: 1439930
 original_language: en
 original_title: Untitled 'The Punisher' Special
-overview: >-
-  A special presentation set in the Marvel Cinematic Universe on Disney+. Plot
-  TBA.
+overview: "Uma apresentação especial ambientada no Universo Cinematográfico Marvel no Disney+. Trama a definir."
 poster_path: null
 release_date: ''
 video: false

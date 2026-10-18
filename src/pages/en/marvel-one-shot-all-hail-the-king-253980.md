@@ -1,15 +1,14 @@
 ---
 title: 'Marvel One-Shot: All Hail the King'
 slug: marvel-one-shot-all-hail-the-king
-description: >-
-  A filmmaker interviews the now-famous Trevor Slattery from behind
-  bars.
+description: "Trancado na prisão, o infame Trevor Slattery concorda em encontrar um documentarista."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
   {fanart-path}/marvel-one-shot-all-hail-the-king-53a58d5fd87d0.webp
 watchLinks:
   amazon: none
+overview: "Trancado na prisão, o infame Trevor Slattery concorda em encontrar um documentarista."
 ---
 ## TMDB Data
 ```json

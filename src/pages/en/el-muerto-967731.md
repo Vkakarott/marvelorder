@@ -1,12 +1,11 @@
 ---
 title: El Muerto
 slug: el-muerto
-description: >-
-  A wrestler gains super strength thanks to a mystical mask that is passed down
-  throughout his family.
+description: "Um lutador ganha superforça graças a uma máscara mística que é transmitida a toda a sua família."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/gRNB6GsKrI410Nvsbur3Rf0Ixnr.webp"
+overview: "Um lutador ganha superforça graças a uma máscara mística que é transmitida a toda a sua família."
 ---
 ## TMDB Data
 ```json

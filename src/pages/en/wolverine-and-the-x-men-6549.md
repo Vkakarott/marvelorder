@@ -1,16 +1,14 @@
 ---
 title: Wolverine and the X-Men
 slug: wolverine-and-the-x-men
-description: >-
-  Wolverine and the X-Men must join together again to not only battle the
-  increasingly powerful Mutant Response Division, but also to prevent a
-  catastrophic future that Xavier has warned Wolverine must never come to pass.
+description: "Wolverine e os X-Men devem se unir novamente não apenas para combater a cada vez mais poderosa Divisão de Resposta Mutante, mas também para evitar um futuro catastrófico que Xavier alertou que Wolverine nunca deveria acontecer."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/wolverine-and-the-x-men-52375c6d29f1e.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00CMVT4CA?linkCode=osi&th=1&psc=1
+overview: "Wolverine e os X-Men devem se unir novamente não apenas para combater a cada vez mais poderosa Divisão de Resposta Mutante, mas também para evitar um futuro catastrófico que Xavier alertou que Wolverine nunca deveria acontecer."
 ---
 ## TMDB Data
 ```json

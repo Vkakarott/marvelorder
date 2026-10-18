@@ -1,14 +1,13 @@
 ---
 title: Iron Man
 slug: iron-man
-description: >-
-  Industrialist Tony Stark leads a private team of superheroes as Iron Man
-  against the forces of evil.
+description: "Homem de Ferro, o bilionário industrial Tony Starks, lidera uma equipe particular de super-heróis contra as forças do mal."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/iron-man-5e71877a7bf7c.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0036EH3XO?linkCode=osi&th=1&psc=1
+overview: "Homem de Ferro, o bilionário industrial Tony Starks, lidera uma equipe particular de super-heróis contra as forças do mal."
 ---
 ## TMDB Data
 ```json

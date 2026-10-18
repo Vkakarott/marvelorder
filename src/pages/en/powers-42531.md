@@ -1,15 +1,10 @@
 ---
 title: Powers
 slug: powers
-description: >-
-  Two homicide detectives, Christian Walker and Deena Pilgrim, are assigned to
-  investigate cases involving people with superhuman abilities, referred to as
-  “Powers.” Set amidst today’s paparazzi culture, Powers asks the questions,
-  what if the world was full of superheroes who aren't actually heroic at all?
-  What if all that power was just one more excuse for mischief, mayhem, murder,
-  and endorsement deals?
+description: "Em um mundo onde seres humanos e super-heróis coexistem, um detetive de homicídio, que teve seus próprios poderes retirados, investiga crimes envolvendo super humanos ao lado de seu parceiro. Eles trabalham em uma divisão especial chamada Powers."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/powers-2014-5503f9406a26a.webp"
+overview: "Em um mundo onde seres humanos e super-heróis coexistem, um detetive de homicídio, que teve seus próprios poderes retirados, investiga crimes envolvendo super humanos ao lado de seu parceiro. Eles trabalham em uma divisão especial chamada Powers."
 ---
 ## TMDB Data
 ```json

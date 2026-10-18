@@ -1,7 +1,7 @@
 ---
 title: 'Doctor Strange: Time Runs Out'
 slug: doctor-strange-time-runs-out
-description: Rumored sequel to Doctor Strange in the Multiverse of Madness.
+description: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,7 +12,7 @@ genre_ids:
 id: 1072946
 original_language: en
 original_title: 'Doctor Strange: Time Runs Out'
-overview: Rumored sequel to Doctor Strange in the Multiverse of Madness.
+overview: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
 poster_path: null
 release_date: '2027-02-12'
 video: false

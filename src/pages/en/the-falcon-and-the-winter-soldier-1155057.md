@@ -1,11 +1,7 @@
 ---
 title: The Falcon and the Winter Soldier
 slug: the-falcon-and-the-winter-soldier
-description: >-
-  Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky
-  Barnes/Winter Soldier team up in a global adventure that tests their abilities
-  -- and their patience. This is a fan edit turning the series into a feature
-  length film.
+description: "Após os eventos de 'Vingadores: Ultimato', Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura global que testa suas habilidades – e sua paciência. Esta é uma edição de fã que transforma a série em um longa-metragem."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,11 +11,7 @@ genre_ids:
 id: 1155057
 original_language: en
 original_title: The Falcon and the Winter Soldier
-overview: >-
-  Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky
-  Barnes/Winter Soldier team up in a global adventure that tests their abilities
-  -- and their patience. This is a fan edit turning the series into a feature
-  length film.
+overview: "Após os eventos de 'Vingadores: Ultimato', Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura global que testa suas habilidades – e sua paciência. Esta é uma edição de fã que transforma a série em um longa-metragem."
 poster_path: /9h12TRUonRl1SHO3kQZoYVvuCFp.jpg
 release_date: '2021-06-16'
 video: false

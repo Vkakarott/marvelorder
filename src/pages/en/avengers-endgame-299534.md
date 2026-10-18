@@ -1,12 +1,7 @@
 ---
 title: 'Avengers: Endgame'
 slug: avengers-endgame
-description: >-
-  After the devastating events of Avengers: Infinity War, the universe is in
-  ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining
-  allies, the Avengers must assemble once more in order to undo Thanos' actions
-  and restore order to the universe once and for all, no matter what
-  consequences may be in store.
+description: "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/avengers-infinity-war---part-ii-5c0c46d26f593.webp"
@@ -16,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 466
 tags:
   - has-thor
+overview: "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências."
 ---
 ## TMDB Data
 ```json

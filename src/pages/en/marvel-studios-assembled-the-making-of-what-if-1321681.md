@@ -1,7 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of What If...?'
 slug: marvel-studios-assembled-the-making-of-what-if
-description: A behind the scenes look at Marvel Studios' first animated series.
+description: "Uma visão dos bastidores da primeira série animada da Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /eDQYRQqAxQyD7JGMQc0CkQJqNde.jpg
@@ -10,7 +10,7 @@ genre_ids:
 id: 1321681
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of What If...?'
-overview: A behind the scenes look at Marvel Studios' first animated series.
+overview: "Uma visão dos bastidores da primeira série animada da Marvel Studios."
 poster_path: /i03MiU3nYc8lqAJfC3Jey99FpvY.jpg
 release_date: '2021-10-27'
 video: false

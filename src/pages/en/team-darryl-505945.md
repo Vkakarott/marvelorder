@@ -1,18 +1,13 @@
 ---
 title: Team Darryl
 slug: team-darryl
-description: >-
-  Fresh off being unseated as the ruler of Sakaar, the Grandmaster makes his way
-  to Earth to start a new life. It's been over a year since Thor left Australia
-  and Darryl has been struggling to pay his rent. Now Darryl needs a new
-  roommate to help make the monthly payments. Unfortunately for Darryl, the
-  Grandmaster was the only one who answered Darryl's "Roommate Needed" ad and
-  with no viable options, the Grandmaster moves in.
+description: "Depois que Thor se vai, Darryl começa a procura por um novo colega de quarto. Infelizmente, apenas uma pessoa responde seu anúncio: o Grão-Mestre."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/team-darryl-5bf82bf981b31.webp"
 watchLinks:
   amazon: none
+overview: "Depois que Thor se vai, Darryl começa a procura por um novo colega de quarto. Infelizmente, apenas uma pessoa responde seu anúncio: o Grão-Mestre."
 ---
 ## TMDB Data
 ```json

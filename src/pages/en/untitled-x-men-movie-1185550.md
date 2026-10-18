@@ -1,9 +1,7 @@
 ---
 title: Untitled X-Men movie
 slug: untitled-x-men-movie
-description: >-
-  Marvel Studios has officially begun development on an 'X-MEN' movie, with
-  writers beginning to meet this fall.
+description: "A Marvel Studios iniciou oficialmente o desenvolvimento de um filme ‘X-MEN’, com os escritores começando a se encontrar neste outono."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,9 +12,7 @@ genre_ids:
 id: 1185550
 original_language: en
 original_title: Untitled X-Men movie
-overview: >-
-  Marvel Studios has officially begun development on an 'X-MEN' movie, with
-  writers beginning to meet this fall.
+overview: "A Marvel Studios iniciou oficialmente o desenvolvimento de um filme ‘X-MEN’, com os escritores começando a se encontrar neste outono."
 poster_path: null
 release_date: ''
 video: false

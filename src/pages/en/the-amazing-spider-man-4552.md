@@ -1,13 +1,14 @@
 ---
 title: The Amazing Spider-Man
 slug: the-amazing-spider-man
-description: The first live-action TV series based on the popular comic book.
+description: "Peter Parker usa seus poderes de aranha recém-adquiridos para combater criminosos."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
   {tmdb-path}/kUTCJhSnH3Dt0KVzcQp8DnbmsjN.webp?crop.bottom=0.75
 watchLinks:
   amazon: '''none'''
+overview: "Peter Parker usa seus poderes de aranha recém-adquiridos para combater criminosos."
 ---
 ## TMDB Data
 ```json

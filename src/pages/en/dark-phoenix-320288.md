@@ -1,18 +1,13 @@
 ---
 title: Dark Phoenix
 slug: dark-phoenix
-description: >-
-  The X-Men face their most formidable and powerful foe when one of their own,
-  Jean Grey, starts to spiral out of control. During a rescue mission in outer
-  space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once
-  she returns home, this force not only makes her infinitely more powerful, but
-  far more unstable. The X-Men must now band together to save her soul and
-  battle aliens that want to use Grey's new abilities to rule the galaxy.
+description: "Ambientado em 1992, Charles Xavier está lidando com o fato dos mutantes serem considerados heróis nacionais. Com o orgulho a flor da pele, ele envia sua equipe para perigosas missões, mas a primeira tarefa dos X-Men no espaço gera uma explosão solar, que acende uma força malévola e faminta por poder dentro de Jean Grey."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/b3wR7lmidhv1xYz6i50XI6NcOV1.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07SJJ44HB?linkCode=osi&th=1&psc=1
+overview: "Ambientado em 1992, Charles Xavier está lidando com o fato dos mutantes serem considerados heróis nacionais. Com o orgulho a flor da pele, ele envia sua equipe para perigosas missões, mas a primeira tarefa dos X-Men no espaço gera uma explosão solar, que acende uma força malévola e faminta por poder dentro de Jean Grey."
 ---
 ## TMDB Data
 ```json

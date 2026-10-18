@@ -1,14 +1,12 @@
 ---
 title: 'Marvel Studios: Assembling a Universe'
 slug: marvel-studios-assembling-a-universe
-description: >-
-  A look at the story behind Marvel Studios and the Marvel Cinematic Universe,
-  featuring interviews and behind-the-scenes footage from all of the Marvel
-  films, the Marvel One-Shots and "Marvel's Agents of S.H.I.E.L.D."
+description: "O primeiro especial de documentários para a TV da Marvel contará a excitante história por trás do Universo Cinematográfico dos estúdios e contará com entrevistas exclusivas e cenas dos bastidores dos filmes da Marvel seus One-Shots e Agentes da SHIELD.Os telespectadores caminharão através desse fantástico universo e saberão um pouco mais sobre o futuro de Agentes da SHIELD. Verão novas cenas de Capitão América: O Soldado Invernal e Guardiões da Galáxia e teremos o primeiro olhar de Os Vingadores: Era de Ultron!"
 layout: ../../layouts/MainLayout.astro
 type: movie
 watchLinks:
   amazon: none
+overview: "O primeiro especial de documentários para a TV da Marvel contará a excitante história por trás do Universo Cinematográfico dos estúdios e contará com entrevistas exclusivas e cenas dos bastidores dos filmes da Marvel seus One-Shots e Agentes da SHIELD.Os telespectadores caminharão através desse fantástico universo e saberão um pouco mais sobre o futuro de Agentes da SHIELD. Verão novas cenas de Capitão América: O Soldado Invernal e Guardiões da Galáxia e teremos o primeiro olhar de Os Vingadores: Era de Ultron!"
 ---
 ## TMDB Data
 ```json

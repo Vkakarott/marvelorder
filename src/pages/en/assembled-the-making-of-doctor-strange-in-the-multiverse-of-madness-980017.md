@@ -1,9 +1,10 @@
 ---
 title: 'ASSEMBLED: The Making of Doctor Strange in the Multiverse of Madness'
 slug: assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness
-description: ''
+description: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
 type: movie
 layout: ../../layouts/MainLayout.astro
+overview: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
 ---
 ## TMDB Data
 ```json

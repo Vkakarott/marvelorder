@@ -1,18 +1,7 @@
 ---
 title: The Incredible Hulk
 slug: the-incredible-hulk
-description: >-
-  The Incredible Hulk is an animated television series based on the Marvel
-  Comics character of the same name. The series ran for 13 episodes on NBC in
-  1982, part of a combined hour with Spider-Man and His Amazing Friends. Unlike
-  the previous live-action The Incredible Hulk television series from Universal
-  in the 1970s, this series was based upon the Hulk comic-books and was able to
-  portray the more fantastical elements of the comics as sticking to his true
-  name and origin as well as featuring the return of the original characters in
-  his life all of which the live-action series refused to show. It featured
-  stories faithful to the source material from Marvel, In addition, new
-  recurring characters were created for the series including the Hispanic family
-  of father Rio and his youthful daughter Rita.
+description: "Preso em uma explosão de uma bomba de raios gama, o Dr. Bruce Banner é amaldiçoado com a transformação no Incrível Hulk. Sempre que o inteligente e gentil Banner fica com raiva, ocorre uma mudança aterrorizante e ele se torna o Hulk, um gigante de pele verde com a força de mil homens."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/rQZntZJiOKWDScTngHwTuCTUwMK.webp"
 backdrop_path: /hRQfwDzTXpUrIEkPaQXt4mldNsh.jpg
@@ -25,18 +14,7 @@ origin_country:
   - US
 original_language: en
 original_name: The Incredible Hulk
-overview: >-
-  The Incredible Hulk is an animated television series based on the Marvel
-  Comics character of the same name. The series ran for 13 episodes on NBC in
-  1982, part of a combined hour with Spider-Man and His Amazing Friends. Unlike
-  the previous live-action The Incredible Hulk television series from Universal
-  in the 1970s, this series was based upon the Hulk comic-books and was able to
-  portray the more fantastical elements of the comics as sticking to his true
-  name and origin as well as featuring the return of the original characters in
-  his life all of which the live-action series refused to show. It featured
-  stories faithful to the source material from Marvel, In addition, new
-  recurring characters were created for the series including the Hispanic family
-  of father Rio and his youthful daughter Rita.
+overview: "Preso em uma explosão de uma bomba de raios gama, o Dr. Bruce Banner é amaldiçoado com a transformação no Incrível Hulk. Sempre que o inteligente e gentil Banner fica com raiva, ocorre uma mudança aterrorizante e ele se torna o Hulk, um gigante de pele verde com a força de mil homens."
 poster_path: /eg1HgM1kF0SJbYsWVmpP2BjvPUU.jpg
 vote_average: 6.1
 tags:

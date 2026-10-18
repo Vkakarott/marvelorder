@@ -1,11 +1,7 @@
 ---
 title: Marvel's Inhumans
 slug: marvels-inhumans
-description: >-
-  After the Royal Family of Inhumans is splintered by a military coup, they
-  barely escape to Hawaii where their surprising interactions with the lush
-  world and humanity around them may prove to not only save them, but Earth
-  itself.
+description: "Após um golpe militar na cidade secreta de Attilan, uma família real de super-humanos liderada pelo Raio Negro é obrigada a se refugiar na Terra."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-the-inhumans-590cc04b00a44.webp"
@@ -13,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0756NHJD3?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 243
+overview: "Após um golpe militar na cidade secreta de Attilan, uma família real de super-humanos liderada pelo Raio Negro é obrigada a se refugiar na Terra."
 ---
 ## TMDB Data
 ```json

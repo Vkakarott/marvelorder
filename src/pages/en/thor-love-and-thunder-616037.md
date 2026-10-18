@@ -1,23 +1,11 @@
 ---
 title: 'Thor: Love and Thunder'
 slug: thor-love-and-thunder
-description: >-
-  After his retirement is interrupted by Gorr the God Butcher, a galactic killer
-  who seeks the extinction of the gods, Thor enlists the help of King Valkyrie,
-  Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as
-  the Mighty Thor. Together they embark upon a harrowing cosmic adventure to
-  uncover the mystery of the God Butcher’s vengeance and stop him before it’s
-  too late.
+description: "Thor parte em uma jornada de autodescoberta, diferente de tudo que ele já enfrentou. Mas seus esforços são interrompidos por um assassino galáctico conhecido como Gorr, o Carniceiro dos Deuses, que busca a extinção dos deuses. Para combater esta ameaça, Thor pede a ajuda da Rei Valquíria, Korg e da ex-namorada Jane Foster, que, para a surpresa de Thor, inexplicavelmente empunha seu mágico martelo, Mjolnir, como a Poderosa Thor. Juntos, eles embarcam em uma angustiante aventura cósmica para descobrir o mistério da vingança do Carniceiro dos Deuses e detê-lo antes que seja tarde demais."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/ifx23jgqQ8ZjUb9eiGjwbKtf0qQ.webp"
-overview: >-
-  After his retirement is interrupted by Gorr the God Butcher, a galactic killer
-  who seeks the extinction of the gods, Thor enlists the help of King Valkyrie,
-  Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as
-  the Mighty Thor. Together they embark upon a harrowing cosmic adventure to
-  uncover the mystery of the God Butcher’s vengeance and stop him before it’s
-  too late.
+overview: "Thor parte em uma jornada de autodescoberta, diferente de tudo que ele já enfrentou. Mas seus esforços são interrompidos por um assassino galáctico conhecido como Gorr, o Carniceiro dos Deuses, que busca a extinção dos deuses. Para combater esta ameaça, Thor pede a ajuda da Rei Valquíria, Korg e da ex-namorada Jane Foster, que, para a surpresa de Thor, inexplicavelmente empunha seu mágico martelo, Mjolnir, como a Poderosa Thor. Juntos, eles embarcam em uma angustiante aventura cósmica para descobrir o mistério da vingança do Carniceiro dos Deuses e detê-lo antes que seja tarde demais."
 vote_average: 1
 tags:
   - has-thor

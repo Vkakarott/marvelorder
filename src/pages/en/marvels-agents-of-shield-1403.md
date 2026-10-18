@@ -1,11 +1,7 @@
 ---
 title: Marvel's Agents of S.H.I.E.L.D.
 slug: marvels-agents-of-shield
-description: >-
-  Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention,
-  Enforcement and Logistics Division) puts together a team of agents to
-  investigate the new, the strange and the unknown around the globe, protecting
-  the ordinary from the extraordinary.
+description: "Agente Phil Coulson da S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) reúne uma equipe de agentes para investigar o novo, o estranho e o desconhecido em todo o mundo, protegendo o comum do extraordinário."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-agents-of-shield-52521ded92142.webp"
@@ -13,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00EY7LT9Q?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 46
+overview: "Agente Phil Coulson da S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) reúne uma equipe de agentes para investigar o novo, o estranho e o desconhecido em todo o mundo, protegendo o comum do extraordinário."
 ---
 ## TMDB Data
 ```json

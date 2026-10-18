@@ -1,7 +1,7 @@
 ---
 title: Thor and the legend of Hercules
 slug: thor-and-the-legend-of-hercules
-description: Rumored fifth installment in Marvel Studios’ Thor franchise.
+description: "Rumores de quinta parcela da franquia Thor da Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,7 +11,7 @@ genre_ids:
 id: 1196551
 original_language: en
 original_title: Thor and the legend of Hercules
-overview: Rumored fifth installment in Marvel Studios’ Thor franchise.
+overview: "Rumores de quinta parcela da franquia Thor da Marvel Studios."
 poster_path: /rvg3fv9E0pqHcicIzwcnyAkGLgm.jpg
 release_date: ''
 video: false

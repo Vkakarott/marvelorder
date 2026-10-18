@@ -1,15 +1,13 @@
 ---
 title: The Invincible Iron Man
 slug: the-invincible-iron-man
-description: >-
-  When a cocky industrialist's efforts to raise an ancient Chinese temple leads
-  him to be seriously wounded and captured by enemy forces, he must use his
-  ideas for a revolutionary power armor in order to fight back as a superhero.
+description: "Ao escavar as ruínas de um antigo reino chinês, o inventor bilionário Tony Stark (Marc Worden) liberta uma antiga profecia. Ela prevê a ressurreição do Mandarim (Fred Tatasciore), o imperador da dinastia mais violenta da China. Para enfrentar este perigo Stark constrói a armadura do Homem de Ferro, a qual decide usar. Entretanto o herói precisará ainda enfrentar os Elementals, guerreiros mágicos que controlam o poder dos 4 elementos, que se aliaram ao Mandarim."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/invincible-iron-man-5ccd4a2e2817a.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B008Y5QKMU?linkCode=osi&th=1&psc=1
+overview: "Ao escavar as ruínas de um antigo reino chinês, o inventor bilionário Tony Stark (Marc Worden) liberta uma antiga profecia. Ela prevê a ressurreição do Mandarim (Fred Tatasciore), o imperador da dinastia mais violenta da China. Para enfrentar este perigo Stark constrói a armadura do Homem de Ferro, a qual decide usar. Entretanto o herói precisará ainda enfrentar os Elementals, guerreiros mágicos que controlam o poder dos 4 elementos, que se aliaram ao Mandarim."
 ---
 ## TMDB Data
 ```json

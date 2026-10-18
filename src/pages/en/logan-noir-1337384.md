@@ -1,10 +1,7 @@
 ---
 title: Logan Noir
 slug: logan-noir
-description: >-
-  In a future where mutants are nearly extinct, an elderly and weary Logan leads
-  a quiet life. But when Laura, a mutant child pursued by scientists, comes to
-  him for help, he must get her to safety.
+description: "Em um futuro onde os mutantes estão quase extintos, um Logan idoso e cansado leva uma vida tranquila. Mas quando Laura, uma criança mutante perseguida por cientistas, pede ajuda a ele, ele deve levá-la para um lugar seguro."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /vfYpmizjejYSbPgZ5km5Ny7t2wo.jpg
@@ -15,10 +12,7 @@ genre_ids:
 id: 1337384
 original_language: en
 original_title: Logan Noir
-overview: >-
-  In a future where mutants are nearly extinct, an elderly and weary Logan leads
-  a quiet life. But when Laura, a mutant child pursued by scientists, comes to
-  him for help, he must get her to safety.
+overview: "Em um futuro onde os mutantes estão quase extintos, um Logan idoso e cansado leva uma vida tranquila. Mas quando Laura, uma criança mutante perseguida por cientistas, pede ajuda a ele, ele deve levá-la para um lugar seguro."
 poster_path: /p1xcetd3F9uKKH8B6Vk3P1T7tot.jpg
 release_date: '2017-03-02'
 video: false

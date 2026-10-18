@@ -1,9 +1,7 @@
 ---
 title: Groot's Pursuit
 slug: groots-pursuit
-description: >-
-  Groot investigates a spooky noise that’s been haunting the Quadrant, which
-  leads to an intense dance off.
+description: "Groot investiga um ruído estranho que está assombrando o Quadrante, o que resulta numa competição de dança."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /jaEWCQ93FUGCp4p59cLktWUuYOS.jpg
@@ -13,9 +11,7 @@ genre_ids:
 id: 1010820
 original_language: en
 original_title: Groot's Pursuit
-overview: >-
-  Groot investigates a spooky noise that’s been haunting the Quadrant, which
-  leads to an intense dance off.
+overview: "Groot investiga um ruído estranho que está assombrando o Quadrante, o que resulta numa competição de dança."
 poster_path: /z5AQHYTTx7DzG9CRd01ny9DtqNE.jpg
 release_date: '2022-08-10'
 video: false

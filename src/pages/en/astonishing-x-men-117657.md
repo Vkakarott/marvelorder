@@ -1,9 +1,7 @@
 ---
 title: Astonishing X-Men
 slug: astonishing-x-men
-description: >-
-  Facing a powerful new enemy, the team of mutant superheroes find themselves
-  further imperiled when a "cure" for mutants is discovered.
+description: "Uma espécie alienígena tenta dominar a Terra, mas os X-Men estão prontos para qualquer coisa."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /65jah7JGMhHezLguMLKi9J30rY3.jpg
@@ -16,9 +14,7 @@ origin_country:
   - US
 original_language: en
 original_name: Astonishing X-Men
-overview: >-
-  Facing a powerful new enemy, the team of mutant superheroes find themselves
-  further imperiled when a "cure" for mutants is discovered.
+overview: "Uma espécie alienígena tenta dominar a Terra, mas os X-Men estão prontos para qualquer coisa."
 poster_path: /kkpr7lhAmXfNTT4KsbMcHJ0GNyE.jpg
 first_air_date: '2009-10-28'
 name: Astonishing X-Men

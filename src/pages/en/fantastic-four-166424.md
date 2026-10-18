@@ -1,17 +1,14 @@
 ---
 title: Fantastic Four
 slug: fantastic-four
-description: >-
-  Four young outsiders teleport to a dangerous universe, which alters their
-  physical form in shocking ways. Their lives irrevocably upended, the team must
-  learn to harness their daunting new abilities and work together to save Earth
-  from a former friend turned enemy.
+description: "Quatro jovens astronautas ganham superpoderes ao serem transportados a um universo alternativo e ficarem expostos à radiação cósmica. Eles precisam usar suas novas habilidades para proteger o planeta contra o Doutor Destino."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/the-fantastic-four-55310eb4b815f.png"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B013JPCA1Y?linkCode=osi&th=1&psc=1
+overview: "Quatro jovens astronautas ganham superpoderes ao serem transportados a um universo alternativo e ficarem expostos à radiação cósmica. Eles precisam usar suas novas habilidades para proteger o planeta contra o Doutor Destino."
 ---
 ## TMDB Data
 ```json

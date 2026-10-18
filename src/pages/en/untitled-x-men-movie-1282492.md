@@ -1,9 +1,7 @@
 ---
 title: Untitled X-Men Movie
 slug: untitled-x-men-movie
-description: >-
-  Set in the Marvel Cinematic Universe (MCU) and based on the Marvel Comics
-  characters of the same name.
+description: "Ambientado no Universo Cinematográfico Marvel (MCU) e baseado nos personagens da Marvel Comics de mesmo nome."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,9 +9,7 @@ genre_ids: []
 id: 1282492
 original_language: en
 original_title: Untitled X-Men Movie
-overview: >-
-  Set in the Marvel Cinematic Universe (MCU) and based on the Marvel Comics
-  characters of the same name.
+overview: "Ambientado no Universo Cinematográfico Marvel (MCU) e baseado nos personagens da Marvel Comics de mesmo nome."
 poster_path: /iHVfjWLx83QdWP6KcErNavlBkvR.jpg
 release_date: ''
 video: false

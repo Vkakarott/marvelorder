@@ -1,11 +1,10 @@
 ---
 title: Untitled Spider-Women Film
 slug: untitled-spider-women-film
-description: >-
-  A spin-off to 'Spider-Man: Into The Spider-Verse', focused on three
-  generations of female, Spider-related characters.
+description: "Um spin-off de ‘Homem-Aranha: No Aranhaverso’, focado em três gerações de personagens femininas relacionadas ao Aranha."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Um spin-off de ‘Homem-Aranha: No Aranhaverso’, focado em três gerações de personagens femininas relacionadas ao Aranha."
 ---
 ## TMDB Data
 ```json

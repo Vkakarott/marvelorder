@@ -1,10 +1,11 @@
 ---
 title: The Mutants
 slug: the-mutants
-description: Upcoming Marvel Studios film announced as in development at SDCC 2019.
+description: "O suposto título do primeiro filme centrado em mutantes da Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/k2goqzfn4Iaku3xyQrLI8OvSGfF.webp"
+overview: "O suposto título do primeiro filme centrado em mutantes da Marvel Studios."
 ---
 ## TMDB Data
 ```json

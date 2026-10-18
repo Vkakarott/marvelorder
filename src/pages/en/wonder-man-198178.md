@@ -1,11 +1,10 @@
 ---
 title: Wonder Man
 slug: wonder-man
-description: >-
-  Follows Simon Williams, also known as Marvel’s Wonder Man. Plot details
-  unknown.
+description: "Simon e Trevor, dois atores em extremos opostos de suas carreiras, buscam papéis que mudem suas vidas."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/sFy84s6ipq5Fh9RrzKsCfgasHNd.webp"
+overview: "Simon e Trevor, dois atores em extremos opostos de suas carreiras, buscam papéis que mudem suas vidas."
 ---
 
 Other titles

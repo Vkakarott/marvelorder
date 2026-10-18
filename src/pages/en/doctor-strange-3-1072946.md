@@ -1,7 +1,7 @@
 ---
 title: Doctor Strange 3
 slug: doctor-strange-3
-description: Rumored sequel to Doctor Strange in the Multiverse of Madness.
+description: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -9,7 +9,7 @@ genre_ids: []
 id: 1072946
 original_language: en
 original_title: Doctor Strange 3
-overview: Rumored sequel to Doctor Strange in the Multiverse of Madness.
+overview: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
 poster_path: null
 release_date: ''
 video: false

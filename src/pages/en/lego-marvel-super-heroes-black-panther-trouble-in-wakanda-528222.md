@@ -1,18 +1,13 @@
 ---
 title: 'LEGO Marvel Super Heroes: Black Panther - Trouble in Wakanda'
 slug: lego-marvel-super-heroes-black-panther-trouble-in-wakanda
-description: >-
-  After speaking at the Wakanda Embassy, Black Panther fights Thanos and fends
-  him off with the help of fellow Avengers Captain America, Thor, Iron Man,
-  Hulk, and Black Widow. After regaining conscious, Thanos is approached by Erik
-  Killmonger and Ulysses Klaue in a plot where they will obtain the Vibranium in
-  Wakanda to empower Thanos. When Black Panther discovers this plot, he must
-  work with Shuri, Okoye, and the Avengers to defeat them.
+description: "Ulysses Klaue e Eric Killmonger estão de volta para saquear as minas de Vibranium de Wakanda, desta vez com a ajuda do louco Thanos. Poderá Pantera Negra frustrar esse trio maligno?"
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
 logo_on_black: >-
   {fanart-path}/lego-marvel-super-heroes-black-panther---trouble-in-wakanda-5e85da0ef3416.webp
+overview: "Ulysses Klaue e Eric Killmonger estão de volta para saquear as minas de Vibranium de Wakanda, desta vez com a ajuda do louco Thanos. Poderá Pantera Negra frustrar esse trio maligno?"
 ---
 ## TMDB Data
 ```json

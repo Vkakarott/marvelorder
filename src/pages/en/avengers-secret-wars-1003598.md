@@ -1,7 +1,7 @@
 ---
 title: 'Avengers: Secret Wars'
 slug: avengers-secret-wars
-description: An upcoming Phase 6 MCU film that will be the end of The Multiverse Saga.
+description: "Futuro filme da fase 6 do Universo Cinematográfico Marvel (UCM) que marcará o final da Saga do Multiverso. Informações da história ainda não reveladas."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/8chwENebfUEJzZ7sMUA0nOgiCKk.webp"
 release_date: '2027-12-17'
@@ -10,6 +10,7 @@ tags:
   - company-420
   - list-8204859
   - has-kang
+overview: "Futuro filme da fase 6 do Universo Cinematográfico Marvel (UCM) que marcará o final da Saga do Multiverso. Informações da história ainda não reveladas."
 ---
 ## TMDB Data
 ```json

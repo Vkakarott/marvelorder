@@ -1,18 +1,11 @@
 ---
 title: Ultimate Wolverine vs. Hulk
 slug: ultimate-wolverine-vs-hulk
-description: >-
-  Following Hulk's murderous rampage through Manhattan, Dr. Bruce Banner was
-  sentenced to execution, bringing an end to The Hulk . Or did it? When reports
-  of a mysterious creature start creeping in from around the world, Nick Fury
-  starts to get suspicious. Not only is Fury worried about Banner's rage turning
-  him into an unstoppable monster, but his existence is the one secret that can
-  bring down Nick Fury! Turning to the only man he can trust, Fury enlists
-  Wolverine to help, and Wolverine is glad to take down Banner by any means
-  necessary!
+description: "Após a violência assassina de Hulk em Manhattan, o Dr. Bruce Banner foi condenado à execução, pondo fim ao Hulk. Ou foi? Quando relatos de uma criatura misteriosa começam a surgir de todo o mundo, Nick Fury começa a ficar desconfiado. Fury não está apenas preocupado com a raiva de Banner transformando-o em um monstro imparável, mas sua existência é o único segredo que pode derrubar Nick Fury! Voltando-se para o único homem em quem pode confiar, Fury convoca Wolverine para ajudar, e Wolverine fica feliz em derrubar Banner por qualquer meio necessário!"
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
+overview: "Após a violência assassina de Hulk em Manhattan, o Dr. Bruce Banner foi condenado à execução, pondo fim ao Hulk. Ou foi? Quando relatos de uma criatura misteriosa começam a surgir de todo o mundo, Nick Fury começa a ficar desconfiado. Fury não está apenas preocupado com a raiva de Banner transformando-o em um monstro imparável, mas sua existência é o único segredo que pode derrubar Nick Fury! Voltando-se para o único homem em quem pode confiar, Fury convoca Wolverine para ajudar, e Wolverine fica feliz em derrubar Banner por qualquer meio necessário!"
 ---
 ## TMDB Data
 ```json

@@ -1,9 +1,7 @@
 ---
 title: Doctor Strange
 slug: doctor-strange
-description: >-
-  Dr. Stephen Strange embarks on a wondrous journey to the heights of a Tibetan
-  mountain, where he seeks healing at the feet of the mysterious Ancient One.
+description: "Como o novo Mago Supremo, Dr. Estranho testa seus limites, combatendo os monstros que guardam os portões e enfrentando a mais terrível entidade conhecida pela humanidade."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /vy3uI3PCQWVnoW7OrKzB65Ba02c.jpg
@@ -15,9 +13,7 @@ genre_ids:
 id: 14830
 original_language: en
 original_title: Doctor Strange
-overview: >-
-  Dr. Stephen Strange embarks on a wondrous journey to the heights of a Tibetan
-  mountain, where he seeks healing at the feet of the mysterious Ancient One.
+overview: "Como o novo Mago Supremo, Dr. Estranho testa seus limites, combatendo os monstros que guardam os portões e enfrentando a mais terrível entidade conhecida pela humanidade."
 poster_path: /7ygcpWXsWmEc83j7zE8P0lvC0Q.jpg
 release_date: '2007-08-14'
 video: false

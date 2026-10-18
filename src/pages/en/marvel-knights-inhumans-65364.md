@@ -1,13 +1,7 @@
 ---
 title: 'Marvel Knights: Inhumans'
 slug: marvel-knights-inhumans
-description: >-
-  The Inhumans have always been one of Marvel's most enduring oddities. A race
-  of genetic outsiders, they live secluded in their island kingdom of Attilan,
-  preferring not to mix with the outside world. Even stranger, their genetic
-  mutations are self-endowed; each Inhuman, as a coming-of-age ritual, endures
-  exposure to the Terrigen Mists, a strange substance that imparts unearthly
-  powers--some extraordinary, some monstrous.
+description: "Os Inumanos sempre foram uma das peculiaridades mais duradouras da Marvel. Uma raça de outsiders genéticos, eles vivem isolados em seu reino insular de Attilan, preferindo não se misturar com o mundo exterior. Ainda mais estranho, suas mutações genéticas são autoimpostas; cada Inumano, como um ritual de passagem, é exposto às Névoas Terrígenas, uma substância estranha que confere poderes sobrenaturais – alguns extraordinários, outros monstruosos."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /2hZHwlq1GugjpW0ShbaN08UVSeN.jpg
@@ -17,13 +11,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Marvel Knights: Inhumans'
-overview: >-
-  The Inhumans have always been one of Marvel's most enduring oddities. A race
-  of genetic outsiders, they live secluded in their island kingdom of Attilan,
-  preferring not to mix with the outside world. Even stranger, their genetic
-  mutations are self-endowed; each Inhuman, as a coming-of-age ritual, endures
-  exposure to the Terrigen Mists, a strange substance that imparts unearthly
-  powers--some extraordinary, some monstrous.
+overview: "Os Inumanos sempre foram uma das peculiaridades mais duradouras da Marvel. Uma raça de outsiders genéticos, eles vivem isolados em seu reino insular de Attilan, preferindo não se misturar com o mundo exterior. Ainda mais estranho, suas mutações genéticas são autoimpostas; cada Inumano, como um ritual de passagem, é exposto às Névoas Terrígenas, uma substância estranha que confere poderes sobrenaturais – alguns extraordinários, outros monstruosos."
 poster_path: /tpjU5tQMENf9mw0wHJL6RzsLb2t.jpg
 first_air_date: '2013-04-23'
 name: 'Marvel Knights: Inhumans'

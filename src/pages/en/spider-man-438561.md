@@ -1,15 +1,12 @@
 ---
 title: Spider-Man
 slug: spider-man
-description: >-
-  The Iron Cross Army are sabotaging oil-tankers with the help of their monster,
-  the Sea-Devil, a semi-mechanical anthropomorphic swordfish with an ability to
-  shoot torpedoes from its mouth. Spiderman employs the help of the interpol
-  agent Juzo Mamiya to help him stop the Iron Cross Army.
+description: "O Exército da Cruz de Ferro está sabotando petroleiros com a ajuda de seu monstro, o Sea-Devil, um peixe-espada antropomórfico semimecânico com a capacidade de disparar torpedos pela boca. O Homem-Aranha conta com a ajuda do agente da interpol Juzo Mamiya para ajudá-lo a deter o Exército da Cruz de Ferro."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-the-movie-5e89f52be649e.webp"
 watchLinks:
   amazon: none
+overview: "O Exército da Cruz de Ferro está sabotando petroleiros com a ajuda de seu monstro, o Sea-Devil, um peixe-espada antropomórfico semimecânico com a capacidade de disparar torpedos pela boca. O Homem-Aranha conta com a ajuda do agente da interpol Juzo Mamiya para ajudá-lo a deter o Exército da Cruz de Ferro."
 ---
 ## TMDB Data
 ```json

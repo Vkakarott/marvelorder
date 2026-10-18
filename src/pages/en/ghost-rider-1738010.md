@@ -1,9 +1,7 @@
 ---
 title: Ghost Rider
 slug: ghost-rider
-description: >-
-  Marvel Studios' new Ghost Rider film stars Ryan Gosling, is directed by
-  Shawn Levy, and is planned for theatrical release in 2028.
+description: "Um filme ambientado no Universo Cinematográfico Marvel (MCU), baseado no personagem de mesmo nome da Marvel Comics. Enredo a ser anunciado."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "/api/tmdb-image/3iDNNuMN7zqyNw9fDSsHRrxqhWT.webp?source.width=1280"
 adult: false
@@ -13,9 +11,7 @@ genre_ids:
 id: 1738010
 original_language: en
 original_title: Ghost Rider
-overview: >-
-  A film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics
-  character of the same name. Plot TBA.
+overview: "Um filme ambientado no Universo Cinematográfico Marvel (MCU), baseado no personagem de mesmo nome da Marvel Comics. Enredo a ser anunciado."
 poster_path: /zgC1zo3lyujoEiIMnUrHltvPmZg.jpg
 release_date: '2028'
 video: false

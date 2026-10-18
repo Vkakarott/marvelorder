@@ -1,11 +1,10 @@
 ---
 title: 'Marvel Studios: Expanding the Universe'
 slug: marvel-studios-expanding-the-universe
-description: >-
-  An exciting look into the future of Marvel Studios' films and upcoming Disney+
-  series.
+description: "Um olhar emocionante para o futuro dos filmes da Marvel Studios e as próximas séries da Disney+, com filmagens inéditas de atores, atrizes e cineastas do Universo Marvel."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Um olhar emocionante para o futuro dos filmes da Marvel Studios e as próximas séries da Disney+, com filmagens inéditas de atores, atrizes e cineastas do Universo Marvel."
 ---
 ## TMDB Data
 ```json

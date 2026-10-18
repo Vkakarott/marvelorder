@@ -1,12 +1,7 @@
 ---
 title: 'Ant-Man and the Wasp: Quantumania'
 slug: ant-man-and-the-wasp-quantumania
-description: >-
-  Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's
-  parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find
-  themselves exploring the Quantum Realm, interacting with strange new creatures
-  and embarking on an adventure that will push them beyond the limits of what
-  they thought possible.
+description: "Scott Lang e Hope van Dyne em suas jornadas como super-heróis. Scott e sua família são puxados para o Reino Quântico, onde eles precisarão enfrentar um novo e terrível vilão: Kang, o Conquistador e M.O.D.O.K.."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/mYCBuVGQGWPlUNZQusdHfbSzP1h.webp"
@@ -15,6 +10,7 @@ tags:
   - company-420
   - has-kang
 mcuTimelineOrder: 631
+overview: "Scott Lang e Hope van Dyne em suas jornadas como super-heróis. Scott e sua família são puxados para o Reino Quântico, onde eles precisarão enfrentar um novo e terrível vilão: Kang, o Conquistador e M.O.D.O.K.."
 ---
 ## TMDB Data
 ```json

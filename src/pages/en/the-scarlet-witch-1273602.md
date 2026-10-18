@@ -1,9 +1,7 @@
 ---
 title: The Scarlet Witch
 slug: the-scarlet-witch
-description: >-
-  A 'Scarlet Witch' solo movie is reportedly in the early works at Marvel
-  Studios.
+description: "Um filme solo de 'Feiticeira Escarlate' está supostamente nos primeiros trabalhos no Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,9 +12,7 @@ genre_ids:
 id: 1273602
 original_language: en
 original_title: The Scarlet Witch
-overview: >-
-  A 'Scarlet Witch' solo movie is reportedly in the early works at Marvel
-  Studios.
+overview: "Um filme solo de 'Feiticeira Escarlate' está supostamente nos primeiros trabalhos no Marvel Studios."
 poster_path: /uHnRiQUoN1cSk0DTD2QRJ5h0opI.jpg
 release_date: ''
 video: false

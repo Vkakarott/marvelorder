@@ -1,10 +1,7 @@
 ---
 title: Marvel's Daredevil
 slug: marvels-daredevil
-description: >-
-  Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a
-  young boy to fight crime at night on the streets of Hell’s Kitchen as
-  Daredevil.
+description: "Cego desde pequeno, Matt Murdock luta contra a injustiça durante o dia como advogado e à noite nas ruas de Hell’s Kitchen, Nova York."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
@@ -12,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: none
 mcuTimelineOrder: 82
+overview: "Cego desde pequeno, Matt Murdock luta contra a injustiça durante o dia como advogado e à noite nas ruas de Hell’s Kitchen, Nova York."
 ---
 ## TMDB Data
 ```json

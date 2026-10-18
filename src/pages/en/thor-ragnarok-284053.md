@@ -1,11 +1,7 @@
 ---
 title: 'Thor: Ragnarok'
 slug: thor-ragnarok
-description: >-
-  Thor is imprisoned on the other side of the universe and finds himself in a
-  race against time to get back to Asgard to stop Ragnarok, the destruction of
-  his home-world and the end of Asgardian civilization, at the hands of a
-  powerful new threat, the ruthless Hela.
+description: "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -16,6 +12,7 @@ watchLinks:
 mcuTimelineOrder: 384
 tags:
   - has-thor
+overview: "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela."
 ---
 ## TMDB Data
 ```json

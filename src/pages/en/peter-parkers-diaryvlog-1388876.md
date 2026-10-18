@@ -1,9 +1,7 @@
 ---
 title: Peter Parker's Diary/Vlog
 slug: peter-parkers-diaryvlog
-description: >-
-  The extended version of Peter Parker's AKA Spider-Man's vlog. The original
-  version played at the end of the movie Homecoming.
+description: "A versão estendida do vlog do Peter Parker, também conhecido como Homem-Aranha. A versão original tocada no final do filme Homecoming."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1388876
 original_language: en
 original_title: Peter Parker's Diary/Vlog
-overview: >-
-  The extended version of Peter Parker's AKA Spider-Man's vlog. The original
-  version played at the end of the movie Homecoming.
+overview: "A versão estendida do vlog do Peter Parker, também conhecido como Homem-Aranha. A versão original tocada no final do filme Homecoming."
 poster_path: /q9rM3QSlXdPX0lzIOPtgFp0YuUe.jpg
 release_date: '2017-07-07'
 video: false

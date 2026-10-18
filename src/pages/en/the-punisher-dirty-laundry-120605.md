@@ -1,13 +1,12 @@
 ---
 title: 'The Punisher: Dirty Laundry'
 slug: the-punisher-dirty-laundry
-description: >-
-  In a bad neighborhood, on his way to a laundromat to do his laundry, Frank
-  Castle witnesses a ruthless street gang harassing several people.
+description: "Em um bairro ruim, a caminho de uma lavanderia para lavar roupa, Frank Castle testemunha uma cruel gangue de rua assediando várias pessoas."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/the-punisher-dirty-laundry-55805756b7e12.webp"
 watchLinks:
   amazon: none
+overview: "Em um bairro ruim, a caminho de uma lavanderia para lavar roupa, Frank Castle testemunha uma cruel gangue de rua assediando várias pessoas."
 ---
 ## TMDB Data
 ```json

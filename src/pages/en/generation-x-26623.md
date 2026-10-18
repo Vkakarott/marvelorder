@@ -1,15 +1,12 @@
 ---
 title: Generation X
 slug: generation-x
-description: >-
-  A group of young mutants--humans with a genetic variation that gives them
-  superpowers and makes them feared by the population at large--begin training
-  at a school for heroes. Their studies are interrupted when they must rescue
-  one of their number from a mad scientist who can enter others' dreams.
+description: "Um grupo de jovens mutantes - humanos com uma variação genética que lhes dá superpoderes e os torna temidos pela população em geral - começa a treinar em uma escola para heróis. Seus estudos são interrompidos quando devem resgatar um membro de sua equipe de um cientista louco que pode entrar nos sonhos dos outros."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/wqkTCfznNXtYO9UnnxComqhhHRP.webp?crop.top=0.72"
 watchLinks:
   amazon: none
+overview: "Um grupo de jovens mutantes - humanos com uma variação genética que lhes dá superpoderes e os torna temidos pela população em geral - começa a treinar em uma escola para heróis. Seus estudos são interrompidos quando devem resgatar um membro de sua equipe de um cientista louco que pode entrar nos sonhos dos outros."
 ---
 ## TMDB Data
 ```json

@@ -1,15 +1,14 @@
 ---
 title: Bride of the Incredible Hulk
 slug: bride-of-the-incredible-hulk
-description: >-
-  David and Carolyn marry in Hawaii and continue to work to find a cure for both
-  their afflictions in a race against time.
+description: "Em uma das histórias mais emotivas da saga, David Banner viaja até o Havaí em busca da Dra. Caroline Fields, uma psiquiatra que desenvolveu uma técnica de hipnoterapia que pode curá-lo. Ao descobrirem que compartilham o fardo de uma condição incurável — Caroline sofre de uma doença terminal —, os dois se apaixonam e se casam, oferecendo a Banner um vislumbre de felicidade. No entanto, a tragédia se aproxima quando a perseguição implacável de Jack McGee e um furacão devastador ameaçam seu breve momento de paz."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: >-
   {tmdb-path}/3apbGlabEmgR1jEgJgqg7FUMqCz.webp?crop.bottom=0.75
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0171Z7TJG?linkCode=osi&th=1&psc=1
+overview: "Em uma das histórias mais emotivas da saga, David Banner viaja até o Havaí em busca da Dra. Caroline Fields, uma psiquiatra que desenvolveu uma técnica de hipnoterapia que pode curá-lo. Ao descobrirem que compartilham o fardo de uma condição incurável — Caroline sofre de uma doença terminal —, os dois se apaixonam e se casam, oferecendo a Banner um vislumbre de felicidade. No entanto, a tragédia se aproxima quando a perseguição implacável de Jack McGee e um furacão devastador ameaçam seu breve momento de paz."
 ---
 ## TMDB Data
 ```json

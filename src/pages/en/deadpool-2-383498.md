@@ -1,14 +1,13 @@
 ---
 title: Deadpool 2
 slug: deadpool-2
-description: >-
-  Wisecracking mercenary Deadpool battles the evil and powerful Cable and other
-  bad guys to save a boy's life.
+description: "Quando o super soldado Cable chega em uma missão para assassinar o jovem mutante Russel, o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo. Para isso, ele recruta seu velho amigo Colossus e forma o novo grupo X-Force, sempre com o apoio do fiel escudeiro Dopinder."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/deadpool-2-5ace35fc5f5cd.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07D5KWFJ7?linkCode=osi&th=1&psc=1
+overview: "Quando o super soldado Cable chega em uma missão para assassinar o jovem mutante Russel, o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo. Para isso, ele recruta seu velho amigo Colossus e forma o novo grupo X-Force, sempre com o apoio do fiel escudeiro Dopinder."
 ---
 ## TMDB Data
 ```json

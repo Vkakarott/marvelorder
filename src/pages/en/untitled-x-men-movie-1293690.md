@@ -1,7 +1,7 @@
 ---
 title: Untitled X-Men Movie
 slug: untitled-x-men-movie
-description: An upcoming X-Men movie produced by Marvel Studios.
+description: "Futuro filme do X-Men da Marvel Studios, sinopse não divulgado"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1293690
 original_language: en
 original_title: Untitled X-Men Movie
-overview: An upcoming X-Men movie produced by Marvel Studios.
+overview: "Futuro filme do X-Men da Marvel Studios, sinopse não divulgado"
 poster_path: /adjEnspN7Lxrcr3xDuDHAHOA8tV.jpg
 release_date: ''
 video: false

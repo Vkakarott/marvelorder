@@ -1,11 +1,7 @@
 ---
 title: The Making of Ms. Marvel
 slug: the-making-of-ms-marvel
-description: >-
-  Go behind-the-scenes every step of the way with immersive footage from the
-  making of the series, along with insightful interviews on set from the cast
-  and crew of Ms. Marvel as we watch Iman Vellani and her character, Kamala
-  Khan, become the fan-favorite superhero right before our eyes.
+description: "Veja os bastidores a cada passo do caminho com imagens imersivas da produção da série, juntamente com entrevistas esclarecedoras com o elenco e com a equipe de Ms. Marvel no set enquanto assistimos Iman Vellani e sua personagem, Kamala Khan, se tornarem a super-heroína favorita dos fãs bem diante de nossos olhos."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,11 +10,7 @@ genre_ids:
 id: 1001912
 original_language: en
 original_title: The Making of Ms. Marvel
-overview: >-
-  Go behind-the-scenes every step of the way with immersive footage from the
-  making of the series, along with insightful interviews on set from the cast
-  and crew of Ms. Marvel as we watch Iman Vellani and her character, Kamala
-  Khan, become the fan-favorite superhero right before our eyes.
+overview: "Veja os bastidores a cada passo do caminho com imagens imersivas da produção da série, juntamente com entrevistas esclarecedoras com o elenco e com a equipe de Ms. Marvel no set enquanto assistimos Iman Vellani e sua personagem, Kamala Khan, se tornarem a super-heroína favorita dos fãs bem diante de nossos olhos."
 poster_path: null
 release_date: '2022-08-03'
 video: false

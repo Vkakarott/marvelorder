@@ -1,9 +1,7 @@
 ---
 title: What If... Hela Found the Ten Rings?
 slug: what-if-hela-found-the-ten-rings
-description: >-
-  Hela - stripped of her powers and banished to Earth - comes across a new
-  source of power: the Ten Rings.
+description: "Hela – destituída de seus poderes e banida para a Terra – encontra uma nova fonte de poder: os Dez Anéis."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1223617
 original_language: en
 original_title: What If... Hela Found the Ten Rings?
-overview: >-
-  Hela - stripped of her powers and banished to Earth - comes across a new
-  source of power: the Ten Rings.
+overview: "Hela – destituída de seus poderes e banida para a Terra – encontra uma nova fonte de poder: os Dez Anéis."
 poster_path: /26YHUy8FovYNO8xY2DJLqCDjFK2.jpg
 release_date: '2023-12-28'
 video: false

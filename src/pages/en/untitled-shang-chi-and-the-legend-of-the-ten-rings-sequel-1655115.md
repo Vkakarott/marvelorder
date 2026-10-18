@@ -1,7 +1,7 @@
 ---
 title: Untitled Shang-Chi and the Legend of the Ten Rings Sequel
 slug: untitled-shang-chi-and-the-legend-of-the-ten-rings-sequel
-description: The sequel to the 2021 film. Plot TBA.
+description: "A sequência do filme de 2021. Trama a definir."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1655115
 original_language: en
 original_title: Untitled Shang-Chi and the Legend of the Ten Rings Sequel
-overview: The sequel to the 2021 film. Plot TBA.
+overview: "A sequência do filme de 2021. Trama a definir."
 poster_path: null
 release_date: ''
 video: false

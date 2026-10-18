@@ -1,13 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Echo'
 slug: marvel-studios-assembled-the-making-of-echo
-description: >-
-  Go behind-the-scenes of Maya's own groundbreaking series: "Echo." Discover how
-  members of the production's cast and crew learned American Sign Language to
-  create a more inclusive and accessible on-set environment. Witness the
-  filmmakers taking unprecedented steps to portray Native American culture
-  truthfully, and without artifice. Spend time with powerhouse actor Vincent
-  D'Onofrio as he brings the Kingpin to monstrous life once more.
+description: "Junte-se a nós em uma jornada reveladora pelos bastidores da série inovadora de Maya Lopez. Testemunhe como a produção tomou medidas sem precedentes para retratar a experiência surda e a cultura nativa americana com sinceridade. Passe algum tempo com o poderoso ator Vincent D’Onofrio enquanto ele traz o Rei do Crime à vida monstruosa mais uma vez. Tudo isso e muito mais espera para ser descoberto em “Assembled: The Making of Echo”."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -16,13 +10,7 @@ genre_ids:
 id: 1220337
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Echo'
-overview: >-
-  Go behind-the-scenes of Maya's own groundbreaking series: "Echo." Discover how
-  members of the production's cast and crew learned American Sign Language to
-  create a more inclusive and accessible on-set environment. Witness the
-  filmmakers taking unprecedented steps to portray Native American culture
-  truthfully, and without artifice. Spend time with powerhouse actor Vincent
-  D'Onofrio as he brings the Kingpin to monstrous life once more.
+overview: "Junte-se a nós em uma jornada reveladora pelos bastidores da série inovadora de Maya Lopez. Testemunhe como a produção tomou medidas sem precedentes para retratar a experiência surda e a cultura nativa americana com sinceridade. Passe algum tempo com o poderoso ator Vincent D’Onofrio enquanto ele traz o Rei do Crime à vida monstruosa mais uma vez. Tudo isso e muito mais espera para ser descoberto em “Assembled: The Making of Echo”."
 poster_path: null
 release_date: '2024-01-31'
 video: false

@@ -1,9 +1,7 @@
 ---
 title: 'ASSEMBLED: The Making of What If...?'
 slug: assembled-the-making-of-what-if
-description: >-
-  ASSEMBLED explores the creative process behind this inventive and mind-bending
-  animated series.
+description: "ASSEMBLED explora o processo criativo por trás desta série animada inventiva e alucinante."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,9 +10,7 @@ genre_ids:
 id: 1016201
 original_language: en
 original_title: 'ASSEMBLED: The Making of What If...?'
-overview: >-
-  ASSEMBLED explores the creative process behind this inventive and mind-bending
-  animated series.
+overview: "ASSEMBLED explora o processo criativo por trás desta série animada inventiva e alucinante."
 poster_path: /z3yWpmPXbU45YH84PwyhOyDdGo5.jpg
 release_date: '2021-10-27'
 video: false

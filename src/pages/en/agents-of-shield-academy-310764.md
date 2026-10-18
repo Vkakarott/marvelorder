@@ -1,12 +1,7 @@
 ---
 title: 'Agents of S.H.I.E.L.D.: Academy'
 slug: agents-of-shield-academy
-description: >-
-  Three Agents of S.H.I.E.L.D. fans, Noelle Mabry, Frank Moran and Ralph Lammie
-  Jr., compete in different challenges related to the TV series in order to win
-  an appearance on its third season. The three contestants later appeared as
-  S.H.I.E.L.D. agents on "Absolution", the first part of Agents of
-  S.H.I.E.L.D.'s two-part season 3 finale.
+description: "Três Agentes da S.H.I.E.L.D. os fãs, Noelle Mabry, Frank Moran e Ralph Lammie Jr., competem em diversos desafios relacionados à série de TV para ganhar uma participação em sua terceira temporada. Os três competidores apareceram mais tarde como S.H.I.E.L.D. agentes em \"Absolution\", a primeira parte do final da 3ª temporada em duas partes de Agents of SHIELD."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -17,12 +12,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Agents of S.H.I.E.L.D.: Academy'
-overview: >-
-  Three Agents of S.H.I.E.L.D. fans, Noelle Mabry, Frank Moran and Ralph Lammie
-  Jr., compete in different challenges related to the TV series in order to win
-  an appearance on its third season. The three contestants later appeared as
-  S.H.I.E.L.D. agents on "Absolution", the first part of Agents of
-  S.H.I.E.L.D.'s two-part season 3 finale.
+overview: "Três Agentes da S.H.I.E.L.D. os fãs, Noelle Mabry, Frank Moran e Ralph Lammie Jr., competem em diversos desafios relacionados à série de TV para ganhar uma participação em sua terceira temporada. Os três competidores apareceram mais tarde como S.H.I.E.L.D. agentes em \"Absolution\", a primeira parte do final da 3ª temporada em duas partes de Agents of SHIELD."
 poster_path: null
 first_air_date: '2016-03-10'
 name: 'Agents of S.H.I.E.L.D.: Academy'

@@ -1,9 +1,7 @@
 ---
 title: 'Next Avengers: Heroes of Tomorrow'
 slug: next-avengers-heroes-of-tomorrow
-description: >-
-  The children of the Avengers hone their powers and go head to head with the
-  very enemy responsible for their parents' demise.
+description: "Os filhos dos Vingadores originais se unem para derrotar Ultron, o invencível robô que matou seus pais. Para esses jovens heróis vencerem, eles devem encontrar o Hulk e se juntar como os Novos Vingadores!"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /gCzHEi6g8K0LIWlr6A38fmgtEfb.jpg
@@ -16,9 +14,7 @@ genre_ids:
 id: 14613
 original_language: en
 original_title: 'Next Avengers: Heroes of Tomorrow'
-overview: >-
-  The children of the Avengers hone their powers and go head to head with the
-  very enemy responsible for their parents' demise.
+overview: "Os filhos dos Vingadores originais se unem para derrotar Ultron, o invencível robô que matou seus pais. Para esses jovens heróis vencerem, eles devem encontrar o Hulk e se juntar como os Novos Vingadores!"
 poster_path: /fpG1NDbcLV2a7c8X7LC4FPISBT7.jpg
 release_date: '2008-09-02'
 video: false

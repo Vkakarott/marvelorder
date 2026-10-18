@@ -1,7 +1,7 @@
 ---
 title: Vision Quest
 slug: vision-quest
-description: 'After the events of "WandaVision", the Vision tries to regain his identity.'
+description: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 first_air_date: ''
@@ -12,7 +12,7 @@ origin_country:
   - US
 original_language: en
 original_name: Vision Quest
-overview: 'After the events of "WandaVision", the Vision tries to regain his identity.'
+overview: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 poster_path: null
 vote_average: 0
 tags:

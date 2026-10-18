@@ -1,16 +1,14 @@
 ---
 title: Marvel's Jessica Jones
 slug: marvels-jessica-jones
-description: >-
-  After a tragic ending to her short-lived super hero stint, Jessica Jones is
-  rebuilding her personal life and career as a detective who gets pulled into
-  cases involving people with extraordinary abilities in New York City.
+description: "Assombrada pelos traumas do passado, Jessica Jones usa seus poderes como detetive particular para encontrar e deter o perverso Kilgrave."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-aka-jessica-jones-55f55caf06d6e.webp"
 watchLinks:
   amazon: none
 mcuTimelineOrder: 95
+overview: "Assombrada pelos traumas do passado, Jessica Jones usa seus poderes como detetive particular para encontrar e deter o perverso Kilgrave."
 ---
 ## TMDB Data
 ```json

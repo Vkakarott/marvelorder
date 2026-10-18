@@ -1,16 +1,13 @@
 ---
 title: Marvel's Hit-Monkey
 slug: marvels-hit-monkey
-description: >-
-  A Japanese snow macaque's clan meets a stranded hitman, Bryce, and nurses him
-  back to health. But when Bryce bites the dust, it's up to the titular simian
-  (guided by Bryce's ghost) to follow in his assassin footsteps and seek
-  vengeance.
+description: "O clã de um macaco da neve japonês conhece um assassino preso, Bryce, e o cuida de volta à saúde. Mas quando Bryce é morto, cabe ao símio titular (guiado pelo fantasma de Bryce) seguir seus passos de assassino e buscar vingança."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/AaZ2RVrevEReuLJ00tIdJRruinp.webp?crop.top=0.75"
 watchLinks:
   amazon: none
+overview: "O clã de um macaco da neve japonês conhece um assassino preso, Bryce, e o cuida de volta à saúde. Mas quando Bryce é morto, cabe ao símio titular (guiado pelo fantasma de Bryce) seguir seus passos de assassino e buscar vingança."
 ---
 ## TMDB Data
 ```json

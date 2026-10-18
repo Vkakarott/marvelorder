@@ -1,12 +1,11 @@
 ---
 title: Kraven the Hunter
 slug: kraven-the-hunter
-description: >-
-  Sergei Kravinoff is a big game hunter, who takes a magical serum giving him
-  superhuman abilities and a longer life.
+description: "Sergei Kravinoff é um grande caçador, que toma um soro mágico que lhe dá habilidades sobre-humanas e uma vida mais longa."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/8yksTv7C5I4gVbfD0uPweyFGZep.webp"
+overview: "Sergei Kravinoff é um grande caçador, que toma um soro mágico que lhe dá habilidades sobre-humanas e uma vida mais longa."
 ---
 ## TMDB Data
 ```json

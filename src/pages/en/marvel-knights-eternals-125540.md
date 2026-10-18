@@ -1,11 +1,7 @@
 ---
 title: 'Marvel Knights: Eternals'
 slug: marvel-knights-eternals
-description: >-
-  Medical student Mark Curry's world is turned upside down when he meets Ike
-  Harris, a man who believes that he is part of a centuries-old race of
-  super-powered beings put here on Earth by aliens to preserve and safeguard the
-  planet, and even crazier, tries to convince Mark that he is one too.
+description: "O mundo do estudante de medicina Mark Curry vira de cabeça para baixo quando ele conhece Ike Harris, um homem que acredita fazer parte de uma raça centenária de seres superpoderosos colocados aqui na Terra por alienígenas para preservar e salvaguardar o planeta, e ainda mais louco, tenta convencer Mark de que ele também o é."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /r7hFD6068Yv60aAYBl7RBinBFga.jpg
@@ -16,11 +12,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Marvel Knights: Eternals'
-overview: >-
-  Medical student Mark Curry's world is turned upside down when he meets Ike
-  Harris, a man who believes that he is part of a centuries-old race of
-  super-powered beings put here on Earth by aliens to preserve and safeguard the
-  planet, and even crazier, tries to convince Mark that he is one too.
+overview: "O mundo do estudante de medicina Mark Curry vira de cabeça para baixo quando ele conhece Ike Harris, um homem que acredita fazer parte de uma raça centenária de seres superpoderosos colocados aqui na Terra por alienígenas para preservar e salvaguardar o planeta, e ainda mais louco, tenta convencer Mark de que ele também o é."
 poster_path: /mpgNBgLzu7HWFMH8dPUFM3ADgYs.jpg
 first_air_date: '2014-09-16'
 name: 'Marvel Knights: Eternals'

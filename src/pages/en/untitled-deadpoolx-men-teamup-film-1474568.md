@@ -1,7 +1,7 @@
 ---
 title: Untitled Deadpool/X-Men Teamup Film
 slug: untitled-deadpoolx-men-teamup-film
-description: In early development.
+description: "No início do desenvolvimento."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1474568
 original_language: en
 original_title: Untitled Deadpool/X-Men Teamup Film
-overview: In early development.
+overview: "No início do desenvolvimento."
 poster_path: null
 release_date: ''
 video: false

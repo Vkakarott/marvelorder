@@ -1,12 +1,7 @@
 ---
 title: Captain America
 slug: captain-america
-description: >-
-  During World War II, a brave, patriotic American Soldier undergoes experiments
-  to become a new supersoldier, "Captain America". Racing to Germany to sabotage
-  the rockets of Nazi baddie "Red Skull", Captain America winds up frozen until
-  the 1990s. He reawakens to find that the Red Skull has changed identities and
-  is now planning to kidnap the President of the United States.
+description: "Durante a 2ª Guerra Mundial, o americano Steve Rogers se submete a uma experiência comandada por Therese Vaselli, uma cientista que fugiu da Itália por não aceitar os \"métodos\" utilizados. Steve se torna um super soldado, surgindo o Capitão América. Entretanto, Vaselli é morta e o segredo de transformar um simples humano em um soldado excepcional morre com ela, o que frustra o plano de criar vários super soldados. Ao se defrontar com o Caveira Vermelha, um hiper soldado criado pelos nazistas, o Capitão América é preso em um foguete, que tem como alvo a Casa Branca. O herói desvia a trajetória, no entanto vai parar no Alasca, onde fica congelado. Nos anos 1990 ele acorda e descobre que o Caveira é Tadzio de Santis, que quer sequestrar o presidente Tom Kimball e usar uma técnica revolucionária para tomar o lugar de Kimball e se tornar o novo presidente dos Estados Unidos."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -14,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00BCMT49I?linkCode=osi&th=1&psc=1
+overview: "Durante a 2ª Guerra Mundial, o americano Steve Rogers se submete a uma experiência comandada por Therese Vaselli, uma cientista que fugiu da Itália por não aceitar os \"métodos\" utilizados. Steve se torna um super soldado, surgindo o Capitão América. Entretanto, Vaselli é morta e o segredo de transformar um simples humano em um soldado excepcional morre com ela, o que frustra o plano de criar vários super soldados. Ao se defrontar com o Caveira Vermelha, um hiper soldado criado pelos nazistas, o Capitão América é preso em um foguete, que tem como alvo a Casa Branca. O herói desvia a trajetória, no entanto vai parar no Alasca, onde fica congelado. Nos anos 1990 ele acorda e descobre que o Caveira é Tadzio de Santis, que quer sequestrar o presidente Tom Kimball e usar uma técnica revolucionária para tomar o lugar de Kimball e se tornar o novo presidente dos Estados Unidos."
 ---
 ## TMDB Data
 ```json

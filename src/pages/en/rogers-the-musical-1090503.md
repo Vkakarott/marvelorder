@@ -2,12 +2,7 @@
 draft: true
 title: 'Rogers: The Musical'
 slug: rogers-the-musical
-description: >-
-  Rogers: The Musical is a biographical stage musicalnote  based on Steven Grant
-  Rogers, the first Captain America, with music penned by Marc Shaiman. It
-  chronicles Steve Rogers's life and times, including how he banded together
-  with the Avengers for the first time to take down the dreaded Loki during the
-  Battle of New York.
+description: "Rogers: The Musical é uma nota musical biográfica baseada em Steven Grant Rogers, o primeiro Capitão América, com música escrita por Marc Shaiman. Ele narra a vida e os tempos de Steve Rogers, incluindo como ele se uniu aos Vingadores pela primeira vez para derrotar o temido Loki durante a Batalha de Nova York."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /fkmK0N8MROGCqgFjuLgDRFy3aDp.jpg
@@ -17,12 +12,7 @@ genre_ids:
 id: 1090503
 original_language: en
 original_title: 'Rogers: The Musical'
-overview: >-
-  Rogers: The Musical is a biographical stage musicalnote  based on Steven Grant
-  Rogers, the first Captain America, with music penned by Marc Shaiman. It
-  chronicles Steve Rogers's life and times, including how he banded together
-  with the Avengers for the first time to take down the dreaded Loki during the
-  Battle of New York.
+overview: "Rogers: The Musical é uma nota musical biográfica baseada em Steven Grant Rogers, o primeiro Capitão América, com música escrita por Marc Shaiman. Ele narra a vida e os tempos de Steve Rogers, incluindo como ele se uniu aos Vingadores pela primeira vez para derrotar o temido Loki durante a Batalha de Nova York."
 poster_path: /1mG9bIbHFmTqoRNpNQ4xuf9eBtg.jpg
 release_date: '2021-12-22'
 video: false

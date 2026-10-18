@@ -1,12 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Secret Invasion'
 slug: marvel-studios-assembled-the-making-of-secret-invasion
-description: >-
-  Through in-depth interviews with cast and crew, and exclusive
-  behind-the-scenes footage, Assembled uncovers how Marvel Studios’ “Secret
-  Invasion” was born. Witness what it took to conjure the world of the show, and
-  spend time with Samuel L. Jackson as he dons the patch once again to engage in
-  the most baffling battle of Nick Fury’s career.
+description: "Por meio de entrevistas detalhadas com o elenco e a equipe, além de imagens exclusivas dos bastidores, Avante revela como nasceu \"Invasão Secreta\", da Marvel Studios. Testemunhe o que foi necessário para criar o mundo da série e passe um tempo com Samuel L. Jackson, usando o tapa-olho mais uma vez para enfrentar a batalha mais desafiadora da carreira de Nick Fury."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,12 +10,7 @@ genre_ids:
 id: 1165500
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Secret Invasion'
-overview: >-
-  Through in-depth interviews with cast and crew, and exclusive
-  behind-the-scenes footage, Assembled uncovers how Marvel Studios’ “Secret
-  Invasion” was born. Witness what it took to conjure the world of the show, and
-  spend time with Samuel L. Jackson as he dons the patch once again to engage in
-  the most baffling battle of Nick Fury’s career.
+overview: "Por meio de entrevistas detalhadas com o elenco e a equipe, além de imagens exclusivas dos bastidores, Avante revela como nasceu \"Invasão Secreta\", da Marvel Studios. Testemunhe o que foi necessário para criar o mundo da série e passe um tempo com Samuel L. Jackson, usando o tapa-olho mais uma vez para enfrentar a batalha mais desafiadora da carreira de Nick Fury."
 poster_path: null
 release_date: '2023-09-20'
 video: false

@@ -1,9 +1,7 @@
 ---
 title: 'No Way Home: The More Fun Stuff Version'
 slug: no-way-home-the-more-fun-stuff-version
-description: >-
-  The three spider-men return in this more fun extended version of Spider-Man:
-  No Way Home.
+description: "Os três homens-aranha retornam nesta versão estendida mais divertida de Homem-Aranha: No Way Home."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /bneOGiVrZOJjDmpOgzVE1zU945j.jpg
@@ -14,9 +12,7 @@ genre_ids:
 id: 1247243
 original_language: en
 original_title: 'No Way Home: The More Fun Stuff Version'
-overview: >-
-  The three spider-men return in this more fun extended version of Spider-Man:
-  No Way Home.
+overview: "Os três homens-aranha retornam nesta versão estendida mais divertida de Homem-Aranha: No Way Home."
 poster_path: /qrnT2LpqNu5Xy6wZ2VTQGuq4vEb.jpg
 release_date: '2022-09-02'
 video: false

@@ -1,12 +1,7 @@
 ---
 title: Ghost Rider
 slug: ghost-rider
-description: >-
-  In order to save his dying father, young stunt cyclist Johnny Blaze sells his
-  soul to Mephistopheles and sadly parts from the pure-hearted Roxanne Simpson,
-  the love of his life. Years later, Johnny's path crosses again with Roxanne,
-  now a go-getting reporter, and also with Mephistopheles, who offers to release
-  Johnny's soul if Johnny becomes the fabled, fiery 'Ghost Rider'.
+description: "Johnny Blaze trabalha como dublê e piloto de motocicleta. Há muito tempo, ele fez um pacto com Mefisto para proteger as duas pessoas que mais amava: seu pai, Barton, e sua namorada de adolescência, Roxanne Simpson. Em troca, Johnny se transforma no Motoqueiro Fantasma, o justiceiro de alguns demônios bastante cruéis. Forçado a obedecer Mefisto, Johnny decide enfrentá-lo de forma a usar sua maldição para proteger pessoas inocentes."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -14,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000RVK1AQ?linkCode=osi&th=1&psc=1
+overview: "Johnny Blaze trabalha como dublê e piloto de motocicleta. Há muito tempo, ele fez um pacto com Mefisto para proteger as duas pessoas que mais amava: seu pai, Barton, e sua namorada de adolescência, Roxanne Simpson. Em troca, Johnny se transforma no Motoqueiro Fantasma, o justiceiro de alguns demônios bastante cruéis. Forçado a obedecer Mefisto, Johnny decide enfrentá-lo de forma a usar sua maldição para proteger pessoas inocentes."
 ---
 ## TMDB Data
 ```json

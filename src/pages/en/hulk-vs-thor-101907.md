@@ -1,17 +1,7 @@
 ---
 title: Hulk vs. Thor
 slug: hulk-vs-thor
-description: >-
-  For ages, Odin has protected his kingdom of Asgard. But every winter, the
-  All-Father must rest and regain his strength for one week. During this time,
-  all of Asgard's foes (including trolls, giants, dark elves, and demons) try to
-  claim the realm for their own, but they are always stopped by Odin's son, the
-  mighty Thor, albeit with the loss of many brave Asgardian warriors. Loki, god
-  of mischief, has kidnapped Dr. Bruce Banner and brought him to Asgard with the
-  help of Amora, once Thor's lover, now the supervillain known as the
-  Enchantress. Loki makes Banner angry and he changes into the Hulk. The
-  Enchantress then casts a spell over the Hulk which separates Banner from his
-  monstrous alter-ego and grants Loki control over the Hulk's body.
+description: "No filme Hulk Vs. Thor, Em Asgard, reino dos deuses, Loki tenta uma maneira de derrotar seu meio-irmão Thor. Mas para superar Thor em um batalha, em todos os nove reinos, só uma criatura pôde se emparelhar com sua força, uma fera mortal de Midgard conhecida como O Incrível Hulk. Sem Odin por perto, já que o rei todo-poderoso dos deuses está em seu sono regenerativo. Loki está finalmente pronto para por em prática seu plano. Ima batalha épica entre deuses e monstros será travada e O Poderoso Thor terá seu mais mortal teste. Quem prevalecerá?"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /1y6dEBTOzCyJRetN9fOtS0H7Vnx.jpg
@@ -23,17 +13,7 @@ genre_ids:
 id: 101907
 original_language: en
 original_title: Hulk vs. Thor
-overview: >-
-  For ages, Odin has protected his kingdom of Asgard. But every winter, the
-  All-Father must rest and regain his strength for one week. During this time,
-  all of Asgard's foes (including trolls, giants, dark elves, and demons) try to
-  claim the realm for their own, but they are always stopped by Odin's son, the
-  mighty Thor, albeit with the loss of many brave Asgardian warriors. Loki, god
-  of mischief, has kidnapped Dr. Bruce Banner and brought him to Asgard with the
-  help of Amora, once Thor's lover, now the supervillain known as the
-  Enchantress. Loki makes Banner angry and he changes into the Hulk. The
-  Enchantress then casts a spell over the Hulk which separates Banner from his
-  monstrous alter-ego and grants Loki control over the Hulk's body.
+overview: "No filme Hulk Vs. Thor, Em Asgard, reino dos deuses, Loki tenta uma maneira de derrotar seu meio-irmão Thor. Mas para superar Thor em um batalha, em todos os nove reinos, só uma criatura pôde se emparelhar com sua força, uma fera mortal de Midgard conhecida como O Incrível Hulk. Sem Odin por perto, já que o rei todo-poderoso dos deuses está em seu sono regenerativo. Loki está finalmente pronto para por em prática seu plano. Ima batalha épica entre deuses e monstros será travada e O Poderoso Thor terá seu mais mortal teste. Quem prevalecerá?"
 poster_path: /pezTIa0SmmNIhjQWzo63OlBdpLf.jpg
 release_date: '2009-01-27'
 video: false

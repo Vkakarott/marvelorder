@@ -1,11 +1,10 @@
 ---
 title: Wolverine Versus Sabretooth
 slug: wolverine-versus-sabretooth
-description: >-
-  It's claw versus claw as Logan faces his age-old foe in the latest Marvel
-  Knights Animation, Wolverine Vs. Sabretooth.
+description: "Prepare-se para a maior, melhor e, possivelmente, a mais brutal batalha entre Wolverine e Dentes de Sabre! Você acha que já viu os mais ferozes da Marvel enfrentarem-se antes? Foram apenas aquecimentos!"
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Prepare-se para a maior, melhor e, possivelmente, a mais brutal batalha entre Wolverine e Dentes de Sabre! Você acha que já viu os mais ferozes da Marvel enfrentarem-se antes? Foram apenas aquecimentos!"
 ---
 ## TMDB Data
 ```json

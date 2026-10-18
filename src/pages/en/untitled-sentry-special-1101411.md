@@ -1,9 +1,7 @@
 ---
 title: Untitled Sentry Special
 slug: untitled-sentry-special
-description: >-
-  A Marvel Studios Special Presentation adapting the Marvel Comics superhero
-  Sentry.
+description: "Uma apresentação especial do Marvel Studios adaptando o super-herói da Marvel Comics, Sentinela."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,9 +10,7 @@ genre_ids:
 id: 1101411
 original_language: en
 original_title: Untitled Sentry Special
-overview: >-
-  A Marvel Studios Special Presentation adapting the Marvel Comics superhero
-  Sentry.
+overview: "Uma apresentação especial do Marvel Studios adaptando o super-herói da Marvel Comics, Sentinela."
 poster_path: null
 release_date: ''
 video: false

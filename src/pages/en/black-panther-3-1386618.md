@@ -1,10 +1,7 @@
 ---
 title: Black Panther 3
 slug: black-panther-3
-description: >-
-  Ryan Coogler returns to direct Marvel Studios' third Black Panther film,
-  arriving in theaters on December 15, 2028. David Jonsson is the new Black
-  Panther.
+description: "O filho de T'Challa, T'Challa, atinge a maioridade com os olhos voltados para a coroa de Wakanda."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "/api/tmdb-image/azoGCrdLJG4TIeX5Ub1pMgWZmw2.webp?source.width=1280"
 adult: false
@@ -16,8 +13,7 @@ genre_ids:
 id: 1386618
 original_language: en
 original_title: Black Panther 3
-overview: >-
-  T'Challa's son, T'Challa, comes of age with eyes on the crown of Wakanda.
+overview: "O filho de T'Challa, T'Challa, atinge a maioridade com os olhos voltados para a coroa de Wakanda."
 poster_path: /zJc9fYZxgq4yzI0Oru2e1Cf3a3V.jpg
 release_date: '2028-12-15'
 video: false

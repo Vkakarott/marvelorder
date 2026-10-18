@@ -1,9 +1,10 @@
 ---
 title: Untitled Wakanda Series
 slug: untitled-wakanda-series
-description: Upcoming Marvel Cinematic Universe series set in the Kingdom of Wakanda.
+description: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
 layout: ../../layouts/MainLayout.astro
 type: tv
+overview: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
 ---
 ## TMDB Data
 ```json

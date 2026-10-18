@@ -1,9 +1,10 @@
 ---
 title: Untitled Shang-Chi Sequel
 slug: untitled-shang-chi-sequel
-description: Sequel to the 2021 film “Shang-Chi and the Legend of the Ten Rings”.
+description: "Sequela do filme de 2021 “Shang-Chi e a Lenda dos Dez Anéis”."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/ruUz3vhYuq3011WzSNM0SlgaVzh.webp"
+overview: "Sequela do filme de 2021 “Shang-Chi e a Lenda dos Dez Anéis”."
 ---
 ## TMDB Data
 ```json

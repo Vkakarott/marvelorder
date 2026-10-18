@@ -2,18 +2,12 @@
 draft: true
 title: 'Thor & Loki: Blood Brothers'
 slug: thor-and-loki-blood-brothers
-description: >-
-  Inspired by the acclaimed graphic novel from Robert Rodi and Esad Ribic,
-  Marvel Knights Animation's "Thor & Loki: Blood Brothers" takes a powerful look
-  inside the minds of Thor & Loki, brothers in the mythical land of Asgard and
-  seemingly forever enemies. But just why does Loki hate his brother Thor? And
-  could it be that this master of mischief isn’t really the villain he’s been
-  branded? Loki's insatiable lust for power and his feud with Thor take on new
-  meaning in this resonant epic.
+description: "Inspirado pela aclamada Graphic Novel de Robert Rodi e Esad Ribic. A Marvel Knights lança mais uma animação arrasadora. Thor e Loki, são irmãos na terra mítica de Asgard e aparentemente sempre inimigos. Mas por que Loki odeia tanto o seu irmão Thor? E será que o Mestre da Traição não é realmente o vilão rotulado? O desejo insaciável de Loki pelo poder e sua rixa com Thor adquirem um novo significado neste épico nórdico."
 layout: ../../layouts/MainLayout.astro
 type: tv
 tags: 
   - has-thor
+overview: "Inspirado pela aclamada Graphic Novel de Robert Rodi e Esad Ribic. A Marvel Knights lança mais uma animação arrasadora. Thor e Loki, são irmãos na terra mítica de Asgard e aparentemente sempre inimigos. Mas por que Loki odeia tanto o seu irmão Thor? E será que o Mestre da Traição não é realmente o vilão rotulado? O desejo insaciável de Loki pelo poder e sua rixa com Thor adquirem um novo significado neste épico nórdico."
 ---
 ## TMDB Data
 ```json

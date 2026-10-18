@@ -1,10 +1,7 @@
 ---
 title: 'X-Men: Days of Future Past - The Rogue Cut'
 slug: x-men-days-of-future-past-the-rogue-cut
-description: >-
-  The X-Men: Days of Future Past Rogue Cut includes an extended,
-  never-before-seen cut of the film, and nearly 2 hours of all new special
-  features, as well as the theatrical version.
+description: "The X-Men: Days of Future Past Rogue Cut inclui uma versão estendida e nunca antes vista do filme e quase 2 horas de todos os novos recursos especiais, bem como a versão teatral."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /rb0AjrhRDzdGxBGXUIHwBtxvdjz.jpg
@@ -16,10 +13,7 @@ genre_ids:
 id: 1341908
 original_language: en
 original_title: 'X-Men: Days of Future Past - The Rogue Cut'
-overview: >-
-  The X-Men: Days of Future Past Rogue Cut includes an extended,
-  never-before-seen cut of the film, and nearly 2 hours of all new special
-  features, as well as the theatrical version.
+overview: "The X-Men: Days of Future Past Rogue Cut inclui uma versão estendida e nunca antes vista do filme e quase 2 horas de todos os novos recursos especiais, bem como a versão teatral."
 poster_path: /f2G7oYY5VSbIh9zQi6pXzAcTWUR.jpg
 release_date: '2015-07-14'
 video: false

@@ -1,15 +1,11 @@
 ---
 title: Celebrating Marvel's Stan Lee
 slug: celebrating-marvels-stan-lee
-description: >-
-  Filmed in part in front of a live audience at The New Amsterdam Theater in New
-  York City, this Stan Lee tribute takes viewers on an action-packed journey
-  throughout the life of Lee and across the Marvel Universe, sharing
-  never-before-seen interviews and archive footage with Lee himself from deep
-  within the Marvel and ABC News archives.
+description: "Filmado em parte diante de um público ao vivo no The New Amsterdam Theatre, em Nova York, este tributo a Stan Lee leva os espectadores a uma jornada repleta de ação pela vida de Lee e pelo Universo Marvel, compartilhando entrevistas inéditas e imagens de arquivo com o próprio Lee, provenientes das profundezas dos arquivos da Marvel e da ABC News."
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
+overview: "Filmado em parte diante de um público ao vivo no The New Amsterdam Theatre, em Nova York, este tributo a Stan Lee leva os espectadores a uma jornada repleta de ação pela vida de Lee e pelo Universo Marvel, compartilhando entrevistas inéditas e imagens de arquivo com o próprio Lee, provenientes das profundezas dos arquivos da Marvel e da ABC News."
 ---
 ## TMDB Data
 ```json

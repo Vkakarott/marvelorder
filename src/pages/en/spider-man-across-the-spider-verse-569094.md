@@ -1,15 +1,11 @@
 ---
 title: 'Spider-Man: Across the Spider-Verse'
 slug: spider-man-across-the-spider-verse
-description: >-
-  Miles Morales returns for the next chapter of the Spider-Verse saga, an epic
-  adventure that will transport Brooklyn’s full-time, friendly neighborhood
-  Spider-Man across the Multiverse to join forces with Gwen Stacy and a new team
-  of Spider-People to face off with a villain more powerful than anything they
-  have ever encountered.
+description: "Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/zfZuSNGKxIlWQKi4xlIhFoRrlnj.webp"
+overview: "Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram."
 ---
 ## TMDB Data
 ```json

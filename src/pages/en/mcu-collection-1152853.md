@@ -1,9 +1,7 @@
 ---
 title: MCU Collection
 slug: mcu-collection
-description: >-
-  The Marvel Cinematic Universe is an American media franchise and shared
-  universe centered on a series of superhero films produced by Marvel Studios.
+description: "O Universo Cinematográfico Marvel é uma franquia de mídia americana e universo compartilhado centrado em uma série de filmes de super-heróis produzidos pela Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /1jcWTAfkstbsUJbbhVF3dQBycX7.jpg
@@ -11,9 +9,7 @@ genre_ids: []
 id: 1152853
 original_language: en
 original_title: MCU Collection
-overview: >-
-  The Marvel Cinematic Universe is an American media franchise and shared
-  universe centered on a series of superhero films produced by Marvel Studios.
+overview: "O Universo Cinematográfico Marvel é uma franquia de mídia americana e universo compartilhado centrado em uma série de filmes de super-heróis produzidos pela Marvel Studios."
 poster_path: /bykTaCACD94sD8Lpf66QIbAXlFl.jpg
 release_date: ''
 video: false

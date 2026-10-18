@@ -1,7 +1,7 @@
 ---
 title: The Scarlet Witch
 slug: the-scarlet-witch
-description: The Return of Wanda Maximoff AKA The Scarlet Witch. Plot TBA.
+description: "O retorno de Wanda Maximoff, também conhecida como Feiticeira Escarlate. Trama a definir."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /7PNfoKEydYPeS3fnd5IeSBqLiqv.jpg
@@ -9,7 +9,7 @@ genre_ids: []
 id: 1211147
 original_language: en
 original_title: The Scarlet Witch
-overview: The Return of Wanda Maximoff AKA The Scarlet Witch. Plot TBA.
+overview: "O retorno de Wanda Maximoff, também conhecida como Feiticeira Escarlate. Trama a definir."
 poster_path: /pVD5DfalrgQypFXtfubkrHkCkr2.jpg
 release_date: ''
 video: false

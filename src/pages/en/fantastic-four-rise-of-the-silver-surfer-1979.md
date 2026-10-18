@@ -1,11 +1,7 @@
 ---
 title: 'Fantastic Four: Rise of the Silver Surfer'
 slug: fantastic-four-rise-of-the-silver-surfer
-description: >-
-  The Fantastic Four return to the big screen as a new and all powerful enemy
-  threatens the Earth. The seemingly unstoppable 'Silver Surfer', but all is not
-  what it seems and there are old and new enemies that pose a greater threat
-  than the intrepid superheroes realize.
+description: "Reed Richards e Susan Storm estão prestes a se casar. Porém, durante a cerimônia, algo estranho surge nos céus de Nova York. Trata-se do Surfista Prateado, um ser alienígena que possui grandes poderes e que trabalha como arauto de Galactus, o destruidor de planetas. O Surfista veio à Terra para prepará-la para ser destruída por seu mestre, mas para atingir seu objetivo precisará enfrentar o Quarteto Fantástico."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -13,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000VL6GRO?linkCode=osi&th=1&psc=1
+overview: "Reed Richards e Susan Storm estão prestes a se casar. Porém, durante a cerimônia, algo estranho surge nos céus de Nova York. Trata-se do Surfista Prateado, um ser alienígena que possui grandes poderes e que trabalha como arauto de Galactus, o destruidor de planetas. O Surfista veio à Terra para prepará-la para ser destruída por seu mestre, mas para atingir seu objetivo precisará enfrentar o Quarteto Fantástico."
 ---
 ## TMDB Data
 ```json

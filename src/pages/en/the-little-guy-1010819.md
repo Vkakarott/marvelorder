@@ -1,9 +1,7 @@
 ---
 title: The Little Guy
 slug: the-little-guy
-description: >-
-  Groot discovers a miniature civilization that believes the seemingly enormous
-  tree toddler is the hero they’ve been waiting for.
+description: "Groot descobre uma civilização em miniatura que acredita que o bebê árvore aparentemente gigantesco seja o herói pelo qual esperavam."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /tTrZap8lEJsdpnab5yIR3d9bedg.jpg
@@ -13,9 +11,7 @@ genre_ids:
 id: 1010819
 original_language: en
 original_title: The Little Guy
-overview: >-
-  Groot discovers a miniature civilization that believes the seemingly enormous
-  tree toddler is the hero they’ve been waiting for.
+overview: "Groot descobre uma civilização em miniatura que acredita que o bebê árvore aparentemente gigantesco seja o herói pelo qual esperavam."
 poster_path: /lPzcizL8PdS2U1q0rfhlVn00b9l.jpg
 release_date: '2022-08-10'
 video: false

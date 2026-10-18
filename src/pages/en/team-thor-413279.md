@@ -1,7 +1,7 @@
 ---
 title: Team Thor
 slug: team-thor
-description: 'Discover what Thor was up to during the events of Captain America: Civil War.'
+description: "Este pequeno documentário humorístico sugere o que Thor poderia estar fazendo enquanto o resto dos Vingadores estavam lutando entre si em Capitão América: Guerra Civil da Marvel."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/team-thor-59a46003e7d03.webp"
@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 tags: 
   - has-thor
+overview: "Este pequeno documentário humorístico sugere o que Thor poderia estar fazendo enquanto o resto dos Vingadores estavam lutando entre si em Capitão América: Guerra Civil da Marvel."
 ---
 ## TMDB Data
 ```json

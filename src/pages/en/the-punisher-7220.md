@@ -1,10 +1,7 @@
 ---
 title: The Punisher
 slug: the-punisher
-description: >-
-  When undercover FBI agent Frank Castle's wife and son are slaughtered, he
-  becomes 'the Punisher' -- a ruthless vigilante willing to go to any length to
-  avenge his family.
+description: "Após ter sua esposa e filho assassinados, Frank Castle decidiu por dedicar sua vida a eliminar o crime das ruas da cidade em que vive. Para tanto, Castle não apenas persegue os bandidos como também os elimina, usando sua experiência como agente secreto do FBI. Seu novo alvo é Howard Saint, um homem ligado ao submundo do crime que decide se vingar da sociedade após ter seu filho morto."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -12,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000QE9ERU?linkCode=osi&th=1&psc=1
+overview: "Após ter sua esposa e filho assassinados, Frank Castle decidiu por dedicar sua vida a eliminar o crime das ruas da cidade em que vive. Para tanto, Castle não apenas persegue os bandidos como também os elimina, usando sua experiência como agente secreto do FBI. Seu novo alvo é Howard Saint, um homem ligado ao submundo do crime que decide se vingar da sociedade após ter seu filho morto."
 ---
 ## TMDB Data
 ```json

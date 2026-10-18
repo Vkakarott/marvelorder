@@ -1,9 +1,7 @@
 ---
 title: Guardians of the Galaxy Vol. 2
 slug: guardians-of-the-galaxy-vol-2
-description: >-
-  The Guardians must fight to keep their newfound family together as they
-  unravel the mysteries of Peter Quill's true parentage.
+description: "Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/ct5a6qPoZLQG7VjLuf2WOUheEZP.webp"
@@ -11,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0716DT6G3?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 72
+overview: "Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill."
 ---
 ## TMDB Data
 ```json

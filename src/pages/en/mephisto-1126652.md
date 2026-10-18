@@ -1,7 +1,7 @@
 ---
 title: Mephisto
 slug: mephisto
-description: A Disney+ Halloween special centered around Mephisto from Marvel Comics.
+description: "Um especial de Halloween da Disney+ centrado em Mephisto da Marvel Comics."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -9,7 +9,7 @@ genre_ids: []
 id: 1126652
 original_language: en
 original_title: Mephisto
-overview: A Disney+ Halloween special centered around Mephisto from Marvel Comics.
+overview: "Um especial de Halloween da Disney+ centrado em Mephisto da Marvel Comics."
 poster_path: null
 release_date: ''
 video: false

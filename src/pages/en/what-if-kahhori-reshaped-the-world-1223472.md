@@ -1,9 +1,7 @@
 ---
 title: What If... Kahhori Reshaped the World?
 slug: what-if-kahhori-reshaped-the-world
-description: >-
-  A Mohawk woman ventures into the waters of the Forbidden Lake to help save her
-  people.
+description: "Uma mulher Mohawk se aventura nas águas do Lago Proibido para ajudar a salvar seu povo."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1223472
 original_language: en
 original_title: What If... Kahhori Reshaped the World?
-overview: >-
-  A Mohawk woman ventures into the waters of the Forbidden Lake to help save her
-  people.
+overview: "Uma mulher Mohawk se aventura nas águas do Lago Proibido para ajudar a salvar seu povo."
 poster_path: /4aNTV86kavKaTh0aDnNwOABAiAE.jpg
 release_date: '2023-12-27'
 video: false

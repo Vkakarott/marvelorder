@@ -1,16 +1,11 @@
 ---
 title: Marvel's Ultimate Comics
 slug: marvels-ultimate-comics
-description: >-
-  After Spider-Man stops some crooks from robbing a Stark Enterprises facility,
-  Iron Man decides to pay him back with some on the job training. His plan goes
-  awry when D-List villain Batroc the Leaper returns with new powers. Black
-  Panther gets a visit from Everett K. Ross to discuss security for a possible
-  international summit in Wakanda. The visit is unexpectedly interrupted by
-  super-villain, Ghost.
+description: "Após o Homem-Aranha impedir uns bandidos de assaltarem uma unidade da Stark Enterprises, o Homem de Ferro decide compensá-lo com formação prática. O seu plano corre mal quando o vilão Batroc regressa com novos poderes. Pantera Negra recebe uma visita de Everett K. Ross para discutir a segurança de uma possível cimeira internacional em Wakanda. A visita é interrompida inesperadamente pelo supervilão Ghost."
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
+overview: "Após o Homem-Aranha impedir uns bandidos de assaltarem uma unidade da Stark Enterprises, o Homem de Ferro decide compensá-lo com formação prática. O seu plano corre mal quando o vilão Batroc regressa com novos poderes. Pantera Negra recebe uma visita de Everett K. Ross para discutir a segurança de uma possível cimeira internacional em Wakanda. A visita é interrompida inesperadamente pelo supervilão Ghost."
 ---
 ## TMDB Data
 ```json

@@ -1,13 +1,7 @@
 ---
 title: Marvel's Avengers
 slug: marvels-avengers
-description: >-
-  The further adventures of the Marvel Universe's mightiest general membership
-  superhero team. With an all-star roster consisting of Iron Man, Captain
-  America, Thor, Hulk, Hawkeye, Falcon and, occasionally--when she feels like it
-  and only when she feels like it--Black Widow, the Avengers are a team in the
-  truest sense. The Avengers save the world from the biggest threats
-  imaginable--threats no single super hero could withstand.
+description: "Liderados pelo Homem de Ferro, os heróis mais poderosos da Marvel - Hulk, Thor, Capitão América, Gavião Arqueiro, Falcão e Viúva Negra - reúnem seus poderes para combater ameaças que nenhum herói poderia aguentar."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/avengers-assemble-2013-53b98665b250b.webp"
 watchLinks:
@@ -15,6 +9,7 @@ watchLinks:
     https://www.amazon.com/dp/B00D2GVCH4?linkCode=osi&th=1&psc=1
 tags: 
   - has-thor
+overview: "Liderados pelo Homem de Ferro, os heróis mais poderosos da Marvel - Hulk, Thor, Capitão América, Gavião Arqueiro, Falcão e Viúva Negra - reúnem seus poderes para combater ameaças que nenhum herói poderia aguentar."
 ---
 ## TMDB Data
 ```json

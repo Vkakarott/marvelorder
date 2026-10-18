@@ -1,10 +1,7 @@
 ---
 title: Meet Iron Man and His Awesome Friends
 slug: meet-iron-man-and-his-awesome-friends
-description: >-
-  Join young genius inventor Tony Stark (Iron Man) and his team of heroic
-  friends as they embark on thrilling adventures, using their tech, teamwork,
-  and quick thinking to save the day!
+description: "O jovem gênio inventor Tony Stark (Homem de Ferro) e sua equipe de amigos heróicos embarcam em aventuras emocionantes, usando sua tecnologia, trabalho em equipe e raciocínio rápido para salvar o dia."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /iE0hoRpswifSpguQLVNhTe76JpL.jpg
@@ -16,10 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: Meet Iron Man and His Awesome Friends
-overview: >-
-  Join young genius inventor Tony Stark (Iron Man) and his team of heroic
-  friends as they embark on thrilling adventures, using their tech, teamwork,
-  and quick thinking to save the day!
+overview: "O jovem gênio inventor Tony Stark (Homem de Ferro) e sua equipe de amigos heróicos embarcam em aventuras emocionantes, usando sua tecnologia, trabalho em equipe e raciocínio rápido para salvar o dia."
 poster_path: /gg1Jo5iwoiuVwxGV7FgWxBlZSh5.jpg
 first_air_date: '2025-07-14'
 name: Meet Iron Man and His Awesome Friends

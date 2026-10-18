@@ -1,12 +1,7 @@
 ---
 title: 'Nick Fury: Agent of S.H.I.E.L.D.'
 slug: nick-fury-agent-of-shield
-description: >-
-  Marvel's hard-boiled hero is brought back to fight the menace of Hydra after
-  exiling himself in the Yukon since the end of the Cold War. The children of
-  the former Hydra head, Baron Von Stucker, have taken charge of the terrorist
-  organization. Under the lead of his vicious daughter, Viper, Hydra has seized
-  a deadly virus and threatens the destruction of America.
+description: "O herói durão da Marvel é trazido de volta à atividade para lutar contra a ameaça da Hidra, depois de se exilar no Yukon desde o fim da Guerra Fria. Os filhos do ex-chefe da Hidra, Baron Von Stucker, assumiram o comando da organização terrorista. Sob a liderança de sua perversa filha, Viper, a Hidra apoderou-se de um vírus mortal e ameaça destruir a América."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -14,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00EF1I8JA?linkCode=osi&th=1&psc=1
+overview: "O herói durão da Marvel é trazido de volta à atividade para lutar contra a ameaça da Hidra, depois de se exilar no Yukon desde o fim da Guerra Fria. Os filhos do ex-chefe da Hidra, Baron Von Stucker, assumiram o comando da organização terrorista. Sob a liderança de sua perversa filha, Viper, a Hidra apoderou-se de um vírus mortal e ameaça destruir a América."
 ---
 ## TMDB Data
 ```json

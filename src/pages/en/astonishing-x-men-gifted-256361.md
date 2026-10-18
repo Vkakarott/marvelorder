@@ -1,14 +1,11 @@
 ---
 title: 'Astonishing X-Men: Gifted'
 slug: astonishing-x-men-gifted
-description: >-
-  Cyclops and Emma Frost re-form the X-Men with the express purpose of
-  "astonishing" the world. But when breaking news regarding a cure to the mutant
-  gene unexpectedly hits the airwaves, will it derail their new plans before
-  they even get started? Kitty Pride ( aka shadowcat ) returns to the mansion.
+description: "Ciclope e Emma Frost reformam os X-Men com o propósito expresso de “surpreender” o mundo. Mas quando as últimas notícias sobre uma cura para o gene mutante chegam inesperadamente às ondas do rádio, isso atrapalhará seus novos planos antes mesmo de começarem?"
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/astonishing-x-men-gifted-5e70532739927.png"
+overview: "Ciclope e Emma Frost reformam os X-Men com o propósito expresso de “surpreender” o mundo. Mas quando as últimas notícias sobre uma cura para o gene mutante chegam inesperadamente às ondas do rádio, isso atrapalhará seus novos planos antes mesmo de começarem?"
 ---
 ## TMDB Data
 ```json

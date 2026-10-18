@@ -1,11 +1,7 @@
 ---
 title: 'Ghost Rider: Spirit of Vengeance'
 slug: ghost-rider-spirit-of-vengeance
-description: >-
-  When the devil resurfaces with aims to take over the world in human form,
-  Johnny Blaze reluctantly comes out of hiding to transform into the
-  flame-spewing supernatural hero Ghost Rider -- and rescue a 10-year-old boy
-  from an unsavory end.
+description: "Depois de um período recluso na Europa, Johnny Blaze embarca em uma nova missão para se livrar da maldição de ser um motoqueiro fantasma. Desta vez, ele precisa impedir que o próprio demônio encarnado sequestre um garoto de dez anos que pode ser a única esperança da humanidade contra as trevas."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -13,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00845PT18?linkCode=osi&th=1&psc=1
+overview: "Depois de um período recluso na Europa, Johnny Blaze embarca em uma nova missão para se livrar da maldição de ser um motoqueiro fantasma. Desta vez, ele precisa impedir que o próprio demônio encarnado sequestre um garoto de dez anos que pode ser a única esperança da humanidade contra as trevas."
 ---
 ## TMDB Data
 ```json

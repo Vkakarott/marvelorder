@@ -1,14 +1,13 @@
 ---
 title: 'Marvel Rising: Chasing Ghosts'
 slug: marvel-rising-chasing-ghosts
-description: >-
-  Hot on the trails of Sheath and Exile, Ghost-Spider teams up with the rest of
-  the Secret Warriors to bring down the villains for good.
+description: "Quando um grupo de vilões deixa a Terra em um grande estado de alerta, resta à Spider-Gwen unir forças com o improvável grupo dos Guerreiros Secretos para tentar restaurar a ordem. Juntos, o inesperado grupo de heróis tentará fazer justiça usando a coletividade como força maior."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/marvel-rising-chasing-ghosts-5e79da30345be.webp"
 watchLinks:
   amazon: none
+overview: "Quando um grupo de vilões deixa a Terra em um grande estado de alerta, resta à Spider-Gwen unir forças com o improvável grupo dos Guerreiros Secretos para tentar restaurar a ordem. Juntos, o inesperado grupo de heróis tentará fazer justiça usando a coletividade como força maior."
 ---
 ## TMDB Data
 ```json

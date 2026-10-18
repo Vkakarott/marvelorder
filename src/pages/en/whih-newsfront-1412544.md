@@ -1,14 +1,7 @@
 ---
 title: WHIH Newsfront
 slug: whih-newsfront
-description: >-
-  WHIH Newsfront is a faux American current affairs digital series serving as
-  the center of several viral marketing campaigns for Marvel Studios. Based on
-  the fictional television network WHIH World News that appears throughout the
-  Marvel Cinematic Universe (MCU), the YouTube videos began as marketing for the
-  film Ant-Man, and deal with major events depicted in the MCU's films and
-  television series. The videos were created by Marvel Studios in partnership
-  with Google.
+description: "WHIH Newsfront é uma falsa série digital americana de atualidades que serve como centro de várias campanhas de marketing viral para os estúdios da Marvel. Baseados na rede de televisão fictícia WHIH World News que aparece em todo o Universo Cinematográfico Marvel (MCU), os vídeos do YouTube começaram como marketing para o filme Homem-Formiga e tratam de grandes eventos retratados nos filmes e séries de televisão do MCU. Os vídeos foram criados pela Marvel Studios em parceria com o Google."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/qJHO0ro7qGbEAzySZOsKCwe7JOg.webp"
 adult: false
@@ -19,14 +12,7 @@ genre_ids:
 id: 1412544
 original_language: en
 original_title: WHIH Newsfront
-overview: >-
-  WHIH Newsfront is a faux American current affairs digital series serving as
-  the center of several viral marketing campaigns for Marvel Studios. Based on
-  the fictional television network WHIH World News that appears throughout the
-  Marvel Cinematic Universe (MCU), the YouTube videos began as marketing for the
-  film Ant-Man, and deal with major events depicted in the MCU's films and
-  television series. The videos were created by Marvel Studios in partnership
-  with Google.
+overview: "WHIH Newsfront é uma falsa série digital americana de atualidades que serve como centro de várias campanhas de marketing viral para os estúdios da Marvel. Baseados na rede de televisão fictícia WHIH World News que aparece em todo o Universo Cinematográfico Marvel (MCU), os vídeos do YouTube começaram como marketing para o filme Homem-Formiga e tratam de grandes eventos retratados nos filmes e séries de televisão do MCU. Os vídeos foram criados pela Marvel Studios em parceria com o Google."
 poster_path: /1fpFyJW050S1F0U1qBwy5yYnF7f.jpg
 release_date: '2015-07-02'
 video: false

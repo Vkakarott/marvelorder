@@ -1,9 +1,7 @@
 ---
 title: Untitled Female-Centered Marvel Film
 slug: untitled-female-centered-marvel-film
-description: >-
-  Described as a female-centric Marvel film rumored and teased by Wilde to
-  follow Spider-Woman.
+description: "Descrito como um filme da Marvel centrado em mulheres, rumores e provocações de Wilde para seguir a Mulher-Aranha."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -13,9 +11,7 @@ genre_ids:
 id: 777948
 original_language: en
 original_title: Untitled Female-Centered Marvel Film
-overview: >-
-  Described as a female-centric Marvel film rumored and teased by Wilde to
-  follow Spider-Woman.
+overview: "Descrito como um filme da Marvel centrado em mulheres, rumores e provocações de Wilde para seguir a Mulher-Aranha."
 poster_path: null
 release_date: ''
 video: false

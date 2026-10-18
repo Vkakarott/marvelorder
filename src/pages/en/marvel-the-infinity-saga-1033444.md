@@ -2,7 +2,7 @@
 draft: true
 title: 'Marvel: The Infinity Saga'
 slug: marvel-the-infinity-saga
-description: 'Marvel: The Infinity War - The Chronological Supercut'
+description: "Marvel: A Saga do Infinito - O Supercut Cronológico"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids: []
 id: 1033444
 original_language: en
 original_title: 'Marvel: The Infinity Saga'
-overview: 'Marvel: The Infinity War - The Chronological Supercut'
+overview: "Marvel: A Saga do Infinito - O Supercut Cronológico"
 poster_path: /yXwJ7VAOzQkWnXg0ouGM6Xf2hbV.jpg
 release_date: '2022-10-01'
 video: false

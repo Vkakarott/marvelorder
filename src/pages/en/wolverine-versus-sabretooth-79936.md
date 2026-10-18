@@ -1,9 +1,7 @@
 ---
 title: Wolverine Versus Sabretooth
 slug: wolverine-versus-sabretooth
-description: >-
-  It's claw versus claw as Logan faces his age-old foe in the latest Marvel
-  Knights Animation, Wolverine Vs. Sabretooth.
+description: "É garra contra garra enquanto Logan enfrenta seu antigo inimigo na última animação dos Cavaleiros da Marvel, Wolverine vs. Dentes de Sabre."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: Wolverine Versus Sabretooth
-overview: >-
-  It's claw versus claw as Logan faces his age-old foe in the latest Marvel
-  Knights Animation, Wolverine Vs. Sabretooth.
+overview: "É garra contra garra enquanto Logan enfrenta seu antigo inimigo na última animação dos Cavaleiros da Marvel, Wolverine vs. Dentes de Sabre."
 poster_path: /8jsJQxU1st9BpuOm0byuBH1IZXV.jpg
 first_air_date: '2014-01-14'
 name: Wolverine Versus Sabretooth

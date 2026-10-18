@@ -1,9 +1,7 @@
 ---
 title: Marvel's The Punisher
 slug: marvels-the-punisher
-description: >-
-  A former Marine out to punish the criminals responsible for his family's
-  murder finds himself ensnared in a military conspiracy.
+description: "Um ex-fuzileiro naval que pretende punir os criminosos responsáveis ​​pelo assassinato de sua família se vê envolvido em uma conspiração militar."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /aMT407Kv7j8IUzdmR87zNRJNKi6.jpg
@@ -15,9 +13,7 @@ genre_ids:
 id: 1230704
 original_language: en
 original_title: Marvel's The Punisher
-overview: >-
-  A former Marine out to punish the criminals responsible for his family's
-  murder finds himself ensnared in a military conspiracy.
+overview: "Um ex-fuzileiro naval que pretende punir os criminosos responsáveis ​​pelo assassinato de sua família se vê envolvido em uma conspiração militar."
 poster_path: /gW7VtjFrvUJavRv4QJhvE8D6qre.jpg
 release_date: '2017-11-17'
 video: false

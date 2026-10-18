@@ -1,12 +1,11 @@
 ---
 title: Marvel Zombies
 slug: marvel-zombies
-description: >-
-  The Marvel Universe is reimagined as a new generation of heroes battle against
-  an ever-spreading zombie scourge.
+description: "Depois que os Vingadores foram dominados por uma praga zumbi, um grupo desesperado de sobreviventes descobre a chave para acabar com os mortos-vivos superpoderosos, percorrendo uma paisagem distópica e arriscando a vida e os membros para salvarem seu mundo."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/vK2ZJlnurjxajVXGxy6KMeHJuW8.webp"
+overview: "Depois que os Vingadores foram dominados por uma praga zumbi, um grupo desesperado de sobreviventes descobre a chave para acabar com os mortos-vivos superpoderosos, percorrendo uma paisagem distópica e arriscando a vida e os membros para salvarem seu mundo."
 ---
 ## TMDB Data
 ```json

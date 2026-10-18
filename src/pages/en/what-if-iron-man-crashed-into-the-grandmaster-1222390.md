@@ -1,9 +1,7 @@
 ---
 title: What If... Iron Man Crashed Into the Grandmaster?
 slug: what-if-iron-man-crashed-into-the-grandmaster
-description: >-
-  Tony Stark challenges The Grandmaster, leading to a grand
-  prix-turned-demolition-derby death match.
+description: "Tony Stark desafia o Grande Mestre, levando a uma partida mortal de Grande Prêmio que virou derby de demolição."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1222390
 original_language: en
 original_title: What If... Iron Man Crashed Into the Grandmaster?
-overview: >-
-  Tony Stark challenges The Grandmaster, leading to a grand
-  prix-turned-demolition-derby death match.
+overview: "Tony Stark desafia o Grande Mestre, levando a uma partida mortal de Grande Prêmio que virou derby de demolição."
 poster_path: /gpdlDFtp16nU8CIDzDPFfnwBdcZ.jpg
 release_date: '2023-12-25'
 video: false

@@ -1,15 +1,14 @@
 ---
 title: 'X-Men Origins: Wolverine'
 slug: x-men-origins-wolverine
-description: >-
-  After seeking to live a normal life, Logan sets out to avenge the death of his
-  girlfriend by undergoing the mutant Weapon X program and becoming Wolverine.
+description: "Tentando esquecer seu passado sombrio, Logan, mais conhecido como Wolverine, parece ter encontrado o amor e a felicidade com Kayla Silverfox. Mas a paz de Logan é abalada quando Victor Creed, seu irmão cruel, assassina brutalmente Kayla. A sede de vingança de Logan o leva ao programa Arma X. Ele passa por um processo doloroso para fortalecer seus ossos com adamantium, o que o torna praticamente indestrutível."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: >-
   {tmdb-path}/mQglrQzgZT0Oj9cQYPsLI8dsEqB.webp?crop.top=0.83&crop.bottom=0.04
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B002K99P7S?linkCode=osi&th=1&psc=1
+overview: "Tentando esquecer seu passado sombrio, Logan, mais conhecido como Wolverine, parece ter encontrado o amor e a felicidade com Kayla Silverfox. Mas a paz de Logan é abalada quando Victor Creed, seu irmão cruel, assassina brutalmente Kayla. A sede de vingança de Logan o leva ao programa Arma X. Ele passa por um processo doloroso para fortalecer seus ossos com adamantium, o que o torna praticamente indestrutível."
 ---
 ## TMDB Data
 ```json

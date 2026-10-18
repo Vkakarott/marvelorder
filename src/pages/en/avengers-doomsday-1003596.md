@@ -1,10 +1,7 @@
 ---
 title: 'Avengers: Doomsday'
 slug: avengers-doomsday
-description: >-
-  Beloved heroes from three distinct universes are set on a deadly collision
-  course and face an existential threat unlike anything they've ever
-  encountered.
+description: "Heróis icônicos de três universos diferentes são colocados em rota de colisão mortal e enfrentam uma ameaça existencial sem precedentes, diferente de tudo que já vivenciaram antes."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/ncgHqZlYPObQ0y6fMoh1ibQnqgt.webp"
 adult: false
@@ -16,10 +13,7 @@ genre_ids:
 id: 1003596
 original_language: en
 original_title: 'Avengers: Doomsday'
-overview: >-
-  Beloved heroes from three distinct universes are set on a deadly collision
-  course and face an existential threat unlike anything they've ever
-  encountered.
+overview: "Heróis icônicos de três universos diferentes são colocados em rota de colisão mortal e enfrentam uma ameaça existencial sem precedentes, diferente de tudo que já vivenciaram antes."
 poster_path: /cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg
 release_date: '2026-12-18'
 video: false

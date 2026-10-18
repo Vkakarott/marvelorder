@@ -1,11 +1,7 @@
 ---
 title: Guardians of the Galaxy Vol. 3
 slug: guardians-of-the-galaxy-vol-3
-description: >-
-  Peter Quill, still reeling from the loss of Gamora, must rally his team around
-  him to defend the universe along with protecting one of their own. A mission
-  that, if not completed successfully, could quite possibly lead to the end of
-  the Guardians as we know them.
+description: "Peter Quill, que ainda está se recuperando da perda de Gamora, tem que reunir a sua equipe para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/cVrr7gSBD0w3ZuCnUrnShKB2OIC.webp"
@@ -14,6 +10,7 @@ genre_ids:
   - 12
   - 878
 mcuTimelineOrder: 632
+overview: "Peter Quill, que ainda está se recuperando da perda de Gamora, tem que reunir a sua equipe para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos."
 ---
 ## TMDB Data
 ```json

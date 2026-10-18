@@ -1,10 +1,7 @@
 ---
 title: 'The Marvel Action Hour: Fantastic Four'
 slug: the-marvel-action-hour-fantastic-four
-description: >-
-  The Marvel Action Hour, later Marvel Action Universe, was a 1994–1996
-  syndicated television block from Genesis Entertainment featuring animated
-  adaptions of Marvel Comics.
+description: "The Marvel Action Hour, mais tarde Marvel Action Universe, foi um bloco de televisão sindicado de 1994-1996 da Genesis Entertainment apresentando adaptações animadas da Marvel Comics."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,10 +11,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'The Marvel Action Hour: Fantastic Four'
-overview: >-
-  The Marvel Action Hour, later Marvel Action Universe, was a 1994–1996
-  syndicated television block from Genesis Entertainment featuring animated
-  adaptions of Marvel Comics.
+overview: "The Marvel Action Hour, mais tarde Marvel Action Universe, foi um bloco de televisão sindicado de 1994-1996 da Genesis Entertainment apresentando adaptações animadas da Marvel Comics."
 poster_path: /4CC0MT0RxD2Yc96C9ifadqxCSBV.jpg
 first_air_date: '1994-09-23'
 name: 'The Marvel Action Hour: Fantastic Four'

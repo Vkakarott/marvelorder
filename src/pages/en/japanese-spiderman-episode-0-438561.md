@@ -1,22 +1,14 @@
 ---
 title: 'Japanese Spiderman: Episode 0'
 slug: japanese-spiderman-episode-0
-description: >-
-  The Iron Cross Army are sabotaging oil-tankers with the help of their monster,
-  the Sea-Devil, a semi-mechanical anthropomorphic swordfish with an ability to
-  shoot torpedoes from its mouth. Spiderman employs the help of the interpol
-  agent Juzo Mamiya to help him stop the Iron Cross Army.
+description: "O Exército da Cruz de Ferro está sabotando petroleiros com a ajuda de seu monstro, o Sea-Devil, um peixe-espada antropomórfico semimecânico com a capacidade de disparar torpedos pela boca. O Homem-Aranha conta com a ajuda do agente da interpol Juzo Mamiya para ajudá-lo a deter o Exército da Cruz de Ferro."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /bVVSy18oVLZJTyFy2WsKIrsGHYZ.jpg
 id: 438561
 original_language: ja
 original_title: スパイダーマン
-overview: >-
-  The Iron Cross Army are sabotaging oil-tankers with the help of their monster,
-  the Sea-Devil, a semi-mechanical anthropomorphic swordfish with an ability to
-  shoot torpedoes from its mouth. Spiderman employs the help of the interpol
-  agent Juzo Mamiya to help him stop the Iron Cross Army.
+overview: "O Exército da Cruz de Ferro está sabotando petroleiros com a ajuda de seu monstro, o Sea-Devil, um peixe-espada antropomórfico semimecânico com a capacidade de disparar torpedos pela boca. O Homem-Aranha conta com a ajuda do agente da interpol Juzo Mamiya para ajudá-lo a deter o Exército da Cruz de Ferro."
 poster_path: /hi98SQoZgxBMHmWsbhxyh5tNQcB.jpg
 media_type: movie
 runtime: 24

@@ -2,9 +2,7 @@
 draft: true
 title: "Hypno-Hustler\_"
 slug: hypno-hustler
-description: >-
-  Comic book movie centered on the villainous Spider-Man character,
-  Hypno-Hustler.
+description: "Hypno-Hustler é o próximo filme de super-herói baseado no personagem de mesmo nome da Marvel Comics."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,9 +10,7 @@ genre_ids: []
 id: 1062465
 original_language: en
 original_title: "Hypno-Hustler\_"
-overview: >-
-  Comic book movie centered on the villainous Spider-Man character,
-  Hypno-Hustler.
+overview: "Hypno-Hustler é o próximo filme de super-herói baseado no personagem de mesmo nome da Marvel Comics."
 poster_path: null
 release_date: ''
 video: false

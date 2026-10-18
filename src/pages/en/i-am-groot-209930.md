@@ -1,14 +1,13 @@
 ---
 title: I Am Groot
 slug: i-am-groot
-description: >-
-  A series of shorts featuring the seedling Groot along with several new and
-  unusual characters.
+description: "Uma série de curtas apresentando a muda Groot junto com vários personagens novos e inusitados."
 layout: ../../layouts/MainLayout.astro
 tags:
   - tv
   - company-420
 logo_on_black: "{tmdb-path}/lOqw1w20tjRbbjPImUjbFRfNffp.webp"
+overview: "Uma série de curtas apresentando a muda Groot junto com vários personagens novos e inusitados."
 ---
 ## TMDB Data
 ```json

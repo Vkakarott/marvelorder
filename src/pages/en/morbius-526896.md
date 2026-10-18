@@ -1,11 +1,7 @@
 ---
 title: Morbius
 slug: morbius
-description: >-
-  Dangerously ill with a rare blood disorder, and determined to save others
-  suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What
-  at first appears to be a radical success soon reveals itself to be a remedy
-  potentially worse than the disease.
+description: "Gravemente doente com um raro distúrbio sanguíneo e determinado a salvar outros sofrendo o mesmo destino, o Dr. Morbius tenta uma aposta desesperada. O que primeiramente parece ser um sucesso radical, libera uma escuridão dentro dele e transforma esse médico em um caçador."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/wjKbFUkniQltWnjPS1nCfAN1Rb3.webp"
@@ -13,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B09SJ3BYZ4?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 597
+overview: "Gravemente doente com um raro distúrbio sanguíneo e determinado a salvar outros sofrendo o mesmo destino, o Dr. Morbius tenta uma aposta desesperada. O que primeiramente parece ser um sucesso radical, libera uma escuridão dentro dele e transforma esse médico em um caçador."
 ---
 ## TMDB Data
 ```json

@@ -1,13 +1,12 @@
 ---
 title: 'She-Hulk: Attorney at Law'
 slug: she-hulk-attorney-at-law
-description: >-
-  Jennifer Walters navigates the complicated life of a single, 30-something
-  attorney who also happens to be a green 6-foot-7-inch superpowered hulk.
+description: "Jennifer Walters — uma advogada especializada em casos envolvendo super-humanos — deve lidar com a complicada vida de uma mulher solteira de trinta e poucos anos que, por acaso, é uma hulk superpoderosa de 2 metros."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/9DjjTb8SEquq25sScE0SXRZiKZ1.webp"
 mcuTimelineOrder: 605
+overview: "Jennifer Walters — uma advogada especializada em casos envolvendo super-humanos — deve lidar com a complicada vida de uma mulher solteira de trinta e poucos anos que, por acaso, é uma hulk superpoderosa de 2 metros."
 ---
 ## TMDB Data
 ```json

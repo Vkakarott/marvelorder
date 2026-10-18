@@ -1,10 +1,7 @@
 ---
 title: Elektra
 slug: elektra
-description: >-
-  Elektra the warrior survives a near-death experience, becomes an
-  assassin-for-hire, and tries to protect her two latest targets, a single
-  father and his young daughter, from a group of supernatural assassins.
+description: "Torturada pelo passado, Elektra é obcecada por sua morte e seu misterioso renascimento. Apesar de ter sido treinada na rígida disciplina do ninjutsu, ela não consegue controlar a fúria que sente pela morte dos pais. Sua ânsia por vingança faz com que parta para o exílio e se torne uma perigosa assassina profissional. Seu novo alvo é Abby, uma garota de apenas 13 anos, e seu pai, Mark, os quais precisam salvar de um perigoso inimigo, que possui poderes sobrenaturais."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -12,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001GJ3BSC?linkCode=osi&th=1&psc=1
+overview: "Torturada pelo passado, Elektra é obcecada por sua morte e seu misterioso renascimento. Apesar de ter sido treinada na rígida disciplina do ninjutsu, ela não consegue controlar a fúria que sente pela morte dos pais. Sua ânsia por vingança faz com que parta para o exílio e se torne uma perigosa assassina profissional. Seu novo alvo é Abby, uma garota de apenas 13 anos, e seu pai, Mark, os quais precisam salvar de um perigoso inimigo, que possui poderes sobrenaturais."
 ---
 ## TMDB Data
 ```json

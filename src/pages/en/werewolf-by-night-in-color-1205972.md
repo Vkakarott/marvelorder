@@ -1,12 +1,7 @@
 ---
 title: Werewolf By Night in Color
 slug: werewolf-by-night-in-color
-description: >-
-  Now presented in color, Marvel Studios' "Werewolf by Night in Color" takes
-  place on a dark and somber night as a secret cabal of monster hunters emerge
-  from the shadows and gather at the foreboding Bloodstone Temple following the
-  death of their leader. In a strange and macabra memorial to the leader's life,
-  the attendees are thrust into a deadly competition for a powerful relic.
+description: "Agora apresentado em cores, \"Werewolf by Night in Color\" da Marvel Studios se passa em uma noite escura e sombria, enquanto uma conspiração secreta de caçadores de monstros emerge das sombras e se reúne no agourento Templo de Bloodstone após a morte de seu líder. Num estranho e macabro memorial à vida do líder, os participantes são lançados numa competição mortal por uma poderosa relíquia."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -18,12 +13,7 @@ genre_ids:
 id: 1205972
 original_language: en
 original_title: Werewolf By Night in Color
-overview: >-
-  Now presented in color, Marvel Studios' "Werewolf by Night in Color" takes
-  place on a dark and somber night as a secret cabal of monster hunters emerge
-  from the shadows and gather at the foreboding Bloodstone Temple following the
-  death of their leader. In a strange and macabra memorial to the leader's life,
-  the attendees are thrust into a deadly competition for a powerful relic.
+overview: "Agora apresentado em cores, \"Werewolf by Night in Color\" da Marvel Studios se passa em uma noite escura e sombria, enquanto uma conspiração secreta de caçadores de monstros emerge das sombras e se reúne no agourento Templo de Bloodstone após a morte de seu líder. Num estranho e macabro memorial à vida do líder, os participantes são lançados numa competição mortal por uma poderosa relíquia."
 poster_path: /rH3utLZ9MaOfsjfdYmD7Z0uI4Rn.jpg
 release_date: '2023-10-20'
 video: false

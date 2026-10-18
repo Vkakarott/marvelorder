@@ -1,10 +1,7 @@
 ---
 title: 'The Avengers: Earth''s Mightiest Heroes'
 slug: the-avengers-earths-mightiest-heroes
-description: >-
-  When the powers of a single hero are not enough to save the world, the world’s
-  greatest heroes—Iron Man, Thor, Captain America, The Hulk, Ant-Man/Giant Man
-  and Wasp—assemble to form the Avengers.
+description: "Os vilões mais poderosos do planeta escapam das prisões. Porém, nenhum dos super-heróis consegue detê-los sem ajuda, nem mesmo a S.H.I.E.L.D. Os Vingadores então se juntam para combater o mal, e descobrem que em grupo são mais fortes."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: >-
   {fanart-path}/the-avengers-earths-mightiest-heroes-54c1bc8fa9bcb.webp
@@ -13,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B00M81R6JC?linkCode=osi&th=1&psc=1
 tags: 
   - has-thor
+overview: "Os vilões mais poderosos do planeta escapam das prisões. Porém, nenhum dos super-heróis consegue detê-los sem ajuda, nem mesmo a S.H.I.E.L.D. Os Vingadores então se juntam para combater o mal, e descobrem que em grupo são mais fortes."
 ---
 ## TMDB Data
 ```json

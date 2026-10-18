@@ -1,9 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Loki Season 2'
 slug: marvel-studios-assembled-the-making-of-loki-season-2
-description: >-
-  The behind-the-scenes documentary special for the second season of Marvel
-  Studios' Loki on Disney+.
+description: "O documentário especial dos bastidores da segunda temporada de Loki, da Marvel Studios, no Disney+."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,9 +10,7 @@ genre_ids:
 id: 1187843
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Loki Season 2'
-overview: >-
-  The behind-the-scenes documentary special for the second season of Marvel
-  Studios' Loki on Disney+.
+overview: "O documentário especial dos bastidores da segunda temporada de Loki, da Marvel Studios, no Disney+."
 poster_path: /t1FRojAWVxXaZGo1eo767kpmgtd.jpg
 release_date: '2023-10-05'
 video: false

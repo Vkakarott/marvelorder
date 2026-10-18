@@ -1,7 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Agatha All Along'
 slug: marvel-studios-assembled-the-making-of-agatha-all-along
-description: The making of Agatha All Along
+description: "A produção de Agatha o tempo todo"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1363628
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Agatha All Along'
-overview: The making of Agatha All Along
+overview: "A produção de Agatha o tempo todo"
 poster_path: null
 release_date: ''
 video: false

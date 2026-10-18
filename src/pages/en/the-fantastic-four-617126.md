@@ -1,12 +1,11 @@
 ---
 title: The Fantastic Four
 slug: the-fantastic-four
-description: >-
-  Set in the Marvel Cinematic Universe (MCU) and based on the Marvel Comics
-  characters of the same name.
+description: "No vibrante cenário de um mundo retrofuturista inspirado nos anos 1960, a Primeira Família da Marvel é forçada a equilibrar seus papéis como heróis com a força de seus laços familiares, enquanto defendem a Terra de um deus espacial voraz chamado Galactus e sua enigmática arauta, a Surfista Prateada."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/jatnqRPnxjg2Q6cFsAjmrBNhx9.webp"
+overview: "No vibrante cenário de um mundo retrofuturista inspirado nos anos 1960, a Primeira Família da Marvel é forçada a equilibrar seus papéis como heróis com a força de seus laços familiares, enquanto defendem a Terra de um deus espacial voraz chamado Galactus e sua enigmática arauta, a Surfista Prateada."
 ---
 ## TMDB Data
 ```json

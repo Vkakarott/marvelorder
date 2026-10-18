@@ -1,9 +1,7 @@
 ---
 title: Peter's To-Do List
 slug: peters-to-do-list
-description: >-
-  On the eve of his departure to Europe, Peter Parker tells Ned Leeds that he
-  has several things to do before they leave.
+description: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -11,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1
+overview: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
 ---
 ## TMDB Data
 ```json

@@ -1,11 +1,11 @@
 ---
 title: 'Black Panther: Wakanda Forever'
 slug: black-panther-wakanda-forever
-description: The sequel to Black Panther (2018).
+description: "A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/6N6Rr1Y5wsi2KbTP4hFAP3hnWQE.webp"
-overview: The sequel to Black Panther (2018).
+overview: "A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda."
 mcuTimelineOrder: 599
 ---
 ## TMDB Data

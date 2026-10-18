@@ -1,9 +1,7 @@
 ---
 title: Groot Noses Around
 slug: groot-noses-around
-description: >-
-  When Groot gets the sense of smell, he quickly learns not to stick his new
-  nose where it doesn't belong.
+description: "Quando Groot adquire o sentido do olfato, ele aprende rapidamente a não enfiar seu novo nariz onde ele não pertence."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1174796
 original_language: en
 original_title: Groot Noses Around
-overview: >-
-  When Groot gets the sense of smell, he quickly learns not to stick his new
-  nose where it doesn't belong.
+overview: "Quando Groot adquire o sentido do olfato, ele aprende rapidamente a não enfiar seu novo nariz onde ele não pertence."
 poster_path: /2OnwFNu6fNcAVW5Ud2fzSrDzmMp.jpg
 release_date: '2023-09-06'
 video: false

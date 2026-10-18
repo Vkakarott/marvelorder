@@ -2,11 +2,10 @@
 draft: true
 title: Morbius and Wong
 slug: morbius-and-wong
-description: >-
-  Morbius the Marvel Legend (Jared Leto) fights the sorcerer supreme (Benedict
-  Wong) and the CEO Of Sex (Jacob Batalon)
+description: "Morbius, a lenda da Marvel (Jared Leto), luta contra o feiticeiro supremo (Benedict Wong) e o CEO do sexo (Jacob Batalon)"
 type: movie
 layout: ../../layouts/MainLayout.astro
+overview: "Morbius, a lenda da Marvel (Jared Leto), luta contra o feiticeiro supremo (Benedict Wong) e o CEO do sexo (Jacob Batalon)"
 ---
 ## TMDB Data
 ```json

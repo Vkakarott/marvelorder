@@ -1,9 +1,7 @@
 ---
 title: What If... Happy Hogan Saved Christmas?
 slug: what-if-happy-hogan-saved-christmas
-description: >-
-  Happy Hogan sets out to prove his hero chops when Justin Hammer lays siege to
-  Avengers Tower during the annual holiday party.
+description: "Happy Hogan se propõe a provar seu talento como herói quando Justin Hammer sitia a Torre dos Vingadores durante a festa anual de Natal."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,9 +13,7 @@ genre_ids:
 id: 1222100
 original_language: en
 original_title: What If... Happy Hogan Saved Christmas?
-overview: >-
-  Happy Hogan sets out to prove his hero chops when Justin Hammer lays siege to
-  Avengers Tower during the annual holiday party.
+overview: "Happy Hogan se propõe a provar seu talento como herói quando Justin Hammer sitia a Torre dos Vingadores durante a festa anual de Natal."
 poster_path: /lbGNgelIbOZWMYBahOTpQcIxx9p.jpg
 release_date: '2023-12-24'
 video: false

@@ -1,19 +1,14 @@
 ---
 title: Monster of Frankenstein
 slug: monster-of-frankenstein
-description: >-
-  The film centers around the life of Victor Frankenstein. After creating the
-  monster together with his partner Zuckel, the monster attacks the assistant
-  and falls from a cliff. Assuming the monster is dead, Victor returns to his
-  wife Elizabeth and daughter Emily. A police inspector named Bellbeau
-  investigates some mysterious mutilations killings, and Victor is blackmailed
-  by his former assistant, who lost an eye in his fight with the monster.
+description: "Em uma noite escura e tempestuosa, o Dr. Victor Frankenstein e seu assistente trabalham na sua maior realização: um monstro construído de partes do corpo de mortos. No entanto, quando a criatura foge livre, Dr. Frankenstein deixa a cargo de seu assistente eliminar o monstro, que ficou marcado ao enfrentar Frankenstein. Agora, em casa com sua família, o Dr. Frankenstein tenta em vão esquecer sua experiência, mas é assombrada por visões e memórias. E quando acidentes e mortes estranhas começam a ocorrer, ele percebe que sua criação pode muito bem ainda estar vivo…"
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
   {tmdb-path}/6crVZ3TN2MUwtbx25pbBVBGn11d.webp?crop.bottom=0.78
 watchLinks:
   amazon: none
+overview: "Em uma noite escura e tempestuosa, o Dr. Victor Frankenstein e seu assistente trabalham na sua maior realização: um monstro construído de partes do corpo de mortos. No entanto, quando a criatura foge livre, Dr. Frankenstein deixa a cargo de seu assistente eliminar o monstro, que ficou marcado ao enfrentar Frankenstein. Agora, em casa com sua família, o Dr. Frankenstein tenta em vão esquecer sua experiência, mas é assombrada por visões e memórias. E quando acidentes e mortes estranhas começam a ocorrer, ele percebe que sua criação pode muito bem ainda estar vivo…"
 ---
 ## TMDB Data
 ```json

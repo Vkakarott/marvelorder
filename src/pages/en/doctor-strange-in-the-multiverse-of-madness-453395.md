@@ -1,16 +1,14 @@
 ---
 title: Doctor Strange in the Multiverse of Madness
 slug: doctor-strange-in-the-multiverse-of-madness
-description: >-
-  Doctor Strange, with the help of mystical allies both old and new, traverses
-  the mind-bending and dangerous alternate realities of the Multiverse to
-  confront a mysterious new adversary.
+description: "Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/fpwAkeawcsUWPl34Gomy1SajOTw.webp"
 watchLinks:
   amazon: 'https://amzn.to/3nbCKA0'
 mcuTimelineOrder: 586
+overview: "Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso."
 ---
 ## TMDB Data
 ```json

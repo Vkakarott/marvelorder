@@ -1,14 +1,12 @@
 ---
 title: Stan Lee
 slug: stan-lee
-description: >-
-  Celebrate the legacy of Stan Lee as the co-creator of such legendary
-  characters as Spider-Man, Fantastic Four, Iron Man, the X-Men, The Avengers,
-  and hundreds more.
+description: "Documentário oficial sobre Stan Lee, \"O Cara\", e sua influência no mundo dos quadrinhos e na cultura pop. Acompanhando sua vida desde sua criação como Stanley Lieber ao surgimento da Marvel Comics, a história da vida, carreira e legado de Stan Lee com suas próprias palavras através de material pessoal de arquivo."
 layout: ../../layouts/MainLayout.astro
 tags:
   - movie
   - company-420
+overview: "Documentário oficial sobre Stan Lee, \"O Cara\", e sua influência no mundo dos quadrinhos e na cultura pop. Acompanhando sua vida desde sua criação como Stanley Lieber ao surgimento da Marvel Comics, a história da vida, carreira e legado de Stan Lee com suas próprias palavras através de material pessoal de arquivo."
 ---
 ## TMDB Data
 ```json

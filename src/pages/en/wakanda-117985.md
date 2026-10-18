@@ -1,7 +1,7 @@
 ---
 title: Wakanda
 slug: wakanda
-description: Upcoming Marvel Cinematic Universe series set in the Kingdom of Wakanda.
+description: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 genre_ids:
@@ -14,7 +14,7 @@ origin_country:
   - US
 original_language: en
 original_name: Wakanda
-overview: Upcoming Marvel Cinematic Universe series set in the Kingdom of Wakanda.
+overview: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
 poster_path: /11TUhoCtaNuyPM8s31bODODs44f.jpg
 vote_average: 0
 tags:

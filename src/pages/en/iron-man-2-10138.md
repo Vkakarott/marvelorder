@@ -1,12 +1,7 @@
 ---
 title: Iron Man 2
 slug: iron-man-2
-description: >-
-  With the world now aware of his dual life as the armored superhero Iron Man,
-  billionaire inventor Tony Stark faces pressure from the government, the press
-  and the public to share his technology with the military. Unwilling to let go
-  of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his
-  side, must forge new alliances – and confront powerful enemies.
+description: "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -15,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0040Z9H5K?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 31
+overview: "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas."
 ---
 ## TMDB Data
 ```json

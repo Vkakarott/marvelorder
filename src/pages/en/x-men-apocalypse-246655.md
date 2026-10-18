@@ -1,15 +1,14 @@
 ---
 title: 'X-Men: Apocalypse'
 slug: x-men-apocalypse
-description: >-
-  After the re-emergence of the world's first mutant, world-destroyer
-  Apocalypse, the X-Men must unite to defeat his extinction level plan.
+description: "Apocalipse, o primeiro mutante de todos, consegue retornar à vida após milhares de anos. Agora, ele sai à procura de seguidores para dominar o mundo. Caberá aos X-Men se unirem para impedir os planos do vilão e evitar uma catástofre mundial."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/x-men-apocalypse-55eba423c1f8e.png"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01FV2BJOM?linkCode=osi&th=1&psc=1
+overview: "Apocalipse, o primeiro mutante de todos, consegue retornar à vida após milhares de anos. Agora, ele sai à procura de seguidores para dominar o mundo. Caberá aos X-Men se unirem para impedir os planos do vilão e evitar uma catástofre mundial."
 ---
 ## TMDB Data
 ```json

@@ -1,15 +1,7 @@
 ---
 title: Black Panther
 slug: black-panther
-description: >-
-  King T'Challa returns home to the reclusive, technologically advanced African
-  nation of Wakanda to serve as his country's new leader. However, T'Challa soon
-  finds that he is challenged for the throne by factions within his own country
-  as well as without. Using powers reserved to Wakandan kings, T'Challa assumes
-  the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother,
-  his princess-kid sister, members of the Dora Milaje (the Wakandan 'special
-  forces') and an American secret agent, to prevent Wakanda from being dragged
-  into a world war.
+description: "O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/black-panther-579698eae2bd2.webp"
@@ -17,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07CSKDGFF?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 239
+overview: "O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país."
 ---
 ## TMDB Data
 ```json

@@ -1,11 +1,10 @@
 ---
 title: Armor Wars
 slug: armor-wars
-description: >-
-  James Rhodes aka War Machine faces the consequences of Tony Stark's worst fear
-  coming true: what happens when his tech falls into the wrong hands?
+description: "James Rhodes, também conhecido como War Machine, enfrenta as consequências do pior medo de Tony Stark se tornar realidade: o que acontece quando sua tecnologia cai em mãos erradas?"
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/yddelWuP5vibmBhjvCVQZjhra1q.webp"
+overview: "James Rhodes, também conhecido como War Machine, enfrenta as consequências do pior medo de Tony Stark se tornar realidade: o que acontece quando sua tecnologia cai em mãos erradas?"
 ---
 ## TMDB Data
 ```json

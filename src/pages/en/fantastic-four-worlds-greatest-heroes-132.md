@@ -1,10 +1,7 @@
 ---
 title: 'Fantastic Four: World''s Greatest Heroes'
 slug: fantastic-four-worlds-greatest-heroes
-description: >-
-  Mister Fantastic, the Invisible Woman, the Human Torch, and Thing battle some
-  of their greatest foes, including Doctor Doom, Ronan the Accuser, the Multiple
-  Man, and Mole Man.
+description: "Quarteto Fantástico: Os Maiores Heróis da Terra (no Brasil)) é um série animada de 2006 sobre os personagens homônimos da Marvel Comics, produzida pelo estúdio francês MoonScoop Group, influenciada pelos animes, a série foi exibida no Cartoon Network. Tem 26 episódios. É a quarta série animada sobre o Quarteto Fantástico."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
@@ -12,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B007PAQ6KG?linkCode=osi&th=1&psc=1
+overview: "Quarteto Fantástico: Os Maiores Heróis da Terra (no Brasil)) é um série animada de 2006 sobre os personagens homônimos da Marvel Comics, produzida pelo estúdio francês MoonScoop Group, influenciada pelos animes, a série foi exibida no Cartoon Network. Tem 26 episódios. É a quarta série animada sobre o Quarteto Fantástico."
 ---
 ## TMDB Data
 ```json

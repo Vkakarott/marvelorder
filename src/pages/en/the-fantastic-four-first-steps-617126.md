@@ -1,9 +1,7 @@
 ---
 title: 'The Fantastic Four: First Steps'
 slug: the-fantastic-four-first-steps
-description: >-
-  Set in the Marvel Cinematic Universe (MCU) and based on the Marvel Comics
-  characters of the same name.
+description: "No vibrante cenário de um mundo retrofuturista inspirado nos anos 1960, a Primeira Família da Marvel é forçada a equilibrar seus papéis como heróis com a força de seus laços familiares, enquanto defendem a Terra de um deus espacial voraz chamado Galactus e sua enigmática arauta, a Surfista Prateada."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /pwCZP8QjiQRvz15MGxQckW0wl3a.jpg
@@ -13,9 +11,7 @@ genre_ids:
 id: 617126
 original_language: en
 original_title: 'The Fantastic Four: First Steps'
-overview: >-
-  Set in the Marvel Cinematic Universe (MCU) and based on the Marvel Comics
-  characters of the same name.
+overview: "No vibrante cenário de um mundo retrofuturista inspirado nos anos 1960, a Primeira Família da Marvel é forçada a equilibrar seus papéis como heróis com a força de seus laços familiares, enquanto defendem a Terra de um deus espacial voraz chamado Galactus e sua enigmática arauta, a Surfista Prateada."
 poster_path: /veiSodk4JS4M2kBZCqBWeEEdMCr.jpg
 release_date: '2025-07-23'
 video: false

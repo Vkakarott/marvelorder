@@ -1,12 +1,13 @@
 ---
 title: Fantastic Four
 slug: fantastic-four
-description: The first animated series based on Marvel's comic book series Fantastic Four.
+description: "A primeira série animada baseada na série de quadrinhos da Marvel, Quarteto Fantástico."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/the-fantastic-four-1967-6266d7cc089eb.png"
 watchLinks:
   amazon: none
+overview: "A primeira série animada baseada na série de quadrinhos da Marvel, Quarteto Fantástico."
 ---
 ## TMDB Data
 ```json

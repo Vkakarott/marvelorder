@@ -1,9 +1,7 @@
 ---
 title: 'X-Men: Evolution'
 slug: x-men-evolution
-description: >-
-  Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight
-  for a world that fears and hates them.
+description: "Com base nos quadrinhos populares da Marvel, esta maravilhosa história sobre amadurecimento acompanha adolescentes aparentemente “normais” que podem lançar raios ópticos, levitar objetos e desaparecer à vontade enquanto tentam tirar notas boas na escola."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
@@ -11,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B006GQP5CU?linkCode=osi&th=1&psc=1
+overview: "Com base nos quadrinhos populares da Marvel, esta maravilhosa história sobre amadurecimento acompanha adolescentes aparentemente “normais” que podem lançar raios ópticos, levitar objetos e desaparecer à vontade enquanto tentam tirar notas boas na escola."
 ---
 ## TMDB Data
 ```json

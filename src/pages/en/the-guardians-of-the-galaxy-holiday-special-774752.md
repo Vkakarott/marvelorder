@@ -1,20 +1,12 @@
 ---
 title: The Guardians of the Galaxy Holiday Special
 slug: the-guardians-of-the-galaxy-holiday-special
-description: >-
-  Before Star-Lord, Gamora, Drax, Rocket, Mantis and Groot hit the big screen
-  with the next Guardians of the Galaxy film in 2023, watch the Guardians engage
-  in some spirited shenanigans in an all-new original special, created for
-  Disney+, during the 2022 holiday season.
+description: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
 layout: ../../layouts/MainLayout.astro
 type: movie
 release_date: 2022-12
 logo_on_black: "{tmdb-path}/A7NLWwvgzlbg8RBJKPHlEszdD74.webp"
-overview: >-
-  Before Star-Lord, Gamora, Drax, Rocket, Mantis and Groot hit the big screen
-  with the next Guardians of the Galaxy film in 2023, watch the Guardians engage
-  in some spirited shenanigans in an all-new original special, created for
-  Disney+, during the 2022 holiday season.
+overview: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
 mcuTimelineOrder: 628
 ---
 ## TMDB Data

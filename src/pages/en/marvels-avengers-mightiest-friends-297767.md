@@ -1,11 +1,7 @@
 ---
 title: 'Marvel''s Avengers: Mightiest Friends'
 slug: marvels-avengers-mightiest-friends
-description: >-
-  The series introduces kid versions of Earth's Mightiest Heroes: Iron Man,
-  Captain America, Hulk, Black Panther, Black Widow and Thor. Together, the
-  young Avengers strive to be their best selves while facing off against classic
-  Super Baddies.
+description: "A série apresenta versões infantis dos heróis mais poderosos da Terra: Homem de Ferro, Capitão América, Hulk, Pantera Negra, Viúva Negra e Thor. Juntos, os jovens Vingadores se esforçam para dar o melhor de si enquanto enfrentam os clássicos Super Baddies."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -17,11 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Marvel''s Avengers: Mightiest Friends'
-overview: >-
-  The series introduces kid versions of Earth's Mightiest Heroes: Iron Man,
-  Captain America, Hulk, Black Panther, Black Widow and Thor. Together, the
-  young Avengers strive to be their best selves while facing off against classic
-  Super Baddies.
+overview: "A série apresenta versões infantis dos heróis mais poderosos da Terra: Homem de Ferro, Capitão América, Hulk, Pantera Negra, Viúva Negra e Thor. Juntos, os jovens Vingadores se esforçam para dar o melhor de si enquanto enfrentam os clássicos Super Baddies."
 poster_path: null
 first_air_date: ''
 name: 'Marvel''s Avengers: Mightiest Friends'

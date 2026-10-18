@@ -1,7 +1,7 @@
 ---
 title: Untitled Spider-Man Villains Animated Film
 slug: untitled-spider-man-villains-animated-film
-description: A 'Spider-Man' villains animated movie is reportedly in development at Sony.
+description: "Um filme animado dos vilões do 'Homem-Aranha' está supostamente em desenvolvimento na Sony."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,7 +11,7 @@ genre_ids:
 id: 1258517
 original_language: en
 original_title: Untitled Spider-Man Villains Animated Film
-overview: A 'Spider-Man' villains animated movie is reportedly in development at Sony.
+overview: "Um filme animado dos vilões do 'Homem-Aranha' está supostamente em desenvolvimento na Sony."
 poster_path: /6lKtFHeAnLo3MjtCMFEUqIKxo5b.jpg
 release_date: ''
 video: false

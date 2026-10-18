@@ -1,9 +1,7 @@
 ---
 title: 'The Punisher: One Last Kill'
 slug: the-punisher-one-last-kill
-description: >-
-  As Frank Castle searches for meaning beyond revenge, an unexpected force pulls
-  him back into the fight.
+description: "Enquanto Frank Castle procura um significado além da vingança, uma força inesperada o puxa de volta à luta."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/lReCKrf9vGHcmhiqpsMgDgNzWPr.webp"
 adult: false
@@ -16,9 +14,7 @@ genre_ids:
 id: 1657196
 original_language: en
 original_title: 'The Punisher: One Last Kill'
-overview: >-
-  As Frank Castle searches for meaning beyond revenge, an unexpected force pulls
-  him back into the fight.
+overview: "Enquanto Frank Castle procura um significado além da vingança, uma força inesperada o puxa de volta à luta."
 poster_path: /psQzKaG0XNNvSkAvBFieZyMu0bF.jpg
 release_date: '2026-05-12'
 video: false

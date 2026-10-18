@@ -1,9 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Secret Invasion'
 slug: marvel-studios-assembled-the-making-of-secret-invasion
-description: >-
-  A behind-the-scenes look of the production of the upcoming Marvel Cinematic
-  Universe series "Secret Invasion".
+description: "Uma visão dos bastidores da produção da próxima série do Universo Cinematográfico Marvel, \"Invasão Secreta\"."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,9 +10,7 @@ genre_ids:
 id: 1100907
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Secret Invasion'
-overview: >-
-  A behind-the-scenes look of the production of the upcoming Marvel Cinematic
-  Universe series "Secret Invasion".
+overview: "Uma visão dos bastidores da produção da próxima série do Universo Cinematográfico Marvel, \"Invasão Secreta\"."
 poster_path: null
 release_date: ''
 video: false

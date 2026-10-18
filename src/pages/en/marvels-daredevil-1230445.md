@@ -1,10 +1,7 @@
 ---
 title: Marvel's Daredevil
 slug: marvels-daredevil
-description: >-
-  Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a
-  young boy to fight crime at night on the streets of Hell’s Kitchen as
-  Daredevil.
+description: "O advogado Matt Murdock usa seus sentidos aguçados por ter ficado cego quando menino para combater o crime à noite nas ruas de Hell's Kitchen como o Demolidor."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /9nL6NRyh4w5G3Zf9fDZxMJIXyh7.jpg
@@ -16,10 +13,7 @@ genre_ids:
 id: 1230445
 original_language: en
 original_title: Marvel's Daredevil
-overview: >-
-  Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a
-  young boy to fight crime at night on the streets of Hell’s Kitchen as
-  Daredevil.
+overview: "O advogado Matt Murdock usa seus sentidos aguçados por ter ficado cego quando menino para combater o crime à noite nas ruas de Hell's Kitchen como o Demolidor."
 poster_path: /9D6oZ7JLECk5me9S7D4377sMbfV.jpg
 release_date: '2015-04-10'
 video: false

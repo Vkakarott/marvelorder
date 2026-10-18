@@ -1,9 +1,7 @@
 ---
 title: Groot Takes a Bath
 slug: groot-takes-a-bath
-description: >-
-  Everybody needs some alone time to relax and wash up, but things go quite
-  differently when you’re a Flora Colossi toddler.
+description: "Todo mundo precisa de um tempo sozinho para relaxar e se lavar, mas as coisas são um pouco diferentes quando se é um bebê Flora Colossi. Suas tentativas de usar brinquedos, velas e bombas de banho acabam levando a uma bagunça folhosa de proporções épicas. E depois que suas folhas crescem quase na proporção de um arbusto, Groot decide fazer um corte de cabelo com as próprias mãos e dar uma renovada em seu penteado."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /4bsz75kSdeVQm9u5aD87ciRpYVW.jpg
@@ -13,9 +11,7 @@ genre_ids:
 id: 1010821
 original_language: en
 original_title: Groot Takes a Bath
-overview: >-
-  Everybody needs some alone time to relax and wash up, but things go quite
-  differently when you’re a Flora Colossi toddler.
+overview: "Todo mundo precisa de um tempo sozinho para relaxar e se lavar, mas as coisas são um pouco diferentes quando se é um bebê Flora Colossi. Suas tentativas de usar brinquedos, velas e bombas de banho acabam levando a uma bagunça folhosa de proporções épicas. E depois que suas folhas crescem quase na proporção de um arbusto, Groot decide fazer um corte de cabelo com as próprias mãos e dar uma renovada em seu penteado."
 poster_path: /sN7FJP06TsNNtK9Jr77dc25yI82.jpg
 release_date: '2022-08-10'
 video: false

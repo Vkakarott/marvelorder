@@ -1,12 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Black Panther: Wakanda Forever'
 slug: marvel-studios-assembled-the-making-of-black-panther-wakanda-forever
-description: >-
-  Follow the production of “Black Panther: Wakanda Forever” as the cast and crew
-  take on the incredible challenge of and remembering T’Challa, with a chapter
-  befitting the late king. Through intimate behind-the-scenes footage and
-  interviews, watch Shuri take on the mantel of Wakanda’s hero and face a new
-  foe from the ocean’s depths in Namor.
+description: "Acompanhe a produção de \"Pantera Negra: Wakanda Para Sempre\" neste episódio de Avante, enquanto o elenco e a equipe assumem o incrível desafio e recordam T'Challa, com um capítulo digno do falecido rei. Através de filmagens incríveis dos bastidores e entrevistas, veja Shuri assumir o manto do herói de Wakanda e enfrentar um novo inimigo das profundezas do oceano chamado Namor."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,12 +10,7 @@ genre_ids:
 id: 1076032
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Black Panther: Wakanda Forever'
-overview: >-
-  Follow the production of “Black Panther: Wakanda Forever” as the cast and crew
-  take on the incredible challenge of and remembering T’Challa, with a chapter
-  befitting the late king. Through intimate behind-the-scenes footage and
-  interviews, watch Shuri take on the mantel of Wakanda’s hero and face a new
-  foe from the ocean’s depths in Namor.
+overview: "Acompanhe a produção de \"Pantera Negra: Wakanda Para Sempre\" neste episódio de Avante, enquanto o elenco e a equipe assumem o incrível desafio e recordam T'Challa, com um capítulo digno do falecido rei. Através de filmagens incríveis dos bastidores e entrevistas, veja Shuri assumir o manto do herói de Wakanda e enfrentar um novo inimigo das profundezas do oceano chamado Namor."
 poster_path: null
 release_date: '2023-02-08'
 video: false

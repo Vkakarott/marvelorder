@@ -1,7 +1,7 @@
 ---
 title: The Young Avengers
 slug: the-young-avengers
-description: A ’Young Avengers’ movie is reportedly in the development at Marvel Studios.
+description: "Um filme de ‘Jovens Vingadores’ está supostamente em desenvolvimento no Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -12,7 +12,7 @@ genre_ids:
 id: 1273596
 original_language: en
 original_title: The Young Avengers
-overview: A ’Young Avengers’ movie is reportedly in the development at Marvel Studios.
+overview: "Um filme de ‘Jovens Vingadores’ está supostamente em desenvolvimento no Marvel Studios."
 poster_path: /ntvJsalWKI00tfu1k7fyPBxK02h.jpg
 release_date: ''
 video: false

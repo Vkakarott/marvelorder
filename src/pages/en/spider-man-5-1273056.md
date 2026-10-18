@@ -1,7 +1,7 @@
 ---
 title: Spider-Man 5
 slug: spider-man-5
-description: The second film in a planned Tom Holland's Spider-Man trilogy.
+description: "O segundo filme da trilogia planejada do Homem-Aranha de Tom Holland."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,7 +11,7 @@ genre_ids:
 id: 1273056
 original_language: en
 original_title: Spider-Man 5
-overview: The second film in a planned Tom Holland's Spider-Man trilogy.
+overview: "O segundo filme da trilogia planejada do Homem-Aranha de Tom Holland."
 poster_path: /7T9njpuLyo8PnF1dRMwFqio1fgE.jpg
 release_date: ''
 video: false

@@ -1,12 +1,11 @@
 ---
 title: 'Spider-Man No Way Home: The More Fun Stuff Version'
 slug: spider-man-no-way-home-the-more-fun-stuff-version
-description: >-
-  An extended cut of ‘Spider-Man: No Way Home’ featuring up to 15 minutes of
-  added content!
+description: "Uma versão estendida de ‘Homem-Aranha: No Way Home’ com até 15 minutos de conteúdo adicionado!"
 layout: ../../layouts/MainLayout.astro
 poster_path: /fUdWbWCgJSo1his6Mp60hxiDp53.jpg
 logo_on_black: "{tmdb-path}/fUdWbWCgJSo1his6Mp60hxiDp53.webp"
+overview: "Uma versão estendida de ‘Homem-Aranha: No Way Home’ com até 15 minutos de conteúdo adicionado!"
 ---
 ## TMDB Data
 ```json

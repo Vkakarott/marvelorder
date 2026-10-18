@@ -1,7 +1,7 @@
 ---
 title: Deadpool & Wolverine
 slug: deadpool-and-wolverine
-description: Third entry in the "Deadpool" franchise. Plot TBA.
+description: "Um apático Wade Wilson trabalha duro na vida civil. Seus dias como mercenário moralmente flexível, Deadpool, ficaram para trás. Quando seu planeta enfrenta uma ameaça, Wade deve relutantemente vestir-se novamente com um ainda mais relutante... relutante? Mais relutante? Ele deve convencer um Wolverine relutante em... Porra. As sinopses são tão estúpidas."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /mbY234XwMwEofAdX8yddNcK82wi.jpg
@@ -12,7 +12,7 @@ genre_ids:
 id: 533535
 original_language: en
 original_title: Deadpool & Wolverine
-overview: Third entry in the "Deadpool" franchise. Plot TBA.
+overview: "Um apático Wade Wilson trabalha duro na vida civil. Seus dias como mercenário moralmente flexível, Deadpool, ficaram para trás. Quando seu planeta enfrenta uma ameaça, Wade deve relutantemente vestir-se novamente com um ainda mais relutante... relutante? Mais relutante? Ele deve convencer um Wolverine relutante em... Porra. As sinopses são tão estúpidas."
 poster_path: /3e9RToA9tGMl1T994T9T8zLW3CU.jpg
 release_date: '2024-07-24'
 video: false

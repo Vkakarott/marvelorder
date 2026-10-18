@@ -1,12 +1,7 @@
 ---
 title: 'Thor: The Dark World'
 slug: thor-the-dark-world
-description: >-
-  Thor fights to restore order across the cosmos… but an ancient race led by the
-  vengeful Malekith returns to plunge the universe back into darkness. Faced
-  with an enemy that even Odin and Asgard cannot withstand, Thor must embark on
-  his most perilous and personal journey yet, one that will reunite him with
-  Jane Foster and force him to sacrifice everything to save us all.
+description: "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/uwQbAHY7cttDgcX2Av1mm51PsRx.webp"
@@ -16,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 53
 tags:
   - has-thor
+overview: "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo."
 ---
 ## TMDB Data
 ```json

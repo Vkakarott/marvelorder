@@ -1,12 +1,7 @@
 ---
 title: Director by Night
 slug: director-by-night
-description: >-
-  Acclaimed composer Michael Giacchino made his directorial debut with Marvel
-  Studios' Special Presentation "Werewolf by Night." This behind-the-scenes
-  special explores Giacchino's vision, style and approach to bringing the
-  chilling story to life, as well as offering an insider's look at the
-  between-the-scenes making of "Werewolf by Night."
+description: "A história de dois irmãos vencedores do Oscar e suas maneiras diferentes de contar histórias: Michael Giacchino, renomado compositor para cinema, faz sua estreia na direção com \"Lobisomem na Noite\". Seu irmão, o documentarista veterano Anthony Giacchino, registra a experiência e explora as origens cinematográficas da dupla na pequena cidade de Nova Jersey onde cresceram."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,12 +10,7 @@ genre_ids:
 id: 1036996
 original_language: en
 original_title: Director by Night
-overview: >-
-  Acclaimed composer Michael Giacchino made his directorial debut with Marvel
-  Studios' Special Presentation "Werewolf by Night." This behind-the-scenes
-  special explores Giacchino's vision, style and approach to bringing the
-  chilling story to life, as well as offering an insider's look at the
-  between-the-scenes making of "Werewolf by Night."
+overview: "A história de dois irmãos vencedores do Oscar e suas maneiras diferentes de contar histórias: Michael Giacchino, renomado compositor para cinema, faz sua estreia na direção com \"Lobisomem na Noite\". Seu irmão, o documentarista veterano Anthony Giacchino, registra a experiência e explora as origens cinematográficas da dupla na pequena cidade de Nova Jersey onde cresceram."
 poster_path: null
 release_date: '2022-11-04'
 video: false

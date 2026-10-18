@@ -1,9 +1,7 @@
 ---
 title: Japanese Spiderman
 slug: japanese-spiderman
-description: >-
-  Follow the exploits of motorcycle racer turned super hero Takuya Yamashiro, as
-  he slings and swings, battling the evil Iron Cross Army along the way.
+description: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /9SE5E2g5DVBN9T3EIEYPhwdsZPr.jpg
@@ -11,9 +9,7 @@ id: 2640
 name: Japanese Spiderman
 original_language: ja
 original_name: スパイダーマン
-overview: >-
-  Follow the exploits of motorcycle racer turned super hero Takuya Yamashiro, as
-  he slings and swings, battling the evil Iron Cross Army along the way.
+overview: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
 poster_path: /vlSuwzyt3Hyq5OSFpvJDYnYDN1a.jpg
 media_type: tv
 runtime: null

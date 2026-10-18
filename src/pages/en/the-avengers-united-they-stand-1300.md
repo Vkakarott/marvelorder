@@ -1,18 +1,14 @@
 ---
 title: 'The Avengers: United They Stand'
 slug: the-avengers-united-they-stand
-description: >-
-  When the planet is threatened by Super Villains, time traveling conquerors,
-  alien invaders, mythical monsters or mad robots bent on the total destruction
-  of humanity, when the forces of evil are so overwhelming that no single hero
-  has the power to save the world, when there is no hope left…the AVENGERS
-  ASSEMBLE!
+description: "Houve um tempo em que os maiores heróis do planeta possuiam uma equipe localizada em outra parte dos EUA. Na verdade, era um outro grupo de Vingadores que patrulhavam a Zona Oeste dos Estados Unidos."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/avengers-1999-5da2f2765bc19.webp"
 type: tv
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B007OH9MYW?linkCode=osi&th=1&psc=1
+overview: "Houve um tempo em que os maiores heróis do planeta possuiam uma equipe localizada em outra parte dos EUA. Na verdade, era um outro grupo de Vingadores que patrulhavam a Zona Oeste dos Estados Unidos."
 ---
 ## TMDB Data
 ```json

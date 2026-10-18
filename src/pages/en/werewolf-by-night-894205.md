@@ -1,15 +1,11 @@
 ---
 title: Werewolf By Night
 slug: werewolf-by-night
-description: >-
-  A Marvel Halloween special for Disney+ based around the character Werewolf by
-  Night.
+description: "Em uma noite escura e sombria, uma conspiração secreta de caçadores de monstros emerge das sombras e se reúne no sinistro Bloodstone Temple após a morte de seu líder. Num estranho e macabro memorial à vida do líder, os participantes são lançados numa competição misteriosa e mortal por uma relíquia poderosa – uma caçada que acabará por os colocar cara a cara com um monstro perigoso."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: "{tmdb-path}/1lz4IxwC1BeO0KrjIBhXo16L8Lb.webp"
 logo_on_black: "{tmdb-path}/8wrftmiAwG47cNAil9zxwwylDs1.webp"
-overview: >-
-  A Marvel Halloween special for Disney+ based around the character Werewolf by
-  Night.
+overview: "Em uma noite escura e sombria, uma conspiração secreta de caçadores de monstros emerge das sombras e se reúne no sinistro Bloodstone Temple após a morte de seu líder. Num estranho e macabro memorial à vida do líder, os participantes são lançados numa competição misteriosa e mortal por uma relíquia poderosa – uma caçada que acabará por os colocar cara a cara com um monstro perigoso."
 tags:
   - movie
   - company-420

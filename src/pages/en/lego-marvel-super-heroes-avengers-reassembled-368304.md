@@ -1,10 +1,7 @@
 ---
 title: 'LEGO Marvel Super Heroes: Avengers Reassembled!'
 slug: lego-marvel-super-heroes-avengers-reassembled
-description: >-
-  The Avengers are forced to “party” with Ultron when he seeks to disassemble
-  the team by taking control of Iron Man’s armor and enact a nefarious scheme to
-  take over the world.
+description: "Quando Ultron se apodera da armadura do Homem de Ferro, os Vingadores correm contra o tempo para ajudar o amigo e evitar que o mundo caia nas mãos do inimigo."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /rGGRv7XXpDBVGD2BtbKWENfZOkf.jpg
@@ -14,10 +11,7 @@ genre_ids:
 id: 368304
 original_language: en
 original_title: 'LEGO Marvel Super Heroes: Avengers Reassembled!'
-overview: >-
-  The Avengers are forced to “party” with Ultron when he seeks to disassemble
-  the team by taking control of Iron Man’s armor and enact a nefarious scheme to
-  take over the world.
+overview: "Quando Ultron se apodera da armadura do Homem de Ferro, os Vingadores correm contra o tempo para ajudar o amigo e evitar que o mundo caia nas mãos do inimigo."
 poster_path: /xUBZNoY7idPfqKZepnDEv7Qc8GC.jpg
 release_date: '2015-11-16'
 video: false

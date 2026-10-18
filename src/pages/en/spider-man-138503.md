@@ -1,9 +1,7 @@
 ---
 title: Spider-Man
 slug: spider-man
-description: >-
-  Follow Peter Parker on his way to becoming Spider-Man, with a journey unlike
-  any we've ever seen.
+description: "Uma série animada que segue Peter Parker em seu caminho para se tornar o Homem-Aranha no MCU, com uma jornada como nunca vimos e um estilo que celebra as raízes dos primeiros quadrinhos do personagem."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/3NywvNxGZv3hg9tL8oF9TMXrIIZ.webp"
 backdrop_path: null
@@ -16,9 +14,7 @@ origin_country:
   - US
 original_language: en
 original_name: Spider-Man
-overview: >-
-  Follow Peter Parker on his way to becoming Spider-Man, with a journey unlike
-  any we've ever seen.
+overview: "Uma série animada que segue Peter Parker em seu caminho para se tornar o Homem-Aranha no MCU, com uma jornada como nunca vimos e um estilo que celebra as raízes dos primeiros quadrinhos do personagem."
 poster_path: /7ecqjxf49CaTsqQFIUd1iceoXZB.jpg
 vote_average: 0
 tags:

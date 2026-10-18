@@ -1,12 +1,11 @@
 ---
 title: 'X-Men: The Mutant Watch'
 slug: x-men-the-mutant-watch
-description: >-
-  While Senator Kelly addresses a senate committee about the supposed mutant
-  menace, we learn about the making of the movie, X-Men.
+description: "Enquanto o senador Kelly se dirige a um comitê do Senado sobre a suposta ameaça mutante, aprendemos sobre a produção do filme X-Men."
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
+overview: "Enquanto o senador Kelly se dirige a um comitê do Senado sobre a suposta ameaça mutante, aprendemos sobre a produção do filme X-Men."
 ---
 ## TMDB Data
 ```json

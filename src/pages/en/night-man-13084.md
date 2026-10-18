@@ -2,18 +2,7 @@
 draft: true
 title: Night Man
 slug: night-man
-description: >-
-  Night Man is an American action/adventure/sci-fi series that aired in
-  syndication from September 15, 1997 to May 17, 1999. The series is loosely
-  based on a comic book published by Malibu Comics and was created by Steve
-  Englehart and developed for television by Glen A. Larson.
-
-
-  It stars Matt McColm as the title character, a superhero whose real name was
-  Johnny Domino, a saxophonist. Englehart would write three episodes of the
-  series. Night Man is also one of the few series to cross over with characters
-  from Larson's previous series: in the episode "Manimal", Johnny allies with
-  Professor Jonathan Chase, the star of the short-lived 1980s' series Manimal.
+description: "Night Man is an American action/adventure/sci-fi series that aired in syndication from September 15, 1997 to May 17, 1999. The series is loosely based on a comic book published by Malibu Comics and was created by Steve Englehart and developed for television by Glen A. Larson."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 first_air_date: '1997-09-20'
@@ -26,18 +15,7 @@ origin_country:
   - US
 original_language: en
 original_name: Night Man
-overview: >-
-  Night Man is an American action/adventure/sci-fi series that aired in
-  syndication from September 15, 1997 to May 17, 1999. The series is loosely
-  based on a comic book published by Malibu Comics and was created by Steve
-  Englehart and developed for television by Glen A. Larson.
-
-
-  It stars Matt McColm as the title character, a superhero whose real name was
-  Johnny Domino, a saxophonist. Englehart would write three episodes of the
-  series. Night Man is also one of the few series to cross over with characters
-  from Larson's previous series: in the episode "Manimal", Johnny allies with
-  Professor Jonathan Chase, the star of the short-lived 1980s' series Manimal.
+overview: "Night Man is an American action/adventure/sci-fi series that aired in syndication from September 15, 1997 to May 17, 1999. The series is loosely based on a comic book published by Malibu Comics and was created by Steve Englehart and developed for television by Glen A. Larson."
 poster_path: /esqusThZ8KbEOT6NqIieocBk8gQ.jpg
 vote_average: 6.4
 tags:

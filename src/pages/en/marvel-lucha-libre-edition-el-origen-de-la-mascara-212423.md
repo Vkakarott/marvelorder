@@ -2,12 +2,9 @@
 draft: true
 title: 'Marvel Lucha Libre Edition: El origen de la máscara'
 slug: marvel-lucha-libre-edition-el-origen-de-la-mascara
-description: >-
-  The new series was revealed during the pre-shot of AAA’s event, TripleMania
-  XXX: CDMX, where the first trailer was shown. This new series features
-  wrestling matches, but with wrestlers in outfits that are inspired by Marvel
-  Super Heroes.
+description: "Câmeras de um documentário seguem os lutadores inspirados em super-heróis da Marvel durante a competição espetacular que os levará ao cobiçado cinturão do campeonato. Mas uma substância perigosa chamada O Simbionte colocará o torneio em risco."
 layout: ../../layouts/MainLayout.astro
+overview: "Câmeras de um documentário seguem os lutadores inspirados em super-heróis da Marvel durante a competição espetacular que os levará ao cobiçado cinturão do campeonato. Mas uma substância perigosa chamada O Simbionte colocará o torneio em risco."
 ---
 ## TMDB Data
 ```json

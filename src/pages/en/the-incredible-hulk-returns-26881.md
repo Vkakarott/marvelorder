@@ -1,11 +1,7 @@
 ---
 title: The Incredible Hulk Returns
 slug: the-incredible-hulk-returns
-description: >-
-  Dr. David Banner meets a former student, who has a magical hammer that summons
-  Thor, a Norse god who is prevented from entering Valhalla. When the two
-  superheroes stop feuding long enough to breathe, they are a team unmatched by
-  any of their enemies.
+description: "Anos depois dos acontecimentos da série clássica, o Dr. David Banner ainda busca uma forma de acabar com suas transformações no Hulk. Quando um velho amigo do passado, Don Blake, reaparece com um segredo místico, Banner acaba envolvido numa teia de conspiração que o força a se transformar novamente. Com a ajuda de Blake — que possui uma ligação com o poderoso deus Thor — Banner/Hulk enfrenta uma organização criminosa para resgatar pessoas queridas e tentar controlar seu destino."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/the-incredible-hulk-returns-5577f15dd6b57.webp"
 watchLinks:
@@ -13,6 +9,7 @@ watchLinks:
     https://www.amazon.com/dp/B00715QLKK?linkCode=osi&th=1&psc=1
 tags: 
   - has-thor
+overview: "Anos depois dos acontecimentos da série clássica, o Dr. David Banner ainda busca uma forma de acabar com suas transformações no Hulk. Quando um velho amigo do passado, Don Blake, reaparece com um segredo místico, Banner acaba envolvido numa teia de conspiração que o força a se transformar novamente. Com a ajuda de Blake — que possui uma ligação com o poderoso deus Thor — Banner/Hulk enfrenta uma organização criminosa para resgatar pessoas queridas e tentar controlar seu destino."
 ---
 ## TMDB Data
 ```json

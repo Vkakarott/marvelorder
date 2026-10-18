@@ -1,19 +1,14 @@
 ---
 title: Spider-Man
 slug: spider-man
-description: >-
-  Young motorcycle racer Takuya Yamashiro sees a UFO falling to earth, in fact a
-  space warship named the Marveller. Takuya follows his scientist father to the
-  Marveller and discovers Garia, the last surviving warrior of Planet Spider.
-  Garia injects Takuya with some of his own blood, giving Takuya spider-like
-  powers. Using his powers, Takuya fights Professor Monster's army and other
-  threats to Earth under the name Spiderman.
+description: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/spider-man-1978-5cddabaeefc4e.webp"
 watchLinks:
   amazon: none
 vote_average: 7.1
+overview: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
 ---
 ## TMDB Data
 ```json

@@ -1,9 +1,7 @@
 ---
 title: Magnum Opus
 slug: magnum-opus
-description: >-
-  Groot sets out to paint a family portrait of himself and the Guardians, only
-  to discover just how messy the artistic process can be.
+description: "Groot pinta um retrato de família de si mesmo com os Guardiões, apenas para descobrir a bagunça que o processo artístico pode ser."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /qtKlSjETlYzbq4URtxocQtKce8d.jpg
@@ -13,9 +11,7 @@ genre_ids:
 id: 1010823
 original_language: en
 original_title: Magnum Opus
-overview: >-
-  Groot sets out to paint a family portrait of himself and the Guardians, only
-  to discover just how messy the artistic process can be.
+overview: "Groot pinta um retrato de família de si mesmo com os Guardiões, apenas para descobrir a bagunça que o processo artístico pode ser."
 poster_path: /8p8JsKokKbuNCn9yBirAg1oEwGd.jpg
 release_date: '2022-07-18'
 video: false

@@ -1,16 +1,8 @@
 ---
 title: 'Spider-Man: Into the Spider-Verse'
 slug: spider-man-into-the-spider-verse
-description: >-
-  Miles Morales descobre poderes semelhantes aos do Homem-Aranha após ser picado
-  por uma aranha. Um experimento do Rei do Crime traz heróis de outras dimensões
-  para o seu universo.
-overview: >-
-  Miles Morales tenta conciliar a escola e a vida em família no Brooklyn quando
-  é picado por uma aranha e descobre poderes semelhantes aos do Homem-Aranha.
-  Enquanto aprende a lidar com suas novas habilidades, um acelerador de
-  partículas criado por Wilson Fisk, o Rei do Crime, traz heróis de outras
-  dimensões para o seu universo.
+description: "Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras variações do Homem-Aranha."
+overview: "Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras variações do Homem-Aranha."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-into-the-spider-verse-5a59e4c641c88.webp"
 watchLinks:

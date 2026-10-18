@@ -1,9 +1,7 @@
 ---
 title: Spider Woman
 slug: spider-woman
-description: >-
-  A spin off to the spider verse trilogy which mainly focus on the characters
-  Gwen Stacy , Jessica Drew and Cindy Moon
+description: "Um spin-off da trilogia de versos de aranha que se concentra principalmente nas personagens Gwen Stacy, Jessica Drew e Cindy Moon"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,9 +9,7 @@ genre_ids: []
 id: 1261471
 original_language: en
 original_title: Spider Woman
-overview: >-
-  A spin off to the spider verse trilogy which mainly focus on the characters
-  Gwen Stacy , Jessica Drew and Cindy Moon
+overview: "Um spin-off da trilogia de versos de aranha que se concentra principalmente nas personagens Gwen Stacy, Jessica Drew e Cindy Moon"
 poster_path: null
 release_date: ''
 video: false

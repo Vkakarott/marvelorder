@@ -1,14 +1,13 @@
 ---
 title: Marvel's Rocket & Groot
 slug: marvels-rocket-and-groot
-description: >-
-  Before becoming Guardians of the Galaxy, Rocket and Groot were bounty hunters
-  trying to get a ship.
+description: "Antes de se tornarem Guardiões da Galáxia, Rocket e Groot eram caçadores de recompensas tentando conseguir uma nave."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-rocket--groot-59b6b3a83145f.webp"
 watchLinks:
   amazon: none
+overview: "Antes de se tornarem Guardiões da Galáxia, Rocket e Groot eram caçadores de recompensas tentando conseguir uma nave."
 ---
 ## TMDB Data
 ```json

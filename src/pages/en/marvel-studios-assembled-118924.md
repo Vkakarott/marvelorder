@@ -1,12 +1,10 @@
 ---
 title: 'Marvel Studios: Assembled'
 slug: marvel-studios-assembled
-description: >-
-  Go behind the scenes of the shows and movies of the Marvel Cinematic Universe,
-  following the filmmakers, cast and crew, and Marvel heroes every step of the
-  way.
+description: "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho."
 layout: ../../layouts/MainLayout.astro
 type: tv
+overview: "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho."
 ---
 ## TMDB Data
 ```json

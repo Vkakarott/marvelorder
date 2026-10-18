@@ -1,19 +1,14 @@
 ---
 title: 'Blade: The Series'
 slug: blade-the-series
-description: >-
-  Blade is a half-man, half-vampire who employs his extraordinary powers in a
-  crusade to save mankind from the demonic creatures who walk the night. Set in
-  Detroit, Blade investigates the vampire house of Chthon. Along the way he
-  forms an uneasy alliance with Krista Starr, a former military veteran who
-  becomes entrenched in the world of vampires while investigating the murder of
-  her twin brother.
+description: "A veterana do exército, Krista Starr, está em busca do assassino de seu irmão gêmeo. Em meio às investigações, ela descobre uma inacreditável organização de vampiros em Detroit, liderada pelo implacável Marcus Van Sciver. Envolvida nas armações das criaturas da noite, ela vai contar com a relutante ajuda de Blade, o caçador de vampiros - metade humano, metade vampiro. Este anti-herói é dotado de incríveis poderes e armamentos que utiliza em sua luta para dar fim à raça de sugadores de sangue."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/9n1kYtHNeOxXNSDBqzOJF6sNzFW.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0010TDRP0?linkCode=osi&th=1&psc=1
+overview: "A veterana do exército, Krista Starr, está em busca do assassino de seu irmão gêmeo. Em meio às investigações, ela descobre uma inacreditável organização de vampiros em Detroit, liderada pelo implacável Marcus Van Sciver. Envolvida nas armações das criaturas da noite, ela vai contar com a relutante ajuda de Blade, o caçador de vampiros - metade humano, metade vampiro. Este anti-herói é dotado de incríveis poderes e armamentos que utiliza em sua luta para dar fim à raça de sugadores de sangue."
 ---
 ## TMDB Data
 ```json

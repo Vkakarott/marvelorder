@@ -1,16 +1,14 @@
 ---
 title: 'X-Men: Days of Future Past'
 slug: x-men-days-of-future-past
-description: >-
-  The ultimate X-Men ensemble fights a war for the survival of the species
-  across two time periods as they join forces with their younger selves in an
-  epic battle that must change the past – to save our future.
+description: "O conjunto definitivo dos X-Men trava uma guerra pela sobrevivência da espécie ao longo de dois períodos de tempo, enquanto unem forças com os seus eus mais jovens numa batalha épica que deve mudar o passado – para salvar o nosso futuro."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/x-men-days-of-future-past-53b5b5780fcfb.png"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B08Z85NZWK?linkCode=osi&th=1&psc=1
+overview: "O conjunto definitivo dos X-Men trava uma guerra pela sobrevivência da espécie ao longo de dois períodos de tempo, enquanto unem forças com os seus eus mais jovens numa batalha épica que deve mudar o passado – para salvar o nosso futuro."
 ---
 ## TMDB Data
 ```json

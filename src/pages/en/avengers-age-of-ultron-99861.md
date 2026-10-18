@@ -1,13 +1,7 @@
 ---
 title: 'Avengers: Age of Ultron'
 slug: avengers-age-of-ultron
-description: >-
-  When Tony Stark tries to jumpstart a dormant peacekeeping program, things go
-  awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of
-  the planet hangs in the balance. As the villainous Ultron emerges, it is up to
-  The Avengers to stop him from enacting his terrible plans, and soon uneasy
-  alliances and unexpected action pave the way for an epic and unique global
-  adventure.
+description: "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron. Com o destino da Terra em jogo, os Vingadores terão que se unir para mais uma vez salvar a raça humana da extinção."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/the-avengers-2-51eca0725c412.webp"
@@ -17,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 127
 tags:
   - has-thor
+overview: "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron. Com o destino da Terra em jogo, os Vingadores terão que se unir para mais uma vez salvar a raça humana da extinção."
 ---
 ## TMDB Data
 ```json

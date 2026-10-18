@@ -1,14 +1,7 @@
 ---
 title: 'Avengers: Infinity War'
 slug: avengers-infinity-war
-description: >-
-  As the Avengers and their allies have continued to protect the world from
-  threats too large for any one hero to handle, a new danger has emerged from
-  the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to
-  collect all six Infinity Stones, artifacts of unimaginable power, and use them
-  to inflict his twisted will on all of reality. Everything the Avengers have
-  fought for has led up to this moment - the fate of Earth and existence itself
-  has never been more uncertain.
+description: "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/avengers-infinity-war---part-i-5a4eae6d4addb.webp"
@@ -18,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 434
 tags:
   - has-thor
+overview: "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade."
 ---
 ## TMDB Data
 ```json

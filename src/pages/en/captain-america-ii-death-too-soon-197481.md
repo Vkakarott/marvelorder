@@ -1,21 +1,14 @@
 ---
 title: 'Captain America II: Death Too Soon'
 slug: captain-america-ii-death-too-soon
-description: >-
-  A government agent is looking for a missing scientist, believing that a
-  revolutionary leader known as Miguel has him, and that he is using him to get
-  his formula for something that can accelerate the aging process. He sends
-  Steve Rogers aka Captain America to find him and rescue the scientist, his
-  only lead is a chemical that the scientist needs for his formula. As he gets
-  closer to the truth Miguel threatens to spray the chemical on a major city
-  unless his demands are met. But the President does not negotiate with
-  terrorists, can Captain America save the day!?
+description: "Um agente do governo está à procura de um cientista desaparecido, acreditando que um líder revolucionário conhecido como Miguel (Christopher Lee) o sequestrou, e que ele está usando-o para transformar a sua fórmula em algo que pode acelerar o processo de envelhecimento. Ele envia o Capitão América (Red Brown) para encontrá-lo e resgatar o cientista, sua única pista é um produto químico que o cientista precisa para a sua fórmula. Quando ele fica mais perto da verdade, Miguel ameaça pulverizar o produto químico em uma grande cidade, a menos que suas exigências sejam atendidas. Mas o presidente não negocia com terroristas, será que o Capitão América pode salvar o dia !?"
 layout: ../../layouts/MainLayout.astro
 logo_on_black: >-
   {tmdb-path}/ggbq4863ttkoNT7X96eILcc7PkU.webp?crop.bottom=0.785
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B005G5NPD8?linkCode=osi&th=1&psc=1
+overview: "Um agente do governo está à procura de um cientista desaparecido, acreditando que um líder revolucionário conhecido como Miguel (Christopher Lee) o sequestrou, e que ele está usando-o para transformar a sua fórmula em algo que pode acelerar o processo de envelhecimento. Ele envia o Capitão América (Red Brown) para encontrá-lo e resgatar o cientista, sua única pista é um produto químico que o cientista precisa para a sua fórmula. Quando ele fica mais perto da verdade, Miguel ameaça pulverizar o produto químico em uma grande cidade, a menos que suas exigências sejam atendidas. Mas o presidente não negocia com terroristas, será que o Capitão América pode salvar o dia !?"
 ---
 ## TMDB Data
 ```json

@@ -4,12 +4,7 @@ title: >-
   Madness
 slug: >-
   marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness
-description: >-
-  Join visionary director Sam Raimi and the cast of the film as they recount
-  their experiences bringing Marvel’s darkest story to life.  From
-  world-building to universe-building, hear first hand accounts from the cast
-  and crew on what it took to design, create and make each universe unique and
-  believable.
+description: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /coxMHDtNRcyNmriZFCxpwqmlxjS.jpg
@@ -20,12 +15,7 @@ original_language: en
 original_title: >-
   Marvel Studios Assembled: The Making of Doctor Strange in the Multiverse of
   Madness
-overview: >-
-  Join visionary director Sam Raimi and the cast of the film as they recount
-  their experiences bringing Marvel’s darkest story to life.  From
-  world-building to universe-building, hear first hand accounts from the cast
-  and crew on what it took to design, create and make each universe unique and
-  believable.
+overview: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
 poster_path: /eIzPe62s12uHsIPhGWY1yp68DY9.jpg
 release_date: '2022-07-08'
 video: false

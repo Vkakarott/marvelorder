@@ -1,9 +1,7 @@
 ---
 title: Untitled Silver Surfer Special
 slug: untitled-silver-surfer-special
-description: >-
-  A Marvel Studios Special Presentation adapting Marvel Comics superhero the
-  Silver Surfer.
+description: "Uma apresentação especial da Marvel Studios adaptando o super-herói da Marvel Comics, o Surfista Prateado."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -13,9 +11,7 @@ genre_ids:
 id: 1038729
 original_language: en
 original_title: Untitled Silver Surfer Special
-overview: >-
-  A Marvel Studios Special Presentation adapting Marvel Comics superhero the
-  Silver Surfer.
+overview: "Uma apresentação especial da Marvel Studios adaptando o super-herói da Marvel Comics, o Surfista Prateado."
 poster_path: null
 release_date: ''
 video: false

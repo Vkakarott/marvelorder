@@ -1,17 +1,14 @@
 ---
 title: The Marvel Super Heroes
 slug: the-marvel-super-heroes
-description: >-
-  This cartoon series, characterized by extremely limited animation, features
-  five of the most popular super-powered heroes from Marvel Comics: the
-  Incredible Hulk, the Mighty Thor, Captain America, Iron Man, and the
-  Sub-Mariner.
+description: "Esta série animada, caracterizada por uma animação extremamente limitada, apresenta cinco dos heróis superpoderosos mais populares da Marvel Comics: o Incrível Hulk, o Poderoso Thor, o Capitão América, o Homem de Ferro e o Príncipe Namor (Sub-Mariner)."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/the-marvel-superheroes-5ccdadcf50aa1.webp"
 watchLinks:
   amazon: 'https://amzn.to/3b42gEE'
 tags: 
   - has-thor
+overview: "Esta série animada, caracterizada por uma animação extremamente limitada, apresenta cinco dos heróis superpoderosos mais populares da Marvel Comics: o Incrível Hulk, o Poderoso Thor, o Capitão América, o Homem de Ferro e o Príncipe Namor (Sub-Mariner)."
 ---
 ## TMDB Data
 ```json

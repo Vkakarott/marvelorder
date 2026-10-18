@@ -1,14 +1,13 @@
 ---
 title: Silver Surfer
 slug: silver-surfer
-description: >-
-  The adventures of the cosmic wanderer as he seeks his lost home after
-  rebelling from his master.
+description: "As aventuras do viajante cósmico enquanto busca seu lar perdido após se rebelar contra seu mestre."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/the-silver-surfer-5e71870f1dc60.png"
 watchLinks:
   amazon: none
+overview: "As aventuras do viajante cósmico enquanto busca seu lar perdido após se rebelar contra seu mestre."
 ---
 ## TMDB Data
 ```json

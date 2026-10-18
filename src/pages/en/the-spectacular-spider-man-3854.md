@@ -1,12 +1,7 @@
 ---
 title: The Spectacular Spider-Man
 slug: the-spectacular-spider-man
-description: >-
-  The 10th television series about Spider-Man picks up the original
-  web-slinger's mythology at the beginning of his hero's journey, as a not so
-  typical 16-year-old entering his junior year of high school. Having spent the
-  summer engaging common criminals with his new-found powers, Peter Parker must
-  conceal his secret identity and battle super-villains in the real world.
+description: "Esta série recria as façanhas de Peter Parker, um garoto que é picado por uma aranha radioativa e passa a ter superpoderes, tornando-se o Homem-Aranha."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
@@ -14,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B002OBF3G4?linkCode=osi&th=1&psc=1
+overview: "Esta série recria as façanhas de Peter Parker, um garoto que é picado por uma aranha radioativa e passa a ter superpoderes, tornando-se o Homem-Aranha."
 ---
 ## TMDB Data
 ```json

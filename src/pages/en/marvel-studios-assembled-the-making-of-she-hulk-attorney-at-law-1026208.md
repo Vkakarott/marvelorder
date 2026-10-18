@@ -1,12 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law'
 slug: marvel-studios-assembled-the-making-of-she-hulk-attorney-at-law
-description: >-
-  Join the likes of Tatiana Maslany, Mark Ruffalo, Tim Roth, and Benedict Wong
-  as they reveal how Marvel Studios’ She-Hulk: Attorney at Law was conceived and
-  shaped. Discover what it took for She-Hulk’s creators to pull off the show’s
-  tricky tone and deliver Marvel Studios’ first truly comedic series – one that
-  boldly breaks the fourth wall to acknowledge its own audience, no less!
+description: "Junte-se a Tatiana Maslany, Mark Ruffalo, Tim Roth e Benedict Wong enquanto eles revelam como Mulher-Hulk: Defensora de Heróis da Marvel Studios foi criada e moldada. Descubra como os criadores de Mulher-Hulk desenvolveram o tom brincalhão e entregaram a primeira série verdadeiramente de comédia da Marvel, \"quebrando a quarta parede\" para falar com seus próprios telespectadores."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -15,12 +10,7 @@ genre_ids:
 id: 1026208
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law'
-overview: >-
-  Join the likes of Tatiana Maslany, Mark Ruffalo, Tim Roth, and Benedict Wong
-  as they reveal how Marvel Studios’ She-Hulk: Attorney at Law was conceived and
-  shaped. Discover what it took for She-Hulk’s creators to pull off the show’s
-  tricky tone and deliver Marvel Studios’ first truly comedic series – one that
-  boldly breaks the fourth wall to acknowledge its own audience, no less!
+overview: "Junte-se a Tatiana Maslany, Mark Ruffalo, Tim Roth e Benedict Wong enquanto eles revelam como Mulher-Hulk: Defensora de Heróis da Marvel Studios foi criada e moldada. Descubra como os criadores de Mulher-Hulk desenvolveram o tom brincalhão e entregaram a primeira série verdadeiramente de comédia da Marvel, \"quebrando a quarta parede\" para falar com seus próprios telespectadores."
 poster_path: null
 release_date: '2022-11-03'
 video: false

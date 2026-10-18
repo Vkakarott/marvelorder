@@ -1,10 +1,7 @@
 ---
 title: VisionQuest
 slug: visionquest
-description: >-
-  After the events of WandaVision, White Vision struggles to connect with the
-  memories given to him as he lacks the emotions or feelings associated with
-  them.
+description: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/6W4i38nHaAdjdZyk7H5mBVyFC1e.webp"
 adult: false
@@ -16,10 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: VisionQuest
-overview: >-
-  After the events of WandaVision, White Vision struggles to connect with the
-  memories given to him as he lacks the emotions or feelings associated with
-  them.
+overview: "Após os eventos de WandaVision, White Vision luta para se conectar com as memórias que lhe foram dadas, pois lhe faltam as emoções ou sentimentos associados a elas."
 poster_path: /6j60tGRAjBmWRPTOEwhW6oRbPMP.jpg
 first_air_date: '2026-10-14'
 name: VisionQuest

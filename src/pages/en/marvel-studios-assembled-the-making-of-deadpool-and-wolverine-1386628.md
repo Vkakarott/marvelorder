@@ -1,10 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Deadpool & Wolverine'
 slug: marvel-studios-assembled-the-making-of-deadpool-and-wolverine
-description: >-
-  Hugh Jackman, Ryan Reynolds, and director Shawn Levy sit down and spill the
-  proverbial beans about how "Deadpool & Wolverine" was conceived, carried to
-  term, and then birthed.
+description: "Convencemos Ryan Reynolds, Hugh Jackman e o diretor Shawn Levy a se sentarem e contarem como \"Deadpool & Wolverine\" foi concebido, gestado e depois parido. Com toda a honestidade, Hugh, Ryan e os demais são contratualmente obrigados a divulgar essas informações. Eles fazem um ótimo trabalho fingindo que realmente queriam fazer isso, como se a ideia fosse deles ou algo assim. Divirtam-se!"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /j47pXLSYWFY1CJAZrBD7vhwGo0q.jpg
@@ -13,10 +10,7 @@ genre_ids:
 id: 1386628
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Deadpool & Wolverine'
-overview: >-
-  Hugh Jackman, Ryan Reynolds, and director Shawn Levy sit down and spill the
-  proverbial beans about how "Deadpool & Wolverine" was conceived, carried to
-  term, and then birthed.
+overview: "Convencemos Ryan Reynolds, Hugh Jackman e o diretor Shawn Levy a se sentarem e contarem como \"Deadpool & Wolverine\" foi concebido, gestado e depois parido. Com toda a honestidade, Hugh, Ryan e os demais são contratualmente obrigados a divulgar essas informações. Eles fazem um ótimo trabalho fingindo que realmente queriam fazer isso, como se a ideia fosse deles ou algo assim. Divirtam-se!"
 poster_path: /3dQyDFxTY6o3v67ncYCExog6aPH.jpg
 release_date: '2024-11-11'
 video: false

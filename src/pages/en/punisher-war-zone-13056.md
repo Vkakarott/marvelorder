@@ -1,14 +1,7 @@
 ---
 title: 'Punisher: War Zone'
 slug: punisher-war-zone
-description: >-
-  Waging his one-man war on the world of organized crime, ruthless
-  vigilante-hero Frank Castle sets his sights on overeager mob boss Billy
-  Russoti. After Russoti is left horribly disfigured by Castle, he sets out for
-  vengeance under his new alias: Jigsaw. With the "Punisher Task Force" hot on
-  his trail and the FBI unable to take Jigsaw in, Frank must stand up to the
-  formidable army that Jigsaw has recruited before more of his evil deeds go
-  unpunished.
+description: "Depois de ter sido desfigurado pelo justiceiro Frank Castle, o poderoso chefe do crime organizado Billy Russoti muda seu nome para Jigsaw e sai em busca de vingança."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -16,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001RU0CFK?linkCode=osi&th=1&psc=1
+overview: "Depois de ter sido desfigurado pelo justiceiro Frank Castle, o poderoso chefe do crime organizado Billy Russoti muda seu nome para Jigsaw e sai em busca de vingança."
 ---
 ## TMDB Data
 ```json

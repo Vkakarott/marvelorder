@@ -1,11 +1,7 @@
 ---
 title: Spider-Man 3
 slug: spider-man-3
-description: >-
-  The seemingly invincible Spider-Man goes up against an all-new crop of
-  villains—including the shape-shifting Sandman. While Spider-Man’s superpowers
-  are altered by an alien organism, his alter ego, Peter Parker, deals with
-  nemesis Eddie Brock and also gets caught up in a love triangle.
+description: "O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter, que apesar de aumentar seus poderes, revela o lado obscuro de sua personalidade. Os vilões Venon e Homem-Areia tentam destruir o super-herói."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -14,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000UU4NE4?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 546
+overview: "O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter, que apesar de aumentar seus poderes, revela o lado obscuro de sua personalidade. Os vilões Venon e Homem-Areia tentam destruir o super-herói."
 ---
 ## TMDB Data
 ```json

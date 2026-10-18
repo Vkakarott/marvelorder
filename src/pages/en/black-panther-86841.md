@@ -1,12 +1,10 @@
 ---
 title: Black Panther
 slug: black-panther
-description: >-
-  Black Panther is the ruler and protector of the African nation of Wakanda.
-  Using technology, wits, and extraordinary fighting ability he must protect his
-  nation from an invasion led by Ulysses Klaw, the man who killed his father.
+description: "O Pantera Negra é T'Challa, rei da nação africana chamada Wakanda. Depois de ser educado nas melhores escolas européias e norte-americanas, TChalla voltou ao seu reino para assumir o manto da liderança. Sob sua orientação, o pequeno país tornou-se uma das nações mais ricas e avançadas de todo o planeta. Durante uma cerimônia de iniciação de seu povo, o Pantera Negra ingeriu uma erva mística que é reservada somente aos reis, que lhe conferiu poderes sobre-humanos, tais como sentidos aguçados, força, velocidade e resistência acima dos níveis normais. É um exímio ginasta e acrobata, além de conhecer artes marciais africanas e ser um excelente rastreador."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "O Pantera Negra é T'Challa, rei da nação africana chamada Wakanda. Depois de ser educado nas melhores escolas européias e norte-americanas, TChalla voltou ao seu reino para assumir o manto da liderança. Sob sua orientação, o pequeno país tornou-se uma das nações mais ricas e avançadas de todo o planeta. Durante uma cerimônia de iniciação de seu povo, o Pantera Negra ingeriu uma erva mística que é reservada somente aos reis, que lhe conferiu poderes sobre-humanos, tais como sentidos aguçados, força, velocidade e resistência acima dos níveis normais. É um exímio ginasta e acrobata, além de conhecer artes marciais africanas e ser um excelente rastreador."
 ---
 ## TMDB Data
 ```json

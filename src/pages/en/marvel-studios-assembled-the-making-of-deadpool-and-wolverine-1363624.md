@@ -1,7 +1,7 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Deadpool & Wolverine'
 slug: marvel-studios-assembled-the-making-of-deadpool-and-wolverine
-description: The making of Deadpool & Wolverine
+description: "A produção de Deadpool e Wolverine"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1363624
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Deadpool & Wolverine'
-overview: The making of Deadpool & Wolverine
+overview: "A produção de Deadpool e Wolverine"
 poster_path: null
 release_date: ''
 video: false

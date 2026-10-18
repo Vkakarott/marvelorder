@@ -1,9 +1,7 @@
 ---
 title: 'Marvel One-Shot: Peter''s To-Do List'
 slug: marvel-one-shot-peters-to-do-list
-description: >-
-  On the eve of his departure to Europe, Peter Parker tells Ned Leeds that he
-  has several things to do before they leave.
+description: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /qG5A6fWoP5inQa16VadLDiB1mlb.jpg
@@ -14,9 +12,7 @@ genre_ids:
 id: 758025
 original_language: en
 original_title: 'Marvel One-Shot: Peter''s To-Do List'
-overview: >-
-  On the eve of his departure to Europe, Peter Parker tells Ned Leeds that he
-  has several things to do before they leave.
+overview: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
 poster_path: /ohnN1gVREFJXJJv35BaBHladKoA.jpg
 release_date: '2019-09-17'
 video: false

@@ -1,16 +1,7 @@
 ---
 title: The Trial of the Incredible Hulk
 slug: the-trial-of-the-incredible-hulk
-description: >-
-  On the run again, Dr. David Banner is jailed for assault after interrupting a
-  mugging. Blind attorney Matt Murdock enlists Banner's help in locating the
-  muggers because he believes they work for his longtime foe, Fisk, the head of
-  an international crime network. But David, afraid of public exposure, breaks
-  out of jail as the Hulk. Tracking David down, Murdock reveals his own secret:
-  His blindness came from a radioactive spill, and after developing his other
-  senses so incredibly, he has become the amazingly athletic crime fighter
-  called Daredevil. Fisk must now face off against Daredevil and the Incredible
-  Hulk!
+description: "Injustamente acusado de agressão, o Dr. David Banner é preso e levado a julgamento, correndo o risco de passar anos na prisão. Sua defesa é assumida pelo advogado cego Matt Murdock, que também atua secretamente como o vigilante Demolidor. À medida que o julgamento avança, Banner enfrenta dificuldades para controlar o Hulk, culminando em um confronto com o criminoso Wilson Fisk."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: >-
   {tmdb-path}/pStE8fkPIKoQYcqESNWvY2s9nuo.webp?crop.bottom=0.35&crop.top=0.1
@@ -18,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00715RHBC?linkCode=osi&th=1&psc=1
 backdrop_path: /vrb9b26WDZto8vmUnDMgZZ1T9hS.jpg
+overview: "Injustamente acusado de agressão, o Dr. David Banner é preso e levado a julgamento, correndo o risco de passar anos na prisão. Sua defesa é assumida pelo advogado cego Matt Murdock, que também atua secretamente como o vigilante Demolidor. À medida que o julgamento avança, Banner enfrenta dificuldades para controlar o Hulk, culminando em um confronto com o criminoso Wilson Fisk."
 ---
 ## TMDB Data
 ```json

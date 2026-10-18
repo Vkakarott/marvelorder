@@ -1,17 +1,13 @@
 ---
 title: Deadpool
 slug: deadpool
-description: >-
-  The origin story of former Special Forces operative turned mercenary Wade
-  Wilson, who, after being subjected to a rogue experiment that leaves him with
-  accelerated healing powers, adopts the alter ego Deadpool. Armed with his new
-  abilities and a dark, twisted sense of humor, Deadpool hunts down the man who
-  nearly destroyed his life.
+description: "Depois de passar por um experimento desonesto que lhe concede um fator de cura acelerado, mas desfigura seu rosto, o ex-agente das Forças Especiais Wade Wilson assume o alter ego de Deadpool. Com suas novas habilidades e um senso de humor sombrio e perverso, Deadpool persegue o homem que quase destruiu sua vida."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/deadpool-567c7f079a308.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B08GSMVJQZ?linkCode=osi&th=1&psc=1
+overview: "Depois de passar por um experimento desonesto que lhe concede um fator de cura acelerado, mas desfigura seu rosto, o ex-agente das Forças Especiais Wade Wilson assume o alter ego de Deadpool. Com suas novas habilidades e um senso de humor sombrio e perverso, Deadpool persegue o homem que quase destruiu sua vida."
 ---
 ## TMDB Data
 ```json

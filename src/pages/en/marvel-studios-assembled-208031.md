@@ -1,7 +1,7 @@
 ---
 title: 'Marvel Studios: Assembled'
 slug: marvel-studios-assembled
-description: Behind the scenes of upcoming marvel movies and shows
+description: "Nos bastidores dos próximos filmes e programas da Marvel"
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 first_air_date: '2021-03-12'
@@ -13,7 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Marvel Studios: Assembled'
-overview: Behind the scenes of upcoming marvel movies and shows
+overview: "Nos bastidores dos próximos filmes e programas da Marvel"
 poster_path: /qEQDmuxelVj8qYkYpUExLn813G8.jpg
 vote_average: 0
 tags:

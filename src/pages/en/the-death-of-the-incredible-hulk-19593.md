@@ -1,16 +1,12 @@
 ---
 title: The Death of the Incredible Hulk
 slug: the-death-of-the-incredible-hulk
-description: >-
-  During the critical experiment that would rid David Banner of the Hulk,a spy
-  sabotages the laboratory. Banner falls in love with the spy, Jasmin, who
-  performs missions only because her sister is being held hostage by Jasmin's
-  superiors. Banner and Jasmin try to escape from the enemy agents to rebuild
-  their lives together, but the Hulk is never far from them.
+description: "Em sua última tentativa de se livrar da maldição do Hulk, o Dr. David Banner se envolve em uma perigosa missão de espionagem internacional que pode finalmente levá-lo à cura. Com o cerco se fechando e os riscos aumentando, Banner enfrenta um sacrifício final, encerrando sua trajetória de forma trágica e definitiva."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/the-death-of-the-incredible-hulk-5479080c56fd6.webp"
 watchLinks:
   amazon: 'https://amzn.to/39ueJB0'
+overview: "Em sua última tentativa de se livrar da maldição do Hulk, o Dr. David Banner se envolve em uma perigosa missão de espionagem internacional que pode finalmente levá-lo à cura. Com o cerco se fechando e os riscos aumentando, Banner enfrenta um sacrifício final, encerrando sua trajetória de forma trágica e definitiva."
 ---
 ## TMDB Data
 ```json

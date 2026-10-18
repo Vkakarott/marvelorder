@@ -1,15 +1,14 @@
 ---
 title: Marvel's Luke Cage
 slug: marvels-luke-cage
-description: >-
-  Given superstrength and durability by a sabotaged experiment, a wrongly
-  accused man escapes prison to become a superhero for hire.
+description: "Um ex-presidiário com pele indestrutível luta para limpar seu nome e salvar o bairro onde vive. Ele não queria confusão, mas a população precisava muito de um herói."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-luke-cage-57931ed78bc64.webp"
 watchLinks:
   amazon: none
 mcuTimelineOrder: 139
+overview: "Um ex-presidiário com pele indestrutível luta para limpar seu nome e salvar o bairro onde vive. Ele não queria confusão, mas a população precisava muito de um herói."
 ---
 ## TMDB Data
 ```json

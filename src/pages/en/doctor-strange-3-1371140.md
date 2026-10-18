@@ -1,9 +1,7 @@
 ---
 title: Doctor Strange 3
 slug: doctor-strange-3
-description: >-
-  It has been reported that Sam Raimi will return to direct the third film of
-  the 'Doctor Strange' trilogy in the MCU.
+description: "Foi noticiado que Sam Raimi retornará para dirigir o terceiro filme da trilogia ‘Doutor Estranho’ no MCU."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -14,9 +12,7 @@ genre_ids:
 id: 1371140
 original_language: en
 original_title: Doctor Strange 3
-overview: >-
-  It has been reported that Sam Raimi will return to direct the third film of
-  the 'Doctor Strange' trilogy in the MCU.
+overview: "Foi noticiado que Sam Raimi retornará para dirigir o terceiro filme da trilogia ‘Doutor Estranho’ no MCU."
 poster_path: /emtdy4FaNkfp3VLq7FGLgpT9lF8.jpg
 release_date: ''
 video: false

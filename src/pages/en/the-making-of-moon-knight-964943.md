@@ -1,15 +1,10 @@
 ---
 title: The Making of Moon Knight
 slug: the-making-of-moon-knight
-description: >-
-  Join the likes of Oscar Isaac and Ethan Hawke as they reveal how Marvel
-  Studios' Moon Knight was painstakingly brought to life. Through insightful
-  interviews with cast and crew, along with immersive footage from the set, and
-  a  candid "roundtable discussion" with the series' directors, this "making-of"
-  pulls back the curtain on the groundbreaking series of Marvel Studios' newest
-  hero.
+description: "Junte-se a Oscar Isaac e Ethan Hawke enquanto eles revelam como o Cavaleiro da Lua da Marvel Studios foi meticulosamente trazido à vida. Através de entrevistas perspicazes com elenco e equipe, juntamente com imagens imersivas do set, este Making Of abre as cortinas desta série inovadora. Além disso, incorpora uma \"discussão de mesa redonda\" sincera com os diretores da série."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Junte-se a Oscar Isaac e Ethan Hawke enquanto eles revelam como o Cavaleiro da Lua da Marvel Studios foi meticulosamente trazido à vida. Através de entrevistas perspicazes com elenco e equipe, juntamente com imagens imersivas do set, este Making Of abre as cortinas desta série inovadora. Além disso, incorpora uma \"discussão de mesa redonda\" sincera com os diretores da série."
 ---
 ## TMDB Data
 ```json

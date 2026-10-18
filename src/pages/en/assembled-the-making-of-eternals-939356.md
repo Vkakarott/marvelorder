@@ -1,14 +1,10 @@
 ---
 title: 'ASSEMBLED: The Making of Eternals'
 slug: assembled-the-making-of-eternals
-description: >-
-  Join director Chloe Zhao and the Cast of Eternals as they recount their
-  experiences during the making of Marvel Studios’ most ambitious film to date.
-  Discover how the ensemble cast felt stepping into their roles, filming in
-  remote locations, and creating bonds that would help to create the on-screen
-  relationships that span over 7,000 years.
+description: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as experiências durante a gravação do filme mais ambicioso da Marvel Studios até hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar em locações remotas e criar laços que ajudaram a criar os relacionamentos dos heróis ao longo de mais de 7 mil anos."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as experiências durante a gravação do filme mais ambicioso da Marvel Studios até hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar em locações remotas e criar laços que ajudaram a criar os relacionamentos dos heróis ao longo de mais de 7 mil anos."
 ---
 ## TMDB Data
 ```json

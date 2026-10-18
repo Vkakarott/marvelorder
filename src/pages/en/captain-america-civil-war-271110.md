@@ -1,11 +1,7 @@
 ---
 title: 'Captain America: Civil War'
 slug: captain-america-civil-war
-description: >-
-  Following the events of Age of Ultron, the collective governments of the world
-  pass an act designed to regulate all superhuman activity. This polarizes
-  opinion amongst the Avengers, causing two factions to side with Iron Man or
-  Captain America, which causes an epic battle between former allies.
+description: "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -14,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01EXR6C8Y?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 233
+overview: "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro."
 ---
 ## TMDB Data
 ```json

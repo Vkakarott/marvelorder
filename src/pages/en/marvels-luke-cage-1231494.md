@@ -1,9 +1,7 @@
 ---
 title: Marvel's Luke Cage
 slug: marvels-luke-cage
-description: >-
-  Given superstrength and durability by a sabotaged experiment, a wrongly
-  accused man escapes prison to become a superhero for hire.
+description: "Com superforça e durabilidade graças a um experimento sabotado, um homem injustamente acusado escapa da prisão para se tornar um super-herói de aluguel."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /1JLvaMZMcPOtzkkgekahbfbJoLg.jpg
@@ -17,9 +15,7 @@ genre_ids:
 id: 1231494
 original_language: en
 original_title: Marvel's Luke Cage
-overview: >-
-  Given superstrength and durability by a sabotaged experiment, a wrongly
-  accused man escapes prison to become a superhero for hire.
+overview: "Com superforça e durabilidade graças a um experimento sabotado, um homem injustamente acusado escapa da prisão para se tornar um super-herói de aluguel."
 poster_path: /46Vs43Hayx9WWPWHF8bzrdIbFQR.jpg
 release_date: '2016-09-30'
 video: false

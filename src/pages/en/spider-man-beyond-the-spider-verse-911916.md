@@ -1,12 +1,11 @@
 ---
 title: 'Spider-Man: Beyond the Spider-Verse'
 slug: spider-man-beyond-the-spider-verse
-description: >-
-  The further continuing story of Miles Morales and the many other Spider-People
-  from different realities.
+description: "O capítulo final da história de Miles Morales e de todas as pessoas-aranha das infinitas realidades."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/5cAuJOfd5tuuFBz2yQmBCtVBaj0.webp"
+overview: "O capítulo final da história de Miles Morales e de todas as pessoas-aranha das infinitas realidades."
 ---
 ## TMDB Data
 ```json

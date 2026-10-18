@@ -1,9 +1,7 @@
 ---
 title: 8 Arms to Hold You
 slug: 8-arms-to-hold-you
-description: >-
-  An "Ock-umentary" exploring the character of Doc Ock and the way he as well as
-  his tentacles were brought to life on the silver screen.
+description: "Um \"Ock-umentário\" explorando o personagem Doc Ock e a maneira como ele e seus tentáculos ganharam vida na tela prateada."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /s0dJIDBLiN1IAjFisxKi9PBQnYW.jpg
@@ -12,9 +10,7 @@ genre_ids:
 id: 1244755
 original_language: en
 original_title: 8 Arms to Hold You
-overview: >-
-  An "Ock-umentary" exploring the character of Doc Ock and the way he as well as
-  his tentacles were brought to life on the silver screen.
+overview: "Um \"Ock-umentário\" explorando o personagem Doc Ock e a maneira como ele e seus tentáculos ganharam vida na tela prateada."
 poster_path: /AmUUD1SDWh8slviwBxMTymmbyyJ.jpg
 release_date: '2004-11-30'
 video: false

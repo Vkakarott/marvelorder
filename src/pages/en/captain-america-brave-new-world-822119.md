@@ -1,15 +1,14 @@
 ---
 title: 'Captain America: Brave New World'
 slug: captain-america-brave-new-world
-description: >-
-  A sequel to Marvel Studios' The Falcon and the Winter Soldier and follows Sam
-  Wilson as the new Captain America.
+description: "Após se encontrar com o recém-eleito presidente dos EUA, Thaddeus Ross, Sam se vê no meio de um incidente internacional. Ele deve descobrir o motivo por trás de uma conspiração global nefasta antes que o verdadeiro gênio faça o mundo inteiro ser dominado pelo vermelho."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/ghkjPyaPGMfDufOa4D2A51DFGWr.webp"
 video: false
 tags:
   - movie
   - company-420
+overview: "Após se encontrar com o recém-eleito presidente dos EUA, Thaddeus Ross, Sam se vê no meio de um incidente internacional. Ele deve descobrir o motivo por trás de uma conspiração global nefasta antes que o verdadeiro gênio faça o mundo inteiro ser dominado pelo vermelho."
 ---
 ## TMDB Data
 ```json

@@ -1,10 +1,7 @@
 ---
 title: Are You My Groot?
 slug: are-you-my-groot
-description: >-
-  Groot stumbles across a strange egg in a nest while exploring the alien planet
-  of Terma. He instantly falls for the little creature that emerges when the egg
-  cracks, adopting it as his own.
+description: "Groot tropeça em um ovo estranho em um ninho enquanto explora o planeta alienígena Terma. Ele instantaneamente se apaixona pela pequena criatura que surge quando o ovo quebra, adotando-a como sua."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /8N3lHJTAb3R0LhcaU7LXecY1abS.jpg
@@ -16,10 +13,7 @@ genre_ids:
 id: 1174709
 original_language: en
 original_title: Are You My Groot?
-overview: >-
-  Groot stumbles across a strange egg in a nest while exploring the alien planet
-  of Terma. He instantly falls for the little creature that emerges when the egg
-  cracks, adopting it as his own.
+overview: "Groot tropeça em um ovo estranho em um ninho enquanto explora o planeta alienígena Terma. Ele instantaneamente se apaixona pela pequena criatura que surge quando o ovo quebra, adotando-a como sua."
 poster_path: /sPuFvh0xw9yjnb3ehQ6OlgXIOM1.jpg
 release_date: '2023-09-06'
 video: false

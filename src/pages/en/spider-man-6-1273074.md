@@ -1,7 +1,7 @@
 ---
 title: Spider-Man 6
 slug: spider-man-6
-description: The third film in a planned Tom Holland’s Spider-Man trilogy.
+description: "O terceiro filme da trilogia planejada do Homem-Aranha de Tom Holland."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,7 +11,7 @@ genre_ids:
 id: 1273074
 original_language: en
 original_title: Spider-Man 6
-overview: The third film in a planned Tom Holland’s Spider-Man trilogy.
+overview: "O terceiro filme da trilogia planejada do Homem-Aranha de Tom Holland."
 poster_path: null
 release_date: ''
 video: false

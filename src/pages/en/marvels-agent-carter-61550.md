@@ -1,13 +1,7 @@
 ---
 title: Marvel's Agent Carter
 slug: marvels-agent-carter
-description: >-
-  It's 1946, and peace has dealt Peggy Carter a serious blow as she finds
-  herself marginalized when the men return home from fighting abroad. Working
-  for the covert SSR (Strategic Scientific Reserve), Peggy must balance doing
-  administrative work and going on secret missions for Howard Stark all while
-  trying to navigate life as a single woman in America, in the wake of losing
-  the love of her life - Steve Rogers.
+description: "Depois de perder o Capitão América, amor de sua vida, Peggy Carter entra para uma sociedade de combate ao crime e recebe as mais perigosas missões."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/marvels-agent-carter-547ef538a02d8.webp"
@@ -15,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00RWAOJ7G?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 1
+overview: "Depois de perder o Capitão América, amor de sua vida, Peggy Carter entra para uma sociedade de combate ao crime e recebe as mais perigosas missões."
 ---
 ## TMDB Data
 ```json

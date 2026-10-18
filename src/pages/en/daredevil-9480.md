@@ -1,15 +1,14 @@
 ---
 title: Daredevil
 slug: daredevil
-description: >-
-  A man blinded in a childhood accident fights crime using his
-  superhumanly-elevated remaining senses.
+description: "O advogado Matt Murdock é cego, mas os seus outros quatro sentidos funcionam com uma nitidez sobrehumana. De dia, Murdock representa os oprimidos e à noite, ele é o Demolidor, um vigilante mascarado e vingador implacável da justiça."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/kcOwV5mpp8gxxgrZ4iGsxAcMt9F.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001GJ1BBQ?linkCode=osi&th=1&psc=1
+overview: "O advogado Matt Murdock é cego, mas os seus outros quatro sentidos funcionam com uma nitidez sobrehumana. De dia, Murdock representa os oprimidos e à noite, ele é o Demolidor, um vigilante mascarado e vingador implacável da justiça."
 ---
 ## TMDB Data
 ```json

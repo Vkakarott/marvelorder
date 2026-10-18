@@ -1,12 +1,7 @@
 ---
 title: 'ASSEMBLED: The Making of Thor: Love and Thunder'
 slug: assembled-the-making-of-thor-love-and-thunder
-description: >-
-  Settle in with the likes of Taika Waititi, Chris Hemsworth, Natalie Portman,
-  Christian Bale, and Tessa Thompson, and as they divulge the secrets behind the
-  creation of Thor: Love and Thunder. Through in-depth interviews with cast and
-  crew, along with raw, unseen footage from the set and beyond, ASSEMBLED pulls
-  back the curtain on the God of Thunder’s fourth feature film.
+description: "Junte-se a Taika Waititi, Chris Hemsworth, Natalie Portman, Christian Bale e Tessa Thompson, que compartilham os segredos por trás da criação de Thor: Amor e Trovão. Por meio de entrevistas detalhadas com o elenco e a equipe, além de imagens e filmagens inéditas do set e muito mais, Avante revela os bastidores do quarto filme do Deus do Trovão."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /dXQ1DniisiNMTCNdJUcI4NA04PL.jpg
@@ -15,12 +10,7 @@ genre_ids:
 id: 1015595
 original_language: en
 original_title: 'ASSEMBLED: The Making of Thor: Love and Thunder'
-overview: >-
-  Settle in with the likes of Taika Waititi, Chris Hemsworth, Natalie Portman,
-  Christian Bale, and Tessa Thompson, and as they divulge the secrets behind the
-  creation of Thor: Love and Thunder. Through in-depth interviews with cast and
-  crew, along with raw, unseen footage from the set and beyond, ASSEMBLED pulls
-  back the curtain on the God of Thunder’s fourth feature film.
+overview: "Junte-se a Taika Waititi, Chris Hemsworth, Natalie Portman, Christian Bale e Tessa Thompson, que compartilham os segredos por trás da criação de Thor: Amor e Trovão. Por meio de entrevistas detalhadas com o elenco e a equipe, além de imagens e filmagens inéditas do set e muito mais, Avante revela os bastidores do quarto filme do Deus do Trovão."
 poster_path: /eb7GP3cttApzilOOM52L129Eaaj.jpg
 release_date: '2022-09-08'
 video: false

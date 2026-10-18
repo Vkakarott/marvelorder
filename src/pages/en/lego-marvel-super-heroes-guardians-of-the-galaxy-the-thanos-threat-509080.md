@@ -1,12 +1,11 @@
 ---
 title: 'LEGO Marvel Super Heroes: Guardians of the Galaxy - The Thanos Threat'
 slug: lego-marvel-super-heroes-guardians-of-the-galaxy-the-thanos-threat
-description: >-
-  The Guardians are on a mission to deliver the Build Stone to the Avengers
-  before the Ravagers, Thanos and his underlings steal it from them.
+description: "Os Guardiões da Galáxia partem em direção a uma nova jornada, tentando frustrar os planos do tirano Thanos de eliminar metade do universo. Só que, dessa vez, nossos heróis são peças de LEGO."
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
+overview: "Os Guardiões da Galáxia partem em direção a uma nova jornada, tentando frustrar os planos do tirano Thanos de eliminar metade do universo. Só que, dessa vez, nossos heróis são peças de LEGO."
 ---
 ## TMDB Data
 ```json

@@ -1,10 +1,7 @@
 ---
 title: 'Venom: Let There Be Carnage'
 slug: venom-let-there-be-carnage
-description: >-
-  After finding a host body in investigative reporter Eddie Brock, the alien
-  symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus
-  Kasady.
+description: "Depois de encontrar o corpo hospedeiro do repórter investigativo Eddie Brock, o simbionte alienígena deve enfrentar um novo inimigo, Carnificina, o alter ego do serial killer Cletus Kasady."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -13,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B09HH7CQLW?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 566
+overview: "Depois de encontrar o corpo hospedeiro do repórter investigativo Eddie Brock, o simbionte alienígena deve enfrentar um novo inimigo, Carnificina, o alter ego do serial killer Cletus Kasady."
 ---
 ## TMDB Data
 ```json

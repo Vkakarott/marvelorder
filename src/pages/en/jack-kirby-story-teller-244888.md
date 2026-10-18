@@ -1,15 +1,13 @@
 ---
 title: 'Jack Kirby: Story Teller'
 slug: jack-kirby-story-teller
-description: >-
-  A documentary on the life of Jack Kirby, co-creator of Captain America, The
-  Fantastic Four, Iron Man, Thor, The Avengers, The Hulk, The X-Men and the New
-  Gods, among other classic comic book superheroes.
+description: "Um documentário sobre a vida de Jack Kirby, co-criador do Capitão América, Os Vingadores, Homem de Ferro, Thor, O Incrível Hulk, Os X-Men, Os Novos Deuses e outros heróis clássicos dos quadrinhos."
 layout: ../../layouts/MainLayout.astro
 type: movie
 tags:
   - movie
   - company-420
+overview: "Um documentário sobre a vida de Jack Kirby, co-criador do Capitão América, Os Vingadores, Homem de Ferro, Thor, O Incrível Hulk, Os X-Men, Os Novos Deuses e outros heróis clássicos dos quadrinhos."
 ---
 ## TMDB Data
 ```json

@@ -1,18 +1,14 @@
 ---
 title: Hawkeye
 slug: hawkeye
-description: >-
-  Former Avenger Clint Barton has a seemingly simple mission: get back to his
-  family for Christmas. Possible? Maybe with the help of Kate Bishop, a
-  22-year-old archer with dreams of becoming a superhero. The two are forced to
-  work together when a presence from Barton’s past threatens to derail far more
-  than the festive spirit.
+description: "O ex-vingador Clint Barton tem uma missão aparentemente simples: voltar para sua família no Natal. Será possível? Talvez com a ajuda de Kate Bishop, uma arqueira de 22 anos que sonha em se tornar uma super-heroína. Os dois são forçados a trabalhar juntos quando uma presença do passado de Barton ameaça descarrilar muito mais do que o espírito festivo."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/lpBHu9ZXCcuzq1XGPZo02U3Ah9f.webp"
 watchLinks:
   amazon: none
 mcuTimelineOrder: 587
+overview: "O ex-vingador Clint Barton tem uma missão aparentemente simples: voltar para sua família no Natal. Será possível? Talvez com a ajuda de Kate Bishop, uma arqueira de 22 anos que sonha em se tornar uma super-heroína. Os dois são forçados a trabalhar juntos quando uma presença do passado de Barton ameaça descarrilar muito mais do que o espírito festivo."
 ---
 ## TMDB Data
 ```json

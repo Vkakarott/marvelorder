@@ -1,7 +1,7 @@
 ---
 title: Black Panther 3
 slug: black-panther-3
-description: The third installment in Marvel Studios’ Black Panther franchise.
+description: "Rumores de terceira parcela da franquia Pantera Negra da Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -9,7 +9,7 @@ genre_ids: []
 id: 1037199
 original_language: en
 original_title: Black Panther 3
-overview: The third installment in Marvel Studios’ Black Panther franchise.
+overview: "Rumores de terceira parcela da franquia Pantera Negra da Marvel Studios."
 poster_path: /2lF3WbFA39z9KazQza9JJ0wtPAC.jpg
 release_date: '2028-12-15'
 video: false

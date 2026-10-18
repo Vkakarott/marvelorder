@@ -2,7 +2,7 @@
 draft: true
 title: Brazilian Wolverine
 slug: brazilian-wolverine
-description: ''
+description: "Esta série de televisão sobre o artista brasileiro Marcos Greick, que interpreta o Wolverine no talk-show CULTZONE Interview no YTB."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 first_air_date: '2009-04-28'
@@ -14,7 +14,7 @@ origin_country:
   - BR
 original_language: pt
 original_name: Brazilian Wolverine
-overview: ''
+overview: "Esta série de televisão sobre o artista brasileiro Marcos Greick, que interpreta o Wolverine no talk-show CULTZONE Interview no YTB."
 poster_path: /siKP5HS8BZO41a6GXH9aki52DNn.jpg
 vote_average: 0
 tags:

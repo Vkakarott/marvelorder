@@ -1,10 +1,7 @@
 ---
 title: What If...?
 slug: what-if
-description: >-
-  Taking inspiration from the comic books of the same name, each episode of this
-  animated anthology series questions, revisits and twists classic Marvel
-  Cinematic moments.
+description: "\"What If…?\" reinventa os acontecimentos do UCM, mudando a história de forma surpreendente."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/wzFmZOBRSYbrPxJE2nkhq2tAKwI.webp"
@@ -13,6 +10,7 @@ watchLinks:
 mcuTimelineOrder: 483
 tags:
   - has-thor
+overview: "\"What If…?\" reinventa os acontecimentos do UCM, mudando a história de forma surpreendente."
 ---
 ## TMDB Data
 ```json

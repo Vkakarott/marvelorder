@@ -1,11 +1,7 @@
 ---
 title: The Avengers
 slug: the-avengers
-description: >-
-  When an unexpected enemy emerges and threatens global safety and security,
-  Nick Fury, director of the international peacekeeping agency known as
-  S.H.I.E.L.D., finds himself in need of a team to pull the world back from the
-  brink of disaster. Spanning the globe, a daring recruitment effort begins!
+description: "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/marvels-the-avengers-53f39d73300c2.webp"
@@ -15,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 38
 tags:
   - has-thor
+overview: "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade."
 ---
 ## TMDB Data
 ```json

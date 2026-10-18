@@ -1,7 +1,7 @@
 ---
 title: Young Avengers
 slug: young-avengers
-description: The Plot TBA
+description: "O enredo a definir"
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -11,7 +11,7 @@ origin_country:
   - US
 original_language: en
 original_name: Young Avengers
-overview: The Plot TBA
+overview: "O enredo a definir"
 poster_path: /3w0lLo9s80hKOWsvVag3q5IdxWV.jpg
 first_air_date: ''
 name: Young Avengers

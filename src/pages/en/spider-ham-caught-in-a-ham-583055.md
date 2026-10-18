@@ -1,14 +1,13 @@
 ---
 title: 'Spider-Ham: Caught in a Ham'
 slug: spider-ham-caught-in-a-ham
-description: >-
-  Spider-Ham: Caught in a Ham follows Spider-Ham as he faces off against bad
-  guys, chows down on hot dogs, and makes plenty of food-based puns.
+description: "Peter Porker: O Espetacular Porco-Aranha segue o Porco-Aranha quando enfrenta bandidos, mastiga cachorros-quentes e faz muitos trocadilhos baseados em comida."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/spider-ham-caught-in-a-ham-629a4827462ac.webp"
 watchLinks:
   amazon: none
+overview: "Peter Porker: O Espetacular Porco-Aranha segue o Porco-Aranha quando enfrenta bandidos, mastiga cachorros-quentes e faz muitos trocadilhos baseados em comida."
 ---
 ## TMDB Data
 ```json

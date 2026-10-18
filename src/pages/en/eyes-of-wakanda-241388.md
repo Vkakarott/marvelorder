@@ -1,9 +1,7 @@
 ---
 title: Eyes of Wakanda
 slug: eyes-of-wakanda
-description: >-
-  Throughout Wakandan history, brave warriors have been tasked to travel the
-  world retrieving dangerous vibranium artifacts. This is their story.
+description: "Acompanha as aventuras de corajosos Cães de Guerra da organização secreta dos Hatut Zeraze ao longo da história. Nessa aventura itinerante, eles precisam enfrentar missões perigosas para recuperar artefatos de Vibranium perdidos no mundo."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/pg0SViNoawgM6Vga353TuIKPLfe.webp"
 backdrop_path: null
@@ -17,9 +15,7 @@ origin_country:
   - US
 original_language: en
 original_name: Eyes of Wakanda
-overview: >-
-  Throughout Wakandan history, brave warriors have been tasked to travel the
-  world retrieving dangerous vibranium artifacts. This is their story.
+overview: "Acompanha as aventuras de corajosos Cães de Guerra da organização secreta dos Hatut Zeraze ao longo da história. Nessa aventura itinerante, eles precisam enfrentar missões perigosas para recuperar artefatos de Vibranium perdidos no mundo."
 poster_path: null
 vote_average: 0
 tags:

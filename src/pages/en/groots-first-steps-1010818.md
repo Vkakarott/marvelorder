@@ -1,10 +1,7 @@
 ---
 title: Groot's First Steps
 slug: groots-first-steps
-description: >-
-  Following the events of “Guardians of the Galaxy Vol. 1,” Baby Groot is
-  finally ready to try taking his first steps out of his pot—only to learn you
-  have to walk before you can run.
+description: "Baby Groot finalmente está pronto para tentar dar seus primeiros passos fora de seu vaso, aprendendo que se deve andar antes de correr."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /9bColKVEAaWfmOLiLZoUhdYfevy.jpg
@@ -15,10 +12,7 @@ genre_ids:
 id: 1010818
 original_language: en
 original_title: Groot's First Steps
-overview: >-
-  Following the events of “Guardians of the Galaxy Vol. 1,” Baby Groot is
-  finally ready to try taking his first steps out of his pot—only to learn you
-  have to walk before you can run.
+overview: "Baby Groot finalmente está pronto para tentar dar seus primeiros passos fora de seu vaso, aprendendo que se deve andar antes de correr."
 poster_path: /1ifiV9ZJD4tC3tRYcnLIzH0meaB.jpg
 release_date: '2022-08-10'
 video: false

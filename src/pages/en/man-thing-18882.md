@@ -1,10 +1,7 @@
 ---
 title: Man-Thing
 slug: man-thing
-description: >-
-  Agents of an oil tycoon vanish while exploring a swamp marked for drilling.
-  The local sheriff investigates and faces a Seminole legend come to life:
-  Man-Thing, a shambling swamp-monster whose touch burns those who feel fear.
+description: "A morte misteriosa de uma equipe de pesquisadores petroleiros num pântano da Louisiana mobiliza os esforços de investigação do Xerife Kyle Williams, mas ele logo descobre que o culpado está longe de ser um criminoso comum."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -12,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00X5FZD0Y?linkCode=osi&th=1&psc=1
+overview: "A morte misteriosa de uma equipe de pesquisadores petroleiros num pântano da Louisiana mobiliza os esforços de investigação do Xerife Kyle Williams, mas ele logo descobre que o culpado está longe de ser um criminoso comum."
 ---
 ## TMDB Data
 ```json

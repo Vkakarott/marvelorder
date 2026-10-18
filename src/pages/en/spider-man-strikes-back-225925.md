@@ -1,19 +1,12 @@
 ---
 title: Spider-Man Strikes Back
 slug: spider-man-strikes-back
-description: >-
-  At the New York State University, one of Peter Parker's tutors has
-  accidentally given three students all the materials they need to create an
-  atomic bomb. While Peter Parker tries to find out what's happened, the police
-  suspect him of the crime, and Peter has to deal with an attractive journalist
-  determined to get an interview with Spider-Man. Then dastardly millionaire Mr.
-  White shows up, and will stop at nothing to get his hands on the atomic bomb.
-  Spider-Man must defeat this scheming villain and stop him blowing up the World
-  Trade Centre.
+description: "Na Universidade do Estado de Nova York, um dos tutores de Peter Parker acidentalmente deu a três estudantes todo o material necessário para criar uma bomba atômica. Enquanto Peter tenta descobrir o que aconteceu, a polícia o suspeita do crime, e ele precisa lidar com uma jornalista atraente determinada a conseguir uma entrevista com o Homem-Aranha. Então, o vilão milionário Mr. White aparece, e fará de tudo para colocar as mãos na bomba atômica. O Homem-Aranha precisa derrotar esse vilão traiçoeiro e impedi-lo de explodir o World Trade Center."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-strikes-back-5d35084edf0b8.webp"
 watchLinks:
   amazon: none
+overview: "Na Universidade do Estado de Nova York, um dos tutores de Peter Parker acidentalmente deu a três estudantes todo o material necessário para criar uma bomba atômica. Enquanto Peter tenta descobrir o que aconteceu, a polícia o suspeita do crime, e ele precisa lidar com uma jornalista atraente determinada a conseguir uma entrevista com o Homem-Aranha. Então, o vilão milionário Mr. White aparece, e fará de tudo para colocar as mãos na bomba atômica. O Homem-Aranha precisa derrotar esse vilão traiçoeiro e impedi-lo de explodir o World Trade Center."
 ---
 ## TMDB Data
 ```json

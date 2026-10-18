@@ -1,17 +1,14 @@
 ---
 title: The Gifted
 slug: the-gifted
-description: >-
-  A suburban couple's ordinary lives are rocked by the sudden discovery that
-  their children possess mutant powers. Forced to go on the run from a hostile
-  government, the family joins up with an underground network of mutants and
-  must fight to survive.
+description: "Um casal tem a vida abalada após a súbita descoberta de que seus filhos adolescentes possuem poderes mutantes. Forçados a fugir de um governo hostil, a família precisa lutar para sobreviver."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{fanart-path}/the-gifted-59cd8a1ab8663.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07532C4NG?linkCode=osi&th=1&psc=1
+overview: "Um casal tem a vida abalada após a súbita descoberta de que seus filhos adolescentes possuem poderes mutantes. Forçados a fugir de um governo hostil, a família precisa lutar para sobreviver."
 ---
 ## TMDB Data
 ```json

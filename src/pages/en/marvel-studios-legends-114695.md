@@ -1,14 +1,10 @@
 ---
 title: 'Marvel Studios: Legends'
 slug: marvel-studios-legends
-description: >-
-  Revisit the epic heroes, villains and moments from across the MCU in
-  preparation for the stories still to come. Each dynamic segment feeds directly
-  into the upcoming series — setting the stage for future events. This series
-  weaves together the many threads that constitute the unparalleled Marvel
-  Cinematic Universe.
+description: "Revisite os heróis, vilões e momentos épicos de todo o Universo Cinematográfico Marvel em preparação para as histórias altamente esperadas que ainda estão por vir."
 layout: ../../layouts/MainLayout.astro
 type: tv
+overview: "Revisite os heróis, vilões e momentos épicos de todo o Universo Cinematográfico Marvel em preparação para as histórias altamente esperadas que ainda estão por vir."
 ---
 ## TMDB Data
 ```json

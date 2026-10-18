@@ -1,13 +1,10 @@
 ---
 title: Marvel's Behind the Mask
 slug: marvels-behind-the-mask
-description: >-
-  A documentary special that explores the power of identity behind the iconic
-  superheroes we know and love today. These legendary Marvel creations and
-  stories have not only reflected the world outside our window – they have
-  become a reflection of our own identities and who we truly are.
+description: "Um documentário especial que explora o poder da identidade por trás dos super-heróis icônicos que conhecemos e amamos. Essas criações e histórias lendárias da Marvel não somente refletiram o mundo exterior – elas se tornaram um reflexo de nossas próprias identidades e de quem somos de verdade."
 layout: ../../layouts/MainLayout.astro
 type: movie
+overview: "Um documentário especial que explora o poder da identidade por trás dos super-heróis icônicos que conhecemos e amamos. Essas criações e histórias lendárias da Marvel não somente refletiram o mundo exterior – elas se tornaram um reflexo de nossas próprias identidades e de quem somos de verdade."
 ---
 ## TMDB Data
 ```json

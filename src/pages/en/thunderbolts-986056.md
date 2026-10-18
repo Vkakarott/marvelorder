@@ -1,11 +1,10 @@
 ---
 title: Thunderbolts
 slug: thunderbolts
-description: >-
-  A group of supervillains and antiheroes go on missions for the government.
-  Based on the comic book series of the same name.
+description: "Depois de se verem presos em uma armadilha mortal, uma equipe não convencional de sete anti-heróis deve embarcar em uma missão perigosa que os forçará a confrontar os cantos mais sombrios de seus passados."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/dHhniU1vz1C0j27AFdcsPmq6xu.webp"
+overview: "Depois de se verem presos em uma armadilha mortal, uma equipe não convencional de sete anti-heróis deve embarcar em uma missão perigosa que os forçará a confrontar os cantos mais sombrios de seus passados."
 ---
 ## TMDB Data
 ```json

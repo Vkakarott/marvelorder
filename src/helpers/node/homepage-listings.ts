@@ -64,6 +64,8 @@ function getNormalizedHomepageTitle ( listing: Pick<Listing, 'title'> ) {
 function normalizeHomepageSignalValue ( value: string ) {
     return value
         .toLowerCase()
+        .normalize( 'NFD' )
+        .replace( /[\u0300-\u036f]/g, '' )
         .replace( /[^a-z0-9\s]/g, ' ' )
         .replace( /\s+/g, ' ' )
         .trim()
@@ -313,14 +315,14 @@ function isHomepageLegoObservation (
 function isHomepageVariantEditionObservation (
     listing: Pick<Listing, 'title' | 'description' | 'overview'>,
 ) {
-    return /\b(extended cut|extended version|added content|presented in color|in color|black and white|special edition|alternate cut|director s cut|rogue cut|norton cut|more fun stuff version|theatrical version)\b/i
+    return /\b(extended cut|extended version|added content|presented in color|in color|black and white|special edition|alternate cut|director s cut|rogue cut|norton cut|more fun stuff version|theatrical version|noir)\b/i
         .test( getHomepageCombinedSignalText( listing ) )
 }
 
 function isHomepageRumoredDevelopmentObservation (
     listing: Pick<Listing, 'title' | 'description' | 'overview'>,
 ) {
-    return /\b(rumored title|announced as in development)\b/i.test( getHomepageCombinedSignalText( listing ) )
+    return /\b(rumored title|announced as in development|suposto titulo)\b/i.test( getHomepageCombinedSignalText( listing ) )
 }
 
 function isHomepageKidsSpinoutObservation (

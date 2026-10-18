@@ -1,16 +1,11 @@
 ---
 title: The Spider Within
 slug: the-spider-within
-description: >-
-  Miles Morales struggles to balance his responsibilities as a teenager, friend
-  and student while acting as Brooklyn’s friendly neighborhood superhero. After
-  a particularly challenging day living with these pressures, Miles experiences
-  a panic attack that forces him to confront the manifestations of his anxiety
-  and learn that reaching out for help can be just as brave an act as protecting
-  his city from evil.
+description: "Miles Morales luta para equilibrar suas responsabilidades como adolescente, amigo e estudante enquanto atua como o amigão da vizinhança Homem-Aranha do Brooklyn. Depois de um dia particularmente desafiador vivendo com essas pressões, Miles sofre um ataque de pânico que o força a confrontar as manifestações de sua ansiedade e a aprender que pedir ajuda pode ser um ato tão corajoso quanto proteger sua cidade do mal."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/wTF6OMFpubqNCjdhVlBoOpq7yfz.webp"
 backdrop_path: "{tmdb-path}/4unCqLCa4LjsqkLlWhGunhRf7Xm.webp"
+overview: "Miles Morales luta para equilibrar suas responsabilidades como adolescente, amigo e estudante enquanto atua como o amigão da vizinhança Homem-Aranha do Brooklyn. Depois de um dia particularmente desafiador vivendo com essas pressões, Miles sofre um ataque de pânico que o força a confrontar as manifestações de sua ansiedade e a aprender que pedir ajuda pode ser um ato tão corajoso quanto proteger sua cidade do mal."
 ---
 ## TMDB Data
 ```json

@@ -1,13 +1,12 @@
 ---
 title: 'Spider-Man: The Dragon''s Challenge'
 slug: spider-man-the-dragons-challenge
-description: >-
-  Two episodes of the TV series "Spider Man" edited together and released as a
-  feature.
+description: "O Homem-Aranha vai à China para ajudar um oficial acusado de traição na Segunda Guerra Mundial. Dois episódios da série de TV \"Homem Aranha\" editados juntos e lançados como longa-metragem."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{fanart-path}/spider-man-the-dragons-challenge-5d3508360b27d.png"
 watchLinks:
   amazon: none
+overview: "O Homem-Aranha vai à China para ajudar um oficial acusado de traição na Segunda Guerra Mundial. Dois episódios da série de TV \"Homem Aranha\" editados juntos e lançados como longa-metragem."
 ---
 ## TMDB Data
 ```json

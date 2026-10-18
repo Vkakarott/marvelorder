@@ -2,11 +2,7 @@
 draft: true
 title: 'Marvel Ultimate Comics: Absolute Carnage'
 slug: marvel-ultimate-comics-absolute-carnage
-description: >-
-  Norman Osborn’s compulsion to destroy Spider-Man led to him joining with the
-  Carnage symbiote to become the Red Goblin! But when he was defeated & the
-  symbiote was violently ripped from him, it broke his psyche & made him believe
-  he was Cletus Kasady
+description: "A compulsão de Norman Osborn para destruir o Homem-Aranha o levou a se juntar ao simbionte Carnificina para se tornar o Duende Vermelho! Mas quando ele foi derrotado e o simbionte foi violentamente arrancado dele, isso quebrou sua psique e o fez acreditar que era Cletus Kasady."
 layout: ../../layouts/MainLayout.astro
 backdrop_path: null
 first_air_date: '2019-08-14'
@@ -17,11 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: 'Marvel Ultimate Comics: Absolute Carnage'
-overview: >-
-  Norman Osborn’s compulsion to destroy Spider-Man led to him joining with the
-  Carnage symbiote to become the Red Goblin! But when he was defeated & the
-  symbiote was violently ripped from him, it broke his psyche & made him believe
-  he was Cletus Kasady
+overview: "A compulsão de Norman Osborn para destruir o Homem-Aranha o levou a se juntar ao simbionte Carnificina para se tornar o Duende Vermelho! Mas quando ele foi derrotado e o simbionte foi violentamente arrancado dele, isso quebrou sua psique e o fez acreditar que era Cletus Kasady."
 poster_path: null
 vote_average: 0
 tags:

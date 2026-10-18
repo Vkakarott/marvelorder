@@ -1,9 +1,7 @@
 ---
 title: WandaVision
 slug: wandavision
-description: >-
-  Wanda Maximoff and Vision—two super-powered beings living idealized suburban
-  lives—begin to suspect that everything is not as it seems.
+description: "Wanda Maximoff  e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece."
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: >-
@@ -11,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: none
 mcuTimelineOrder: 515
+overview: "Wanda Maximoff  e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece."
 ---
 ## TMDB Data
 ```json

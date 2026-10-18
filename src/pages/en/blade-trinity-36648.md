@@ -1,13 +1,7 @@
 ---
 title: 'Blade: Trinity'
 slug: blade-trinity
-description: >-
-  For years, Blade has fought against the vampires in the cover of the night.
-  But now, after falling into the crosshairs of the FBI, he is forced out into
-  the daylight, where he is driven to join forces with a clan of human vampire
-  hunters he never knew existed—The Nightstalkers. Together with Abigail and
-  Hannibal, two deftly trained Nightstalkers, Blade follows a trail of blood to
-  the ancient creature that is also hunting him—the original vampire, Dracula.
+description: "Blade, agora um homem procurado pelo FBI, deve unir forças com os Nightstalkers para enfrentar seu inimigo mais desafiador ainda: Drácula."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: >-
@@ -15,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07CT4S66N?linkCode=osi&th=1&psc=1
+overview: "Blade, agora um homem procurado pelo FBI, deve unir forças com os Nightstalkers para enfrentar seu inimigo mais desafiador ainda: Drácula."
 ---
 ## TMDB Data
 ```json

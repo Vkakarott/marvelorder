@@ -1,10 +1,7 @@
 ---
 title: Marvel's Iron Man and His Awesome Friends
 slug: marvels-iron-man-and-his-awesome-friends
-description: >-
-  Follow the adventures (and misadventures) of best friends and super geniuses,
-  Tony Stark, Riri Williams and Amadeus Cho as they work together to solve
-  problems both big and small and protect their city.
+description: "\"Homem de Ferro e seus Amigos Incríveis\" acompanha as aventuras dos melhores amigos e supergênios enquanto trabalham juntos para resolver problemas e proteger a cidade."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -16,10 +13,7 @@ origin_country:
   - US
 original_language: en
 original_name: Marvel's Iron Man and His Awesome Friends
-overview: >-
-  Follow the adventures (and misadventures) of best friends and super geniuses,
-  Tony Stark, Riri Williams and Amadeus Cho as they work together to solve
-  problems both big and small and protect their city.
+overview: "\"Homem de Ferro e seus Amigos Incríveis\" acompanha as aventuras dos melhores amigos e supergênios enquanto trabalham juntos para resolver problemas e proteger a cidade."
 poster_path: null
 first_air_date: ''
 name: Marvel's Iron Man and His Awesome Friends

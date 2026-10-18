@@ -1,7 +1,7 @@
 ---
 title: 'Black Panther 3: Legacy of Wakanda'
 slug: black-panther-3-legacy-of-wakanda
-description: Rumored third installment in Marvel Studios’ Black Panther franchise.
+description: "Rumores de terceira parcela da franquia Pantera Negra da Marvel Studios."
 layout: ../../layouts/MainLayout.astro
 draft: true
 adult: false
@@ -10,7 +10,7 @@ genre_ids: []
 id: 1037199
 original_language: en
 original_title: 'Black Panther 3: Legacy of Wakanda'
-overview: Rumored third installment in Marvel Studios’ Black Panther franchise.
+overview: "Rumores de terceira parcela da franquia Pantera Negra da Marvel Studios."
 poster_path: /3aYH0YFSQUa22h0RtCEKco3IvQs.jpg
 video: false
 vote_average: 0

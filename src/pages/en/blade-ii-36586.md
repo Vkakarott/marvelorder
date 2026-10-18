@@ -1,18 +1,14 @@
 ---
 title: Blade II
 slug: blade-ii
-description: >-
-  A rare mutation has occurred within the vampire community - The Reaper. A
-  vampire so consumed with an insatiable bloodlust that they prey on vampires as
-  well as humans, transforming victims who are unlucky enough to survive into
-  Reapers themselves. Blade is asked by the Vampire Nation for his help in
-  preventing a nightmare plague that would wipe out both humans and vampires.
+description: "Blade é um ser meio homem, meio vampiro que é consumido pelo desejo de vingança contra os seres que atacaram sua mãe antes mesmo dele nascer e fizeram com que ele se tornasse o que é atualmente. Com isso, ao crescer Blade iniciou uma verdadeira cruzada pessoal para combater e eliminar os vampiros, mas agora uma nova raça mais poderosa chamada reapers, criada a partir de cruzamentos genéticos entre humanos e vampiros, ameaça eliminar ambas as raças. Visto isso, Blade se alia aos seus maiores inimigos para que, juntos, possam combater esta nova raça de seres."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/blade-ii-514820db94dc2.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B002WSAST6?linkCode=osi&th=1&psc=1
+overview: "Blade é um ser meio homem, meio vampiro que é consumido pelo desejo de vingança contra os seres que atacaram sua mãe antes mesmo dele nascer e fizeram com que ele se tornasse o que é atualmente. Com isso, ao crescer Blade iniciou uma verdadeira cruzada pessoal para combater e eliminar os vampiros, mas agora uma nova raça mais poderosa chamada reapers, criada a partir de cruzamentos genéticos entre humanos e vampiros, ameaça eliminar ambas as raças. Visto isso, Blade se alia aos seus maiores inimigos para que, juntos, possam combater esta nova raça de seres."
 ---
 ## TMDB Data
 ```json

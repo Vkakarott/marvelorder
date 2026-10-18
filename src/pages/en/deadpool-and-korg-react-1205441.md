@@ -1,7 +1,7 @@
 ---
 title: Deadpool and Korg React
 slug: deadpool-and-korg-react
-description: Deadpool and Korg react to the trailer for Free Guy.
+description: "Deadpool e Korg reagem ao trailer de Free Guy."
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/5g1T37Hv1kE6P9pOMuVWMTh25fe.webp"
 adult: false
@@ -11,7 +11,7 @@ genre_ids:
 id: 1205441
 original_language: en
 original_title: Deadpool and Korg React
-overview: Deadpool and Korg react to the trailer for Free Guy.
+overview: "Deadpool e Korg reagem ao trailer de Free Guy."
 poster_path: /zw9oXB5loNUh4O8xzIlEpxtICzJ.jpg
 release_date: '2021-07-13'
 video: false

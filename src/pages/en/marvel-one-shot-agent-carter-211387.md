@@ -1,15 +1,13 @@
 ---
 title: 'Marvel One-Shot: Agent Carter'
 slug: marvel-one-shot-agent-carter
-description: >-
-  The film takes place one year after the events of Captain America: The First
-  Avenger, in which Agent Carter, a member of the Strategic Scientific Reserve,
-  is in search of the mysterious Zodiac.
+description: "A agente britânica Peggy Carter se une à nascente organização S.H.I.E.L.D. Enquanto procura o enigmático Zodíaco, a agente Carter luta contra seu chefe misógino e burocrático, o agente Flynn."
 layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{fanart-path}/marvel-one-shot-agent-carter-53a58d2492e07.webp"
 watchLinks:
   amazon: none
+overview: "A agente britânica Peggy Carter se une à nascente organização S.H.I.E.L.D. Enquanto procura o enigmático Zodíaco, a agente Carter luta contra seu chefe misógino e burocrático, o agente Flynn."
 ---
 ## TMDB Data
 ```json

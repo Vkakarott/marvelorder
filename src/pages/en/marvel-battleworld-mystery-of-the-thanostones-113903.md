@@ -1,13 +1,11 @@
 ---
 title: 'Marvel Battleworld: Mystery of the Thanostones'
 slug: marvel-battleworld-mystery-of-the-thanostones
-description: >-
-  Can Iron Man and this rag-tag group - Captain Marvel, Spider-Ham, Groot, and
-  Throg - figure out what the Mad Titan Thanos wants and why they've been
-  brought to this strange, new world?
+description: "Thanos usou a Manopla do Infinito para criar um novo mundo, o Battleworld. Nossos heróis Homem de Ferro e Capitã Marvel devem se unir a alguns aliados inusitados e explorar terras estranhas para resolver o mistério das pedras e impedir Thanos!"
 layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
+overview: "Thanos usou a Manopla do Infinito para criar um novo mundo, o Battleworld. Nossos heróis Homem de Ferro e Capitã Marvel devem se unir a alguns aliados inusitados e explorar terras estranhas para resolver o mistério das pedras e impedir Thanos!"
 ---
 ## TMDB Data
 ```json

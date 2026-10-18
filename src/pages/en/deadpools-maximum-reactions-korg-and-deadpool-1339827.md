@@ -1,7 +1,7 @@
 ---
 title: 'Deadpool''s Maximum Reactions: Korg and Deadpool'
 slug: deadpools-maximum-reactions-korg-and-deadpool
-description: Deadpool and Korg react to the trailer for Free Guy.
+description: "Deadpool e Korg reagem ao trailer de Free Guy."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,7 +10,7 @@ genre_ids:
 id: 1339827
 original_language: en
 original_title: 'Deadpool''s Maximum Reactions: Korg and Deadpool'
-overview: Deadpool and Korg react to the trailer for Free Guy.
+overview: "Deadpool e Korg reagem ao trailer de Free Guy."
 poster_path: /iNEK0srTmhwo9CRYzyciAuMl5y0.jpg
 release_date: '2021-07-13'
 video: false
