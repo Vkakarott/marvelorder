@@ -12,13 +12,13 @@
                     :key="`${option.type}-${option.name}`"
                     class="watch-card"
                     :href="option.url"
-                    :aria-label="`Abrir ${option.name} para assistir`"
+                    :aria-label="`Abrir ${displayName(option.name)} para assistir`"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img v-if="option.logo" :src="option.logo" alt="" width="48" height="48" loading="lazy" />
                     <span v-else class="watch-card-initial" aria-hidden="true">{{ option.name.charAt(0) }}</span>
-                    <span class="watch-card-name">{{ option.name }}</span>
+                    <span class="watch-card-name">{{ displayName(option.name) }}</span>
                     <span class="watch-card-arrow" aria-hidden="true">↗</span>
                 </a>
             </div>
@@ -98,6 +98,9 @@ export default defineComponent( {
         this.abortController?.abort()
     },
     methods: {
+        displayName ( name: string ) {
+            return name.replace( / with Ads$/i, ' com anúncios' )
+        },
         async loadOptions () {
             if ( this.requested ) {
                 return
