@@ -43,11 +43,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
         <div class="hero-inner">
             <div class="hero-copy">
-                <div class="hero-eyebrow">
-                    <span class="hero-eyebrow-line" aria-hidden="true"></span>
-                    <span>CineArc apresenta</span>
-                </div>
-
                 { listing.logo_on_black && (
                     <ListingLogo
                         src={ listing.logo_on_black }
@@ -113,8 +108,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
                         )
                         : <div class="visual-monogram">C</div>
                 }
-                <span class="visual-spark visual-spark-one"></span>
-                <span class="visual-spark visual-spark-two"></span>
             </div>
         </div>
 
@@ -198,22 +191,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         position: relative;
         z-index: 2;
         min-width: 0;
-    }
-    .hero-eyebrow {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        margin-bottom: 2.25rem;
-        color: #fda4af;
-        font-size: 0.75rem;
-        font-weight: 800;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-    }
-    .hero-eyebrow-line {
-        width: 2.25rem;
-        height: 2px;
-        background: #fb7185;
     }
     .hero-copy :global(.hero-logo) {
         display: block;
@@ -388,23 +365,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
         transform: rotate(4deg);
     }
-    .visual-spark {
-        position: absolute;
-        z-index: 2;
-        width: 0.55rem;
-        height: 0.55rem;
-        border-radius: 50%;
-        background: #fb7185;
-        box-shadow: 0 0 1rem #fb7185;
-    }
-    .visual-spark-one {
-        top: 15%;
-        right: 12%;
-    }
-    .visual-spark-two {
-        bottom: 12%;
-        left: 14%;
-    }
     .hero-bottom-line {
         display: flex;
         align-items: center;
@@ -496,9 +456,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         }
         .visual-glow {
             width: 50%;
-        }
-        .hero-eyebrow {
-            margin-bottom: 1.25rem;
         }
         .hero h1 {
             max-width: 16ch;
