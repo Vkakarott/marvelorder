@@ -39,14 +39,17 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 				gap: 1rem;
 			}
 			.detail-brand {
-				color: #f3f4f6;
-				font-size: 1.4rem;
-				font-weight: 800;
-				letter-spacing: -0.04em;
+				display: inline-flex;
+				align-items: center;
 				text-decoration: none;
 			}
-			.detail-brand:hover {
-				color: #fb7185;
+			.detail-brand img {
+				display: block;
+				width: auto;
+				height: 2rem;
+			}
+			.detail-brand:hover img {
+				opacity: 0.85;
 			}
 			.detail-main {
 				width: 100%;
@@ -64,7 +67,9 @@ const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
 	<body class="main-layout theme-dark">
 		<Header />
 		<header class="detail-header">
-			<a class="detail-brand" href="/">CineArc</a>
+			<a class="detail-brand" href="/" aria-label="CineArc - página inicial">
+				<img src="/logo.png" alt="CineArc" width="96" height="32" />
+			</a>
 			<BackLink href="/" />
 		</header>
 		<main id="main-content" class="detail-main">
