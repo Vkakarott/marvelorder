@@ -80,6 +80,8 @@ export function expandImagePathPlaceholders<T> ( value: T ) {
 
 export function collapseImagePathsToPlaceholders<T> ( value: T ) {
     const imagePathReplacements: ImagePathReplacement[] = [
+        [ TMDB_IMAGE_PATH, TMDB_IMAGE_PATH_PLACEHOLDER ],
+        [ FANART_IMAGE_PATH, FANART_IMAGE_PATH_PLACEHOLDER ],
         [ makeWorkerTmdbImagePath(), TMDB_IMAGE_PATH_PLACEHOLDER ],
         [ makeWorkerFanartImagePath(), FANART_IMAGE_PATH_PLACEHOLDER ],
         [ NETLIFY_TMDB_IMAGE_PATH, TMDB_IMAGE_PATH_PLACEHOLDER ],
