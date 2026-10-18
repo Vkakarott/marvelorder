@@ -80,6 +80,11 @@
             "statusCode": 301
         },
         {
+            "source": "/en/:path*/",
+            "destination": "/pt-br/:path*/",
+            "statusCode": 301
+        },
+        {
             "source": "/en/:path*",
             "destination": "/pt-br/:path*",
             "statusCode": 301

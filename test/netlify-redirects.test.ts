@@ -27,6 +27,11 @@ test( 'Legacy English URLs redirect to Portuguese routes on both hosts', () => {
     to = "/pt-br/:splat"
     status = 301` )
     expect( vercelConfig.redirects ).toContainEqual( {
+        source: '/en/:path*/',
+        destination: '/pt-br/:path*/',
+        statusCode: 301,
+    } )
+    expect( vercelConfig.redirects ).toContainEqual( {
         source: '/en/:path*',
         destination: '/pt-br/:path*',
         statusCode: 301,
