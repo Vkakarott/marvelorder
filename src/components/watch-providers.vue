@@ -4,37 +4,30 @@
         <p v-else-if="failed" class="watch-status" role="status">Não foi possível carregar as opções agora.</p>
         <p v-else-if="options.length === 0" class="watch-status">Nenhuma opção encontrada no Brasil no momento.</p>
 
-        <div v-if="groupedOptions.length" class="watch-list">
-            <section v-for="group in groupedOptions" :key="group.type" class="watch-group">
-                <div class="watch-group-heading">
-                    <h3>{{ group.label }}</h3>
-                    <span>{{ group.options.length }} {{ group.options.length === 1 ? 'opção' : 'opções' }}</span>
-                </div>
-                <a
-                    v-for="option in group.options"
-                    :key="`${option.type}-${option.name}`"
-                    class="watch-row"
-                    :href="option.url"
-                    :aria-label="`Abrir ${displayName(option.name)} para assistir`"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span class="watch-logo">
-                        <img v-if="option.logo" :src="option.logo" alt="" width="38" height="38" loading="lazy" />
-                        <span v-else aria-hidden="true">{{ option.name.charAt(0) }}</span>
-                    </span>
-                    <span class="watch-name">{{ displayName(option.name) }}</span>
-                    <span class="watch-action" aria-hidden="true">Abrir <span>↗</span></span>
-                </a>
-            </section>
-        </div>
+        <ul v-if="providerGroups.length" class="provider-list">
+            <li v-for="provider in providerGroups" :key="provider.name" class="provider-row">
+                <span class="provider-logo">
+                    <img v-if="provider.logo" :src="provider.logo" alt="" width="32" height="32" loading="lazy" />
+                    <span v-else aria-hidden="true">{{ provider.name.charAt(0) }}</span>
+                </span>
+                <span class="provider-name">{{ displayName(provider.name) }}</span>
+                <span class="provider-offers">
+                    <a
+                        v-for="offer in provider.offers"
+                        :key="`${offer.type}-${offer.url}`"
+                        class="offer-link"
+                        :href="offer.url"
+                        :aria-label="`${offerLabel(offer.type)} em ${displayName(provider.name)}`"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >{{ offerLabel(offer.type) }} <span aria-hidden="true">↗</span></a>
+                </span>
+            </li>
+        </ul>
 
-        <div class="watch-footer">
-            <p class="watch-source">
-                Disponibilidade no Brasil via <a href="https://www.justwatch.com/br" target="_blank" rel="noopener noreferrer">JustWatch</a> e <a :href="tmdbWatchUrl" target="_blank" rel="noopener noreferrer">TMDB</a>. As opções podem mudar.
-            </p>
-            <a class="watch-fallback" :href="tmdbWatchUrl" target="_blank" rel="noopener noreferrer">Conferir no TMDB ↗</a>
-        </div>
+        <p class="watch-source">
+            Disponibilidade no Brasil via <a href="https://www.justwatch.com/br" target="_blank" rel="noopener noreferrer">JustWatch</a> e TMDB. As opções podem mudar. <a :href="tmdbWatchUrl" target="_blank" rel="noopener noreferrer">Conferir no TMDB ↗</a>
+        </p>
     </div>
 </template>
 
@@ -50,13 +43,19 @@ interface WatchOption {
     logo: string | null
 }
 
-const categories: Array<{ type: ProviderType, label: string }> = [
-    { type: 'flatrate', label: 'Assinatura' },
-    { type: 'free', label: 'Grátis' },
-    { type: 'ads', label: 'Grátis com anúncios' },
-    { type: 'rent', label: 'Aluguel' },
-    { type: 'buy', label: 'Compra' },
-]
+interface ProviderGroup {
+    name: string
+    logo: string | null
+    offers: WatchOption[]
+}
+
+const offerLabels: Record<ProviderType, string> = {
+    flatrate: 'Assinatura',
+    free: 'Grátis',
+    ads: 'Com anúncios',
+    rent: 'Alugar',
+    buy: 'Comprar',
+}
 
 export default defineComponent( {
     props: {
@@ -77,13 +76,18 @@ export default defineComponent( {
         tmdbWatchUrl (): string {
             return `https://www.themoviedb.org/${ this.mediaType }/${ this.tmdbId }/watch?locale=BR`
         },
-        groupedOptions () {
-            return categories
-                .map( category => ( {
-                    ...category,
-                    options: this.options.filter( option => option.type === category.type ),
-                } ) )
-                .filter( group => group.options.length > 0 )
+        providerGroups (): ProviderGroup[] {
+            const groups = new Map<string, ProviderGroup>()
+            for ( const option of this.options ) {
+                const existing = groups.get( option.name )
+                if ( existing ) {
+                    existing.offers.push( option )
+                }
+                else {
+                    groups.set( option.name, { name: option.name, logo: option.logo, offers: [ option ] } )
+                }
+            }
+            return Array.from( groups.values() )
         },
     },
     mounted () {
@@ -107,6 +111,9 @@ export default defineComponent( {
     methods: {
         displayName ( name: string ) {
             return name.replace( / with Ads$/i, ' com anúncios' )
+        },
+        offerLabel ( type: ProviderType ) {
+            return offerLabels[ type ]
         },
         async loadOptions () {
             if ( this.requested ) {
@@ -146,128 +153,96 @@ export default defineComponent( {
     color: #cbd5e1;
     line-height: 1.6;
 }
-.watch-list {
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 1rem;
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.065), rgba(255, 255, 255, 0.025));
-}
-.watch-group + .watch-group {
-    border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-.watch-group-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.9rem 1rem 0.5rem;
-}
-.watch-group-heading h3 {
+.provider-list {
     margin: 0;
-    color: #fda4af;
-    font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+    list-style: none;
 }
-.watch-group-heading > span {
-    color: #8d96a5;
-    font-size: 0.72rem;
-}
-.watch-row {
+.provider-row {
     display: grid;
-    grid-template-columns: 2.4rem minmax(0, 1fr) auto;
+    grid-template-columns: 2rem minmax(0, 1fr) auto;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.7rem;
     min-width: 0;
-    min-height: 3.65rem;
-    padding: 0.38rem 1rem;
-    color: #f9fafb;
-    text-decoration: none;
-    transition: background 160ms ease;
+    min-height: 3.35rem;
+    padding: 0.48rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.watch-row + .watch-row {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-.watch-row:hover,
-.watch-row:focus-visible {
-    background: rgba(251, 113, 133, 0.1);
-    color: #fff;
-}
-.watch-row:focus-visible {
-    outline: 2px solid #fda4af;
-    outline-offset: -2px;
-}
-.watch-logo,
-.watch-logo img {
+.provider-logo,
+.provider-logo img {
     display: block;
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.42rem;
 }
-.watch-logo {
+.provider-logo {
     overflow: hidden;
     background: #202431;
 }
-.watch-logo img {
+.provider-logo img {
     object-fit: contain;
 }
-.watch-logo > span {
+.provider-logo > span {
     display: grid;
     place-items: center;
     height: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 900;
 }
-.watch-name {
+.provider-name {
     min-width: 0;
-    font-size: 0.88rem;
-    font-weight: 700;
-    line-height: 1.25;
+    color: #f4f4f5;
+    font-size: 0.84rem;
+    font-weight: 650;
+    line-height: 1.3;
 }
-.watch-action {
+.provider-offers {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+.offer-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.65rem;
-    color: #fda4af;
-    font-size: 0.75rem;
+    gap: 0.4rem;
+    padding: 0.3rem 0.55rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    color: #e4e4e7;
+    font-size: 0.7rem;
     font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
 }
-.watch-action span {
-    font-size: 1rem;
+.offer-link span {
+    color: #fda4af;
 }
-.watch-footer {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.35rem 1rem;
-    margin-top: 1rem;
+.offer-link:hover,
+.offer-link:focus-visible {
+    border-color: #fb7185;
+    background: rgba(251, 113, 133, 0.12);
+    color: #fff;
 }
 .watch-source {
-    margin: 0;
+    margin: 0.9rem 0 0;
     color: #9ca3af;
     font-size: 0.72rem;
     line-height: 1.5;
 }
-.watch-source a,
-.watch-fallback {
+.watch-source a {
     color: #cbd5e1;
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
-.watch-fallback {
-    white-space: nowrap;
-    font-size: 0.72rem;
-    font-weight: 700;
-}
-@media (max-width: 480px) {
-    .watch-group-heading { padding-inline: 0.8rem; }
-    .watch-row { gap: 0.65rem; padding-inline: 0.8rem; }
-    .watch-action { font-size: 0; gap: 0; }
-    .watch-action span { font-size: 1.1rem; }
+@media (max-width: 360px) {
+    .provider-row { grid-template-columns: 2rem minmax(0, 1fr); }
+    .provider-offers { grid-column: 2; justify-content: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
-    .watch-row { transition: none; }
+    .offer-link { transition: none; }
 }
 </style>

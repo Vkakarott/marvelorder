@@ -128,7 +128,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     <div class="detail-content">
         <div class="detail-grid">
             <section id="onde-assistir" class="detail-overview" aria-labelledby="detail-overview-title">
-                <p class="section-number">01 / ASSISTIR</p>
                 <h2 id="detail-overview-title">Onde assistir</h2>
                 { listing.id && ( isSeries || isMovie )
                     ? <WatchProviders tmdbId={ listing.id } mediaType={ isSeries ? 'tv' : 'movie' } client:load />
@@ -446,12 +445,12 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     .detail-content {
         width: min(100% - 3rem, 80rem);
         margin: 0 auto;
-        padding: clamp(4rem, 7vw, 7rem) 0 3rem;
+        padding: clamp(2.5rem, 5vw, 4rem) 0 3rem;
     }
     .detail-grid {
         display: grid;
         grid-template-columns: minmax(0, 1.3fr) minmax(16rem, 0.7fr);
-        gap: clamp(2.5rem, 7vw, 8rem);
+        gap: clamp(2rem, 4vw, 4rem);
     }
     .section-number {
         margin-bottom: 1.25rem;
@@ -461,9 +460,9 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         letter-spacing: 0.14em;
     }
     .detail-overview h2 {
-        margin: 0 0 1.5rem;
-        font-size: clamp(2rem, 4vw, 3.5rem);
-        letter-spacing: -0.05em;
+        margin: 0 0 1rem;
+        font-size: clamp(1.5rem, 2.5vw, 1.9rem);
+        letter-spacing: -0.04em;
     }
     .detail-side-card {
         padding: 1.5rem;
