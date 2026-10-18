@@ -102,9 +102,9 @@ export async function getSingleListingFromUrl ( rawUrl: string ) {
     const urlPathname = url.pathname.replace( /^\/|\/$/g, '' )
     // Put URL pathname into path format
     const filePath = `./src/pages/${ urlPathname }.md`
-    const { listing } = await getListingFromFile( filePath )
+    const { listing, tmdb } = await getListingFromFile( filePath )
 
-    return listing
+    return normalizeListingObservation( listing, tmdb )
 }
 
 export async function getListingDetailsFromPaths ( filePaths: string[] ) {

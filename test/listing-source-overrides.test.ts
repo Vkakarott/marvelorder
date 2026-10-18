@@ -4,6 +4,15 @@ import {
     getAuthoritativeReleaseDateOverride,
     normalizeListingObservation,
 } from '~/src/helpers/node/listing-source-overrides.ts'
+import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files.ts'
+
+test( 'Detail pages use the same release dates as the homepage', async () => {
+    const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/en/eyes-of-wakanda-241388/' )
+    const punisherSpecial = await getSingleListingFromUrl( 'https://cinearc.example/en/untitled-the-punisher-special-1439930/' )
+
+    expect( eyesOfWakanda.first_air_date ).toBe( '2025-08-01' )
+    expect( punisherSpecial.release_date ).toBe( '2026-05-12' )
+} )
 
 test( 'Listing observation normalization restores blank TMDB dates when frontmatter clears them', () => {
     const normalizedListing = normalizeListingObservation(
