@@ -20,6 +20,7 @@ vote_average: 7.1
 tags:
   - movie
   - company-7505
+localized_title: "LEGO Marvel Avengers: Loki em Treinamento"
 ---
 ## TMDB Data
 ```json

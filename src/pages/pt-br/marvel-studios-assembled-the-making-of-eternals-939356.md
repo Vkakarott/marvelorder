@@ -18,6 +18,7 @@ vote_average: 6.9
 tags:
   - movie
   - company-420
+localized_title: "Nos Bastidores de Eternos"
 ---
 ## TMDB Data
 ```json

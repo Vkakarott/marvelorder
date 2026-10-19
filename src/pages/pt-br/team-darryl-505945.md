@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/team-darryl-5bf82bf981b31.webp"
 watchLinks:
   amazon: none
 overview: "Depois que Thor se vai, Darryl começa a procura por um novo colega de quarto. Infelizmente, apenas uma pessoa responde seu anúncio: o Grão-Mestre."
+localized_title: "Marvel One Shot: Equipe Darryl"
 ---
 ## TMDB Data
 ```json

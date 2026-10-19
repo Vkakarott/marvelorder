@@ -22,6 +22,7 @@ vote_average: 0
 tags:
   - tv
   - company-420
+localized_title: "Eu Sou Groot"
 ---
 ## TMDB Data
 ```json

@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001GJ1BBQ?linkCode=osi&th=1&psc=1
 overview: "O advogado Matt Murdock é cego, mas os seus outros quatro sentidos funcionam com uma nitidez sobrehumana. De dia, Murdock representa os oprimidos e à noite, ele é o Demolidor, um vigilante mascarado e vingador implacável da justiça."
+localized_title: "Demolidor: O Homem Sem Medo"
 ---
 ## TMDB Data
 ```json

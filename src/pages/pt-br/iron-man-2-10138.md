@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B0040Z9H5K?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 31
 overview: "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas."
+localized_title: "Homem de Ferro 2"
 ---
 ## TMDB Data
 ```json

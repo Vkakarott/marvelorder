@@ -10,7 +10,8 @@ import BackLink from '../components/BackLink.astro';
 import { expandImagePathPlaceholders } from '../helpers/image-paths';
 import * as CONFIG from '../config';
 
-const content = expandImagePathPlaceholders( Astro.props.content ?? {} );
+const rawContent = expandImagePathPlaceholders( Astro.props.content ?? {} );
+const content = { ...rawContent, title: rawContent.localized_title || rawContent.title };
 ---
 
 <html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'pt-BR'} class="initial">

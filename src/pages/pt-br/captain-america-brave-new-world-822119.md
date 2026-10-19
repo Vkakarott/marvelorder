@@ -9,6 +9,7 @@ tags:
   - movie
   - company-420
 overview: "Após se encontrar com o recém-eleito presidente dos EUA, Thaddeus Ross, Sam se vê no meio de um incidente internacional. Ele deve descobrir o motivo por trás de uma conspiração global nefasta antes que o verdadeiro gênio faça o mundo inteiro ser dominado pelo vermelho."
+localized_title: "Capitão América: Admirável Mundo Novo"
 ---
 ## TMDB Data
 ```json

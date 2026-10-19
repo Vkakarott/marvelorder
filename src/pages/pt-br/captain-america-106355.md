@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001RKTMN8?linkCode=osi&th=1&psc=1
 overview: "O super-herói Capitão América luta contra as forças do mal do arquivilão chamado O Escaravelho, que envenena seus inimigos e rouba um dispositivo secreto capaz de destruir edifícios por meio de vibrações sonoras."
+localized_title: "Capitão América"
 ---
 ## TMDB Data
 ```json

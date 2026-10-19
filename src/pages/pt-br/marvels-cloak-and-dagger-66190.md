@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B07DHDV8YL?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 165
 overview: "Anos após a explosão de uma plataforma de petróleo, uma ladra de rua e um garoto bem-nascido se unem e usam seus superpoderes para combater o caos social."
+localized_title: "Manto e Adaga"
 ---
 ## TMDB Data
 ```json

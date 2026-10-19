@@ -18,6 +18,7 @@ vote_average: 0
 tags:
   - movie
   - company-420
+localized_title: "Nos Bastidores de Mulher-Hulk: Defensora de Heróis"
 ---
 ## TMDB Data
 ```json

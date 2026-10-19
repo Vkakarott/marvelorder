@@ -23,6 +23,7 @@ vote_average: 4.6
 tags:
   - tv
   - company-7505
+localized_title: "LEGO Marvel: Problemas Climáticos"
 ---
 ## TMDB Data
 ```json

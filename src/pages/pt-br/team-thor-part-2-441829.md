@@ -10,6 +10,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Veja mais da parceria hilária entre Thor e seu colega de quarto Darryl."
+localized_title: "Marvel One-Shot: Equipe Thor: Segunda Parte"
 ---
 ## TMDB Data
 ```json

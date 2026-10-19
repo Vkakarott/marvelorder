@@ -10,6 +10,7 @@ tags:
   - movie
   - company-420
 mcuTimelineOrder: 627
+localized_title: "Lobisomem na Noite"
 ---
 ## TMDB Data
 ```json

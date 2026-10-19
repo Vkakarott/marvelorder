@@ -11,6 +11,7 @@ genre_ids:
   - 878
 mcuTimelineOrder: 632
 overview: "Peter Quill, que ainda está se recuperando da perda de Gamora, tem que reunir a sua equipe para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos."
+localized_title: "Guardiões da Galáxia: Vol. 3"
 ---
 ## TMDB Data
 ```json

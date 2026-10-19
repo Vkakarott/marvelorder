@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001RU0CFK?linkCode=osi&th=1&psc=1
 overview: "Depois de ter sido desfigurado pelo justiceiro Frank Castle, o poderoso chefe do crime organizado Billy Russoti muda seu nome para Jigsaw e sai em busca de vingança."
+localized_title: "O Justiceiro: Em Zona de Guerra"
 ---
 ## TMDB Data
 ```json

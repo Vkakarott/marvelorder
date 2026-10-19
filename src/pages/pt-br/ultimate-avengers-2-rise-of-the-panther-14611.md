@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000FP2YYA?linkCode=osi&th=1&psc=1
 overview: "Uma poderosa força alienígena está prestes a invadir a Terra. Ela está em busca de algo escondido na nação secreta de Wakanda, governada pelo príncipe T´Challa (Jeffrey D. Sams), também conhecido como Pantera Negra. Decidido a combater sua nação, ele pede a ajuda dos Supremos, um grupo formado por sete dos maiores super-heróis do planeta: Capitão América (Justin Gross), Hulk (Fred Tatasciore), Vespa (Grey DeLisle), Homem de Ferro (Marc Worden), Viúva Negra (Olivia d´Abo), Thor (David Boat) e Gigante (Nolan North)."
+localized_title: "Os Supremos 2: Descubra o Poder da Pantera"
 ---
 ## TMDB Data
 ```json

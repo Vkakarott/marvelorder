@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 297
 overview: "Depois de descobrir um segredo terrível sobre seus pais, seis jovens de Los Angeles se unem contra eles. Agora eles precisam balancear amizade, romance e superpoderes."
+localized_title: "Fugitivos, da Marvel"
 ---
 ## TMDB Data
 ```json

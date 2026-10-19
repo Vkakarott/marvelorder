@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
 overview: "Após o Homem-Aranha impedir uns bandidos de assaltarem uma unidade da Stark Enterprises, o Homem de Ferro decide compensá-lo com formação prática. O seu plano corre mal quando o vilão Batroc regressa com novos poderes. Pantera Negra recebe uma visita de Everett K. Ross para discutir a segurança de uma possível cimeira internacional em Wakanda. A visita é interrompida inesperadamente pelo supervilão Ghost."
+localized_title: "Marvel Ultimate Comics"
 ---
 ## TMDB Data
 ```json

@@ -5,6 +5,7 @@ description: "Uma nova série de documentários especiais que revelará os basti
 layout: ../../layouts/MainLayout.astro
 type: tv
 overview: "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho."
+localized_title: "Marvel Studios - Avante"
 ---
 ## TMDB Data
 ```json

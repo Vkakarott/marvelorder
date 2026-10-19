@@ -5,6 +5,7 @@ slug: marvel-lucha-libre-edition-el-origen-de-la-mascara
 description: "Câmeras de um documentário seguem os lutadores inspirados em super-heróis da Marvel durante a competição espetacular que os levará ao cobiçado cinturão do campeonato. Mas uma substância perigosa chamada O Simbionte colocará o torneio em risco."
 layout: ../../layouts/MainLayout.astro
 overview: "Câmeras de um documentário seguem os lutadores inspirados em super-heróis da Marvel durante a competição espetacular que os levará ao cobiçado cinturão do campeonato. Mas uma substância perigosa chamada O Simbionte colocará o torneio em risco."
+localized_title: "Marvel Luta Livre Edition: A Origem da Máscara"
 ---
 ## TMDB Data
 ```json

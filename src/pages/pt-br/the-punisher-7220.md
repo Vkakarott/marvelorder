@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000QE9ERU?linkCode=osi&th=1&psc=1
 overview: "Após ter sua esposa e filho assassinados, Frank Castle decidiu por dedicar sua vida a eliminar o crime das ruas da cidade em que vive. Para tanto, Castle não apenas persegue os bandidos como também os elimina, usando sua experiência como agente secreto do FBI. Seu novo alvo é Howard Saint, um homem ligado ao submundo do crime que decide se vingar da sociedade após ter seu filho morto."
+localized_title: "O Justiceiro"
 ---
 ## TMDB Data
 ```json

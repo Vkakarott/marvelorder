@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B009YMKL4A?linkCode=osi&th=1&psc=1
 overview: "No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr. Apesar de suas origens muito diferentes - Charles cresceu em uma família rica enquanto Erik perdeu seus pais em Auschwitz -, os dois se tornam grandes amigos. Enquanto o mundo oscila à beira de uma guerra nuclear, Charles e Erik unem forças com outros mutantes para salvar a humanidade. No entanto, um acontecimento separa os dois amigos."
+localized_title: "X-Men: Primeira Classe"
 ---
 ## TMDB Data
 ```json

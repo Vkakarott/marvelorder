@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 587
 overview: "O ex-vingador Clint Barton tem uma missão aparentemente simples: voltar para sua família no Natal. Será possível? Talvez com a ajuda de Kate Bishop, uma arqueira de 22 anos que sonha em se tornar uma super-heroína. Os dois são forçados a trabalhar juntos quando uma presença do passado de Barton ameaça descarrilar muito mais do que o espírito festivo."
+localized_title: "Gavião Arqueiro"
 ---
 ## TMDB Data
 ```json

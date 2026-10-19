@@ -11,7 +11,7 @@ import WatchProviders from '~/src/components/watch-providers.vue'
 
 const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing
 const mappedListing = ensureMappedListing( listing )
-const title = listing.title || listing.name || 'Título sem nome'
+const title = listing.localized_title || listing.title || listing.name || 'Título sem nome'
 const isSeries = listing.type === 'tv' || listing.media_type === 'tv' || listing.tags?.includes( 'tv' )
 const isMovie = listing.type === 'movie' || listing.media_type === 'movie' || listing.tags?.includes( 'movie' )
 const mediaType = isSeries ? 'Série' : isMovie ? 'Filme' : 'Título'

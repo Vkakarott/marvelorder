@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/spider-man-1967-5ccdc639b8d4b.webp"
 watchLinks:
   amazon: none
 overview: "O adolescente de mente científica Peter Parker, depois de ser picado por uma aranha radioativa, desenvolve incrível força e poderes de aranha. Ele decide se tornar um super-herói fantasiado combatente do crime, ao mesmo tempo lidando com seus problemas pessoais e as inseguranças resultantes de ser um adolescente."
+localized_title: "Homem-Aranha"
 ---
 ## TMDB Data
 ```json

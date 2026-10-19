@@ -10,6 +10,7 @@ tags:
   - list-8204859
   - has-kang
 overview: "Heróis icônicos de três universos diferentes são colocados em rota de colisão mortal e enfrentam uma ameaça existencial sem precedentes, diferente de tudo que já vivenciaram antes."
+localized_title: "Vingadores: Doutor Destino"
 ---
 ## TMDB Data
 ```json

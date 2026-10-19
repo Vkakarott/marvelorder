@@ -18,6 +18,7 @@ vote_average: 6.7
 tags:
   - movie
   - company-420
+localized_title: "Avante: Nos Bastidores de Deadpool & Wolverine"
 ---
 ## TMDB Data
 ```json

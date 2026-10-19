@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B002OBF3G4?linkCode=osi&th=1&psc=1
 overview: "Esta série recria as façanhas de Peter Parker, um garoto que é picado por uma aranha radioativa e passa a ter superpoderes, tornando-se o Homem-Aranha."
+localized_title: "O Espetacular Homem-Aranha"
 ---
 ## TMDB Data
 ```json

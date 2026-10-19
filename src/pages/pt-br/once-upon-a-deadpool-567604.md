@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07M9ZNGFK?linkCode=osi&th=1&psc=1
 overview: "Determinado a provar que \"Deadpool 2\" é um filme para toda a família, Wade Wilson limpa todos os palavrões e sangue da narrativa e sequestra o ator e diretor Fred Savage para reencenar A Princesa Prometida. Sem poder se desvencilhar das amarras, Savage é obrigado a ouvir o \"conto de fadas\" do Mercenário Tagarela, incluindo sua luta com Cable e a formação da X-Force."
+localized_title: "Era uma Vez um Deadpool"
 ---
 ## TMDB Data
 ```json

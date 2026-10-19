@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01E0LQKLW?linkCode=osi&th=1&psc=1
 overview: "Um artista, Steve Rogers, é quase assassinado por espiões, à procura de segredos nacionais de seu falecido pai. Ele é salvo durante a cirurgia, quando uma fórmula secreta é injetada nele; este soro não só o cura, mas também lhe dá força fantástica e reflexos rápidos. Para ajudá-lo a resolver o mistério por trás do assassinato de seu pai e levar os culpados à justiça, uma agência governamental equipa-o com uma motocicleta especial carregada com dispositivos e um escudo indestrutível. Agora armado, ele luta contra os inimigos da nação como o Sentinela da Liberdade, o Capitão América."
+localized_title: "Capitão América"
 ---
 ## TMDB Data
 ```json

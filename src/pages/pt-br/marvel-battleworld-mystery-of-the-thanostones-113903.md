@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
 overview: "Thanos usou a Manopla do Infinito para criar um novo mundo, o Battleworld. Nossos heróis Homem de Ferro e Capitã Marvel devem se unir a alguns aliados inusitados e explorar terras estranhas para resolver o mistério das pedras e impedir Thanos!"
+localized_title: "Marvel Battleworld: O Mistério das Pedras de Thanos"
 ---
 ## TMDB Data
 ```json

@@ -9,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: none
 overview: "Em uma noite escura e tempestuosa, o Dr. Victor Frankenstein e seu assistente trabalham na sua maior realização: um monstro construído de partes do corpo de mortos. No entanto, quando a criatura foge livre, Dr. Frankenstein deixa a cargo de seu assistente eliminar o monstro, que ficou marcado ao enfrentar Frankenstein. Agora, em casa com sua família, o Dr. Frankenstein tenta em vão esquecer sua experiência, mas é assombrada por visões e memórias. E quando acidentes e mortes estranhas começam a ocorrer, ele percebe que sua criação pode muito bem ainda estar vivo…"
+localized_title: "Frankenstein"
 ---
 ## TMDB Data
 ```json

@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/the-silver-surfer-5e71870f1dc60.png"
 watchLinks:
   amazon: none
 overview: "As aventuras do viajante cósmico enquanto busca seu lar perdido após se rebelar contra seu mestre."
+localized_title: "O Surfista Prateado"
 ---
 ## TMDB Data
 ```json

@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B005PW3OS8?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 0
 overview: "Durante a Segunda Guerra Mundial, Steve Rogers é um homem doente, do Brooklyn, que se transforma no super soldado Capitão América para ajudar nos esforços de guerra. Rogers deve parar o Caveira Vermelha, o implacável chefe de armas de Adolf Hitler e líder de uma organização que pretende usar um misterioso mecanismo de incalculáveis poderes para dominar o mundo."
+localized_title: "Capitão América: O Primeiro Vingador"
 ---
 ## TMDB Data
 ```json

@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/hqoHdOjz3n3TQUInjxYlCAssCRy.webp"
 overview: "Depois de sobreviver a um terrível acidente, a paramédica Cassandra Webb começa a desenvolver habilidades de clarividência. Forçada a enfrentar revelações sobre seu passado, ela estabelece um relacionamento com três jovens destinadas a futuros poderosos... se todas conseguirem sobreviver a um presente mortal."
+localized_title: "Madame Teia"
 ---
 ## TMDB Data
 ```json

@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B009B0JQ8M?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 547
 overview: "Peter Parker está tentando saber mais sobre sua origem. Ele encontra uma pasta que pertenceu ao seu pai e quer descobrir por que seus pais desapareceram. Sua busca o leva a Oscorp e ao dr. Curt Connors, que tem como alterego o letal Lagarto."
+localized_title: "O Espetacular Homem-Aranha"
 ---
 ## TMDB Data
 ```json

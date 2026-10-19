@@ -21,6 +21,7 @@ vote_average: 0
 tags:
   - tv
   - company-420
+localized_title: "Homem de Ferro e seus Amigos Incríveis"
 ---
 ## TMDB Data
 ```json

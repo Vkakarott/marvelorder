@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
 overview: "Os Guardiões da Galáxia partem em direção a uma nova jornada, tentando frustrar os planos do tirano Thanos de eliminar metade do universo. Só que, dessa vez, nossos heróis são peças de LEGO."
+localized_title: "LEGO Super-Heróis da Marvel: Guardiões da Galáxia - A Ameaça de Thanos"
 ---
 ## TMDB Data
 ```json

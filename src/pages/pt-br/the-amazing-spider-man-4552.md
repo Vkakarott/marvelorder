@@ -9,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: '''none'''
 overview: "Peter Parker usa seus poderes de aranha recém-adquiridos para combater criminosos."
+localized_title: "Homem-Aranha"
 ---
 ## TMDB Data
 ```json

@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/legion-585b52e9b0a15.webp"
 watchLinks:
   amazon: none
 overview: "Atormentado por visões perturbadoras, o jovem David Haller começa a juntar o quebra-cabeças de suas lembranças e se dá conta de que pode ter poderes especiais."
+localized_title: "Legião"
 ---
 ## TMDB Data
 ```json

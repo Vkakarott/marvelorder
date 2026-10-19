@@ -7,6 +7,7 @@ logo_on_black: "{tmdb-path}/wqkTCfznNXtYO9UnnxComqhhHRP.webp?crop.top=0.72"
 watchLinks:
   amazon: none
 overview: "Um grupo de jovens mutantes - humanos com uma variação genética que lhes dá superpoderes e os torna temidos pela população em geral - começa a treinar em uma escola para heróis. Seus estudos são interrompidos quando devem resgatar um membro de sua equipe de um cientista louco que pode entrar nos sonhos dos outros."
+localized_title: "Geração X"
 ---
 ## TMDB Data
 ```json

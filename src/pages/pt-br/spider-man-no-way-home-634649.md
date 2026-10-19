@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B09NMFWBL2?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 568
 overview: "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha..."
+localized_title: "Homem-Aranha: Sem Volta Para Casa"
 ---
 ## TMDB Data
 ```json

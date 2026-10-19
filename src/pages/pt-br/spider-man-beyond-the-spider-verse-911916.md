@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/5cAuJOfd5tuuFBz2yQmBCtVBaj0.webp"
 overview: "O capítulo final da história de Miles Morales e de todas as pessoas-aranha das infinitas realidades."
+localized_title: "Homem-Aranha: Além do Aranhaverso"
 ---
 ## TMDB Data
 ```json

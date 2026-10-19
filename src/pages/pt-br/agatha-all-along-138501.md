@@ -22,6 +22,7 @@ vote_average: 7.5
 tags:
   - tv
   - company-420
+localized_title: "Agatha Desde Sempre"
 ---
 ## TMDB Data
 ```json

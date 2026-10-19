@@ -18,6 +18,7 @@ vote_average: 6.5
 tags:
   - movie
   - company-420
+localized_title: "Nos Bastidores de Thor: Amor e Trovão"
 ---
 ## TMDB Data
 ```json

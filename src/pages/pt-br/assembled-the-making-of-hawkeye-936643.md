@@ -5,6 +5,7 @@ description: "Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincen
 layout: ../../layouts/MainLayout.astro
 type: movie
 overview: "Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincent D'Onofrio enquanto revelam como \"Gavião Arqueiro\" da Marvel Studios foi concebido e criado. Veja em primeira mão o que foi necessário para montar as grandiosas sequências de ação. E descubra como personagens icônicos dos quadrinhos da Marvel como Kate Bishop foram adaptados e trazidos à vida nessa série de seis episódios."
+localized_title: "Nos Bastidores de Gavião Arqueiro"
 ---
 ## TMDB Data
 ```json

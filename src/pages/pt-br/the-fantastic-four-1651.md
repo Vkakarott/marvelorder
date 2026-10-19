@@ -22,6 +22,7 @@ vote_average: 7.102
 tags:
   - tv
   - company-19551
+localized_title: "Os Quatro Fantásticos"
 ---
 ## TMDB Data
 ```json

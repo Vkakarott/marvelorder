@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: movie
 overview: "Tentando esquecer seu passado sombrio, Logan, mais conhecido como Wolverine, parece ter encontrado o amor e a felicidade com Kayla Silverfox. Mas a paz de Logan é abalada quando Victor Creed, seu irmão cruel, assassina brutalmente Kayla. A sede de vingança de Logan o leva ao programa Arma X. Ele passa por um processo doloroso para fortalecer seus ossos com adamantium, o que o torna praticamente indestrutível."
+localized_title: "X-Men Origens: Wolverine"
 ---
 ## TMDB Data
 ```json

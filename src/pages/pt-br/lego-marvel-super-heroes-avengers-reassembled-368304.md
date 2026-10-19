@@ -19,6 +19,7 @@ vote_average: 6.592
 tags:
   - movie
   - company-7505
+localized_title: "LEGO Super-Heróis da Marvel: Vingadores Reunidos!"
 ---
 ## TMDB Data
 ```json

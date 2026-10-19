@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/marvel-one-shot-agent-carter-53a58d2492e07.webp"
 watchLinks:
   amazon: none
 overview: "A agente britânica Peggy Carter se une à nascente organização S.H.I.E.L.D. Enquanto procura o enigmático Zodíaco, a agente Carter luta contra seu chefe misógino e burocrático, o agente Flynn."
+localized_title: "Marvel One-Shot: Agente Carter"
 ---
 ## TMDB Data
 ```json

@@ -18,6 +18,7 @@ vote_average: 8.25
 tags:
   - movie
   - company-420
+localized_title: "Avante: Nos Bastidores de Agatha Desde Sempre"
 ---
 ## TMDB Data
 ```json

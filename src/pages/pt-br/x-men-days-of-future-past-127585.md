@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B08Z85NZWK?linkCode=osi&th=1&psc=1
 overview: "O conjunto definitivo dos X-Men trava uma guerra pela sobrevivência da espécie ao longo de dois períodos de tempo, enquanto unem forças com os seus eus mais jovens numa batalha épica que deve mudar o passado – para salvar o nosso futuro."
+localized_title: "X-Men: Dias de um Futuro Esquecido"
 ---
 ## TMDB Data
 ```json

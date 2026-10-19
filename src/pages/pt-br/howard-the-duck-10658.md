@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0021GS3JG?linkCode=osi&th=1&psc=1
 overview: "Howard é um simpático pato de temperamento sarcástico que chega à Terra por meio de um estranho experimento científico. Além de estar em um planeta desconhecido, terá de enfrentar outra criatura alienígena, que pegou carona no mesmo experimento e é bem menos amigável que ele. Embora cercado de problemas, algumas pessoas tentam afastá-lo de cientistas maldosos, oferecendo ajuda para ele voltar ao seu planeta."
+localized_title: "Howard, o Super-Herói"
 ---
 ## TMDB Data
 ```json

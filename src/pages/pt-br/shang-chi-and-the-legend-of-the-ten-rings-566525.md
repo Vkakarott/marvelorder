@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B09LNDBGW6?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 524
 overview: "Shang-Chi precisa confrontar o passado que pensou ter deixado para trás. Ao mesmo tempo, ele é envolvido em uma teia de mistérios da organização conhecida como Dez Anéis."
+localized_title: "Shang-Chi e a Lenda dos Dez Anéis"
 ---
 ## TMDB Data
 ```json

@@ -20,6 +20,7 @@ vote_average: 6
 tags:
   - tv
   - company-11106
+localized_title: "Wolverine Weapon X: Tomorrow Dies Today"
 ---
 ## TMDB Data
 ```json

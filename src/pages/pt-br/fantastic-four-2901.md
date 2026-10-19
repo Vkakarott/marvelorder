@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000KCJQ1C?linkCode=osi&th=1&psc=1
 overview: "O maior grupo de Super Heróis do mundo está preparado e de prontidão! Entre para a batalha com o Sr. Fantástico, Mulher Invisível, Tocha Humana, O Coisa e o Surfista Prateado contra o maléfico Dr. Destino entre outros nesta clássica séria animada cheia de emoções. Contra um mal tão terrível, não basta um herói, são necessários quatro: O QUARTETO FANTÁSTICO!"
+localized_title: "Os Quatro Fantásticos"
 ---
 ## TMDB Data
 ```json

@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01FV2BJOM?linkCode=osi&th=1&psc=1
 overview: "Apocalipse, o primeiro mutante de todos, consegue retornar à vida após milhares de anos. Agora, ele sai à procura de seguidores para dominar o mundo. Caberá aos X-Men se unirem para impedir os planos do vilão e evitar uma catástofre mundial."
+localized_title: "X-Men: Apocalipse"
 ---
 ## TMDB Data
 ```json

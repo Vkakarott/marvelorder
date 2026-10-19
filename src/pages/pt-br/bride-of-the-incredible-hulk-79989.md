@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0171Z7TJG?linkCode=osi&th=1&psc=1
 overview: "Em uma das histórias mais emotivas da saga, David Banner viaja até o Havaí em busca da Dra. Caroline Fields, uma psiquiatra que desenvolveu uma técnica de hipnoterapia que pode curá-lo. Ao descobrirem que compartilham o fardo de uma condição incurável — Caroline sofre de uma doença terminal —, os dois se apaixonam e se casam, oferecendo a Banner um vislumbre de felicidade. No entanto, a tragédia se aproxima quando a perseguição implacável de Jack McGee e um furacão devastador ameaçam seu breve momento de paz."
+localized_title: "O Casamento do Incrível Hulk"
 ---
 ## TMDB Data
 ```json

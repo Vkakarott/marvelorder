@@ -20,6 +20,7 @@ vote_average: 6.929
 tags:
   - movie
   - company-420
+localized_title: "LEGO Marvel Vingadores: Missão Demolição"
 ---
 ## TMDB Data
 ```json

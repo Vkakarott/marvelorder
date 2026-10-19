@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B09BSD5GGK?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 234
 overview: "Natasha Romanoff, também conhecida como Viúva Negra, confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado. Perseguida por uma força implacável disposta a tudo para destruí-la, Natasha precisa agora lidar com seu passado como espiã e com as relações que deixou para trás muito antes de se tornar uma Vingadora."
+localized_title: "Viúva Negra"
 ---
 ## TMDB Data
 ```json

@@ -47,6 +47,7 @@ export interface Listing {
     draft?: boolean
     title: string
     name?: string
+    localized_title?: string
     sourceListing?: Listing
     overview?: string
     description?: string

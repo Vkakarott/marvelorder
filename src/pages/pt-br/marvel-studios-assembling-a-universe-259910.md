@@ -7,6 +7,7 @@ type: movie
 watchLinks:
   amazon: none
 overview: "O primeiro especial de documentários para a TV da Marvel contará a excitante história por trás do Universo Cinematográfico dos estúdios e contará com entrevistas exclusivas e cenas dos bastidores dos filmes da Marvel seus One-Shots e Agentes da SHIELD.Os telespectadores caminharão através desse fantástico universo e saberão um pouco mais sobre o futuro de Agentes da SHIELD. Verão novas cenas de Capitão América: O Soldado Invernal e Guardiões da Galáxia e teremos o primeiro olhar de Os Vingadores: Era de Ultron!"
+localized_title: "Marvel Studios: Construindo um Universo"
 ---
 ## TMDB Data
 ```json

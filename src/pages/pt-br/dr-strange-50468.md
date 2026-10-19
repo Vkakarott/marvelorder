@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B01JQXEKRA?linkCode=osi&th=1&psc=1
 poster_path: /5B4z5Ch5Dek8hQJ7UlIVZgWLntV.jpg
 overview: "Piloto de série de TV sobre o mestre da magia da editora Marvel exibido como um telefilme na rede CBS. foi feito na esteira das séries do Homem-Aranha e Hulk, estrelando Peter Hooten como o Dr. Stephen Strange e Jessica Walters como a feiticeira vilã Morgana le Fey."
+localized_title: "Doutor Estranho"
 ---
 ## TMDB Data
 ```json

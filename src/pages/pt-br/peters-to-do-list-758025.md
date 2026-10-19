@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1
 overview: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
+localized_title: "Marvel One Shot: A Lista de Tarefas de Peter"
 ---
 ## TMDB Data
 ```json

@@ -10,6 +10,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Liderados pelo Homem de Ferro, os heróis mais poderosos da Marvel - Hulk, Thor, Capitão América, Gavião Arqueiro, Falcão e Viúva Negra - reúnem seus poderes para combater ameaças que nenhum herói poderia aguentar."
+localized_title: "Os Vingadores Unidos"
 ---
 ## TMDB Data
 ```json

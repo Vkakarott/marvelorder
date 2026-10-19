@@ -10,6 +10,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Anos depois dos acontecimentos da série clássica, o Dr. David Banner ainda busca uma forma de acabar com suas transformações no Hulk. Quando um velho amigo do passado, Don Blake, reaparece com um segredo místico, Banner acaba envolvido numa teia de conspiração que o força a se transformar novamente. Com a ajuda de Blake — que possui uma ligação com o poderoso deus Thor — Banner/Hulk enfrenta uma organização criminosa para resgatar pessoas queridas e tentar controlar seu destino."
+localized_title: "A Volta do Incrível Hulk"
 ---
 ## TMDB Data
 ```json

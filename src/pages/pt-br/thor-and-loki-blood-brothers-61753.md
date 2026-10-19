@@ -8,6 +8,7 @@ type: tv
 tags: 
   - has-thor
 overview: "Inspirado pela aclamada Graphic Novel de Robert Rodi e Esad Ribic. A Marvel Knights lança mais uma animação arrasadora. Thor e Loki, são irmãos na terra mítica de Asgard e aparentemente sempre inimigos. Mas por que Loki odeia tanto o seu irmão Thor? E será que o Mestre da Traição não é realmente o vilão rotulado? O desejo insaciável de Loki pelo poder e sua rixa com Thor adquirem um novo significado neste épico nórdico."
+localized_title: "Thor & Loki: Irmãos de Sangue"
 ---
 ## TMDB Data
 ```json

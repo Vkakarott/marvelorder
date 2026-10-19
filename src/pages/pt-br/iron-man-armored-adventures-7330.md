@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B003KLZ6JG?linkCode=osi&th=1&psc=1
 overview: "O gênio adolescente Tony Stark cria uma incrível armadura voadora para descobrir a verdade sobre a misteriosa morte de seu pai."
+localized_title: "Homem de Ferro: Série Animada"
 ---
 ## TMDB Data
 ```json

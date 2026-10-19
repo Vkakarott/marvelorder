@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B000I9YV2Q?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 545
 overview: "Dois anos se passaram desde que o tranquilo Peter Parker separou-se do grande amor de sua vida, Mary Jane Watson, e decidiu assumir o compromisso e a responsabilidade de seguir sendo o Homem-Aranha. Peter enfrenta novos desafios enquanto aprende a lidar com \"seu dom e sua maldição\", tentando desesperadamente harmonizar suas duas identidades: A do super-herói aracnídeo, o Homem-Aranha, e a do estudante universitário."
+localized_title: "Homem-Aranha 2"
 ---
 ## TMDB Data
 ```json

@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00CMVT4CA?linkCode=osi&th=1&psc=1
 overview: "Wolverine e os X-Men devem se unir novamente não apenas para combater a cada vez mais poderosa Divisão de Resposta Mutante, mas também para evitar um futuro catastrófico que Xavier alertou que Wolverine nunca deveria acontecer."
+localized_title: "Wolverine e os X-Men"
 ---
 ## TMDB Data
 ```json

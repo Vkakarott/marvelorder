@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0010TDRP0?linkCode=osi&th=1&psc=1
 overview: "A veterana do exército, Krista Starr, está em busca do assassino de seu irmão gêmeo. Em meio às investigações, ela descobre uma inacreditável organização de vampiros em Detroit, liderada pelo implacável Marcus Van Sciver. Envolvida nas armações das criaturas da noite, ela vai contar com a relutante ajuda de Blade, o caçador de vampiros - metade humano, metade vampiro. Este anti-herói é dotado de incríveis poderes e armamentos que utiliza em sua luta para dar fim à raça de sugadores de sangue."
+localized_title: "Blade: A Série"
 ---
 ## TMDB Data
 ```json

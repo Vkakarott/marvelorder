@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
 overview: "O misterioso Fury dá aos espectadores acesso ultrassecreto às informações da SHIELD sobre os principais heróis e vilões da Marvel, reunindo uma mistura de animação e arte em quadrinhos em movimento."
+localized_title: "Os Arquivos Secretos de Fury"
 ---
 ## TMDB Data
 ```json

@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B086M69YK2?linkCode=osi&th=1&psc=1
 overview: "Cinco jovens mutantes descobrem o alcance de seus poderes e lidam com traumas do passado enquanto são mantidos presos contra a vontade num sinistro hospital."
+localized_title: "Os Novos Mutantes"
 ---
 ## TMDB Data
 ```json

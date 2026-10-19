@@ -5,6 +5,7 @@ description: "Revisite os heróis, vilões e momentos épicos de todo o Universo
 layout: ../../layouts/MainLayout.astro
 type: tv
 overview: "Revisite os heróis, vilões e momentos épicos de todo o Universo Cinematográfico Marvel em preparação para as histórias altamente esperadas que ainda estão por vir."
+localized_title: "Lendas da Marvel"
 ---
 ## TMDB Data
 ```json

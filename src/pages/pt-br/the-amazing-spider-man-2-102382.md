@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B00JPNZPCG?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 564
 overview: "O jovem Peter Parker está fascinado com as habilidades que adquiriu como Homem-Aranha. Agora, ele precisa lidar com dois problemas: o retorno de um velho amigo, Harry Osborn, e a chegada de um vilão mais forte e poderoso, Electro."
+localized_title: "O Espetacular Homem-Aranha 2: A Ameaça de Electro"
 ---
 ## TMDB Data
 ```json

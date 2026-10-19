@@ -23,6 +23,7 @@ vote_average: 6.4
 tags:
   - movie
   - company-420
+localized_title: "Nos Bastidores de Doutor Estranho no Multiverso da Loucura"
 ---
 ## TMDB Data
 ```json

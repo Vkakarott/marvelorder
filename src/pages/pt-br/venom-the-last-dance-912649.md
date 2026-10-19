@@ -22,6 +22,7 @@ vote_average: 0
 tags:
   - movie
   - company-7505
+localized_title: "Venom: A Última Rodada"
 ---
 ## TMDB Data
 ```json

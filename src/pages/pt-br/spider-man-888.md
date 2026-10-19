@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B006GQL4G6?linkCode=osi&th=1&psc=1
 overview: "Após ser mordido por uma aranha radioativa, o jovem Peter Parker descobre que tem superpoderes de aranha. Esperando usar os recém-descobertos poderes para alcançar fama e fortuna, causa indiretamente a morte do seu tio Ben ao recusar ajudar um polícia a apanhar um criminoso. Recebendo uma lição de humildade pelo falhanço, resolve usar os seus talentos para lutar contra o crime e torna-se o super-herói Homem-Aranha. Enquanto luta contra supervilões, Peter tenta conciliar a vida pessoal, incluindo a namorada Mary Jane e o seu trabalho de fotógrafo no Clarim Diário."
+localized_title: "Homem-Aranha: A Série Animada"
 ---
 ## TMDB Data
 ```json

@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07SJJ44HB?linkCode=osi&th=1&psc=1
 overview: "Ambientado em 1992, Charles Xavier está lidando com o fato dos mutantes serem considerados heróis nacionais. Com o orgulho a flor da pele, ele envia sua equipe para perigosas missões, mas a primeira tarefa dos X-Men no espaço gera uma explosão solar, que acende uma força malévola e faminta por poder dentro de Jean Grey."
+localized_title: "X-Men: Fênix Negra"
 ---
 ## TMDB Data
 ```json

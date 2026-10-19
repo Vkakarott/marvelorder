@@ -20,6 +20,7 @@ vote_average: 0
 tags:
   - tv
   - company-420
+localized_title: "Seu Amigão da Vizinhança: Homem-Aranha"
 ---
 ## TMDB Data
 ```json

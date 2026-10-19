@@ -12,6 +12,7 @@ mcuTimelineOrder: 127
 tags:
   - has-thor
 overview: "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron. Com o destino da Terra em jogo, os Vingadores terão que se unir para mais uma vez salvar a raça humana da extinção."
+localized_title: "Vingadores: Era de Ultron"
 ---
 ## TMDB Data
 ```json

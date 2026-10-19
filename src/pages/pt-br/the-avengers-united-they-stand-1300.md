@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B007OH9MYW?linkCode=osi&th=1&psc=1
 overview: "Houve um tempo em que os maiores heróis do planeta possuiam uma equipe localizada em outra parte dos EUA. Na verdade, era um outro grupo de Vingadores que patrulhavam a Zona Oeste dos Estados Unidos."
+localized_title: "Os Vingadores: A Série"
 ---
 ## TMDB Data
 ```json

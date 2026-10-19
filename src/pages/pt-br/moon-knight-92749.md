@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 610
 overview: "A série acompanha Steven Grant, um gentil e educado funcionário de uma loja de souvenir, que é atormentado com apagões e memórias de outra vida. Steven descobre que tem transtorno dissociativo de identidade e divide o corpo com o mercenário Marc Spector. À medida que os inimigos de Steven/Marc se voltam para eles, ambos devem navegar em suas complexas identidades enquanto mergulham em um mistério mortal entre os poderosos deuses do Egito."
+localized_title: "Cavaleiro da Lua"
 ---
 ## TMDB Data
 ```json

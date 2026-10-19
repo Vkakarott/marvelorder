@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 type: tv
 overview: "Spidey e seus incríveis amigos trabalham juntos para lutar contra vilões e resgatar pessoas em apuros. Conheça os mocinhos e mocinhas que ajudam Spidey a salvar o dia!"
+localized_title: "Spidey e Seus Amigos Espetaculares"
 ---
 ## TMDB Data
 ```json

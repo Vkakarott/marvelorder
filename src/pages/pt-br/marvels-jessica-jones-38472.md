@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 95
 overview: "Assombrada pelos traumas do passado, Jessica Jones usa seus poderes como detetive particular para encontrar e deter o perverso Kilgrave."
+localized_title: "Marvel - Jessica Jones"
 ---
 ## TMDB Data
 ```json

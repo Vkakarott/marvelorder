@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00DIR8ATA?linkCode=osi&th=1&psc=1
 overview: "Wolverine é um mutante que possui sentidos aguçados como animais, capacidades físicas aprimoradas, três garras ósseas retráteis em cada mão e um fator de cura que lhe permite se recuperar de praticamente qualquer ferimento, doença ou toxina em um ritmo acelerado."
+localized_title: "Marvel Anime: Wolverine"
 ---
 ## TMDB Data
 ```json

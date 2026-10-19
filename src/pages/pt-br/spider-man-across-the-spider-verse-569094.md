@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/zfZuSNGKxIlWQKi4xlIhFoRrlnj.webp"
 overview: "Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram."
+localized_title: "Homem-Aranha: Através do Aranhaverso"
 ---
 ## TMDB Data
 ```json

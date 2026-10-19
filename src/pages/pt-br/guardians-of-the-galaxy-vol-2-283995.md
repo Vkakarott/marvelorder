@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B0716DT6G3?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 72
 overview: "Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill."
+localized_title: "Guardiões da Galáxia - Vol. 2"
 ---
 ## TMDB Data
 ```json

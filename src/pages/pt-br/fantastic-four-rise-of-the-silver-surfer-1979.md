@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000VL6GRO?linkCode=osi&th=1&psc=1
 overview: "Reed Richards e Susan Storm estão prestes a se casar. Porém, durante a cerimônia, algo estranho surge nos céus de Nova York. Trata-se do Surfista Prateado, um ser alienígena que possui grandes poderes e que trabalha como arauto de Galactus, o destruidor de planetas. O Surfista veio à Terra para prepará-la para ser destruída por seu mestre, mas para atingir seu objetivo precisará enfrentar o Quarteto Fantástico."
+localized_title: "Quarteto Fantástico e o Surfista Prateado"
 ---
 ## TMDB Data
 ```json

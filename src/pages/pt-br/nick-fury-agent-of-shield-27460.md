@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00EF1I8JA?linkCode=osi&th=1&psc=1
 overview: "O herói durão da Marvel é trazido de volta à atividade para lutar contra a ameaça da Hidra, depois de se exilar no Yukon desde o fim da Guerra Fria. Os filhos do ex-chefe da Hidra, Baron Von Stucker, assumiram o comando da organização terrorista. Sob a liderança de sua perversa filha, Viper, a Hidra apoderou-se de um vírus mortal e ameaça destruir a América."
+localized_title: "Nick Fury: Agente da S.H.I.E.L.D."
 ---
 ## TMDB Data
 ```json

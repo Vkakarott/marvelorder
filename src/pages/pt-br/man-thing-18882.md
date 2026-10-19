@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00X5FZD0Y?linkCode=osi&th=1&psc=1
 overview: "A morte misteriosa de uma equipe de pesquisadores petroleiros num pântano da Louisiana mobiliza os esforços de investigação do Xerife Kyle Williams, mas ele logo descobre que o culpado está longe de ser um criminoso comum."
+localized_title: "O Homem-Coisa: A Natureza do Medo"
 ---
 ## TMDB Data
 ```json

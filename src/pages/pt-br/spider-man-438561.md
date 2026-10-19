@@ -7,6 +7,7 @@ logo_on_black: "{fanart-path}/spider-man-the-movie-5e89f52be649e.webp"
 watchLinks:
   amazon: none
 overview: "O Exército da Cruz de Ferro está sabotando petroleiros com a ajuda de seu monstro, o Sea-Devil, um peixe-espada antropomórfico semimecânico com a capacidade de disparar torpedos pela boca. O Homem-Aranha conta com a ajuda do agente da interpol Juzo Mamiya para ajudá-lo a deter o Exército da Cruz de Ferro."
+localized_title: "Japanese Spiderman: Episode 0"
 ---
 ## TMDB Data
 ```json

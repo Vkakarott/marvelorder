@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 139
 overview: "Um ex-presidiário com pele indestrutível luta para limpar seu nome e salvar o bairro onde vive. Ele não queria confusão, mas a população precisava muito de um herói."
+localized_title: "Marvel - Luke Cage"
 ---
 ## TMDB Data
 ```json

@@ -21,6 +21,7 @@ vote_average: 6.7
 tags:
   - movie
   - company-420
+localized_title: "Os Supremos 2: Descubra o Poder da Pantera"
 ---
 ## TMDB Data
 ```json

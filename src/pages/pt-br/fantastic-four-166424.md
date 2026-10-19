@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B013JPCA1Y?linkCode=osi&th=1&psc=1
 overview: "Quatro jovens astronautas ganham superpoderes ao serem transportados a um universo alternativo e ficarem expostos à radiação cósmica. Eles precisam usar suas novas habilidades para proteger o planeta contra o Doutor Destino."
+localized_title: "Quarteto Fantástico"
 ---
 ## TMDB Data
 ```json

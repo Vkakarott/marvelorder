@@ -19,6 +19,7 @@ vote_average: 0
 tags:
   - tv
   - company-420
+localized_title: "Vozes em Ascensão: A Música de Wakanda Para Sempre"
 ---
 ## TMDB Data
 ```json

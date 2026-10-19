@@ -5,6 +5,7 @@ description: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enq
 type: movie
 layout: ../../layouts/MainLayout.astro
 overview: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
+localized_title: "Nos Bastidores de Doutor Estranho no Multiverso da Loucura"
 ---
 ## TMDB Data
 ```json

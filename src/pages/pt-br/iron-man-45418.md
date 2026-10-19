@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00DIR8AB8?linkCode=osi&th=1&psc=1
 overview: "Tony Stark vai para o Japão para produzir uma nova estação de energia e mostrar o Homem de Ferro Dio, uma nova armadura protótipo que irá substituí-lo quando se aposentar. No entanto, o Homem de Ferro Dio sai do controle e cabe a Tony como Homem de Ferro pará-lo, juntamente com uma organização chamada Zodíaco."
+localized_title: "Marvel Anime: Homem de Ferro"
 ---
 ## TMDB Data
 ```json

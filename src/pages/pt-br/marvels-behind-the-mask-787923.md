@@ -5,6 +5,7 @@ description: "Um documentário especial que explora o poder da identidade por tr
 layout: ../../layouts/MainLayout.astro
 type: movie
 overview: "Um documentário especial que explora o poder da identidade por trás dos super-heróis icônicos que conhecemos e amamos. Essas criações e histórias lendárias da Marvel não somente refletiram o mundo exterior – elas se tornaram um reflexo de nossas próprias identidades e de quem somos de verdade."
+localized_title: "Marvel Por Trás da Máscara"
 ---
 ## TMDB Data
 ```json

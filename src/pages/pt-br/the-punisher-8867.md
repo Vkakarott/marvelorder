@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01E2F5JAY?linkCode=osi&th=1&psc=1
 overview: "A polícia está em polvorosa devido a uma série de 125 assassinatos realizados. Decidido a acabar com a onda de crimes, Frank Castle toma a dianteira e passa a investigar o caso. Castle é um ex-policial que está em busca de vingança desde que sua esposa e filho foram assassinados, tendo a partir de então se dedicado a combater o crime nas ruas por conta própria. Quando Castle acredita estar com a organização quase destruída, ele passa a enfrentar um novo grupo criminoso, que pretende ocupar o lugar vago."
+localized_title: "O Justiceiro"
 ---
 ## TMDB Data
 ```json

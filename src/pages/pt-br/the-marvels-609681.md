@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/bnz17wOkp9O0c9JADOncEx0Q1sJ.webp"
 overview: "Quando suas obrigações a levam a uma fenda espacial anômala ligada a um revolucionário Kree, os poderes de Carol Danvers, a Capitã Marvel, se entrelaçam aos de Kamala Khan, a Ms. Marvel, e aos da sobrinha de Carol, astronauta da S.A.B.E.R., Capitã Monica Rambeau. Juntas, esse trio improvável deve ser unir para salvar o universo como \"As Marvels\"."
+localized_title: "As Marvels"
 ---
 ## TMDB Data
 ```json

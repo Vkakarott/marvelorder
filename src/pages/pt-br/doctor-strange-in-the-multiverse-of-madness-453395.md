@@ -9,6 +9,7 @@ watchLinks:
   amazon: 'https://amzn.to/3nbCKA0'
 mcuTimelineOrder: 586
 overview: "Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso."
+localized_title: "Doutor Estranho no Multiverso da Loucura"
 ---
 ## TMDB Data
 ```json

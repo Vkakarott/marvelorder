@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 552
 overview: "Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio."
+localized_title: "Homem-Aranha: Longe de Casa"
 ---
 ## TMDB Data
 ```json

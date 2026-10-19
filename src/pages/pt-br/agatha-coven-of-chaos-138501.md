@@ -8,6 +8,7 @@ logo_on_black: "{tmdb-path}/A4JyrpPCsw57E0JHcZK7TDPVPqP.webp"
 overview: "A infame Agatha Harkness encontra-se sem poderes depois de um jovem gótico suspeito ajudá-la a se libertar de um feitiço distorcido. Ela se mostra interessada quando ele pede que seja levado ao lendário Caminho das Bruxas, um caminho mágico de provações que recompensará a bruxa sobrevivente com o que lhe falta. Juntos, Agatha e esse misterioso Jovem reúnem um coven desesperado e partem para o Caminho..."
 # Winter 2023 - https://www.marvel.com/articles/movies/sdcc-2022-all-of-the-marvel-studios-news-coming-out-of-hall-h-at-san-diego-comic-con
 # release_date: 'Winter 2023'
+localized_title: "Agatha Desde Sempre"
 ---
 
 Previous titles: 

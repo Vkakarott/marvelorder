@@ -11,6 +11,7 @@ watchLinks:
 mcuTimelineOrder: 25
 release_date: '2008-05-02'
 overview: "Tony Stark é um industrial bilionário, que também é um brilhante inventor. Ao ser sequestrado ele é obrigado por terroristas a construir uma arma devastadora mas, ao invés disto, constrói uma armadura de alta tecnologia que permite que fuja de seu cativeiro. A partir de então ele passa a usá-la para combater o crime, sob o alter ego do Homem de Ferro."
+localized_title: "Homem de Ferro"
 ---
 ## TMDB Data
 ```json

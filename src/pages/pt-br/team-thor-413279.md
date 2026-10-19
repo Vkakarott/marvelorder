@@ -10,6 +10,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Este pequeno documentário humorístico sugere o que Thor poderia estar fazendo enquanto o resto dos Vingadores estavam lutando entre si em Capitão América: Guerra Civil da Marvel."
+localized_title: "Marvel One Shot: Equipe Thor: Primeira Parte"
 ---
 ## TMDB Data
 ```json

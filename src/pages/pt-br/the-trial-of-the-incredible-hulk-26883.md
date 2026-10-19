@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B00715RHBC?linkCode=osi&th=1&psc=1
 backdrop_path: /vrb9b26WDZto8vmUnDMgZZ1T9hS.jpg
 overview: "Injustamente acusado de agressão, o Dr. David Banner é preso e levado a julgamento, correndo o risco de passar anos na prisão. Sua defesa é assumida pelo advogado cego Matt Murdock, que também atua secretamente como o vigilante Demolidor. À medida que o julgamento avança, Banner enfrenta dificuldades para controlar o Hulk, culminando em um confronto com o criminoso Wilson Fisk."
+localized_title: "O Julgamento do Incrível Hulk"
 ---
 ## TMDB Data
 ```json

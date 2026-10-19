@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 219
 overview: "Demolidor, Jessica Jones, Luke Cage e Punho de Ferro unem forças quando uma conspiração ameaça Nova York."
+localized_title: "Marvel - Os Defensores"
 ---
 ## TMDB Data
 ```json

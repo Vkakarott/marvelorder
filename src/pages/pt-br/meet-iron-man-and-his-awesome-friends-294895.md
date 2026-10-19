@@ -21,6 +21,7 @@ vote_average: 3.8
 tags:
   - tv
   - company-420
+localized_title: "Conheça Homem de Ferro e seus Amigos Incríveis"
 ---
 ## TMDB Data
 ```json

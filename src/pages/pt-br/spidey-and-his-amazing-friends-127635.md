@@ -24,6 +24,7 @@ tags:
   - tv
   - company-7505
   - company-420
+localized_title: "Spidey e Seus Amigos Espetaculares"
 ---
 ## TMDB Data
 ```json

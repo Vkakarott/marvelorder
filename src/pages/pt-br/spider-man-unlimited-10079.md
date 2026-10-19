@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B00M2DQL6U?linkCode=osi&th=1&psc=1
 backdrop_path: /3WRvDj6od3V6PB90LXFthFLBJmL.jpg
 overview: "O Coronel John Jameson viaja para a Contra-Terra, um mundo duplicado da Terra. Peter Parker descobre que Venom e Carnificina embarcaram secretamente no foguete. Após o lançamento, o público acredita que o Homem-Aranha sabotou a missão, e o Clarim Diário oferece uma recompensa por sua captura. Na Contra-Terra, o Aranha encontra o Alto Evolucionário, criador dos Bestiais — seres meio humanos, meio animais — que dominam o planeta. John se junta a uma rebelião humana contra eles, enquanto Venom e Carnificina formam uma colônia simbiótica chamada Sinótico. Cabe ao Homem-Aranha impedir o Sinótico e encerrar a guerra entre humanos e Bestiais."
+localized_title: "Homem-Aranha: Ação Sem Limites"
 ---
 ## TMDB Data
 ```json

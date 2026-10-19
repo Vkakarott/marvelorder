@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/the-fantastic-four-1967-6266d7cc089eb.png"
 watchLinks:
   amazon: none
 overview: "A primeira série animada baseada na série de quadrinhos da Marvel, Quarteto Fantástico."
+localized_title: "Os Quatro Fantásticos"
 ---
 ## TMDB Data
 ```json

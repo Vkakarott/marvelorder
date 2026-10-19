@@ -19,6 +19,7 @@ vote_average: 0
 tags:
   - movie
   - company-420
+localized_title: "Obra Prima"
 ---
 ## TMDB Data
 ```json

@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B07F1HTM3K?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 387
 overview: "Scott Lang lida com as consequências de suas escolhas tanto como super-herói quanto como pai. Enquanto tenta reequilibrar sua vida com suas responsabilidades como o Homem-Formiga, ele é confrontado por Hope van Dyne e Dr. Hank Pym com uma nova missão urgente. Scott deve mais uma vez vestir o uniforme e aprender a lutar ao lado da Vespa, trabalhando em conjunto para descobrir segredos do passado."
+localized_title: "Homem-Formiga e a Vespa"
 ---
 ## TMDB Data
 ```json

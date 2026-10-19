@@ -5,6 +5,7 @@ description: "Simon e Trevor, dois atores em extremos opostos de suas carreiras,
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/sFy84s6ipq5Fh9RrzKsCfgasHNd.webp"
 overview: "Simon e Trevor, dois atores em extremos opostos de suas carreiras, buscam papéis que mudem suas vidas."
+localized_title: "Magnum"
 ---
 
 Other titles

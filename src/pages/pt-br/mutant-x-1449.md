@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07BPPH1Q8?linkCode=osi&th=1&psc=1
 overview: "Mutant X é uma série de televisão de ficção científica que estreou em 6 de outubro de 2001. Criada por Avi Arad, a série se concentra no Mutant X, uma equipe de \"Novos Mutantes\" que possuem poderes extraordinários como resultado de engenharia genética. Os membros do Mutant X foram usados como cobaias em uma série de experimentos secretos do governo. A missão do Mutant X é localizar e proteger seus semelhantes, os Novos Mutantes. A série foi filmada em Toronto, Ontário, Canadá."
+localized_title: "Mutante X"
 ---
 ## TMDB Data
 ```json

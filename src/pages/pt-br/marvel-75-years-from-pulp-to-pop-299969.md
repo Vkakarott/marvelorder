@@ -8,6 +8,7 @@ tags:
   - movie
   - company-420
 overview: "Faça uma empolgante jornada pelos 75 anos de história da Marvel. Conheça seu humilde começo como uma pequena editora chamada Timely Comics em 1939, acompanhe o nacimento da Era Marvel nos anos 60, o impacto mundial de seus quadrinhos nos memoráveis anos 80 e finalmente veja como a poderosa Marvel traduziu seu empolgante universo dos quadrinhos para milhões de novos fãs ao redor do mundo através de séries de TV, animações, videogames e de seus atuais sucessos do cinema como Os Vingadores."
+localized_title: "Marvel 75 Anos: De Underground a Pop!"
 ---
 ## TMDB Data
 ```json

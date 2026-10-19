@@ -7,6 +7,7 @@ logo_on_black: "{tmdb-path}/7p1v2CMnEd0Hb3eFi0iEA6kDAMU.webp"
 watchLinks:
   amazon: none
 overview: "Wade Wilson estava de boas quando ele vê que um velho está sendo assaltado num beco, ele se tranca numa cabine telefônica pra botar seu traje de Deadpool, mas ao sair da cabine já é tarde demais."
+localized_title: "No Good Dead"
 ---
 ## TMDB Data
 ```json

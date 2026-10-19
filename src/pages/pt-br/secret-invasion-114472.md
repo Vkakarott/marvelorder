@@ -8,6 +8,7 @@ logo_on_black: "{tmdb-path}/ySkya7tPCuT1a4gsewyNzRi9cli.webp"
 backdrop_path: /8CO2liwAiP31ZY5We2bildsjGh8.jpg
 mcuTimelineOrder: 633
 overview: "Nick Fury descobre que uma facção de metamorfos Skrulls pretende invadir a Terra. Fury se junta a aliados incluindo Everett Ross, Maria Hill e o Skrull Talos, que estava vivendo na Terra. Juntos eles correm contra o tempo para impedir a invasão Skrull iminente e salvar a humanidade."
+localized_title: "Invasão Secreta"
 ---
 ## TMDB Data
 ```json

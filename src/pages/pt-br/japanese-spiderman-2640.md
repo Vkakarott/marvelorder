@@ -22,6 +22,7 @@ origin_country:
   - JP
 tags:
   - list-8204862
+localized_title: "Spider-Man"
 ---
 ## TMDB Data
 ```json

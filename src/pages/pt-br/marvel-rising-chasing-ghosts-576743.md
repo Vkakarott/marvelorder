@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/marvel-rising-chasing-ghosts-5e79da30345be.webp"
 watchLinks:
   amazon: none
 overview: "Quando um grupo de vilões deixa a Terra em um grande estado de alerta, resta à Spider-Gwen unir forças com o improvável grupo dos Guerreiros Secretos para tentar restaurar a ordem. Juntos, o inesperado grupo de heróis tentará fazer justiça usando a coletividade como força maior."
+localized_title: "Marvel Rising: Caçando Fantasmas"
 ---
 ## TMDB Data
 ```json

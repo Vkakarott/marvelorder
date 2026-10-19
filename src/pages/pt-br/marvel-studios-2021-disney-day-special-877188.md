@@ -7,6 +7,7 @@ type: movie
 tags:
   - doc
 overview: "Explora o passado, presente e futuro das séries do MCU no Disney+. Destacando a ação, a emoção, o drama e o humor de “WandaVision”, “Falcão e o Soldado Invernal”, “Loki” e “What If…?”, este especial também traz uma visão emocionante de futuros títulos e anúncios de novos projetos."
+localized_title: "Disney+ Day: O Especial da Marvel Studios 2021"
 ---
 ## TMDB Data
 ```json

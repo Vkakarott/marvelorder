@@ -18,6 +18,7 @@ vote_average: 0
 tags:
   - tv
   - company-420
+localized_title: "VisionQuest"
 ---
 ## TMDB Data
 ```json

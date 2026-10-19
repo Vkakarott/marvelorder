@@ -10,6 +10,7 @@ vote_average: 1
 tags:
   - has-thor
 mcuTimelineOrder: 626
+localized_title: "Thor: Amor e Trovão"
 ---
 ## TMDB Data
 ```json

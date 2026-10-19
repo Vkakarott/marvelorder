@@ -7,6 +7,7 @@ logo_on_black: "{tmdb-path}/bzrcGjnFF9k7aSuEKkUXYXg3Kn6.webp?crop.top=0.66"
 watchLinks:
   amazon: 'https://amzn.to/3HvReEd'
 overview: "Continuando sua fuga solitária, David Banner chega a uma pequena cidade onde acaba salvando a vida de uma jovem herdeira, alvo de uma conspiração mortal orquestrada por sua madrasta e por um médico corrupto. Enquanto trabalha disfarçado para proteger a jovem e desmantelar a trama, Banner precisa lutar para conter a fera interior, especialmente quando a chegada do repórter Jack McGee ameaça expor seu segredo ao mundo."
+localized_title: "O Retorno do Incrível Hulk"
 ---
 ## TMDB Data
 ```json

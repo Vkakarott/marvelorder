@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000RVK1AQ?linkCode=osi&th=1&psc=1
 overview: "Johnny Blaze trabalha como dublê e piloto de motocicleta. Há muito tempo, ele fez um pacto com Mefisto para proteger as duas pessoas que mais amava: seu pai, Barton, e sua namorada de adolescência, Roxanne Simpson. Em troca, Johnny se transforma no Motoqueiro Fantasma, o justiceiro de alguns demônios bastante cruéis. Forçado a obedecer Mefisto, Johnny decide enfrentá-lo de forma a usar sua maldição para proteger pessoas inocentes."
+localized_title: "Motoqueiro Fantasma"
 ---
 ## TMDB Data
 ```json

@@ -8,6 +8,7 @@ release_date: 2022-12
 logo_on_black: "{tmdb-path}/A7NLWwvgzlbg8RBJKPHlEszdD74.webp"
 overview: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
 mcuTimelineOrder: 628
+localized_title: "Guardiões da Galáxia: Especial de Festas"
 ---
 ## TMDB Data
 ```json

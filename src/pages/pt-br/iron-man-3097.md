@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0036EH3XO?linkCode=osi&th=1&psc=1
 overview: "Homem de Ferro, o bilionário industrial Tony Starks, lidera uma equipe particular de super-heróis contra as forças do mal."
+localized_title: "Homem de Ferro"
 ---
 ## TMDB Data
 ```json

@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01LWVLYEN?linkCode=osi&th=1&psc=1
 overview: "Ao sofrerem um acidente, quatro astronaustas são atingidos por raios cósmicos. Ao descobrirem que adquiriram poderes especiais, o grupo decide formar uma equipe de super-heróis intitulada Quarteto Fantástico. Eles, então, precisarão lutar contra o vilão Dr. Doom."
+localized_title: "O Quarteto Fantástico"
 ---
 ## TMDB Data
 ```json

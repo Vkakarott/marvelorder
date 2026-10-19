@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 mcuTimelineOrder: 255
 overview: "O ex-marine Frank Castle só quer punir os criminosos responsáveis pela morte da sua família, mas torna-se alvo de uma conspiração militar."
+localized_title: "Marvel - O Justiceiro"
 ---
 ## TMDB Data
 ```json

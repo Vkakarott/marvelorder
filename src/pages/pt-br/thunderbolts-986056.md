@@ -5,6 +5,7 @@ description: "Depois de se verem presos em uma armadilha mortal, uma equipe não
 layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/dHhniU1vz1C0j27AFdcsPmq6xu.webp"
 overview: "Depois de se verem presos em uma armadilha mortal, uma equipe não convencional de sete anti-heróis deve embarcar em uma missão perigosa que os forçará a confrontar os cantos mais sombrios de seus passados."
+localized_title: "Thunderbolts*"
 ---
 ## TMDB Data
 ```json

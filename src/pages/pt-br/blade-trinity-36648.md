@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07CT4S66N?linkCode=osi&th=1&psc=1
 overview: "Blade, agora um homem procurado pelo FBI, deve unir forças com os Nightstalkers para enfrentar seu inimigo mais desafiador ainda: Drácula."
+localized_title: "Blade Trinity"
 ---
 ## TMDB Data
 ```json

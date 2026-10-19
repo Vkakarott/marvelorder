@@ -5,6 +5,7 @@ description: "Na trama, a Mulher-Aranha se torna agente da E.S.P.A.D.A. com o ob
 layout: ../../layouts/MainLayout.astro
 type: tv
 overview: "Na trama, a Mulher-Aranha se torna agente da E.S.P.A.D.A. com o objetivo de eliminar os skrulls remanescentes da Terra, missão que ela aceita de bom grado depois de ser aprisionada pelos mesmos durante a Invasão Secreta."
+localized_title: "Mulher-Aranha: Agente da S.W.O.R.D."
 ---
 ## TMDB Data
 ```json

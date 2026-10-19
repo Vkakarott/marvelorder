@@ -20,6 +20,7 @@ poster_path: /esqusThZ8KbEOT6NqIieocBk8gQ.jpg
 vote_average: 6.4
 tags:
   - list-8204862
+localized_title: "O Homem Elétrico"
 ---
 ## TMDB Data
 ```json

@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 draft: true
 logo_on_black: "{fanart-path}/the-incredible-hulk-1982-5950c1b13ae4f.webp"
 overview: "O cientista Dr. David Banner, assombrado pela incapacidade de salvar a sua esposa de um acidente de carro mortal, acidentalmente recebe uma overdose de radiação gama. Agora, sempre que fica com raiva ou ultrajado, transforma-se numa criatura poderosa de pele verde. Um repórter de tabloide, Jack McGee, começa a seguir o rastro de destruição da criatura."
+localized_title: "O Incrível Hulk"
 ---
 ## TMDB Data
 ```json

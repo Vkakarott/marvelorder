@@ -11,6 +11,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Os vilões mais poderosos do planeta escapam das prisões. Porém, nenhum dos super-heróis consegue detê-los sem ajuda, nem mesmo a S.H.I.E.L.D. Os Vingadores então se juntam para combater o mal, e descobrem que em grupo são mais fortes."
+localized_title: "Os Vingadores: Os Super-Heróis Mais Poderosos da Terra"
 ---
 ## TMDB Data
 ```json

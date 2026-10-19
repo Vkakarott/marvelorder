@@ -10,6 +10,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00845PT18?linkCode=osi&th=1&psc=1
 overview: "Depois de um período recluso na Europa, Johnny Blaze embarca em uma nova missão para se livrar da maldição de ser um motoqueiro fantasma. Desta vez, ele precisa impedir que o próprio demônio encarnado sequestre um garoto de dez anos que pode ser a única esperança da humanidade contra as trevas."
+localized_title: "Motoqueiro Fantasma: Espírito de Vingança"
 ---
 ## TMDB Data
 ```json

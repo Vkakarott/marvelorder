@@ -7,6 +7,7 @@ logo_on_black: "{fanart-path}/spider-man-strikes-back-5d35084edf0b8.webp"
 watchLinks:
   amazon: none
 overview: "Na Universidade do Estado de Nova York, um dos tutores de Peter Parker acidentalmente deu a três estudantes todo o material necessário para criar uma bomba atômica. Enquanto Peter tenta descobrir o que aconteceu, a polícia o suspeita do crime, e ele precisa lidar com uma jornalista atraente determinada a conseguir uma entrevista com o Homem-Aranha. Então, o vilão milionário Mr. White aparece, e fará de tudo para colocar as mãos na bomba atômica. O Homem-Aranha precisa derrotar esse vilão traiçoeiro e impedi-lo de explodir o World Trade Center."
+localized_title: "O Homem-Aranha Contra-Ataca"
 ---
 ## TMDB Data
 ```json

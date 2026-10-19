@@ -18,6 +18,7 @@ vote_average: 5.769
 tags:
   - movie
   - company-420
+localized_title: "Avante: Nos Bastidores de X-Men '97"
 ---
 ## TMDB Data
 ```json

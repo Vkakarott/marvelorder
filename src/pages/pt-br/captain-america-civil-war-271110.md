@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B01EXR6C8Y?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 233
 overview: "Depois do ataque de Ultron, os políticos decidem controlar os Vingadores, já que suas ações afetam toda a humanidade. A decisão coloca o Capitão América em rota de colisão com o Homem de Ferro."
+localized_title: "Capitão América: Guerra Civil"
 ---
 ## TMDB Data
 ```json

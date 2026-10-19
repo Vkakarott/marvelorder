@@ -20,6 +20,7 @@ vote_average: 6.968
 tags:
   - movie
   - company-420
+localized_title: "Quarteto Fantástico: Primeiros Passos"
 ---
 ## TMDB Data
 ```json

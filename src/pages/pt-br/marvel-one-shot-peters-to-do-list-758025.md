@@ -20,6 +20,7 @@ vote_average: 7
 tags:
   - movie
   - company-420
+localized_title: "Marvel One Shot: A Lista de Tarefas de Peter"
 ---
 ## TMDB Data
 ```json

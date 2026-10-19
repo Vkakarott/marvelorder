@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/3NywvNxGZv3hg9tL8oF9TMXrIIZ.webp"
 overview: "Uma série animada que segue Peter Parker em seu caminho para se tornar o Homem-Aranha no MCU, com uma jornada como nunca vimos e um estilo que celebra as raízes dos primeiros quadrinhos do personagem."
+localized_title: "Seu Amigão da Vizinhança: Homem-Aranha"
 ---
 ## TMDB Data
 ```json

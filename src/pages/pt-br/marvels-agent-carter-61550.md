@@ -10,6 +10,7 @@ watchLinks:
     https://www.amazon.com/dp/B00RWAOJ7G?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 1
 overview: "Depois de perder o Capitão América, amor de sua vida, Peggy Carter entra para uma sociedade de combate ao crime e recebe as mais perigosas missões."
+localized_title: "Marvel - Agente Carter"
 ---
 ## TMDB Data
 ```json

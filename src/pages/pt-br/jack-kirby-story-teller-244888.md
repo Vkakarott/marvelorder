@@ -8,6 +8,7 @@ tags:
   - movie
   - company-420
 overview: "Um documentário sobre a vida de Jack Kirby, co-criador do Capitão América, Os Vingadores, Homem de Ferro, Thor, O Incrível Hulk, Os X-Men, Os Novos Deuses e outros heróis clássicos dos quadrinhos."
+localized_title: "Jack Kirby: Contador de Histórias"
 ---
 ## TMDB Data
 ```json

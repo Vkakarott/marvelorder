@@ -9,6 +9,7 @@ type: tv
 # Spring 2024 - https://www.marvel.com/articles/movies/sdcc-2022-all-of-the-marvel-studios-news-coming-out-of-hall-h-at-san-diego-comic-con
 # release_date: "Spring 2024"
 overview: "Matt Murdock, um advogado cego com habilidades fantásticas, luta por justiça através de seu agitado escritório de advocacia, enquanto o ex-chefe do crime Wilson Fisk busca seus próprios empreendimentos políticos em Nova Iorque. Quando suas identidades passadas começam a emergir, seus caminhos se cruzam perigosamente."
+localized_title: "Demolidor: Renascido"
 ---
 ## TMDB Data
 ```json

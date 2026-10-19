@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/spider-ham-caught-in-a-ham-629a4827462ac.webp"
 watchLinks:
   amazon: none
 overview: "Peter Porker: O Espetacular Porco-Aranha segue o Porco-Aranha quando enfrenta bandidos, mastiga cachorros-quentes e faz muitos trocadilhos baseados em comida."
+localized_title: "Peter Porker: O Espetacular Porco-Aranha"
 ---
 ## TMDB Data
 ```json

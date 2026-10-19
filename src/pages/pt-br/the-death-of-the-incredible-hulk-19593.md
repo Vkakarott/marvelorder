@@ -7,6 +7,7 @@ logo_on_black: "{fanart-path}/the-death-of-the-incredible-hulk-5479080c56fd6.web
 watchLinks:
   amazon: 'https://amzn.to/39ueJB0'
 overview: "Em sua última tentativa de se livrar da maldição do Hulk, o Dr. David Banner se envolve em uma perigosa missão de espionagem internacional que pode finalmente levá-lo à cura. Com o cerco se fechando e os riscos aumentando, Banner enfrenta um sacrifício final, encerrando sua trajetória de forma trágica e definitiva."
+localized_title: "A Morte do Incrível Hulk"
 ---
 ## TMDB Data
 ```json

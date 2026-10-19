@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/marvel-one-shot-item-47-53a58d4a3a305.webp"
 watchLinks:
   amazon: none
 overview: "Um casal se depara com uma arma Chitauri e usam ela para cometer crimes."
+localized_title: "Marvel One-Shot: Artigo 47"
 ---
 ## TMDB Data
 ```json

@@ -20,6 +20,7 @@ vote_average: 0
 tags:
   - movie
   - company-420
+localized_title: "O Justiceiro: Uma Última Morte"
 ---
 ## TMDB Data
 ```json

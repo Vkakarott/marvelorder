@@ -21,6 +21,7 @@ vote_average: 6.8
 tags:
   - movie
   - company-420
+localized_title: "Doutor Estranho"
 ---
 ## TMDB Data
 ```json

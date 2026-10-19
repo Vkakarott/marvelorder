@@ -7,6 +7,7 @@ tags: doc
 watchLinks:
   amazon: 'none'
 overview: "Um curta documental que explora com exclusividade os bastidores da inovadora série original \"Ms. Marvel\", desde as origens nos quadrinhos até o desenvolvimento e produção da próxima série de sucesso da Marvel Studios no Disney+ . O filme inclui entrevistas com a premiada equipe de cineastas e a encantadora estrela da série, a estreante Iman Vellani."
+localized_title: "Ms. Marvel: Guia Para Fãs"
 ---
 ## TMDB Data
 ```json

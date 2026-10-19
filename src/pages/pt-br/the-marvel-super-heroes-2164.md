@@ -9,6 +9,7 @@ watchLinks:
 tags: 
   - has-thor
 overview: "Esta série animada, caracterizada por uma animação extremamente limitada, apresenta cinco dos heróis superpoderosos mais populares da Marvel Comics: o Incrível Hulk, o Poderoso Thor, o Capitão América, o Homem de Ferro e o Príncipe Namor (Sub-Mariner)."
+localized_title: "Os Super-Heróis da Marvel"
 ---
 ## TMDB Data
 ```json

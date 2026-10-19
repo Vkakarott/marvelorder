@@ -5,6 +5,7 @@ description: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles
 layout: ../../layouts/MainLayout.astro
 type: movie
 overview: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as experiências durante a gravação do filme mais ambicioso da Marvel Studios até hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar em locações remotas e criar laços que ajudaram a criar os relacionamentos dos heróis ao longo de mais de 7 mil anos."
+localized_title: "Nos Bastidores de Eternos"
 ---
 ## TMDB Data
 ```json

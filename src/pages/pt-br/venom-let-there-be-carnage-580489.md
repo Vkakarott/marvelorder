@@ -11,6 +11,7 @@ watchLinks:
     https://www.amazon.com/dp/B09HH7CQLW?linkCode=osi&th=1&psc=1
 mcuTimelineOrder: 566
 overview: "Depois de encontrar o corpo hospedeiro do repórter investigativo Eddie Brock, o simbionte alienígena deve enfrentar um novo inimigo, Carnificina, o alter ego do serial killer Cletus Kasady."
+localized_title: "Venom: Tempo de Carnificina"
 ---
 ## TMDB Data
 ```json

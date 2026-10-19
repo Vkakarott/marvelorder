@@ -21,6 +21,7 @@ vote_average: 7.194
 tags:
   - movie
   - company-7505
+localized_title: "LEGO Marvel Vingadores: Time Twisted"
 ---
 ## TMDB Data
 ```json

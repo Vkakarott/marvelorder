@@ -22,6 +22,7 @@ tags:
   - movie
   - company-38679
 mcuTimelineOrder: 471
+localized_title: "Os Simpsons: O Bem, o Bart e o Loki"
 ---
 ## TMDB Data
 ```json

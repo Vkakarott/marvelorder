@@ -9,6 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: none
 overview: "Trancado na prisão, o infame Trevor Slattery concorda em encontrar um documentarista."
+localized_title: "Marvel One-Shot: Todos Saúdem o Rei"
 ---
 ## TMDB Data
 ```json

@@ -5,6 +5,7 @@ description: "Junte-se a Oscar Isaac e Ethan Hawke enquanto eles revelam como o 
 layout: ../../layouts/MainLayout.astro
 type: movie
 overview: "Junte-se a Oscar Isaac e Ethan Hawke enquanto eles revelam como o Cavaleiro da Lua da Marvel Studios foi meticulosamente trazido à vida. Através de entrevistas perspicazes com elenco e equipe, juntamente com imagens imersivas do set, este Making Of abre as cortinas desta série inovadora. Além disso, incorpora uma \"discussão de mesa redonda\" sincera com os diretores da série."
+localized_title: "Nos Bastidores de Cavaleiro da Lua"
 ---
 ## TMDB Data
 ```json

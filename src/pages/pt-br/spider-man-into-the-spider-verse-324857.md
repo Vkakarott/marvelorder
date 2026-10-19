@@ -9,6 +9,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07L8NHKP4?linkCode=osi&th=1&psc=1
 backdrop_path: /x2IqsMlpbOhS8zIUJfyl1yO4gHF.jpg
+localized_title: "Homem-Aranha: No Aranhaverso"
 ---
 ## TMDB Data
 ```json

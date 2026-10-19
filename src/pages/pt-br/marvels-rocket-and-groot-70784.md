@@ -8,6 +8,7 @@ logo_on_black: "{fanart-path}/marvels-rocket--groot-59b6b3a83145f.webp"
 watchLinks:
   amazon: none
 overview: "Antes de se tornarem Guardiões da Galáxia, Rocket e Groot eram caçadores de recompensas tentando conseguir uma nave."
+localized_title: "Rocket e Groot"
 ---
 ## TMDB Data
 ```json

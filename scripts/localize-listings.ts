@@ -18,6 +18,12 @@ type Entry = {
     type: 'movie' | 'tv'
     originalLanguage: string
     englishOverview: string
+    englishTitle: string
+}
+
+type LocalizedDetails = {
+    overview: string
+    title: string
 }
 
 function replaceFrontmatterValue ( markdown: string, key: string, value: string ) {
@@ -40,11 +46,10 @@ function replaceFrontmatterValue ( markdown: string, key: string, value: string 
     return lines.join( '\n' )
 }
 
-async function fetchOverview ( entry: Entry ) {
+async function fetchLocalizedDetails ( entry: Entry ): Promise<LocalizedDetails> {
     if ( htmlDirectory ) {
         const html = await readFile( path.join( htmlDirectory, `${ entry.type }-${ entry.id }.html` ), 'utf8' )
-        const overview = getLocalizedOverview( parseHTML( html ).document.querySelector( '.overview p' )?.textContent?.trim() || '', entry )
-        return overview || await getFallbackOverview( entry )
+        return withFallbackOverview( parseDetailsHtml( html, entry ), entry )
     }
 
     const url = new URL( apiKey
@@ -62,19 +67,41 @@ async function fetchOverview ( entry: Entry ) {
             continue
         }
         if ( response.status === 404 ) {
-            return ''
+            return { overview: '', title: '' }
         }
         if ( !response.ok ) {
             throw new Error( `TMDB ${ response.status } para ${ entry.type }/${ entry.id }` )
         }
 
-        const overview = apiKey
-            ? ( ( await response.json() ) as { overview?: string } ).overview?.trim() || ''
-            : parseHTML( await response.text() ).document.querySelector( '.overview p' )?.textContent?.trim() || ''
-        return getLocalizedOverview( overview, entry ) || await getFallbackOverview( entry )
+        const details = apiKey
+            ? parseDetailsJson( await response.json(), entry )
+            : parseDetailsHtml( await response.text(), entry )
+        return withFallbackOverview( details, entry )
     }
 
     throw new Error( `TMDB indisponível para ${ entry.type }/${ entry.id }` )
+}
+
+function parseDetailsJson ( data: { overview?: string, title?: string, name?: string }, entry: Entry ): LocalizedDetails {
+    return {
+        overview: getLocalizedOverview( data.overview?.trim() || '', entry ),
+        title: ( data.title || data.name || '' ).trim(),
+    }
+}
+
+function parseDetailsHtml ( html: string, entry: Entry ): LocalizedDetails {
+    const { document } = parseHTML( html )
+    return {
+        overview: getLocalizedOverview( document.querySelector( '.overview p' )?.textContent?.trim() || '', entry ),
+        title: document.querySelector( 'meta[property="og:title"]' )?.getAttribute( 'content' )?.trim() || '',
+    }
+}
+
+async function withFallbackOverview ( details: LocalizedDetails, entry: Entry ): Promise<LocalizedDetails> {
+    return {
+        ...details,
+        overview: details.overview || await getFallbackOverview( entry ),
+    }
 }
 
 async function getFallbackOverview ( entry: Entry ) {
@@ -120,11 +147,12 @@ const entries: Entry[] = await Promise.all( files.map( async file => {
         type,
         originalLanguage: tmdb.original_language || '',
         englishOverview: tmdb.overview || '',
+        englishTitle: String( frontmatter.title || '' ),
     }
 } ) )
 
 const uniqueEntries = new Map( entries.map( entry => [ `${ entry.type }:${ entry.id }`, entry ] ) )
-const overviews = new Map<string, string>()
+const localizedDetails = new Map<string, LocalizedDetails>()
 const failures: string[] = []
 const keys = [ ...uniqueEntries.keys() ]
 
@@ -133,11 +161,9 @@ for ( let start = 0; start < keys.length; start += 4 ) {
     await Promise.all( batch.map( async key => {
         const entry = uniqueEntries.get( key )!
         try {
-            const overview = await fetchOverview( entry )
-            if ( overview ) {
-                overviews.set( key, overview )
-            }
-            else if ( entry.englishOverview ) {
+            const details = await fetchLocalizedDetails( entry )
+            localizedDetails.set( key, details )
+            if ( !details.overview && entry.englishOverview ) {
                 failures.push( key )
             }
         }
@@ -150,21 +176,32 @@ for ( let start = 0; start < keys.length; start += 4 ) {
     }
 }
 
+function applyLocalizedDetails ( entry: Entry, details: LocalizedDetails ) {
+    let markdown = entry.markdown
+    if ( details.overview ) {
+        markdown = replaceFrontmatterValue( markdown, 'description', details.overview )
+        markdown = replaceFrontmatterValue( markdown, 'overview', details.overview )
+    }
+    if ( details.title && details.title !== entry.englishTitle ) {
+        markdown = replaceFrontmatterValue( markdown, 'localized_title', details.title )
+    }
+    return markdown
+}
+
 let updated = 0
 for ( const entry of entries ) {
-    const overview = overviews.get( `${ entry.type }:${ entry.id }` )
-    if ( !overview ) {
+    const details = localizedDetails.get( `${ entry.type }:${ entry.id }` )
+    if ( !details ) {
         continue
     }
-    let markdown = replaceFrontmatterValue( entry.markdown, 'description', overview )
-    markdown = replaceFrontmatterValue( markdown, 'overview', overview )
+    const markdown = applyLocalizedDetails( entry, details )
     if ( markdown !== entry.markdown ) {
         await writeFile( entry.filePath, markdown )
         updated++
     }
 }
 
-console.log( `Sinopses pt-BR atualizadas em ${ updated } de ${ entries.length } páginas.` )
+console.log( `Sinopses e títulos pt-BR atualizados em ${ updated } de ${ entries.length } páginas.` )
 if ( failures.length ) {
     console.error( `Sem tradução pt-BR no TMDB (${ failures.length }): ${ failures.join( ', ' ) }` )
     process.exitCode = 1

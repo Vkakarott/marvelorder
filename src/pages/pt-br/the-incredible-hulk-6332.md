@@ -22,6 +22,7 @@ vote_average: 6
 tags:
   - tv
   - company-420
+localized_title: "O Incrível Hulk"
 ---
 ## TMDB Data
 ```json

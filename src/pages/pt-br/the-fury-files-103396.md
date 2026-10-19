@@ -23,6 +23,7 @@ vote_average: 5.6
 tags:
   - tv
   - company-7505
+localized_title: "Os Arquivos Secretos de Fury"
 ---
 ## TMDB Data
 ```json

@@ -12,6 +12,7 @@ mcuTimelineOrder: 53
 tags:
   - has-thor
 overview: "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo."
+localized_title: "Thor: O Mundo Sombrio"
 ---
 ## TMDB Data
 ```json

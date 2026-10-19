@@ -18,6 +18,7 @@ poster_path: /cSHETWKC1JPQ3cNmpMCx9vMPoBs.jpg
 vote_average: 0
 tags:
   - list-8204862
+localized_title: "Super Histórias do Spidey"
 ---
 ## TMDB Data
 ```json

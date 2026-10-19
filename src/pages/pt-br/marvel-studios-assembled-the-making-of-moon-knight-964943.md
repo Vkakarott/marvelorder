@@ -18,6 +18,7 @@ vote_average: 7.1
 tags:
   - movie
   - company-420
+localized_title: "Nos Bastidores de Cavaleiro da Lua"
 ---
 ## TMDB Data
 ```json

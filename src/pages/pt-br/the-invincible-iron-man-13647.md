@@ -8,6 +8,7 @@ watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B008Y5QKMU?linkCode=osi&th=1&psc=1
 overview: "Ao escavar as ruínas de um antigo reino chinês, o inventor bilionário Tony Stark (Marc Worden) liberta uma antiga profecia. Ela prevê a ressurreição do Mandarim (Fred Tatasciore), o imperador da dinastia mais violenta da China. Para enfrentar este perigo Stark constrói a armadura do Homem de Ferro, a qual decide usar. Entretanto o herói precisará ainda enfrentar os Elementals, guerreiros mágicos que controlam o poder dos 4 elementos, que se aliaram ao Mandarim."
+localized_title: "O Invencível Homem de Ferro"
 ---
 ## TMDB Data
 ```json

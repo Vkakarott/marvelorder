@@ -11,6 +11,7 @@ tags:
   - list-8204859
   - has-kang
 overview: "Futuro filme da fase 6 do Universo Cinematográfico Marvel (UCM) que marcará o final da Saga do Multiverso. Informações da história ainda não reveladas."
+localized_title: "Vingadores: Guerras Secretas"
 ---
 ## TMDB Data
 ```json

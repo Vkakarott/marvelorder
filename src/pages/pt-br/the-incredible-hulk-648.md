@@ -7,6 +7,7 @@ logo_on_black: "{fanart-path}/the-incredible-hulk-5cdaa5b6b5d2d.webp"
 watchLinks:
   amazon: 'https://amzn.to/39xpHpv'
 overview: "O Dr. David Banner, médico e cientista, recebe acidentalmente uma overdose de radiação gama ao tentar desvendar a força oculta que todos os humanos possuem. Agora, toda vez que ele sente raiva ou fica ultrajado, ocorre uma metamorfose assustadora: ele se transforma numa criatura gigantesca e verde movida pela fúria, o Hulk. Banner vaga pelo país usando nomes falsos, em busca de uma cura para a sua maldição, enquanto tenta escapar da perseguição implacável de Jack McGee, um repórter sensacionalista obcecado em capturar a criatura."
+localized_title: "O Incrível Hulk"
 ---
 ## TMDB Data
 ```json

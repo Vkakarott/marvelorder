@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 logo_on_black: "{tmdb-path}/wTF6OMFpubqNCjdhVlBoOpq7yfz.webp"
 backdrop_path: "{tmdb-path}/4unCqLCa4LjsqkLlWhGunhRf7Xm.webp"
 overview: "Miles Morales luta para equilibrar suas responsabilidades como adolescente, amigo e estudante enquanto atua como o amigão da vizinhança Homem-Aranha do Brooklyn. Depois de um dia particularmente desafiador vivendo com essas pressões, Miles sofre um ataque de pânico que o força a confrontar as manifestações de sua ansiedade e a aprender que pedir ajuda pode ser um ato tão corajoso quanto proteger sua cidade do mal."
+localized_title: "The Spider Within: A Spider-Verse Story"
 ---
 ## TMDB Data
 ```json
