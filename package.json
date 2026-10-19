@@ -19,7 +19,7 @@
         "build-test": "vitest run",
         "preview": "astro preview",
         "deploy:worker-images": "wrangler deploy --config wrangler.image-spike.jsonc",
-        "pull": "deno run -q -A --unstable scripts/pull.ts",
+        "pull": "tsx scripts/pull.ts",
         "localize-listings": "node --import tsx scripts/localize-listings.ts",
         "consolidate-listings": "node --import tsx scripts/consolidate-listings.ts",
         "add-amazon-links": "tsx scripts/add-amazon-links.ts",

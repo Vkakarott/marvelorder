@@ -1,14 +1,12 @@
-// Helper library written for useful postprocessing tasks with Flat Data
-// Has helper functions for manipulating csv, txt, json, excel, zip, and image files
-// https://droces.github.io/Deno-Cheat-Sheet/
-import { writeJSON } from 'https://deno.land/x/flat@0.0.14/mod.ts'
-import { exists } from "https://deno.land/std/fs/mod.ts"
+// Pulls Marvel listings from TMDB into src/json and the listing markdown pages.
+// Usage: npm run pull
+import { access, readdir, readFile, rm, writeFile } from 'node:fs/promises'
 
-import 'https://deno.land/std/dotenv/load.ts'
-import { slugify } from 'https://deno.land/x/slugify/mod.ts'
-import axios from 'https://deno.land/x/axiod/mod.ts'
-import matter from 'https://jspm.dev/gray-matter'
-import { deepmerge, deepmergeCustom } from 'https://deno.land/x/deepmergets@v4.0.3/dist/deno/mod.ts'
+import 'dotenv/config'
+import axios from 'axios'
+import { deepmergeCustom } from 'deepmerge-ts'
+import matter from 'gray-matter'
+import slugify from 'slugify'
 
 import { 
     TMDB_COMPANIES, 
@@ -52,7 +50,7 @@ interface FetchListingsOptions {
 }
 
 function getNumberEnv ( key: string, fallback: number ) {
-    const value = Number( Deno.env.get( key ) )
+    const value = Number( process.env[ key ] )
 
     if ( Number.isFinite( value ) && value >= 0 ) {
         return value
@@ -165,6 +163,20 @@ async function tmdbGet ( requestUrl: string, requestOptions: any ) {
     throw new Error( `Unable to fetch listings from ${ requestUrl }` )
 }
 
+async function exists ( path: string ) {
+    try {
+        await access( path )
+        return true
+    }
+    catch {
+        return false
+    }
+}
+
+async function writeJSON ( path: string, data: unknown ) {
+    await writeFile( path, `${ JSON.stringify( data, null, '\t' ) }\n` )
+}
+
 function makeSlug ( name: string ) {
     return slugify(name, {
         lower: true,
@@ -270,7 +282,7 @@ async function readListingsSnapshot () {
         return []
     }
 
-    const fileContent = await Deno.readTextFile( listingsJsonPath )
+    const fileContent = await readFile( listingsJsonPath, 'utf8' )
 
     return JSON.parse( fileContent )
 }
@@ -392,7 +404,7 @@ async function fetchListings ({
 
         const requestOptions = {
             params: {
-                api_key: Deno.env.get('TMDB_API_KEY'),
+                api_key: process.env.TMDB_API_KEY,
                 // language: 'en-US',
                 // sort_by: 'popularity.desc',
                 // with_companies: company.id,
@@ -495,9 +507,7 @@ async function fetchListingsFromLists ( lists ) {
 }
 
 
-// Deno specfic markdown writer
-// since Deno uses custom fs and import method for gray-matter
-async function writeMarkdownFileDeno ({ path, markdownBody, pageMeta }) {
+async function writeMarkdownFile ({ path, markdownBody, pageMeta }) {
 
     // console.log('markdownBody', markdownBody)
     // console.log('pageMeta', pageMeta)
@@ -517,7 +527,7 @@ async function writeMarkdownFileDeno ({ path, markdownBody, pageMeta }) {
             throw new Error(`No frontmatter found for ${ path }`)
         }
 
-        await Deno.writeTextFile( path, markdownBody )
+        await writeFile( path, markdownBody )
 
         return
     }
@@ -526,13 +536,11 @@ async function writeMarkdownFileDeno ({ path, markdownBody, pageMeta }) {
 
     // console.log('markdownContent', markdownContent)
     
-    await Deno.writeTextFile( path, markdownContent )
+    await writeFile( path, markdownContent )
 }
 
-async function readMarkdownFileDeno ( filePath ) {
-    // const markdownContent = await fs.readFile( filePath, 'utf8' )
-
-    const markdownContent = new TextDecoder( 'utf-8' ).decode( await Deno.readFile( filePath ) )
+async function readMarkdownFile ( filePath ) {
+    const markdownContent = await readFile( filePath, 'utf8' )
 
 
     return await getDataFromListingContents({ 
@@ -545,8 +553,7 @@ async function writeTmdbDataOnly ( listing ) {
 
     const listingFilePath = `${ markdownStorePath }/${ makeListingEndpoint( listing ) }.md`
 
-    const decoder = new TextDecoder( 'utf-8' )
-    const markdownContent = decoder.decode(await Deno.readFile( listingFilePath ))
+    const markdownContent = await readFile( listingFilePath, 'utf8' )
     // Split off and leave behind existing TMDb data
     const { existingContent } = getPartsFromMarkdown( markdownContent )
     const tmdbSection = makeTMDbMarkdownSection( listing )
@@ -562,7 +569,7 @@ async function writeTmdbDataOnly ( listing ) {
     ].join('\n')
 
 
-    await Deno.writeTextFile( listingFilePath, content )
+    await writeFile( listingFilePath, content )
 
 }
 
@@ -582,8 +589,8 @@ async function saveListingsAsMarkdown ( listings ) {
         await upsertListingMarkdown( {
             listing,
             tmdb: listing,
-            readMarkdownFile: readMarkdownFileDeno, 
-            writeMarkdownFile: writeMarkdownFileDeno,
+            readMarkdownFile,
+            writeMarkdownFile,
             exists: exists
         })
 
@@ -596,25 +603,19 @@ const listingDirectory = `${ markdownStorePath }/pt-br`
 const maxListingConsolidations = getNumberEnv( 'MAX_LISTING_CONSOLIDATIONS', 10 )
 
 const listingStoreIO = {
-    listListingPaths: async () => {
-        const paths: string[] = []
-        for await ( const file of Deno.readDir( listingDirectory ) ) {
-            if ( file.isFile && file.name.endsWith( '.md' ) ) {
-                paths.push( `${ listingDirectory }/${ file.name }` )
-            }
-        }
-        return paths
-    },
-    readText: ( path: string ) => Deno.readTextFile( path ),
-    writeText: ( path: string, content: string ) => Deno.writeTextFile( path, content ),
-    remove: ( path: string ) => Deno.remove( path ),
+    listListingPaths: async () => ( await readdir( listingDirectory ) )
+        .filter( file => file.endsWith( '.md' ) )
+        .map( file => `${ listingDirectory }/${ file }` ),
+    readText: ( path: string ) => readFile( path, 'utf8' ),
+    writeText: ( path: string, content: string ) => writeFile( path, content ),
+    remove: ( path: string ) => rm( path ),
 }
 
 async function isTmdbRecordGone ( identity: string ) {
     const [ type, id ] = identity.split( ':' )
 
     try {
-        await tmdbGet( `https://api.themoviedb.org/3/${ type }/${ id }`, { params: { api_key: Deno.env.get( 'TMDB_API_KEY' ) } } )
+        await tmdbGet( `https://api.themoviedb.org/3/${ type }/${ id }`, { params: { api_key: process.env.TMDB_API_KEY } } )
         return false
     }
     catch ( error ) {
@@ -692,20 +693,18 @@ async function consolidateListings ( report: any, previousListings: any[], nextL
 
     const tmdbRegressionReport = makeTmdbRegressionReport( previousListings, sortedListings )
 
-    await writeJSON( `${ storePath }/tmdb-regression-report.json`, tmdbRegressionReport, null, '\t' )
+    await writeJSON( `${ storePath }/tmdb-regression-report.json`, tmdbRegressionReport )
 
     if ( tmdbRegressionReport.counts.missingIds > 0 || tmdbRegressionReport.counts.suspiciousTitleChanges > 0 ) {
         console.warn( 'TMDB regression audit detected changes that need review.', tmdbRegressionReport.counts )
     }
 
-    await writeJSON( `${ storePath }/listings.json`, sortedListings, null, '\t' )
+    await writeJSON( `${ storePath }/listings.json`, sortedListings )
 
     await saveListingsAsMarkdown( sortedListings )
 
     await consolidateListings( tmdbRegressionReport, previousListings, sortedListings )
 
     console.log('Pull complete.')
-
-    Deno.exit()
 
 })()

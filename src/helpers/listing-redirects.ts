@@ -1,5 +1,5 @@
 // Retired listing URLs and where they now live.
-// Shared by the Deno pull script, Node tooling and the Astro config.
+// Shared by the pull script, Node tooling and the Astro config.
 
 export type ListingRedirectReason = 'duplicate-file' | 'tmdb-id-replaced'
 

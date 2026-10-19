@@ -6,14 +6,12 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
+permissions:
+  contents: write
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Deno
-        uses: denoland/setup-deno@main
-        with:
-          deno-version: v1.34.x
       - name: Check out repo
         uses: actions/checkout@v4
       - name: Setup Node.js
@@ -29,9 +27,16 @@ jobs:
         run: npm ci
       - name: Pull MCU Timeline Sheet
         run: npm run pull-mcu-timeline-sheet
-      - name: Fetch data
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://raw.githubusercontent.com/ThatGuySam/marvelorder/main/README.md
-          downloaded_filename: flat.txt
-          postprocess: ./scripts/pull.ts
+      - name: Pull TMDB data
+        run: npm run pull
+      - name: Commit data changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "flat-data"
+          git config user.email "flat-data@users.noreply.github.com"
+          git commit -m "chore(data): pull latest TMDB data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push

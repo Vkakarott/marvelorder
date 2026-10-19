@@ -1,5 +1,5 @@
 // Enforces one listing file per media identity.
-// File access and frontmatter parsing are injected so Deno and Node share it.
+// File access and frontmatter parsing are injected so scripts and tests share it.
 
 import {
     findReplacementCandidates,

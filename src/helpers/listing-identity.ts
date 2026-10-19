@@ -1,5 +1,5 @@
-// Media identity rules shared by the Deno pull script and Node tooling.
-// Keep this module free of Node or Deno specific imports.
+// Media identity rules shared by the pull script, Node tooling and the site.
+// Keep this module free of runtime specific imports.
 
 export type ListingFrontmatter = Record<string, unknown>
 
