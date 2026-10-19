@@ -1,20 +1,26 @@
 ---
-title: Untitled 'The Punisher' Special
-slug: untitled-the-punisher-special
-description: "Uma apresentação especial ambientada no Universo Cinematográfico Marvel no Disney+. Trama a definir."
+title: 'The Punisher: One Last Kill'
+slug: the-punisher-one-last-kill
+description: >-
+  Enquanto Frank Castle procura um significado além da vingança, uma força
+  inesperada o puxa de volta à luta.
 layout: ../../layouts/MainLayout.astro
-draft: true
+logo_on_black: '{tmdb-path}/lReCKrf9vGHcmhiqpsMgDgNzWPr.webp'
 adult: false
 backdrop_path: null
 genre_ids:
   - 28
-  - 80
+  - 12
+  - 53
+  - 18
 id: 1439930
 original_language: en
-original_title: Untitled 'The Punisher' Special
-overview: "Uma apresentação especial ambientada no Universo Cinematográfico Marvel no Disney+. Trama a definir."
-poster_path: null
-release_date: ''
+original_title: 'The Punisher: One Last Kill'
+overview: >-
+  Enquanto Frank Castle procura um significado além da vingança, uma força
+  inesperada o puxa de volta à luta.
+poster_path: /psQzKaG0XNNvSkAvBFieZyMu0bF.jpg
+release_date: '2026-05-12'
 video: false
 vote_average: 0
 tags:

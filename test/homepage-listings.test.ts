@@ -103,7 +103,7 @@ test( 'Homepage listings collapse transcript duplicates and junk cards', async (
     const venomLastDanceListing = listings.find( ( listing ) => listing.title === 'Venom: The Last Dance' )
     const friendlyNeighborhoodListing = listings.find( ( listing ) => listing.title === 'Your Friendly Neighborhood Spider-Man' )
     const ghostRiderListing = listings.find( ( listing ) => listing.id === 1738010 )
-    const oneLastKillListing = listings.find( ( listing ) => listing.id === 1657196 )
+    const oneLastKillListing = listings.find( ( listing ) => listing.id === 1439930 )
     const visionQuestListing = listings.find( ( listing ) => listing.id === 213375 )
     const blackPanther3Listing = listings.find( ( listing ) => listing.id === 1386618 )
     const daredevilBornAgainListings = listings

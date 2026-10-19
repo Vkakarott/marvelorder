@@ -1,16 +1,33 @@
 ---
 title: Peter's To-Do List
 slug: peters-to-do-list
-description: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
+description: >-
+  Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem
+  várias coisas a fazer antes de irem.
 layout: ../../layouts/MainLayout.astro
 type: movie
-logo_on_black: >-
-  {tmdb-path}/wf7SV7nSgxjSB9nCcCZGkwWTAdd.webp?crop.top=0.1&crop.bottom=0.7
+logo_on_black: '{tmdb-path}/wf7SV7nSgxjSB9nCcCZGkwWTAdd.webp?crop.top=0.1&crop.bottom=0.7'
 watchLinks:
-  amazon: >-
-    https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1
-overview: "Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem várias coisas a fazer antes de irem."
-localized_title: "Marvel One Shot: A Lista de Tarefas de Peter"
+  amazon: 'https://www.amazon.com/dp/B07TP6D1DP?linkCode=osi&th=1&psc=1'
+overview: >-
+  Na véspera de sua partida para a Europa, Peter Parker diz a Ned Leeds que tem
+  várias coisas a fazer antes de irem.
+localized_title: 'Marvel One Shot: A Lista de Tarefas de Peter'
+adult: false
+backdrop_path: /qG5A6fWoP5inQa16VadLDiB1mlb.jpg
+genre_ids:
+  - 878
+  - 28
+  - 12
+original_language: en
+poster_path: /ohnN1gVREFJXJJv35BaBHladKoA.jpg
+release_date: '2019-09-17'
+video: false
+vote_average: 7
+tags:
+  - movie
+  - company-420
+id: 758025
 ---
 ## TMDB Data
 ```json

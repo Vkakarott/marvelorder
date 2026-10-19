@@ -8,12 +8,12 @@ test( 'The retired Punisher URL redirects to the renamed listing', () => {
 
     expect( netlifyConfig ).toContain( `[[redirects]]
     from = "/en/untitled-the-punisher-special-1439930"
-    to = "/pt-br/the-punisher-one-last-kill-1657196"
+    to = "/pt-br/the-punisher-one-last-kill-1439930"
     status = 301
     force = true` )
     expect( vercelConfig.redirects ).toContainEqual( {
         source: '/en/untitled-the-punisher-special-1439930',
-        destination: '/pt-br/the-punisher-one-last-kill-1657196',
+        destination: '/pt-br/the-punisher-one-last-kill-1439930',
         statusCode: 301,
     } )
 } )

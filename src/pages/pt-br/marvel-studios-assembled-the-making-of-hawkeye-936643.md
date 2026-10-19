@@ -1,7 +1,13 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Hawkeye'
 slug: marvel-studios-assembled-the-making-of-hawkeye
-description: "Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincent D'Onofrio enquanto revelam como \"Gavião Arqueiro\" da Marvel Studios foi concebido e criado. Veja em primeira mão o que foi necessário para montar as grandiosas sequências de ação. E descubra como personagens icônicos dos quadrinhos da Marvel como Kate Bishop foram adaptados e trazidos à vida nessa série de seis episódios."
+description: >-
+  Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincent D'Onofrio
+  enquanto revelam como "Gavião Arqueiro" da Marvel Studios foi concebido e
+  criado. Veja em primeira mão o que foi necessário para montar as grandiosas
+  sequências de ação. E descubra como personagens icônicos dos quadrinhos da
+  Marvel como Kate Bishop foram adaptados e trazidos à vida nessa série de seis
+  episódios.
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /jUhqvox1RCNMg4yWWW5AqIVX8Mj.jpg
@@ -10,7 +16,13 @@ genre_ids:
 id: 936643
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Hawkeye'
-overview: "Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincent D'Onofrio enquanto revelam como \"Gavião Arqueiro\" da Marvel Studios foi concebido e criado. Veja em primeira mão o que foi necessário para montar as grandiosas sequências de ação. E descubra como personagens icônicos dos quadrinhos da Marvel como Kate Bishop foram adaptados e trazidos à vida nessa série de seis episódios."
+overview: >-
+  Junte-se a Jeremy Renner, Hailee Steinfeld, Florence Pugh e Vincent D'Onofrio
+  enquanto revelam como "Gavião Arqueiro" da Marvel Studios foi concebido e
+  criado. Veja em primeira mão o que foi necessário para montar as grandiosas
+  sequências de ação. E descubra como personagens icônicos dos quadrinhos da
+  Marvel como Kate Bishop foram adaptados e trazidos à vida nessa série de seis
+  episódios.
 poster_path: /pQOLNPHe4rwXl3RpKNa0VWjYNLR.jpg
 release_date: '2022-02-09'
 video: false
@@ -18,7 +30,8 @@ vote_average: 6.5
 tags:
   - movie
   - company-420
-localized_title: "Nos Bastidores de Gavião Arqueiro"
+localized_title: Nos Bastidores de Gavião Arqueiro
+type: movie
 ---
 ## TMDB Data
 ```json

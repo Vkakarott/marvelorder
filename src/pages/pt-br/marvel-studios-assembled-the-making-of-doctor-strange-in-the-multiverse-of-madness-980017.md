@@ -4,7 +4,12 @@ title: >-
   Madness
 slug: >-
   marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness
-description: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
+description: >-
+  Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles
+  contam sobre suas experiências ao trazer a história mais sombria da Marvel à
+  vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o
+  que foi necessário para criar, desenvolver e tornar cada universo único e
+  crível.
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /coxMHDtNRcyNmriZFCxpwqmlxjS.jpg
@@ -15,7 +20,12 @@ original_language: en
 original_title: >-
   Marvel Studios Assembled: The Making of Doctor Strange in the Multiverse of
   Madness
-overview: "Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles contam sobre suas experiências ao trazer a história mais sombria da Marvel à vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o que foi necessário para criar, desenvolver e tornar cada universo único e crível."
+overview: >-
+  Junte-se ao visionário diretor Sam Raimi e ao elenco do filme enquanto eles
+  contam sobre suas experiências ao trazer a história mais sombria da Marvel à
+  vida. Da construção do mundo à do universo, descubra com o elenco e a equipe o
+  que foi necessário para criar, desenvolver e tornar cada universo único e
+  crível.
 poster_path: /eIzPe62s12uHsIPhGWY1yp68DY9.jpg
 release_date: '2022-07-08'
 video: false
@@ -23,7 +33,8 @@ vote_average: 6.4
 tags:
   - movie
   - company-420
-localized_title: "Nos Bastidores de Doutor Estranho no Multiverso da Loucura"
+localized_title: Nos Bastidores de Doutor Estranho no Multiverso da Loucura
+type: movie
 ---
 ## TMDB Data
 ```json

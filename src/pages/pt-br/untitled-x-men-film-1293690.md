@@ -1,7 +1,7 @@
 ---
 title: Untitled X-Men Film
 slug: untitled-x-men-film
-description: "Futuro filme do X-Men da Marvel Studios, sinopse não divulgado"
+description: 'Futuro filme do X-Men da Marvel Studios, sinopse não divulgado'
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,15 +10,15 @@ genre_ids:
 id: 1293690
 original_language: en
 original_title: Untitled X-Men Film
-overview: "Futuro filme do X-Men da Marvel Studios, sinopse não divulgado"
-poster_path: null
+overview: 'Futuro filme do X-Men da Marvel Studios, sinopse não divulgado'
+poster_path: /adjEnspN7Lxrcr3xDuDHAHOA8tV.jpg
 release_date: ''
 video: false
 vote_average: 0
 tags:
   - movie
   - company-420
-localized_title: "X-Men"
+localized_title: X-Men
 ---
 ## TMDB Data
 ```json

@@ -1,10 +1,28 @@
 ---
 title: Untitled Wakanda Series
 slug: untitled-wakanda-series
-description: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
+description: >-
+  Próxima série do Universo Cinematográfico Marvel ambientada no Reino de
+  Wakanda.
 layout: ../../layouts/MainLayout.astro
 type: tv
-overview: "Próxima série do Universo Cinematográfico Marvel ambientada no Reino de Wakanda."
+overview: >-
+  Próxima série do Universo Cinematográfico Marvel ambientada no Reino de
+  Wakanda.
+genre_ids:
+  - 10759
+  - 18
+  - 10765
+origin_country:
+  - US
+original_language: en
+original_name: Wakanda
+poster_path: /11TUhoCtaNuyPM8s31bODODs44f.jpg
+vote_average: 0
+tags:
+  - tv
+  - company-420
+id: 117985
 ---
 ## TMDB Data
 ```json

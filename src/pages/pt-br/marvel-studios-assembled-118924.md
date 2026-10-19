@@ -1,11 +1,31 @@
 ---
 title: 'Marvel Studios: Assembled'
 slug: marvel-studios-assembled
-description: "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho."
+description: >-
+  Uma nova série de documentários especiais que revelará os bastidores das
+  séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os
+  heróis da Marvel a cada passo do caminho.
 layout: ../../layouts/MainLayout.astro
 type: tv
-overview: "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho."
-localized_title: "Marvel Studios - Avante"
+overview: >-
+  Uma nova série de documentários especiais que revelará os bastidores das
+  séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os
+  heróis da Marvel a cada passo do caminho.
+localized_title: Marvel Studios - Avante
+first_air_date: '2021-03-12'
+genre_ids:
+  - 99
+name: 'Marvel Studios: Assembled'
+origin_country:
+  - US
+original_language: en
+original_name: 'Marvel Studios: Assembled'
+poster_path: /qEQDmuxelVj8qYkYpUExLn813G8.jpg
+vote_average: 0
+tags:
+  - tv
+  - company-420
+id: 118924
 ---
 ## TMDB Data
 ```json

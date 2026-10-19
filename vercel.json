@@ -24,6 +24,516 @@
     ],
     "redirects": [
         {
+            "source": "/pt-br/agatha-138501",
+            "destination": "/pt-br/agatha-all-along-138501",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/agatha-138501/",
+            "destination": "/pt-br/agatha-all-along-138501/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/agatha-coven-of-chaos-138501",
+            "destination": "/pt-br/agatha-all-along-138501",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/agatha-coven-of-chaos-138501/",
+            "destination": "/pt-br/agatha-all-along-138501/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-eternals-939356",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-eternals-939356",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-eternals-939356/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-eternals-939356/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-hawkeye-936643",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-hawkeye-936643",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-hawkeye-936643/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-hawkeye-936643/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-moon-knight-964943",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-moon-knight-964943",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-moon-knight-964943/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-moon-knight-964943/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-ms-marvel-1001912",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-ms-marvel-1001912",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-ms-marvel-1001912/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-ms-marvel-1001912/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-thor-love-and-thunder-1015595",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-thor-love-and-thunder-1015595",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/assembled-the-making-of-thor-love-and-thunder-1015595/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-thor-love-and-thunder-1015595/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/avengers-5-1003596",
+            "destination": "/pt-br/avengers-doomsday-1003596",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/avengers-5-1003596/",
+            "destination": "/pt-br/avengers-doomsday-1003596/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/avengers-the-kang-dynasty-1003596",
+            "destination": "/pt-br/avengers-doomsday-1003596",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/avengers-the-kang-dynasty-1003596/",
+            "destination": "/pt-br/avengers-doomsday-1003596/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/black-panther-3-1037199",
+            "destination": "/pt-br/black-panther-3-1386618",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/black-panther-3-1037199/",
+            "destination": "/pt-br/black-panther-3-1386618/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/black-panther-3-legacy-of-wakanda-1037199",
+            "destination": "/pt-br/black-panther-3-1386618",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/black-panther-3-legacy-of-wakanda-1037199/",
+            "destination": "/pt-br/black-panther-3-1386618/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/captain-america-new-world-order-822119",
+            "destination": "/pt-br/captain-america-brave-new-world-822119",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/captain-america-new-world-order-822119/",
+            "destination": "/pt-br/captain-america-brave-new-world-822119/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/doctor-strange-time-runs-out-1072946",
+            "destination": "/pt-br/doctor-strange-3-1072946",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/doctor-strange-time-runs-out-1072946/",
+            "destination": "/pt-br/doctor-strange-3-1072946/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/fantastic-four-1651",
+            "destination": "/pt-br/the-fantastic-four-1651",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/fantastic-four-1651/",
+            "destination": "/pt-br/the-fantastic-four-1651/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/fury-files-103396",
+            "destination": "/pt-br/the-fury-files-103396",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/fury-files-103396/",
+            "destination": "/pt-br/the-fury-files-103396/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/guardians-of-the-galaxy-volume-3-447365",
+            "destination": "/pt-br/guardians-of-the-galaxy-vol-3-447365",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/guardians-of-the-galaxy-volume-3-447365/",
+            "destination": "/pt-br/guardians-of-the-galaxy-vol-3-447365/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-knights-wolverine-weapon-x-tomorrow-dies-today-130805",
+            "destination": "/pt-br/wolverine-weapon-x-tomorrow-dies-today-130805",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-knights-wolverine-weapon-x-tomorrow-dies-today-130805/",
+            "destination": "/pt-br/wolverine-weapon-x-tomorrow-dies-today-130805/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-one-shot-peters-to-do-list-758025",
+            "destination": "/pt-br/peters-to-do-list-758025",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-one-shot-peters-to-do-list-758025/",
+            "destination": "/pt-br/peters-to-do-list-758025/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-208031",
+            "destination": "/pt-br/marvel-studios-assembled-118924",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-208031/",
+            "destination": "/pt-br/marvel-studios-assembled-118924/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-agatha-all-along-1363628",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-agatha-all-along-1387507",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-agatha-all-along-1363628/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-agatha-all-along-1387507/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-deadpool-and-wolverine-1363624",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-deadpool-and-wolverine-1386628",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-deadpool-and-wolverine-1363624/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-deadpool-and-wolverine-1386628/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-loki-season-2-1187843",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-loki-season-2-1192825",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-loki-season-2-1187843/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-loki-season-2-1192825/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-secret-invasion-1100907",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-secret-invasion-1165500",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvel-studios-assembled-the-making-of-secret-invasion-1100907/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-secret-invasion-1165500/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvels-iron-man-and-his-awesome-friends-274388",
+            "destination": "/pt-br/iron-man-and-his-awesome-friends-274388",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvels-iron-man-and-his-awesome-friends-274388/",
+            "destination": "/pt-br/iron-man-and-his-awesome-friends-274388/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvels-spidey-and-his-amazing-friends-127635",
+            "destination": "/pt-br/spidey-and-his-amazing-friends-127635",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/marvels-spidey-and-his-amazing-friends-127635/",
+            "destination": "/pt-br/spidey-and-his-amazing-friends-127635/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-138503",
+            "destination": "/pt-br/your-friendly-neighborhood-spider-man-138503",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-138503/",
+            "destination": "/pt-br/your-friendly-neighborhood-spider-man-138503/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-2640",
+            "destination": "/pt-br/japanese-spiderman-2640",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-2640/",
+            "destination": "/pt-br/japanese-spiderman-2640/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-4-969681",
+            "destination": "/pt-br/spider-man-brand-new-day-969681",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-4-969681/",
+            "destination": "/pt-br/spider-man-brand-new-day-969681/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-438561",
+            "destination": "/pt-br/japanese-spiderman-episode-0-438561",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-438561/",
+            "destination": "/pt-br/japanese-spiderman-episode-0-438561/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-freshman-year-138503",
+            "destination": "/pt-br/your-friendly-neighborhood-spider-man-138503",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-freshman-year-138503/",
+            "destination": "/pt-br/your-friendly-neighborhood-spider-man-138503/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-no-way-home-1372525",
+            "destination": "/pt-br/spider-man-no-way-home-634649",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/spider-man-no-way-home-1372525/",
+            "destination": "/pt-br/spider-man-no-way-home-634649/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-fantastic-four-617126",
+            "destination": "/pt-br/the-fantastic-4-first-steps-617126",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-fantastic-four-617126/",
+            "destination": "/pt-br/the-fantastic-4-first-steps-617126/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-fantastic-four-first-steps-617126",
+            "destination": "/pt-br/the-fantastic-4-first-steps-617126",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-fantastic-four-first-steps-617126/",
+            "destination": "/pt-br/the-fantastic-4-first-steps-617126/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-doctor-strange-in-the-multiverse-of-madness-980017",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-doctor-strange-in-the-multiverse-of-madness-980017/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-doctor-strange-in-the-multiverse-of-madness-980017/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-moon-knight-964943",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-moon-knight-964943",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-moon-knight-964943/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-moon-knight-964943/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-ms-marvel-1001912",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-ms-marvel-1001912",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-ms-marvel-1001912/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-ms-marvel-1001912/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-thor-love-and-thunder-1015595",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-thor-love-and-thunder-1015595",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-making-of-thor-love-and-thunder-1015595/",
+            "destination": "/pt-br/marvel-studios-assembled-the-making-of-thor-love-and-thunder-1015595/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-punisher-one-last-kill-1657196",
+            "destination": "/pt-br/the-punisher-one-last-kill-1439930",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/the-punisher-one-last-kill-1657196/",
+            "destination": "/pt-br/the-punisher-one-last-kill-1439930/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/thor-and-the-legend-of-hercules-1196551",
+            "destination": "/pt-br/thor-5-1196551",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/thor-and-the-legend-of-hercules-1196551/",
+            "destination": "/pt-br/thor-5-1196551/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/ultimate-avengers-2-rise-of-the-panther-14611",
+            "destination": "/pt-br/ultimate-avengers-2-14611",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/ultimate-avengers-2-rise-of-the-panther-14611/",
+            "destination": "/pt-br/ultimate-avengers-2-14611/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-mcu-spider-man-sequel-969681",
+            "destination": "/pt-br/spider-man-brand-new-day-969681",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-mcu-spider-man-sequel-969681/",
+            "destination": "/pt-br/spider-man-brand-new-day-969681/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-mcu-x-men-movie-1293690",
+            "destination": "/pt-br/untitled-x-men-film-1293690",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-mcu-x-men-movie-1293690/",
+            "destination": "/pt-br/untitled-x-men-film-1293690/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-nova-series-220577",
+            "destination": "/pt-br/nova-220577",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-nova-series-220577/",
+            "destination": "/pt-br/nova-220577/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-spider-man-4-film-969681",
+            "destination": "/pt-br/spider-man-brand-new-day-969681",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-spider-man-4-film-969681/",
+            "destination": "/pt-br/spider-man-brand-new-day-969681/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-the-punisher-special-1439930",
+            "destination": "/pt-br/the-punisher-one-last-kill-1439930",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-the-punisher-special-1439930/",
+            "destination": "/pt-br/the-punisher-one-last-kill-1439930/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-vision-series-213375",
+            "destination": "/pt-br/visionquest-213375",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-vision-series-213375/",
+            "destination": "/pt-br/visionquest-213375/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-vision-tv-show-213375",
+            "destination": "/pt-br/visionquest-213375",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-vision-tv-show-213375/",
+            "destination": "/pt-br/visionquest-213375/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-x-men-movie-1293690",
+            "destination": "/pt-br/untitled-x-men-film-1293690",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/untitled-x-men-movie-1293690/",
+            "destination": "/pt-br/untitled-x-men-film-1293690/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/vision-quest-213375",
+            "destination": "/pt-br/visionquest-213375",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/vision-quest-213375/",
+            "destination": "/pt-br/visionquest-213375/",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/wakanda-117985",
+            "destination": "/pt-br/untitled-wakanda-series-117985",
+            "statusCode": 301
+        },
+        {
+            "source": "/pt-br/wakanda-117985/",
+            "destination": "/pt-br/untitled-wakanda-series-117985/",
+            "statusCode": 301
+        },
+        {
             "source": "/en/untitled-destin-daniel-cretton-disney-series-198178",
             "destination": "/pt-br/wonder-man-198178",
             "statusCode": 301
@@ -40,12 +550,12 @@
         },
         {
             "source": "/en/captain-america-4-894205",
-            "destination": "/pt-br/captain-america-new-world-order-822119",
+            "destination": "/pt-br/captain-america-brave-new-world-822119",
             "statusCode": 301
         },
         {
             "source": "/en/agatha-house-of-harkness-138501",
-            "destination": "/pt-br/agatha-coven-of-chaos-138501",
+            "destination": "/pt-br/agatha-all-along-138501",
             "statusCode": 301
         },
         {
@@ -75,12 +585,12 @@
         },
         {
             "source": "/en/guardians-of-the-galaxy-vol-3-447365",
-            "destination": "/pt-br/guardians-of-the-galaxy-volume-3-447365",
+            "destination": "/pt-br/guardians-of-the-galaxy-vol-3-447365",
             "statusCode": 301
         },
         {
             "source": "/en/untitled-the-punisher-special-1439930",
-            "destination": "/pt-br/the-punisher-one-last-kill-1657196",
+            "destination": "/pt-br/the-punisher-one-last-kill-1439930",
             "statusCode": 301
         },
         {

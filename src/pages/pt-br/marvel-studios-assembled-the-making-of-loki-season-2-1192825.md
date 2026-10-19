@@ -1,7 +1,13 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Loki: Season 2'
 slug: marvel-studios-assembled-the-making-of-loki-season-2
-description: "Com entrevistas com as mentes criativas por trás da série e imagens exclusivas do set, descubra como a equipe que desenvolveu \"Loki: Temporada 2\" elevou o nível desta nova aventura do MCU. Testemunhe a criação de figurinos criativos e cenários elaborados, variantes que ganham vida, conheça novos aliados e inimigos, e faça uma viagem no tempo pelo universo em \"Avante: Nos Bastidores de Loki: Temporada 2.\""
+description: >-
+  Com entrevistas com as mentes criativas por trás da série e imagens exclusivas
+  do set, descubra como a equipe que desenvolveu "Loki: Temporada 2" elevou o
+  nível desta nova aventura do MCU. Testemunhe a criação de figurinos criativos
+  e cenários elaborados, variantes que ganham vida, conheça novos aliados e
+  inimigos, e faça uma viagem no tempo pelo universo em "Avante: Nos Bastidores
+  de Loki: Temporada 2."
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -10,15 +16,21 @@ genre_ids:
 id: 1192825
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Loki: Season 2'
-overview: "Com entrevistas com as mentes criativas por trás da série e imagens exclusivas do set, descubra como a equipe que desenvolveu \"Loki: Temporada 2\" elevou o nível desta nova aventura do MCU. Testemunhe a criação de figurinos criativos e cenários elaborados, variantes que ganham vida, conheça novos aliados e inimigos, e faça uma viagem no tempo pelo universo em \"Avante: Nos Bastidores de Loki: Temporada 2.\""
-poster_path: null
+overview: >-
+  Com entrevistas com as mentes criativas por trás da série e imagens exclusivas
+  do set, descubra como a equipe que desenvolveu "Loki: Temporada 2" elevou o
+  nível desta nova aventura do MCU. Testemunhe a criação de figurinos criativos
+  e cenários elaborados, variantes que ganham vida, conheça novos aliados e
+  inimigos, e faça uma viagem no tempo pelo universo em "Avante: Nos Bastidores
+  de Loki: Temporada 2."
+poster_path: /t1FRojAWVxXaZGo1eo767kpmgtd.jpg
 release_date: '2023-11-29'
 video: false
 vote_average: 0
 tags:
   - movie
   - company-420
-localized_title: "AVANTE: Nos Bastidores de Loki: Temporada 2"
+localized_title: 'AVANTE: Nos Bastidores de Loki: Temporada 2'
 ---
 ## TMDB Data
 ```json

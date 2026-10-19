@@ -1,16 +1,38 @@
 ---
 title: 'Spider-Man: No Way Home'
 slug: spider-man-no-way-home
-description: "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha..."
+description: >-
+  Peter Parker é desmascarado e não consegue mais separar sua vida normal dos
+  grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor
+  Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o
+  que realmente significa ser o Homem-Aranha...
 layout: ../../layouts/MainLayout.astro
 type: movie
-logo_on_black: "{tmdb-path}/5RjyUm9HP2ZRwvqCqK9sDqlQHxa.webp"
+logo_on_black: '{tmdb-path}/5RjyUm9HP2ZRwvqCqK9sDqlQHxa.webp'
 watchLinks:
-  amazon: >-
-    https://www.amazon.com/dp/B09NMFWBL2?linkCode=osi&th=1&psc=1
+  amazon: 'https://www.amazon.com/dp/B09NMFWBL2?linkCode=osi&th=1&psc=1'
 mcuTimelineOrder: 568
-overview: "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha..."
-localized_title: "Homem-Aranha: Sem Volta Para Casa"
+overview: >-
+  Peter Parker é desmascarado e não consegue mais separar sua vida normal dos
+  grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor
+  Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o
+  que realmente significa ser o Homem-Aranha...
+localized_title: 'Homem-Aranha: Sem Volta Para Casa'
+adult: false
+backdrop_path: /3tkxU3Hm0yKfRy8u4XiA4WilfAA.jpg
+genre_ids:
+  - 28
+  - 878
+original_language: en
+original_title: 'Spider-Man: No Way Home'
+poster_path: /gZkWGmCEoa4hiV94G8xALYMuHrV.jpg
+release_date: '2021-08-22'
+video: false
+vote_average: 0
+tags:
+  - movie
+  - company-420
+id: 634649
 ---
 ## TMDB Data
 ```json

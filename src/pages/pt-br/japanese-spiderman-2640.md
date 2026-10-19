@@ -1,7 +1,11 @@
 ---
 title: Japanese Spiderman
 slug: japanese-spiderman
-description: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
+description: >-
+  Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela
+  Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a
+  série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978
+  e 14 de março de 1979.
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /9SE5E2g5DVBN9T3EIEYPhwdsZPr.jpg
@@ -9,7 +13,11 @@ id: 2640
 name: Japanese Spiderman
 original_language: ja
 original_name: スパイダーマン
-overview: "Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978 e 14 de março de 1979."
+overview: >-
+  Spider-Man (スパイダーマン Supaidāman) é uma live-action japonesa produzida pela
+  Toei, baseado parcialmente no personagem da Marvel, Homem-Aranha. Ao todo, a
+  série teve 41 episódios, exibidos no Tokyo Channel 12 entre 17 de maio de 1978
+  e 14 de março de 1979.
 poster_path: /vlSuwzyt3Hyq5OSFpvJDYnYDN1a.jpg
 media_type: tv
 runtime: null
@@ -22,7 +30,11 @@ origin_country:
   - JP
 tags:
   - list-8204862
-localized_title: "Spider-Man"
+localized_title: Spider-Man
+type: tv
+logo_on_black: '{fanart-path}/spider-man-1978-5cddabaeefc4e.webp'
+watchLinks:
+  amazon: none
 ---
 ## TMDB Data
 ```json

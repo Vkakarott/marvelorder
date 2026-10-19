@@ -1,7 +1,12 @@
 ---
 title: 'Marvel Studios Assembled: The Making of Eternals'
 slug: marvel-studios-assembled-the-making-of-eternals
-description: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as experiências durante a gravação do filme mais ambicioso da Marvel Studios até hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar em locações remotas e criar laços que ajudaram a criar os relacionamentos dos heróis ao longo de mais de 7 mil anos."
+description: >-
+  Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as
+  experiências durante a gravação do filme mais ambicioso da Marvel Studios até
+  hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar
+  em locações remotas e criar laços que ajudaram a criar os relacionamentos dos
+  heróis ao longo de mais de 7 mil anos.
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: /gBh15609apMzMgcafijKNBxdeTS.jpg
@@ -10,7 +15,12 @@ genre_ids:
 id: 939356
 original_language: en
 original_title: 'Marvel Studios Assembled: The Making of Eternals'
-overview: "Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as experiências durante a gravação do filme mais ambicioso da Marvel Studios até hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar em locações remotas e criar laços que ajudaram a criar os relacionamentos dos heróis ao longo de mais de 7 mil anos."
+overview: >-
+  Una-se à Diretora Chloe Zhao e ao elenco de Eternos enquanto eles relembram as
+  experiências durante a gravação do filme mais ambicioso da Marvel Studios até
+  hoje. Descubra como o elenco se sentiu ao interpretar os personagens, gravar
+  em locações remotas e criar laços que ajudaram a criar os relacionamentos dos
+  heróis ao longo de mais de 7 mil anos.
 poster_path: /fBJ5ZjFJ6IHQWz90SsW80PizVlF.jpg
 release_date: '2022-02-16'
 video: false
@@ -18,7 +28,8 @@ vote_average: 6.9
 tags:
   - movie
   - company-420
-localized_title: "Nos Bastidores de Eternos"
+localized_title: Nos Bastidores de Eternos
+type: movie
 ---
 ## TMDB Data
 ```json

@@ -1,7 +1,7 @@
 ---
 title: Doctor Strange 3
 slug: doctor-strange-3
-description: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
+description: Rumores de sequência de Doutor Estranho no Multiverso da Loucura.
 layout: ../../layouts/MainLayout.astro
 adult: false
 backdrop_path: null
@@ -9,9 +9,9 @@ genre_ids: []
 id: 1072946
 original_language: en
 original_title: Doctor Strange 3
-overview: "Rumores de sequência de Doutor Estranho no Multiverso da Loucura."
+overview: Rumores de sequência de Doutor Estranho no Multiverso da Loucura.
 poster_path: null
-release_date: ''
+release_date: '2027-02-12'
 video: false
 vote_average: 0
 tags:

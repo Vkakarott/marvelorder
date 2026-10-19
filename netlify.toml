@@ -46,12 +46,12 @@
 
 [[redirects]]
     from = "/en/captain-america-4-894205"
-    to = "/pt-br/captain-america-new-world-order-822119"
+    to = "/pt-br/captain-america-brave-new-world-822119"
     status = 301
 
 [[redirects]]
     from = "/en/agatha-house-of-harkness-138501"
-    to = "/pt-br/agatha-coven-of-chaos-138501"
+    to = "/pt-br/agatha-all-along-138501"
     status = 301
 
 [[redirects]]
@@ -81,12 +81,12 @@
 
 [[redirects]]
     from = "/en/guardians-of-the-galaxy-vol-3-447365"
-    to = "/pt-br/guardians-of-the-galaxy-volume-3-447365"
+    to = "/pt-br/guardians-of-the-galaxy-vol-3-447365"
     status = 301
 
 [[redirects]]
     from = "/en/untitled-the-punisher-special-1439930"
-    to = "/pt-br/the-punisher-one-last-kill-1657196"
+    to = "/pt-br/the-punisher-one-last-kill-1439930"
     status = 301
     force = true
 [[redirects]]
