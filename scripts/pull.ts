@@ -26,6 +26,18 @@ import {
 import {
     makeListingEndpoint
 } from '../src/helpers/listing.ts'
+import {
+    consolidateListingFiles,
+    findReplacementCandidates,
+    getListingUrlFromPath,
+    getTitlesByIdentity,
+    readListingEntries,
+} from '../src/helpers/listing-consolidation.ts'
+import {
+    getListingIdentity,
+    isCompatibleReplacement,
+} from '../src/helpers/listing-identity.ts'
+import { persistListingRedirects } from '../src/helpers/listing-redirects.ts'
 
 // https://github.com/RebeccaStevens/deepmerge-ts/blob/beae8b841561bd206150ef02fe10db94856c6e45/docs/deepmergeCustom.md
 const deepmergeListings = deepmergeCustom( {
@@ -578,6 +590,88 @@ async function saveListingsAsMarkdown ( listings ) {
     }
 }
 
+const listingDirectory = `${ markdownStorePath }/pt-br`
+
+// Each run may retire at most this many duplicate files or replaced ids
+const maxListingConsolidations = getNumberEnv( 'MAX_LISTING_CONSOLIDATIONS', 10 )
+
+const listingStoreIO = {
+    listListingPaths: async () => {
+        const paths: string[] = []
+        for await ( const file of Deno.readDir( listingDirectory ) ) {
+            if ( file.isFile && file.name.endsWith( '.md' ) ) {
+                paths.push( `${ listingDirectory }/${ file.name }` )
+            }
+        }
+        return paths
+    },
+    readText: ( path: string ) => Deno.readTextFile( path ),
+    writeText: ( path: string, content: string ) => Deno.writeTextFile( path, content ),
+    remove: ( path: string ) => Deno.remove( path ),
+}
+
+async function isTmdbRecordGone ( identity: string ) {
+    const [ type, id ] = identity.split( ':' )
+
+    try {
+        await tmdbGet( `https://api.themoviedb.org/3/${ type }/${ id }`, { params: { api_key: Deno.env.get( 'TMDB_API_KEY' ) } } )
+        return false
+    }
+    catch ( error ) {
+        // Only a definite 404 counts; outages must never retire a listing
+        return Number( ( error as any )?.response?.status ) === 404
+    }
+}
+
+function getListingsByIdentity ( listings: any[] ) {
+    return new Map( listings.map( listing => [ getListingIdentity( listing ), listing ] ) )
+}
+
+// A listing that vanished from TMDB is folded into a live listing only when
+// TMDB confirms the old id is gone and title, type and studio all agree.
+async function findTmdbReplacements ( report: any, previousListings: any[], nextListings: any[] ) {
+    const entries = await readListingEntries( listingStoreIO, matter )
+    const nextByIdentity = getListingsByIdentity( nextListings )
+    const previousByIdentity = getListingsByIdentity( previousListings )
+    const suspects = new Set( report.missingIds.map( ( missing: any ) => `${ missing.type || 'unknown' }:${ missing.id }` ) )
+    const liveTitles = new Map( [ ...nextByIdentity ].map( ( [ identity, listing ] ) => [ identity, listing.title ] ) )
+    const candidates = findReplacementCandidates( getTitlesByIdentity( entries, liveTitles ), suspects )
+        .filter( ( { gone, live } ) => nextByIdentity.has( live ) && isCompatibleReplacement( previousByIdentity.get( gone ) || {}, nextByIdentity.get( live ) ) )
+        .filter( ( candidate, _index, all ) => all.filter( other => other.gone === candidate.gone ).length === 1 )
+
+    const confirmed = []
+    for ( const candidate of candidates ) {
+        if ( await isTmdbRecordGone( candidate.gone ) ) {
+            confirmed.push( candidate )
+        }
+    }
+
+    return confirmed
+}
+
+async function consolidateListings ( report: any, previousListings: any[], nextListings: any[] ) {
+    const replacements = await findTmdbReplacements( report, previousListings, nextListings )
+    const liveSlugs = new Map( nextListings.map( listing => [ getListingIdentity( listing ), listing.slug ] ) )
+    const result = await consolidateListingFiles( {
+        io: listingStoreIO,
+        matter,
+        directory: listingDirectory,
+        liveSlugs,
+        replacements,
+        maxPlans: maxListingConsolidations,
+        retiredAt: new Date().toISOString().slice( 0, 10 ),
+    } )
+
+    if ( result.skipped ) {
+        console.warn( `Skipped ${ result.plans.length } listing consolidations, above the limit of ${ maxListingConsolidations }.` )
+        return
+    }
+
+    const livePaths = new Set( ( await listingStoreIO.listListingPaths() ).map( getListingUrlFromPath ) )
+    await persistListingRedirects( { readText: listingStoreIO.readText, writeText: listingStoreIO.writeText }, result.redirects, livePaths )
+    console.log( `Consolidated ${ result.plans.length } listings into one file per identity.` )
+}
+
 ;(async () => {
     const previousListings = await readListingsSnapshot()
 
@@ -607,6 +701,8 @@ async function saveListingsAsMarkdown ( listings ) {
     await writeJSON( `${ storePath }/listings.json`, sortedListings, null, '\t' )
 
     await saveListingsAsMarkdown( sortedListings )
+
+    await consolidateListings( tmdbRegressionReport, previousListings, sortedListings )
 
     console.log('Pull complete.')
 

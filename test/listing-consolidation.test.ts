@@ -10,6 +10,7 @@ import {
     chooseCanonicalEntry,
     findReplacementCandidates,
     getListingIdentity,
+    isCompatibleReplacement,
     mergeListingFrontmatter,
     type ListingFileEntry,
 } from '~/src/helpers/listing-identity.ts'
@@ -97,6 +98,15 @@ describe( 'listing identity', () => {
         ] )
 
         expect( findReplacementCandidates( titles, new Set( [ 'movie:1' ] ) ) ).toEqual( [ { gone: 'movie:1', live: 'movie:2' } ] )
+    } )
+
+    test( 'rejects same-titled remakes from another studio or era', () => {
+        const mcuBlade = { tags: [ 'movie', 'company-420' ], release_date: '' }
+
+        expect( isCompatibleReplacement( mcuBlade, { tags: [ 'movie', 'company-7505' ], release_date: '1998-08-21' } ) ).toBe( false )
+        expect( isCompatibleReplacement( { tags: [ 'movie', 'company-420' ], release_date: '2015-01-01' }, { tags: [ 'movie', 'company-420' ], release_date: '2025-01-01' } ) ).toBe( false )
+        expect( isCompatibleReplacement( { tags: [ 'tv', 'company-420' ], first_air_date: '2022-08-10' }, { tags: [ 'tv', 'company-420' ], first_air_date: '2023-09-06' } ) ).toBe( false )
+        expect( isCompatibleReplacement( { tags: [ 'movie', 'company-420' ], release_date: '2026-05-12' }, mcuBlade ) ).toBe( true )
     } )
 } )
 

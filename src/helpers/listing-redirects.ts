@@ -90,3 +90,25 @@ export function syncNetlifyRedirectTargets ( netlifyToml: string, redirects: Lis
         return `${ start }${ resolveListingPath( target, byFrom ) }${ end }`
     } )
 }
+
+export const listingRedirectsPath = 'src/json/listing-redirects.json' as const
+
+export interface RedirectStoreIO {
+    readText: ( path: string ) => Promise<string>
+    writeText: ( path: string, content: string ) => Promise<void>
+}
+
+// Records retired URLs and keeps both hosts' configs pointing at live pages.
+export async function persistListingRedirects ( io: RedirectStoreIO, additions: ListingRedirect[], livePaths: Set<string> ): Promise<ListingRedirect[]> {
+    const existing = JSON.parse( await io.readText( listingRedirectsPath ) ) as ListingRedirect[]
+    const redirects = addListingRedirects( existing, additions, livePaths )
+    const vercelConfig = JSON.parse( await io.readText( 'vercel.json' ) )
+
+    vercelConfig.redirects = syncVercelRedirects( vercelConfig.redirects || [], redirects )
+
+    await io.writeText( listingRedirectsPath, `${ JSON.stringify( redirects, null, 4 ) }\n` )
+    await io.writeText( 'vercel.json', `${ JSON.stringify( vercelConfig, null, 4 ) }\n` )
+    await io.writeText( 'netlify.toml', syncNetlifyRedirectTargets( await io.readText( 'netlify.toml' ), redirects ) )
+
+    return redirects
+}

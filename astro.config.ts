@@ -5,6 +5,8 @@ import react from '@astrojs/react'
 import netlify from '@astrojs/netlify'
 import vue from '@astrojs/vue'
 import sitemap from './src/integrations/compat-sitemap'
+import { toAstroRedirects, type ListingRedirect } from './src/helpers/listing-redirects'
+import listingRedirects from './src/json/listing-redirects.json'
 
 // https://astro.build/config
 export default defineConfig( {
@@ -14,6 +16,8 @@ export default defineConfig( {
     site: process.env.PUBLIC_SITE_URL
         || process.env.URL
         || ( process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${ process.env.VERCEL_PROJECT_PRODUCTION_URL }` : 'http://localhost:4321' ),
+    // Retired listing URLs, maintained by the pull script
+    redirects: toAstroRedirects( listingRedirects as ListingRedirect[] ),
     integrations: [// Enable Preact to support Preact JSX components.
         preact( {
             include: [

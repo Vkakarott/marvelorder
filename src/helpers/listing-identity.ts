@@ -197,3 +197,31 @@ export function findReplacementCandidates ( titlesByIdentity: Map<string, unknow
 
     return candidates
 }
+
+function getCompanyTags ( listing: ListingFrontmatter ): string[] {
+    const tags = Array.isArray( listing.tags ) ? listing.tags : []
+
+    return tags.filter( ( tag ): tag is string => typeof tag === 'string' && tag.startsWith( 'company-' ) )
+}
+
+function getReleaseYear ( listing: ListingFrontmatter ): number | null {
+    const date = String( listing.release_date || listing.first_air_date || '' )
+    const year = Number( date.slice( 0, 4 ) )
+
+    return date && Number.isFinite( year ) ? year : null
+}
+
+// Same-titled remakes and per-season records are common, so a replacement
+// must also come from the same studio and, when both are dated, the same year.
+export function isCompatibleReplacement ( gone: ListingFrontmatter, live: ListingFrontmatter ): boolean {
+    const liveCompanies = new Set( getCompanyTags( live ) )
+    const sharesCompany = getCompanyTags( gone ).some( tag => liveCompanies.has( tag ) )
+    const goneYear = getReleaseYear( gone )
+    const liveYear = getReleaseYear( live )
+
+    if ( !sharesCompany ) {
+        return false
+    }
+
+    return goneYear === null || liveYear === null || goneYear === liveYear
+}

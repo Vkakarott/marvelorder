@@ -5,6 +5,7 @@ import glob from 'fast-glob'
 import { capitalCase } from 'change-case'
 
 import { listingsGlobPattern } from '~/src/config.ts'
+import listingRedirects from '~/src/json/listing-redirects.json'
 
 import { trimCharacter } from '~/src/helpers/string.ts'
 import {
@@ -24,6 +25,10 @@ import {
 import {
     normalizeListingObservation,
 } from '~/src/helpers/node/listing-source-overrides.ts'
+import {
+    resolveListingPath,
+    type ListingRedirect,
+} from '~/src/helpers/listing-redirects.ts'
 import {
     canonicalizeTimelineListings,
 } from '~/src/helpers/node/timeline-matcher.ts'
@@ -95,11 +100,15 @@ export async function getAllListingsMapped () {
     return allListingsMapped
 }
 
+const listingRedirectsByFrom = new Map( ( listingRedirects as ListingRedirect[] ).map( redirect => [ redirect.from, redirect ] ) )
+
 export async function getSingleListingFromUrl ( rawUrl: string ) {
     // Parse URL
     const url = new URL( rawUrl )
+    // Follow retired listing URLs to the file that replaced them
+    const resolvedPathname = resolveListingPath( url.pathname.replace( /\/$/, '' ), listingRedirectsByFrom )
     // Get file path from URL and trim any slashes
-    const urlPathname = url.pathname.replace( /^\/|\/$/g, '' )
+    const urlPathname = resolvedPathname.replace( /^\/|\/$/g, '' )
     // Put URL pathname into path format
     const filePath = `./src/pages/${ urlPathname }.md`
     const { listing, tmdb } = await getListingFromFile( filePath )
