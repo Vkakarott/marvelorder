@@ -1,13 +1,11 @@
 import { readFile, rename, writeFile } from 'node:fs/promises'
 
-import 'dotenv/config'
-
 import { extractCharacters, mergeCharacters, type CharacterSnapshot } from '../src/helpers/characters.ts'
 import { getListingIdentity, getListingMediaType } from '../src/helpers/listing-identity.ts'
+import { parseCharacterCreditsPage } from '../src/helpers/node/character-credits-page.ts'
 import { getAllListings } from '../src/helpers/node/listing-files.ts'
 
 const snapshotPath = 'src/json/characters.json'
-const apiKey = process.env.TMDB_API_KEY
 const today = new Date().toISOString().slice( 0, 10 )
 const refreshIntervalMs = 30 * 24 * 60 * 60 * 1_000
 const requestIntervalMs = 500
@@ -20,10 +18,7 @@ function sleep ( duration: number ) {
 
 async function fetchCredits ( identity: string ) {
     const [ mediaType, id ] = identity.split( ':' )
-    const endpoint = mediaType === 'tv' ? 'aggregate_credits' : 'credits'
-    const url = new URL( `https://api.themoviedb.org/3/${ mediaType }/${ id }/${ endpoint }` )
-    url.searchParams.set( 'api_key', apiKey || '' )
-    url.searchParams.set( 'language', 'pt-BR' )
+    const url = `https://www.themoviedb.org/${ mediaType }/${ id }/cast`
 
     for ( let attempt = 0; attempt < 4; attempt += 1 ) {
         await sleep( Math.max( 0, requestIntervalMs - ( Date.now() - lastRequestAt ) ) )
@@ -32,7 +27,10 @@ async function fetchCredits ( identity: string ) {
         let response: Response
 
         try {
-            response = await fetch( url )
+            response = await fetch( url, {
+                headers: { 'Accept-Language': 'pt-BR,pt;q=0.9' },
+                signal: AbortSignal.timeout( 15_000 ),
+            } )
         }
         catch ( error ) {
             if ( attempt === 3 ) {
@@ -47,7 +45,7 @@ async function fetchCredits ( identity: string ) {
         }
 
         if ( response.ok ) {
-            return response.json()
+            return parseCharacterCreditsPage( await response.text(), mediaType as 'movie' | 'tv' )
         }
 
         if ( response.status !== 429 && response.status < 500 ) {
@@ -90,10 +88,6 @@ function shouldRefresh ( fetchedAt?: string ) {
 }
 
 async function main () {
-    if ( !apiKey ) {
-        throw new Error( 'TMDB_API_KEY is required to update character credits' )
-    }
-
     const snapshot = await readSnapshot()
     const listings = await getAllListings()
     const identities = new Set<string>()

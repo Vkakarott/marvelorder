@@ -17,10 +17,21 @@ test( 'movie credits show named characters without actors or unnamed roles', () 
             { name: 'Extra', character: 'Security Guard #1', order: 4 },
             { name: 'Robert Downey Jr.', character: 'Robert Downey Jr.', order: 5 },
             { name: 'Presenter', character: 'Self', order: 6 },
+            { name: 'Extra', character: 'Award Ceremony Narrator', order: 7 },
+            { name: 'Voice Actor', character: 'The Mandarin / Additional Voices', order: 8 },
+            { name: 'Hero', character: 'Bucky Barnes / Winter Soldier', order: 9 },
+            { name: 'Heroine', character: 'Sue Storm / Invisible Woman', order: 10 },
         ],
     }, 'movie' )
 
-    expect( characters ).toEqual( [ 'Tony Stark / Iron Man', 'Pepper Potts', 'Obadiah Stane' ] )
+    expect( characters ).toEqual( [
+        'Tony Stark / Iron Man',
+        'Pepper Potts',
+        'Obadiah Stane',
+        'The Mandarin',
+        'Bucky Barnes / Winter Soldier',
+        'Sue Storm / Invisible Woman',
+    ] )
 } )
 
 test( 'series credits include recurring heroes and villains across all seasons', () => {

@@ -20,7 +20,7 @@
         "preview": "astro preview",
         "deploy:worker-images": "wrangler deploy --config wrangler.image-spike.jsonc",
         "pull": "tsx scripts/pull.ts",
-        "pull-characters": "tsx scripts/pull-characters.ts",
+        "pull-characters": "node --import tsx scripts/pull-characters.ts",
         "localize-listings": "node --import tsx scripts/localize-listings.ts",
         "consolidate-listings": "node --import tsx scripts/consolidate-listings.ts",
         "add-amazon-links": "tsx scripts/add-amazon-links.ts",

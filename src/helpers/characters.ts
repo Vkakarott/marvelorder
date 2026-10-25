@@ -45,10 +45,27 @@ function cleanCharacterName ( value: unknown ) {
         return ''
     }
 
-    return value
+    const cleaned = value
         .replace( /\s*\((?:voice|uncredited|archive footage|motion capture)\)/gi, '' )
         .replace( /\s+/g, ' ' )
         .trim()
+
+    return cleaned
+        .split( /\s*\/\s*/ )
+        .filter( alias => !isGenericRole( alias ) )
+        .join( ' / ' )
+}
+
+function isGenericRole ( name: string ) {
+    const normalized = normalizedName( name )
+
+    return /^(?:self|himself|herself|themselves|unknown|uncredited|additional voices?|various(?: voices?| characters?)?)$/.test( normalized )
+        || /\b(?:on set|additional voices?|stand in|reader|narrator|attendant|analyst|engineer|dealer|clerk|bodyguard|guard|officer|reporter|driver|villager|extra)\b/.test( normalized )
+        || /^(?:man|woman|boy|girl|kid|child|mom|dad)(?:\s|$)/.test( normalized )
+        || /\b(?:man|woman|boy|girl|kid|child|mom|dad)\s+(?:in|at|with|on|from)\b/.test( normalized )
+        || /^(?:agent|soldier|scientist|doctor|nurse|cop|henchman|thug|prisoner|tourist|customer|worker|technician|dancer|student)(?:\s+\d+)?$/.test( normalized )
+        || /\b(?:hydra|shield|security|police|wakandan|asgardian|mutant|kree|air force|military|army|lab)\s+(?:agent|soldier|scientist|doctor|nurse)\b/.test( normalized )
+        || /#\s*\d+\s*$/.test( name )
 }
 
 function isNamedCharacter ( name: string, actorName: unknown ) {
@@ -62,11 +79,7 @@ function isNamedCharacter ( name: string, actorName: unknown ) {
         return false
     }
 
-    if ( /^(?:self|himself|herself|themselves|unknown|uncredited|additional voices?|various(?: voices?| characters?)?)$/i.test( name ) ) {
-        return false
-    }
-
-    return !/^(?:(?:young|older|old|little|hydra|shield|s h i e l d|kree|wakandan|asgardian|police|security|unnamed)\s+)*(?:agent|guard|soldier|officer|worker|scientist|technician|reporter|civilian|pedestrian|passerby|man|woman|boy|girl|child|kid|driver|villager|student|doctor|nurse|waiter|waitress|customer|cop|henchman|thug|prisoner|tourist|clerk|dancer|extra)(?:\s*(?:#|no\.?\s*)?\d+)?$/i.test( normalized )
+    return !isGenericRole( name )
 }
 
 function aliases ( name: string ) {
