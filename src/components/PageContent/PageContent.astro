@@ -28,9 +28,7 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
     : 'https://www.themoviedb.org/'
 const characters = getCharactersForListing( listing, characterSnapshot as CharacterSnapshot )
-const initialCharacterCount = 8
-const featuredCharacters = characters.slice( 0, initialCharacterCount )
-const remainingCharacters = characters.slice( initialCharacterCount )
+const featuredCharacters = characters.slice( 0, 10 )
 ---
 
 <article class="detail-page">
@@ -130,26 +128,11 @@ const remainingCharacters = characters.slice( initialCharacterCount )
 
                 { characters.length > 0
                     ? (
-                        <>
-                            <ul class="character-list">
-                                { featuredCharacters.map( ( character, index ) => (
-                                    <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
-                                ) ) }
-                            </ul>
-                            { remainingCharacters.length > 0 && (
-                                <details class="more-characters">
-                                    <summary>
-                                        <span class="show-more-label">Ver mais ({ remainingCharacters.length })</span>
-                                        <span class="show-less-label">Ver menos</span>
-                                    </summary>
-                                    <ul class="character-list">
-                                        { remainingCharacters.map( ( character, index ) => (
-                                            <li><span class="character-rank" aria-hidden="true">{ String( index + initialCharacterCount + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
-                                        ) ) }
-                                    </ul>
-                                </details>
-                            ) }
-                        </>
+                        <ul class="character-list">
+                            { featuredCharacters.map( ( character, index ) => (
+                                <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
+                            ) ) }
+                        </ul>
                     )
                     : <p class="characters-empty">Personagens ainda não confirmados para este título.</p>
                 }
@@ -476,31 +459,6 @@ const remainingCharacters = characters.slice( initialCharacterCount )
         font-size: 0.68rem;
         font-weight: 800;
         letter-spacing: 0.04em;
-    }
-    .more-characters {
-        margin-top: 1rem;
-    }
-    .more-characters summary {
-        width: fit-content;
-        cursor: pointer;
-        color: #fda4af;
-        font-size: 0.8rem;
-        font-weight: 700;
-    }
-    .more-characters summary:focus-visible {
-        border-radius: 0.25rem;
-        outline: 2px solid #fda4af;
-        outline-offset: 4px;
-    }
-    .more-characters .show-less-label,
-    .more-characters[open] .show-more-label {
-        display: none;
-    }
-    .more-characters[open] .show-less-label {
-        display: inline;
-    }
-    .more-characters .character-list {
-        margin-top: 1rem;
     }
     .detail-credits {
         display: flex;
