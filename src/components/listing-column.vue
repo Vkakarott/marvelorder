@@ -42,6 +42,14 @@
                                     :loading="imageLoading"
                                     :style="{ width: `${markWidth}px` }"
                                 />
+                                <TmdbImage
+                                    v-else-if="listing.poster_path || listing.backdrop_path"
+                                    :src="listing.poster_path || listing.backdrop_path"
+                                    :alt="title"
+                                    class="relative max-h-64 max-w-full object-contain"
+                                    :sizes="[ 175, 350, 525 ]"
+                                    display-sizes="175px"
+                                />
                                 <h2
                                     v-else
                                     class="w-full text-3xl test-white font-bold text-center whitespace-normal"

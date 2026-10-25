@@ -2,10 +2,19 @@
     <div class="flex flex-col items-start gap-8">
         <div class="relative aspect-video w-full flex items-center px-12">
             <ListingLogo
+                v-if="mappedListing.logo_on_black"
                 :src="mappedListing"
                 :base-size="540"
                 loading="eager"
                 class="h-auto w-full relative transition-all"
+            />
+            <TmdbImage
+                v-else-if="mappedListing.poster_path || mappedListing.backdrop_path"
+                :src="mappedListing.poster_path || mappedListing.backdrop_path"
+                :alt="mappedListing.title"
+                class="h-full max-h-full w-full object-contain"
+                :sizes="[ 275, 540, 850 ]"
+                display-sizes="(max-width: 540px) 100vw, 540px"
             />
         </div>
 
@@ -97,6 +106,7 @@ import { defineComponent, type PropType } from 'vue'
 import { DateTime, Interval } from 'luxon'
 
 import ListingLogo from './listing-logo.vue'
+import TmdbImage from './tmdb-image.vue'
 import ButtonLink from './button-link.vue'
 import { isValidHttpUrl } from '~/src/helpers/check'
 import { ensureMappedListing, type MappedListing } from '~/src/helpers/node/listing'
@@ -120,6 +130,7 @@ interface ListingLink {
 export default defineComponent( {
     components: {
         ListingLogo,
+        TmdbImage,
         ButtonLink,
     },
     props: {
