@@ -7,10 +7,16 @@ import { getHomepageListings } from '~/src/helpers/node/homepage-listings'
 import Layout from '../layouts/HorizontalScroll.astro'
 import ListingRow from '../components/listing-row.vue'
 import { timelineStateStorageKey } from '~/src/helpers/timeline-state'
+import { buildCharacterTimelineIndex } from '~/src/helpers/character-links'
+import type { CharacterRegistry } from '~/src/helpers/character-links'
+import type { CharacterSnapshot } from '~/src/helpers/characters'
+import characterRegistry from '~/src/json/character-links.json'
+import characterSnapshot from '~/src/json/characters.json'
 
 export const prerender = true
 
 const listings = await getHomepageListings()
+const characterIndex = buildCharacterTimelineIndex( characterRegistry as CharacterRegistry, characterSnapshot as CharacterSnapshot, listings )
 
 ---
 <Layout>
@@ -19,6 +25,7 @@ const listings = await getHomepageListings()
 	<ListingRow 
 		client:load
 		listings={ convertNullValuesForAstro( listings ) }
+		character-index={ characterIndex }
 		is-global-list
 	/>
 	
@@ -28,12 +35,14 @@ const listings = await getHomepageListings()
 		const row = document.querySelector('.listing-row')
 		let restoredPosition = null
 
-		try {
-			const savedState = JSON.parse(window.localStorage.getItem(timelineStateStorageKey) || 'null')
-			if (Number.isFinite(savedState?.scrollLeft) && savedState.scrollLeft >= 0) {
-				restoredPosition = savedState.scrollLeft
-			}
-		} catch {}
+		if (!new URLSearchParams(window.location.search).has('personagem')) {
+			try {
+				const savedState = JSON.parse(window.localStorage.getItem(timelineStateStorageKey) || 'null')
+				if (Number.isFinite(savedState?.scrollLeft) && savedState.scrollLeft >= 0) {
+					restoredPosition = savedState.scrollLeft
+				}
+			} catch {}
+		}
 
 		if (row && restoredPosition !== null) {
 			row.scrollLeft = restoredPosition

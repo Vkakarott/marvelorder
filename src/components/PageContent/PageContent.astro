@@ -4,6 +4,9 @@ import { hasFanartLogo, isMcuSheetOrdered, isUpcoming } from '~/src/helpers/list
 import { getCharactersForListing, type CharacterSnapshot } from '~/src/helpers/characters'
 import type { Listing } from '~/src/helpers/types'
 import characterSnapshot from '~/src/json/characters.json'
+import characterRegistry from '~/src/json/character-links.json'
+import { getCharacterLink, type CharacterRegistry } from '~/src/helpers/character-links'
+import { getListingIdentity } from '~/src/helpers/listing-identity'
 
 import ListingLogo from '~/src/components/listing-logo.vue'
 import SeenButton from '~/src/components/seen-button.vue'
@@ -28,6 +31,8 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     : 'https://www.themoviedb.org/'
 const characters = getCharactersForListing( listing, characterSnapshot as CharacterSnapshot )
 const featuredCharacters = characters.slice( 0, 10 )
+const listingIdentity = getListingIdentity( { ...listing } )
+const featuredCharacterLinks = featuredCharacters.map( character => getCharacterLink( listingIdentity, character, characterRegistry as CharacterRegistry ) )
 ---
 
 <article class="detail-page">
@@ -129,12 +134,13 @@ const featuredCharacters = characters.slice( 0, 10 )
                     ? (
                         <ul class="character-list">
                             { featuredCharacters.map( ( character, index ) => (
-                                <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
+                                <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span>{ featuredCharacterLinks[ index ] ? <a class="character-link" href={ featuredCharacterLinks[ index ] } aria-label={ `Ver títulos com ${ character } na timeline` }>{ character }</a> : <span>{ character }</span> }</li>
                             ) ) }
                         </ul>
                     )
                     : <p class="characters-empty">Personagens ainda não confirmados para este título.</p>
                 }
+                { featuredCharacterLinks.some( Boolean ) && featuredCharacterLinks.some( link => !link ) && <p class="characters-empty">A navegação está disponível para personagens com participação verificada.</p> }
             </section>
 
             <aside id="onde-assistir" class="detail-side" aria-labelledby="watch-title">
@@ -458,6 +464,20 @@ const featuredCharacters = characters.slice( 0, 10 )
         font-size: 0.68rem;
         font-weight: 800;
         letter-spacing: 0.04em;
+    }
+    .character-link {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: var(--title-accent);
+        text-underline-offset: 0.22em;
+    }
+    .character-link:hover {
+        color: var(--title-accent);
+    }
+    .character-link:focus-visible {
+        border-radius: 0.15rem;
+        outline: 2px solid var(--title-accent);
+        outline-offset: 3px;
     }
     .detail-credits {
         display: flex;

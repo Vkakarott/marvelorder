@@ -1,0 +1,597 @@
+{
+  "version": 1,
+  "characters": {
+    "ch_0947ebac-b97a-4541-b9a0-07d7a1f752ff": {
+      "name": "Peter Parker / Spider-Man",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_29a4c292-a91d-4ee9-bf51-c3ba4e4a8d86": {
+      "name": "Mary Jane Watson",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_a90edc25-c2b5-4696-b0e8-361470627253": {
+      "name": "Felicia Hardy",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_f9ec3e86-177c-48c1-a30b-4e5569513f35": {
+      "name": "J. Jonah Jameson",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_333eb0a3-659a-4951-956d-bef343670093": {
+      "name": "Joe 'Robbie' Robertson",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_59279f1f-232f-440c-904a-02a3360231d0": {
+      "name": "Kingpin",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_7b662622-4d7e-4980-8c2d-4ef6d3c29154": {
+      "name": "Harry Osborn / Green Goblin",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_70bce867-26c5-424a-8785-76086d51e5a9": {
+      "name": "Aunt May Parker",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_36ba19b1-2055-493d-a000-ee607f67c165": {
+      "name": "Anna Watson",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_c0322d49-5d02-4f5b-9e0b-eb4fd92688f2": {
+      "name": "Alistair Smythe",
+      "scopeTitle": "tv:888",
+      "evidenceUrl": null
+    },
+    "ch_b16a5fbd-ef43-4b26-9611-4709390be9f6": {
+      "name": "Tony Stark",
+      "scopeTitle": null,
+      "evidenceUrl": "https://www.marvel.com/ironman3"
+    },
+    "ch_29943e6b-541e-4b7c-a7bc-935a13519d61": {
+      "name": "Rhodey",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_27f63835-e614-4ba4-804d-995692b9e533": {
+      "name": "Obadiah Stane",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_ac6d17b0-0dfc-4506-9e97-fbff303e3474": {
+      "name": "Pepper Potts",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_b6ea36e5-1939-4b91-9377-08f770374482": {
+      "name": "Christine Everhart",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_b3a5b531-6b87-46d6-9701-fcd6c5e8e999": {
+      "name": "Yinsen",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_1fea647a-64ca-48a9-af3f-e4f2826cddbd": {
+      "name": "Raza",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_ffdc89d9-7447-418d-b167-9bcafcf471e0": {
+      "name": "Agent Coulson",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_7b67d9b2-1d59-4c82-9de1-0d2702ad3764": {
+      "name": "General Gabriel",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_4adec4ec-4e24-4e00-abb1-3e143b7b538a": {
+      "name": "Abu Bakaar",
+      "scopeTitle": "movie:1726",
+      "evidenceUrl": null
+    },
+    "ch_35b09d0d-d3fb-40cf-bd50-de764e98e092": {
+      "name": "Loki Laufeyson",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_bd05afbb-31c0-4240-ad18-68fd3d10ab6a": {
+      "name": "Sylvie / The Variant",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_61d241ce-2696-4b6c-b5d9-69c6936b905d": {
+      "name": "Judge Ravonna Renslayer",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_f4f3e0de-3313-4b09-9399-2ea4cac425c2": {
+      "name": "Hunter B-15",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_f174a07c-9c9e-4950-91b3-15ed69a10d75": {
+      "name": "Mobius M. Mobius",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_4ea4bd05-f2e3-4daf-a8f2-9bd28ad1bb57": {
+      "name": "Casey / Hunter K-5E",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_a4978cd0-3b74-46fb-958c-0fa0f4afb2bf": {
+      "name": "Miss Minutes",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_fe515064-eb81-407f-bee6-d3a8b1e259b9": {
+      "name": "Hunter D-90",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_36fea922-d2a2-488b-9335-3cbe44ac8351": {
+      "name": "Ouroboros 'OB'",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    },
+    "ch_bfa3b840-8784-43c2-b550-740f479a4748": {
+      "name": "Hunter X-5 / Brad Wolfe",
+      "scopeTitle": "tv:84958",
+      "evidenceUrl": null
+    }
+  },
+  "versions": {
+    "ver_2dd56b14-89c0-4b5c-8b7f-b2a6fac15b1b": {
+      "characterId": "ch_0947ebac-b97a-4541-b9a0-07d7a1f752ff",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_0438575f-c4e4-4475-8a2e-4c3f7f01de12": {
+      "characterId": "ch_29a4c292-a91d-4ee9-bf51-c3ba4e4a8d86",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_054745b5-331a-4efc-809f-2050c8c072c2": {
+      "characterId": "ch_a90edc25-c2b5-4696-b0e8-361470627253",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_c2e27fd4-5230-4ca2-9b6b-0845df451759": {
+      "characterId": "ch_f9ec3e86-177c-48c1-a30b-4e5569513f35",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_7a825c88-6377-4279-b85d-4193a9534814": {
+      "characterId": "ch_333eb0a3-659a-4951-956d-bef343670093",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_adfd9989-06d8-447b-a8aa-0bf5e4984366": {
+      "characterId": "ch_59279f1f-232f-440c-904a-02a3360231d0",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_aaa68129-d66b-4405-86b9-255175fe122f": {
+      "characterId": "ch_7b662622-4d7e-4980-8c2d-4ef6d3c29154",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_1800a3cb-0dd2-40a4-8dbb-db8bd62ad76c": {
+      "characterId": "ch_70bce867-26c5-424a-8785-76086d51e5a9",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_99a1e654-4d17-4715-ac60-834f51593b8f": {
+      "characterId": "ch_36ba19b1-2055-493d-a000-ee607f67c165",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_971acdbb-953c-4280-91d1-7f74ad8548ea": {
+      "characterId": "ch_c0322d49-5d02-4f5b-9e0b-eb4fd92688f2",
+      "scopeTitle": "tv:888",
+      "continuity": null
+    },
+    "ver_bf5fc609-f36e-4f2a-a7b9-3c078fc6cf56": {
+      "characterId": "ch_b16a5fbd-ef43-4b26-9611-4709390be9f6",
+      "scopeTitle": null,
+      "continuity": "Marvel Cinematic Universe"
+    },
+    "ver_d42659ff-1a8a-4626-bc73-a998f9279a39": {
+      "characterId": "ch_29943e6b-541e-4b7c-a7bc-935a13519d61",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_b6eddfef-ec98-41ff-a0fe-f8d57f7a9059": {
+      "characterId": "ch_27f63835-e614-4ba4-804d-995692b9e533",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_b10118d5-ad72-4ee6-a885-a7ae7a0a3280": {
+      "characterId": "ch_ac6d17b0-0dfc-4506-9e97-fbff303e3474",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_415b1a46-4ad2-4b2a-912d-6209834c76e6": {
+      "characterId": "ch_b6ea36e5-1939-4b91-9377-08f770374482",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_189d73d3-c935-43b4-97e2-facca50690bc": {
+      "characterId": "ch_b3a5b531-6b87-46d6-9701-fcd6c5e8e999",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_0cbe729f-b3a9-4ea7-a849-0564fba65fd0": {
+      "characterId": "ch_1fea647a-64ca-48a9-af3f-e4f2826cddbd",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_2028834c-b7a3-4b8e-bfc0-7343bc8aa87e": {
+      "characterId": "ch_ffdc89d9-7447-418d-b167-9bcafcf471e0",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_e494c585-1a16-4e21-ac86-67573e535543": {
+      "characterId": "ch_7b67d9b2-1d59-4c82-9de1-0d2702ad3764",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_94d14b24-045f-4aad-8ec9-00d852084794": {
+      "characterId": "ch_4adec4ec-4e24-4e00-abb1-3e143b7b538a",
+      "scopeTitle": "movie:1726",
+      "continuity": null
+    },
+    "ver_8be9e7cc-ead3-4a6b-a4fc-5324b17be5b3": {
+      "characterId": "ch_35b09d0d-d3fb-40cf-bd50-de764e98e092",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_77cf43bb-6335-409d-80fd-910c48c8668f": {
+      "characterId": "ch_bd05afbb-31c0-4240-ad18-68fd3d10ab6a",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_9481b71f-5ec2-4b5e-9161-99fb1e34d036": {
+      "characterId": "ch_61d241ce-2696-4b6c-b5d9-69c6936b905d",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_9f3f9a68-2c94-475a-a7da-40432ac18166": {
+      "characterId": "ch_f4f3e0de-3313-4b09-9399-2ea4cac425c2",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_86654925-a379-46f5-ba58-3a1670d840ff": {
+      "characterId": "ch_f174a07c-9c9e-4950-91b3-15ed69a10d75",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_42b746e3-cc32-41ab-85fe-39cbc2c1e4ea": {
+      "characterId": "ch_4ea4bd05-f2e3-4daf-a8f2-9bd28ad1bb57",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_eb0a5597-c6ae-4edb-81f1-8301e3c63afa": {
+      "characterId": "ch_a4978cd0-3b74-46fb-958c-0fa0f4afb2bf",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_eaa4c922-cfbb-4471-993e-8425ab0ff6e0": {
+      "characterId": "ch_fe515064-eb81-407f-bee6-d3a8b1e259b9",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_c8ed3c00-03a4-4183-a2f5-a7355172cc57": {
+      "characterId": "ch_36fea922-d2a2-488b-9335-3cbe44ac8351",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    },
+    "ver_0db7f1e9-bec3-42e3-8b19-adc925759b94": {
+      "characterId": "ch_bfa3b840-8784-43c2-b550-740f479a4748",
+      "scopeTitle": "tv:84958",
+      "continuity": null
+    }
+  },
+  "participations": [
+    {
+      "id": "part_103a683f-8662-4dbd-acae-176f04f25f07",
+      "titleId": "tv:888",
+      "rawName": "Peter Parker / Spider-Man",
+      "characterId": "ch_0947ebac-b97a-4541-b9a0-07d7a1f752ff",
+      "versionId": "ver_2dd56b14-89c0-4b5c-8b7f-b2a6fac15b1b",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_26e0e45e-f977-4454-bfd0-c9754e9adddf",
+      "titleId": "tv:888",
+      "rawName": "Mary Jane Watson",
+      "characterId": "ch_29a4c292-a91d-4ee9-bf51-c3ba4e4a8d86",
+      "versionId": "ver_0438575f-c4e4-4475-8a2e-4c3f7f01de12",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_b0631960-261b-4f5b-9085-6b2391a4c8ba",
+      "titleId": "tv:888",
+      "rawName": "Felicia Hardy",
+      "characterId": "ch_a90edc25-c2b5-4696-b0e8-361470627253",
+      "versionId": "ver_054745b5-331a-4efc-809f-2050c8c072c2",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_13873d4e-c48e-40a2-9712-1eae2cfff99c",
+      "titleId": "tv:888",
+      "rawName": "J. Jonah Jameson",
+      "characterId": "ch_f9ec3e86-177c-48c1-a30b-4e5569513f35",
+      "versionId": "ver_c2e27fd4-5230-4ca2-9b6b-0845df451759",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_dc8801af-e0f1-4041-878c-d8bda0bc7bfa",
+      "titleId": "tv:888",
+      "rawName": "Joe 'Robbie' Robertson",
+      "characterId": "ch_333eb0a3-659a-4951-956d-bef343670093",
+      "versionId": "ver_7a825c88-6377-4279-b85d-4193a9534814",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_f75d96a2-faa8-41be-81da-f01a46f01b7f",
+      "titleId": "tv:888",
+      "rawName": "Kingpin",
+      "characterId": "ch_59279f1f-232f-440c-904a-02a3360231d0",
+      "versionId": "ver_adfd9989-06d8-447b-a8aa-0bf5e4984366",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_43146247-c0a6-42b2-a0af-0e7340eeb167",
+      "titleId": "tv:888",
+      "rawName": "Harry Osborn / Green Goblin",
+      "characterId": "ch_7b662622-4d7e-4980-8c2d-4ef6d3c29154",
+      "versionId": "ver_aaa68129-d66b-4405-86b9-255175fe122f",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_be347132-a360-45c8-a799-66596b98463e",
+      "titleId": "tv:888",
+      "rawName": "Aunt May Parker",
+      "characterId": "ch_70bce867-26c5-424a-8785-76086d51e5a9",
+      "versionId": "ver_1800a3cb-0dd2-40a4-8dbb-db8bd62ad76c",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_d996795d-1829-4725-809e-9758f3879d08",
+      "titleId": "tv:888",
+      "rawName": "Anna Watson",
+      "characterId": "ch_36ba19b1-2055-493d-a000-ee607f67c165",
+      "versionId": "ver_99a1e654-4d17-4715-ac60-834f51593b8f",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_191bf0df-cd2c-470c-a373-d7187d26f665",
+      "titleId": "tv:888",
+      "rawName": "Alistair Smythe",
+      "characterId": "ch_c0322d49-5d02-4f5b-9e0b-eb4fd92688f2",
+      "versionId": "ver_971acdbb-953c-4280-91d1-7f74ad8548ea",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/888/cast"
+    },
+    {
+      "id": "part_aab168e1-dad1-49cf-822a-04fb104df931",
+      "titleId": "movie:1726",
+      "rawName": "Tony Stark",
+      "characterId": "ch_b16a5fbd-ef43-4b26-9611-4709390be9f6",
+      "versionId": "ver_bf5fc609-f36e-4f2a-a7b9-3c078fc6cf56",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_543e22ed-ee3c-4b4b-9d03-014b91975880",
+      "titleId": "movie:1726",
+      "rawName": "Rhodey",
+      "characterId": "ch_29943e6b-541e-4b7c-a7bc-935a13519d61",
+      "versionId": "ver_d42659ff-1a8a-4626-bc73-a998f9279a39",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_70b7b615-6e4f-4232-a61a-27b3a510f52e",
+      "titleId": "movie:1726",
+      "rawName": "Obadiah Stane",
+      "characterId": "ch_27f63835-e614-4ba4-804d-995692b9e533",
+      "versionId": "ver_b6eddfef-ec98-41ff-a0fe-f8d57f7a9059",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_56f0343e-d02f-4713-b671-fcf187f8579a",
+      "titleId": "movie:1726",
+      "rawName": "Pepper Potts",
+      "characterId": "ch_ac6d17b0-0dfc-4506-9e97-fbff303e3474",
+      "versionId": "ver_b10118d5-ad72-4ee6-a885-a7ae7a0a3280",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_9b34c0b5-f39f-4645-9703-febfe2eef202",
+      "titleId": "movie:1726",
+      "rawName": "Christine Everhart",
+      "characterId": "ch_b6ea36e5-1939-4b91-9377-08f770374482",
+      "versionId": "ver_415b1a46-4ad2-4b2a-912d-6209834c76e6",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_a72acdca-8e29-4321-abfa-4c3538567d38",
+      "titleId": "movie:1726",
+      "rawName": "Yinsen",
+      "characterId": "ch_b3a5b531-6b87-46d6-9701-fcd6c5e8e999",
+      "versionId": "ver_189d73d3-c935-43b4-97e2-facca50690bc",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_575c3190-e21a-4594-8290-78fe6e9fc21f",
+      "titleId": "movie:1726",
+      "rawName": "Raza",
+      "characterId": "ch_1fea647a-64ca-48a9-af3f-e4f2826cddbd",
+      "versionId": "ver_0cbe729f-b3a9-4ea7-a849-0564fba65fd0",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_8f78a6a3-9704-4769-873c-c82d67ef6e19",
+      "titleId": "movie:1726",
+      "rawName": "Agent Coulson",
+      "characterId": "ch_ffdc89d9-7447-418d-b167-9bcafcf471e0",
+      "versionId": "ver_2028834c-b7a3-4b8e-bfc0-7343bc8aa87e",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_171e45a5-6265-4403-8f26-395d43bd6188",
+      "titleId": "movie:1726",
+      "rawName": "General Gabriel",
+      "characterId": "ch_7b67d9b2-1d59-4c82-9de1-0d2702ad3764",
+      "versionId": "ver_e494c585-1a16-4e21-ac86-67573e535543",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_d7125072-c27a-4964-bd1b-c4a942fc92fa",
+      "titleId": "movie:1726",
+      "rawName": "Abu Bakaar",
+      "characterId": "ch_4adec4ec-4e24-4e00-abb1-3e143b7b538a",
+      "versionId": "ver_94d14b24-045f-4aad-8ec9-00d852084794",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1726/cast"
+    },
+    {
+      "id": "part_2f61ff98-b429-46d0-ad97-1ee0f3067aed",
+      "titleId": "tv:84958",
+      "rawName": "Loki Laufeyson",
+      "characterId": "ch_35b09d0d-d3fb-40cf-bd50-de764e98e092",
+      "versionId": "ver_8be9e7cc-ead3-4a6b-a4fc-5324b17be5b3",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_02d5bc3f-0df8-4edd-a652-9f4904f32a70",
+      "titleId": "tv:84958",
+      "rawName": "Sylvie / The Variant",
+      "characterId": "ch_bd05afbb-31c0-4240-ad18-68fd3d10ab6a",
+      "versionId": "ver_77cf43bb-6335-409d-80fd-910c48c8668f",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_45027bd9-521c-4bf3-84d8-fbad2da65415",
+      "titleId": "tv:84958",
+      "rawName": "Judge Ravonna Renslayer",
+      "characterId": "ch_61d241ce-2696-4b6c-b5d9-69c6936b905d",
+      "versionId": "ver_9481b71f-5ec2-4b5e-9161-99fb1e34d036",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_ac324f3e-54ac-48f4-968e-f2587d532c7c",
+      "titleId": "tv:84958",
+      "rawName": "Hunter B-15",
+      "characterId": "ch_f4f3e0de-3313-4b09-9399-2ea4cac425c2",
+      "versionId": "ver_9f3f9a68-2c94-475a-a7da-40432ac18166",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_d8505598-61e6-4026-83fe-e2947645dec1",
+      "titleId": "tv:84958",
+      "rawName": "Mobius M. Mobius",
+      "characterId": "ch_f174a07c-9c9e-4950-91b3-15ed69a10d75",
+      "versionId": "ver_86654925-a379-46f5-ba58-3a1670d840ff",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_da35fbb5-8697-4749-a9a8-e7ce294c3224",
+      "titleId": "tv:84958",
+      "rawName": "Casey / Hunter K-5E",
+      "characterId": "ch_4ea4bd05-f2e3-4daf-a8f2-9bd28ad1bb57",
+      "versionId": "ver_42b746e3-cc32-41ab-85fe-39cbc2c1e4ea",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_e0ff8a71-42f2-4de1-a7ab-83d7120dd46a",
+      "titleId": "tv:84958",
+      "rawName": "Miss Minutes",
+      "characterId": "ch_a4978cd0-3b74-46fb-958c-0fa0f4afb2bf",
+      "versionId": "ver_eb0a5597-c6ae-4edb-81f1-8301e3c63afa",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_686a199b-e359-4039-ad7e-954c42b440d2",
+      "titleId": "tv:84958",
+      "rawName": "Hunter D-90",
+      "characterId": "ch_fe515064-eb81-407f-bee6-d3a8b1e259b9",
+      "versionId": "ver_eaa4c922-cfbb-4471-993e-8425ab0ff6e0",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_60ab282d-b48b-424e-bfac-327bb19bc6c8",
+      "titleId": "tv:84958",
+      "rawName": "Ouroboros 'OB'",
+      "characterId": "ch_36fea922-d2a2-488b-9335-3cbe44ac8351",
+      "versionId": "ver_c8ed3c00-03a4-4183-a2f5-a7355172cc57",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_f8cdfd70-08f4-403e-804b-3593b8e08e7b",
+      "titleId": "tv:84958",
+      "rawName": "Hunter X-5 / Brad Wolfe",
+      "characterId": "ch_bfa3b840-8784-43c2-b550-740f479a4748",
+      "versionId": "ver_0db7f1e9-bec3-42e3-8b19-adc925759b94",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/84958/cast"
+    },
+    {
+      "id": "part_1d9433ce-922b-4751-a537-d8de3a7488f8",
+      "titleId": "movie:10138",
+      "rawName": "Tony Stark",
+      "characterId": "ch_b16a5fbd-ef43-4b26-9611-4709390be9f6",
+      "versionId": "ver_bf5fc609-f36e-4f2a-a7b9-3c078fc6cf56",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/10138/cast"
+    },
+    {
+      "id": "part_b633cffe-4231-4495-8605-a64d47483425",
+      "titleId": "movie:68721",
+      "rawName": "Tony Stark",
+      "characterId": "ch_b16a5fbd-ef43-4b26-9611-4709390be9f6",
+      "versionId": "ver_bf5fc609-f36e-4f2a-a7b9-3c078fc6cf56",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/68721/cast"
+    }
+  ]
+}

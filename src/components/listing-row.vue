@@ -22,6 +22,21 @@
             </div>
         </details>
     </Teleport>
+    <Teleport to="#listing-filter-controls">
+        <div v-if="characterSelection.hasQuery" class="flex max-w-[min(90vw,40rem)] flex-wrap items-center gap-2 rounded-xl border border-white/25 bg-black/80 px-3 py-2 text-xs text-white backdrop-blur" aria-live="polite">
+            <span v-if="characterSelection.invalid">Filtro de personagem inválido.</span>
+            <template v-else>
+                <span>Personagens:</span>
+                <button v-for="id in characterSelection.ids" :key="id" type="button" class="rounded-full border border-white/40 px-2 py-1 hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white" :aria-label="`Remover ${characterIndex.entries[id].name} do filtro`" @click="removeCharacter(id)">
+                    {{ characterIndex.entries[id].name }} <span aria-hidden="true">×</span>
+                </button>
+                <span>{{ sortedListings.length }} {{ sortedListings.length === 1 ? 'título' : 'títulos' }}</span>
+            </template>
+            <button type="button" class="rounded-full bg-white px-2 py-1 font-semibold text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" @click="clearCharacters">Limpar filtro</button>
+            <span v-if="!characterSelection.invalid && sortedListings.length === 0">Nenhum título nesta listagem.</span>
+            <span class="w-full text-gray-300">Cobertura parcial: somente participações verificadas.</span>
+        </div>
+    </Teleport>
     <Teleport to="#footer-controls">
         <div class="flex items-center gap-2" role="group" aria-label="Ordem dos títulos">
             <div class="inline-flex rounded-full border border-white/30 bg-black/70 p-1 backdrop-blur">
@@ -121,6 +136,7 @@ import {
 } from '~/src/helpers/listing-filters'
 import type { MappedListing } from '~/src/helpers/node/listing'
 import type { Listing } from '~/src/helpers/types'
+import { filterListingsByCharacters, parseCharacterSelection, type CharacterSelection, type CharacterTimelineIndex } from '~/src/helpers/character-links'
 import {
     parseTimelineState,
     timelineStateStorageKey,
@@ -159,6 +175,10 @@ export default defineComponent( {
             type: Boolean,
             default: false,
         },
+        characterIndex: {
+            type: Object as PropType<CharacterTimelineIndex>,
+            default: () => ( { entries: {} } ),
+        },
     },
     data () {
         return {
@@ -168,9 +188,11 @@ export default defineComponent( {
             selectedCategory: 'total' as ListingCategory,
             categoryOptions,
             stateSaveFrame: 0,
+            characterSelection: { hasQuery: false, ids: [], invalid: false } as CharacterSelection,
         }
     },
     mounted () {
+        this.characterSelection = parseCharacterSelection( window.location.search, this.characterIndex )
         let savedState: TimelineState | null = null
 
         if ( this.isGlobalList ) {
@@ -189,7 +211,7 @@ export default defineComponent( {
             if ( hasRequestedCategory ) {
                 this.selectedCategory = requestedCategory as ListingCategory
             }
-            else if ( savedState ) {
+            else if ( savedState && !this.characterSelection.hasQuery ) {
                 this.selectedCategory = savedState.selectedCategory
 
                 if ( this.selectedCategory !== 'total' ) {
@@ -208,13 +230,14 @@ export default defineComponent( {
             this.sortMode = savedState?.sortMode || 'release'
         }
 
-        this.expandedListingId = savedState?.expandedListingId || null
+        this.expandedListingId = this.characterSelection.hasQuery ? null : savedState?.expandedListingId || null
         window.addEventListener( 'pagehide', this.saveState )
+        window.addEventListener( 'popstate', this.syncCharacterSelectionFromUrl )
 
         this.$nextTick( () => {
             const row = this.$refs.row as HTMLElement | undefined
 
-            if ( savedState && ( !hasRequestedCategory || savedState.selectedCategory === this.selectedCategory ) && row ) {
+            if ( savedState && !this.characterSelection.hasQuery && ( !hasRequestedCategory || savedState.selectedCategory === this.selectedCategory ) && row ) {
                 row.scrollLeft = savedState.scrollLeft
             }
             else {
@@ -224,6 +247,7 @@ export default defineComponent( {
     },
     beforeUnmount () {
         window.removeEventListener( 'pagehide', this.saveState )
+        window.removeEventListener( 'popstate', this.syncCharacterSelectionFromUrl )
         window.cancelAnimationFrame( this.stateSaveFrame )
     },
     computed: {
@@ -249,7 +273,7 @@ export default defineComponent( {
             } )
         },
         sortedListings (): MappedListing[] {
-            return this.filteredListings.list
+            return filterListingsByCharacters( this.filteredListings.list, this.characterSelection, this.characterIndex )
         },
         upcomingListings (): MappedListing[] {
             return this.filteredListings.withFilters( [
@@ -263,6 +287,9 @@ export default defineComponent( {
             return this.sortedListings[ this.sortedListings.length - 1 ]
         },
         focusedListing (): MappedListing | undefined {
+            if ( this.characterSelection.hasQuery ) {
+                return this.sortedListings[ 0 ]
+            }
             if ( !this.nextUpcomingListing ) {
                 return this.lastListing
             }
@@ -271,6 +298,30 @@ export default defineComponent( {
         },
     },
     methods: {
+        syncCharacterSelectionFromUrl (): void {
+            const params = new URLSearchParams( window.location.search )
+            this.characterSelection = parseCharacterSelection( window.location.search, this.characterIndex )
+            const requestedCategory = params.get( 'view' )
+            this.selectedCategory = categoryOptions.some( option => option.value === requestedCategory )
+                ? requestedCategory as ListingCategory : 'total'
+            this.expandedListingId = null
+            this.$nextTick( () => this.scrollToFocusedListing( 'auto' ) )
+        },
+        removeCharacter ( id: string ): void {
+            const url = new URL( window.location.href )
+            url.searchParams.delete( 'personagem' )
+            for ( const remaining of this.characterSelection.ids.filter( value => value !== id ) ) {
+                url.searchParams.append( 'personagem', remaining )
+            }
+            window.history.pushState( null, '', url )
+            this.syncCharacterSelectionFromUrl()
+        },
+        clearCharacters (): void {
+            const url = new URL( window.location.href )
+            url.searchParams.delete( 'personagem' )
+            window.history.pushState( null, '', url )
+            this.syncCharacterSelectionFromUrl()
+        },
         closeCategoryMenu (): void {
             const menu = this.$refs.categoryMenu as HTMLDetailsElement | undefined
             if ( menu ) {
@@ -363,7 +414,7 @@ export default defineComponent( {
         },
 
         saveState (): void {
-            if ( !this.isGlobalList ) {
+            if ( !this.isGlobalList || this.characterSelection.hasQuery ) {
                 return
             }
 
