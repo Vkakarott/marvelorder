@@ -30,6 +30,8 @@ jobs:
         run: npm run pull
       - name: Pull character credits
         run: npm run pull-characters
+      - name: Add title-scoped character links
+        run: npm run sync-character-links
       - name: Pull poster palettes
         run: npm run pull-poster-palettes
       - name: Validate data and build

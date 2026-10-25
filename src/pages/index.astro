@@ -7,16 +7,10 @@ import { getHomepageListings } from '~/src/helpers/node/homepage-listings'
 import Layout from '../layouts/HorizontalScroll.astro'
 import ListingRow from '../components/listing-row.vue'
 import { timelineStateStorageKey } from '~/src/helpers/timeline-state'
-import { buildCharacterTimelineIndex } from '~/src/helpers/character-links'
-import type { CharacterRegistry } from '~/src/helpers/character-links'
-import type { CharacterSnapshot } from '~/src/helpers/characters'
-import characterRegistry from '~/src/json/character-links.json'
-import characterSnapshot from '~/src/json/characters.json'
 
 export const prerender = true
 
 const listings = await getHomepageListings()
-const characterIndex = buildCharacterTimelineIndex( characterRegistry as CharacterRegistry, characterSnapshot as CharacterSnapshot, listings )
 
 ---
 <Layout>
@@ -25,7 +19,6 @@ const characterIndex = buildCharacterTimelineIndex( characterRegistry as Charact
 	<ListingRow 
 		client:load
 		listings={ convertNullValuesForAstro( listings ) }
-		character-index={ characterIndex }
 		is-global-list
 	/>
 	
@@ -33,9 +26,11 @@ const characterIndex = buildCharacterTimelineIndex( characterRegistry as Charact
 	<script is:inline define:vars={{ timelineStateStorageKey }}>
 		const initialListing = document.querySelector('.listing-card-initial')
 		const row = document.querySelector('.listing-row')
+		const hasCharacterFilter = new URLSearchParams(window.location.search).has('personagem')
 		let restoredPosition = null
+		if (hasCharacterFilter) document.documentElement.classList.add('character-filter-pending')
 
-		if (!new URLSearchParams(window.location.search).has('personagem')) {
+		if (!hasCharacterFilter) {
 			try {
 				const savedState = JSON.parse(window.localStorage.getItem(timelineStateStorageKey) || 'null')
 				if (Number.isFinite(savedState?.scrollLeft) && savedState.scrollLeft >= 0) {
@@ -50,4 +45,7 @@ const characterIndex = buildCharacterTimelineIndex( characterRegistry as Charact
 			row.scrollLeft = initialListing.offsetLeft - window.innerWidth + initialListing.offsetWidth * 1.75
 		}
 	</script>
+	<style is:global>
+		.character-filter-pending .listing-row { visibility: hidden; }
+	</style>
 </Layout>

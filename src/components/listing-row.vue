@@ -24,7 +24,9 @@
     </Teleport>
     <Teleport to="#listing-filter-controls">
         <div v-if="characterSelection.hasQuery" class="flex max-w-[min(90vw,40rem)] flex-wrap items-center gap-2 rounded-xl border border-white/25 bg-black/80 px-3 py-2 text-xs text-white backdrop-blur" aria-live="polite">
-            <span v-if="characterSelection.invalid">Filtro de personagem inválido.</span>
+            <span v-if="indexStatus === 'loading'">Carregando filtro de personagens...</span>
+            <span v-else-if="indexStatus === 'error'">Não foi possível carregar o filtro de personagens.</span>
+            <span v-else-if="characterSelection.invalid">Filtro de personagem inválido.</span>
             <template v-else>
                 <span>Personagens:</span>
                 <button v-for="id in characterSelection.ids" :key="id" type="button" class="rounded-full border border-white/40 px-2 py-1 hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white" :aria-label="`Remover ${characterIndex.entries[id].name} do filtro`" @click="removeCharacter(id)">
@@ -33,8 +35,8 @@
                 <span>{{ sortedListings.length }} {{ sortedListings.length === 1 ? 'título' : 'títulos' }}</span>
             </template>
             <button type="button" class="rounded-full bg-white px-2 py-1 font-semibold text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" @click="clearCharacters">Limpar filtro</button>
-            <span v-if="!characterSelection.invalid && sortedListings.length === 0">Nenhum título nesta listagem.</span>
-            <span class="w-full text-gray-300">Cobertura parcial: somente participações verificadas.</span>
+            <span v-if="indexStatus === 'ready' && !characterSelection.invalid && sortedListings.length === 0">Nenhum título nesta listagem.</span>
+            <span class="w-full text-gray-300">Cobertura parcial: vínculos entre obras aparecem quando confirmados.</span>
         </div>
     </Teleport>
     <Teleport to="#footer-controls">
@@ -175,10 +177,6 @@ export default defineComponent( {
             type: Boolean,
             default: false,
         },
-        characterIndex: {
-            type: Object as PropType<CharacterTimelineIndex>,
-            default: () => ( { entries: {} } ),
-        },
     },
     data () {
         return {
@@ -189,10 +187,15 @@ export default defineComponent( {
             categoryOptions,
             stateSaveFrame: 0,
             characterSelection: { hasQuery: false, ids: [], invalid: false } as CharacterSelection,
+            characterIndex: { entries: {} } as CharacterTimelineIndex,
+            indexStatus: 'idle' as 'idle' | 'loading' | 'ready' | 'error',
         }
     },
     mounted () {
-        this.characterSelection = parseCharacterSelection( window.location.search, this.characterIndex )
+        const hasCharacterQuery = new URLSearchParams( window.location.search ).has( 'personagem' )
+        this.characterSelection = hasCharacterQuery
+            ? { hasQuery: true, ids: [], invalid: false }
+            : parseCharacterSelection( window.location.search, this.characterIndex )
         let savedState: TimelineState | null = null
 
         if ( this.isGlobalList ) {
@@ -233,6 +236,9 @@ export default defineComponent( {
         this.expandedListingId = this.characterSelection.hasQuery ? null : savedState?.expandedListingId || null
         window.addEventListener( 'pagehide', this.saveState )
         window.addEventListener( 'popstate', this.syncCharacterSelectionFromUrl )
+        if ( hasCharacterQuery ) {
+            void this.syncCharacterSelectionFromUrl()
+        }
 
         this.$nextTick( () => {
             const row = this.$refs.row as HTMLElement | undefined
@@ -298,14 +304,38 @@ export default defineComponent( {
         },
     },
     methods: {
-        syncCharacterSelectionFromUrl (): void {
+        async syncCharacterSelectionFromUrl (): Promise<void> {
             const params = new URLSearchParams( window.location.search )
+            if ( params.has( 'personagem' ) && this.indexStatus !== 'ready' ) {
+                this.characterSelection = { hasQuery: true, ids: [], invalid: false }
+                this.indexStatus = 'loading'
+                try {
+                    const response = await fetch( '/character-index.json' )
+                    if ( !response.ok ) {
+                        throw new Error( `Character index HTTP ${ response.status }` )
+                    }
+                    this.characterIndex = await response.json() as CharacterTimelineIndex
+                    this.indexStatus = 'ready'
+                }
+                catch {
+                    this.indexStatus = 'error'
+                    this.characterSelection = { hasQuery: true, ids: [], invalid: true }
+                    this.revealListingRow()
+                    return
+                }
+            }
             this.characterSelection = parseCharacterSelection( window.location.search, this.characterIndex )
             const requestedCategory = params.get( 'view' )
             this.selectedCategory = categoryOptions.some( option => option.value === requestedCategory )
                 ? requestedCategory as ListingCategory : 'total'
             this.expandedListingId = null
-            this.$nextTick( () => this.scrollToFocusedListing( 'auto' ) )
+            this.$nextTick( () => {
+                this.revealListingRow()
+                this.scrollToFocusedListing( 'auto' )
+            } )
+        },
+        revealListingRow (): void {
+            document.documentElement.classList.remove( 'character-filter-pending' )
         },
         removeCharacter ( id: string ): void {
             const url = new URL( window.location.href )

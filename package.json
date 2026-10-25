@@ -21,6 +21,7 @@
         "deploy:worker-images": "wrangler deploy --config wrangler.image-spike.jsonc",
         "pull": "tsx scripts/pull.ts",
         "pull-characters": "node --import tsx scripts/pull-characters.ts",
+        "sync-character-links": "node --import tsx scripts/sync-character-links.ts",
         "pull-poster-palettes": "node --import tsx scripts/pull-poster-palettes.ts",
         "localize-listings": "node --import tsx scripts/localize-listings.ts",
         "consolidate-listings": "node --import tsx scripts/consolidate-listings.ts",

@@ -134,13 +134,13 @@ const featuredCharacterLinks = featuredCharacters.map( character => getCharacter
                     ? (
                         <ul class="character-list">
                             { featuredCharacters.map( ( character, index ) => (
-                                <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span>{ featuredCharacterLinks[ index ] ? <a class="character-link" href={ featuredCharacterLinks[ index ] } aria-label={ `Ver títulos com ${ character } na timeline` }>{ character }</a> : <span>{ character }</span> }</li>
+                                <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span>{ featuredCharacterLinks[ index ] ? <a class="character-link" href={ featuredCharacterLinks[ index ] } aria-label={ `Ver títulos associados a ${ character } na timeline` }>{ character }</a> : <span>{ character }</span> }</li>
                             ) ) }
                         </ul>
                     )
                     : <p class="characters-empty">Personagens ainda não confirmados para este título.</p>
                 }
-                { featuredCharacterLinks.some( Boolean ) && featuredCharacterLinks.some( link => !link ) && <p class="characters-empty">A navegação está disponível para personagens com participação verificada.</p> }
+                { featuredCharacterLinks.some( Boolean ) && featuredCharacterLinks.some( link => !link ) && <p class="characters-empty">Alguns personagens deste título ainda não têm vínculo na timeline.</p> }
             </section>
 
             <aside id="onde-assistir" class="detail-side" aria-labelledby="watch-title">

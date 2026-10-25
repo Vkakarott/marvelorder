@@ -22,6 +22,7 @@ export interface CharacterRegistry {
         versionId: string
         sourceKind: 'legacy_character_snapshot'
         sourceUrl: string
+        verificationUrl?: string
     }>
 }
 
@@ -37,6 +38,52 @@ export interface CharacterSelection {
     hasQuery: boolean
     ids: string[]
     invalid: boolean
+}
+
+export function extendCharacterRegistry (
+    registry: CharacterRegistry,
+    snapshot: CharacterSnapshot,
+    titleIds: string[],
+    createId: () => string,
+): CharacterRegistry {
+    validateCharacterRegistry( registry, snapshot )
+
+    const next: CharacterRegistry = {
+        version: 1,
+        characters: { ...registry.characters },
+        versions: { ...registry.versions },
+        participations: [ ...registry.participations ],
+    }
+    const existingRoles = new Set( next.participations.map( item => `${ item.titleId }\0${ item.rawName }` ) )
+
+    for ( const titleId of new Set( titleIds ) ) {
+        for ( const rawName of snapshot.titles[ titleId ]?.characters.slice( 0, 10 ) || [] ) {
+            const roleKey = `${ titleId }\0${ rawName }`
+
+            if ( existingRoles.has( roleKey ) ) {
+                continue
+            }
+
+            const characterId = `ch_${ createId() }`
+            const versionId = `ver_${ createId() }`
+            const participationId = `part_${ createId() }`
+
+            next.characters[ characterId ] = { name: rawName, scopeTitle: titleId, evidenceUrl: null }
+            next.versions[ versionId ] = { characterId, scopeTitle: titleId, continuity: null }
+            next.participations.push( {
+                id: participationId,
+                titleId,
+                rawName,
+                characterId,
+                versionId,
+                sourceKind: 'legacy_character_snapshot',
+                sourceUrl: `https://www.themoviedb.org/${ titleId.replace( ':', '/' ) }/cast`,
+            } )
+            existingRoles.add( roleKey )
+        }
+    }
+
+    return next
 }
 
 export function validateCharacterRegistry ( registry: CharacterRegistry, snapshot: CharacterSnapshot ) {
@@ -71,6 +118,9 @@ export function validateCharacterRegistry ( registry: CharacterRegistry, snapsho
         if ( participation.sourceKind !== 'legacy_character_snapshot'
             || participation.sourceUrl !== `https://www.themoviedb.org/${ participation.titleId.replace( ':', '/' ) }/cast` ) {
             throw new Error( `Invalid participation source: ${ participation.id }` )
+        }
+        if ( participation.verificationUrl && !participation.verificationUrl.startsWith( 'https://www.marvel.com/' ) ) {
+            throw new Error( `Invalid verification source: ${ participation.id }` )
         }
 
         participationIds.add( participation.id )
