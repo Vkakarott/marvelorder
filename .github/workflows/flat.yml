@@ -29,6 +29,8 @@ jobs:
         run: npm run pull-mcu-timeline-sheet
       - name: Pull TMDB data
         run: npm run pull
+      - name: Pull character credits
+        run: npm run pull-characters
       - name: Commit data changes
         run: |
           git add -A

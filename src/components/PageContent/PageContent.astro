@@ -2,7 +2,9 @@
 import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files'
 import { ensureMappedListing } from '~/src/helpers/node/listing'
 import { hasFanartLogo, isMcuSheetOrdered, isUpcoming } from '~/src/helpers/listing-filters'
+import { getCharactersForListing, type CharacterSnapshot } from '~/src/helpers/characters'
 import type { Listing } from '~/src/helpers/types'
+import characterSnapshot from '~/src/json/characters.json'
 
 import ListingLogo from '~/src/components/listing-logo.vue'
 import SeenButton from '~/src/components/seen-button.vue'
@@ -25,6 +27,9 @@ const daysUntilRelease = isUpcoming( mappedListing )
 const tmdbUrl = listing.id && ( isSeries || isMovie )
     ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
     : 'https://www.themoviedb.org/'
+const characters = getCharactersForListing( listing, characterSnapshot as CharacterSnapshot )
+const featuredCharacters = characters.slice( 0, 18 )
+const remainingCharacters = characters.slice( 18 )
 ---
 
 <article class="detail-page">
@@ -119,7 +124,30 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
     <div class="detail-content">
         <div class="detail-grid">
-            <div class="detail-reserved-space" aria-hidden="true"></div>
+            <section id="personagens" class="detail-characters" aria-labelledby="characters-title">
+                <p class="section-number">Universo Marvel</p>
+                <h2 id="characters-title">Personagens</h2>
+                <p class="characters-intro">Heróis, vilões e outros personagens presentes neste título.</p>
+
+                { characters.length > 0
+                    ? (
+                        <>
+                            <ul class="character-list">
+                                { featuredCharacters.map( character => <li>{ character }</li> ) }
+                            </ul>
+                            { remainingCharacters.length > 0 && (
+                                <details class="more-characters">
+                                    <summary>Ver todos os { characters.length } personagens</summary>
+                                    <ul class="character-list">
+                                        { remainingCharacters.map( character => <li>{ character }</li> ) }
+                                    </ul>
+                                </details>
+                            ) }
+                        </>
+                    )
+                    : <p class="characters-empty">Personagens ainda não confirmados para este título.</p>
+                }
+            </section>
 
             <aside id="onde-assistir" class="detail-side" aria-labelledby="watch-title">
                 <div class="detail-side-card">
@@ -134,6 +162,7 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
 
         <aside class="detail-credits" aria-label="Fontes dos dados">
             <span>Dados do título: <a href={ tmdbUrl } target="_blank" rel="noopener noreferrer">TMDB</a></span>
+            { characters.length > 0 && <span>Personagens: <a href={ tmdbUrl } target="_blank" rel="noopener noreferrer">TMDB</a></span> }
             { hasFanartLogo( listing ) && <span>Logo: <a href="https://fanart.tv/" target="_blank" rel="noopener noreferrer">Fanart.tv</a></span> }
             { isMcuSheetOrdered( listing ) && (
                 <span>Ordem cronológica: <a href="https://docs.google.com/spreadsheets/d/1Xfe--9Wshbb3ru0JplA2PnEwN7mVawazKmhWJjr_wKs/edit#gid=0" target="_blank" rel="noopener noreferrer">r/MarvelStudios MCU Viewing</a></span>
@@ -405,6 +434,52 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         border-radius: 1rem;
         background: rgba(255, 255, 255, 0.04);
     }
+    .detail-characters {
+        min-width: 0;
+    }
+    .detail-characters h2 {
+        margin: 0;
+        color: #fff;
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        font-weight: 900;
+        letter-spacing: -0.04em;
+    }
+    .characters-intro,
+    .characters-empty {
+        max-width: 55ch;
+        margin: 0.75rem 0 1.75rem;
+        color: #aeb8c8;
+        line-height: 1.6;
+    }
+    .character-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .character-list li {
+        padding: 0.65rem 0.85rem;
+        border: 1px solid rgba(251, 113, 133, 0.25);
+        border-radius: 0.7rem;
+        background: rgba(251, 113, 133, 0.08);
+        color: #fce7eb;
+        font-size: 0.9rem;
+        font-weight: 650;
+    }
+    .more-characters {
+        margin-top: 1.25rem;
+    }
+    .more-characters summary {
+        width: fit-content;
+        cursor: pointer;
+        color: #fda4af;
+        font-weight: 700;
+    }
+    .more-characters .character-list {
+        margin-top: 1rem;
+    }
     .detail-credits {
         display: flex;
         flex-wrap: wrap;
@@ -467,9 +542,6 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
         }
         .detail-grid {
             grid-template-columns: 1fr;
-        }
-        .detail-reserved-space {
-            display: none;
         }
     }
     @media (prefers-reduced-motion: reduce) {
