@@ -28,8 +28,9 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
     : 'https://www.themoviedb.org/'
 const characters = getCharactersForListing( listing, characterSnapshot as CharacterSnapshot )
-const featuredCharacters = characters.slice( 0, 6 )
-const remainingCharacters = characters.slice( 6 )
+const initialCharacterCount = 8
+const featuredCharacters = characters.slice( 0, initialCharacterCount )
+const remainingCharacters = characters.slice( initialCharacterCount )
 ---
 
 <article class="detail-page">
@@ -143,7 +144,7 @@ const remainingCharacters = characters.slice( 6 )
                                     </summary>
                                     <ul class="character-list">
                                         { remainingCharacters.map( ( character, index ) => (
-                                            <li><span class="character-rank" aria-hidden="true">{ String( index + 7 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
+                                            <li><span class="character-rank" aria-hidden="true">{ String( index + initialCharacterCount + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
                                         ) ) }
                                     </ul>
                                 </details>
