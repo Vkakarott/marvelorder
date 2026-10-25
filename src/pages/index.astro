@@ -6,6 +6,7 @@ import { getHomepageListings } from '~/src/helpers/node/homepage-listings'
 
 import Layout from '../layouts/HorizontalScroll.astro'
 import ListingRow from '../components/listing-row.vue'
+import { timelineStateStorageKey } from '~/src/helpers/timeline-state'
 
 export const prerender = true
 
@@ -22,10 +23,22 @@ const listings = await getHomepageListings()
 	/>
 	
   
-	<script is:inline>
+	<script is:inline define:vars={{ timelineStateStorageKey }}>
 		const initialListing = document.querySelector('.listing-card-initial')
-		// Trigger scroll to out upcoming listing here
-		// so that we don't have to wait for Vue to hydrate
-		document.querySelector('.listing-row').scrollLeft = initialListing.offsetLeft - window.innerWidth + initialListing.offsetWidth * 1.75
+		const row = document.querySelector('.listing-row')
+		let restoredPosition = null
+
+		try {
+			const savedState = JSON.parse(window.localStorage.getItem(timelineStateStorageKey) || 'null')
+			if (Number.isFinite(savedState?.scrollLeft) && savedState.scrollLeft >= 0) {
+				restoredPosition = savedState.scrollLeft
+			}
+		} catch {}
+
+		if (row && restoredPosition !== null) {
+			row.scrollLeft = restoredPosition
+		} else if (row && initialListing) {
+			row.scrollLeft = initialListing.offsetLeft - window.innerWidth + initialListing.offsetWidth * 1.75
+		}
 	</script>
 </Layout>

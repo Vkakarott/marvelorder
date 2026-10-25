@@ -47,8 +47,9 @@
                                     :src="listing.poster_path || listing.backdrop_path"
                                     :alt="title"
                                     class="relative max-h-64 max-w-full object-contain"
-                                    :sizes="[ 175, 350, 525 ]"
+                                    :sizes="[ 275, 550, 850 ]"
                                     display-sizes="175px"
+                                    :loading="imageLoading"
                                 />
                                 <h2
                                     v-else

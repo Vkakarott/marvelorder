@@ -4,6 +4,8 @@
         :src="smallestImage"
         :srcset="srcSet"
         :sizes="displaySizes"
+        :loading="loading"
+        :fetchpriority="loading === 'eager' ? 'high' : undefined"
         decoding="async"
         :alt="alt"
     >
@@ -43,6 +45,10 @@ export default defineComponent( {
         displaySizes: {
             type: String,
             default: '(max-width: 540px) 100vw, 540px',
+        },
+        loading: {
+            type: String as PropType<'eager' | 'lazy'>,
+            default: 'eager',
         },
     },
     computed: {

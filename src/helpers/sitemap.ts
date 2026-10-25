@@ -8,7 +8,9 @@ const excludedUrls = new Set( [
 // Fetch urls from a sitemap.xml file
 export async function fetchSitemapUrls ( sitemapUrl: string ): Promise<string[]> {
     const response = await fetch( sitemapUrl )
-    if ( !response.ok ) return []
+    if ( !response.ok ) {
+        return []
+    }
 
     const text = await response.text()
 

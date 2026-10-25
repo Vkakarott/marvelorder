@@ -51,6 +51,7 @@
             ref="row"
             class="listing-row flex overflow-x-auto overflow-y-hidden whitespace-no-wrap px-32"
             style="scroll-snap-type: x mandatory;"
+            @scroll.passive="scheduleStateSave"
         >
             <div class="start-cap w-full flex-shrink-0 max-w-xs snap-start" />
 
@@ -67,8 +68,8 @@
                     ]"
 
                     :expanded="expandedListingId === listing.elementId"
-                    @expand="expandedListingId = listing.elementId"
-                    @contract="expandedListingId = null"
+                    @expand="expandListing(listing)"
+                    @contract="contractListing"
                 />
             </template>
 
@@ -120,11 +121,18 @@ import {
 } from '~/src/helpers/listing-filters'
 import type { MappedListing } from '~/src/helpers/node/listing'
 import type { Listing } from '~/src/helpers/types'
+import {
+    parseTimelineState,
+    timelineStateStorageKey,
+    type TimelineCategory,
+    type TimelineSortMode,
+    type TimelineState,
+} from '~/src/helpers/timeline-state'
 
 type ListingLike = Listing | MappedListing
 type ActiveListingFilters = Array<[Function, boolean]>
-type SortMode = 'timeline' | 'release'
-type ListingCategory = 'total' | 'mcu' | 'movies' | 'series'
+type SortMode = TimelineSortMode
+type ListingCategory = TimelineCategory
 const sortStorageKey = 'cinearc:listing-order'
 const categoryOptions: Array<{ value: ListingCategory, label: string }> = [
     { value: 'total', label: 'Total' },
@@ -159,35 +167,79 @@ export default defineComponent( {
             sortMode: 'release' as SortMode,
             selectedCategory: 'total' as ListingCategory,
             categoryOptions,
+            stateSaveFrame: 0,
         }
     },
     mounted () {
-        if ( this.isGlobalList ) {
-            const requestedCategory = new URLSearchParams( window.location.search ).get( 'view' )
+        let savedState: TimelineState | null = null
 
-            if ( categoryOptions.some( option => option.value === requestedCategory ) ) {
+        if ( this.isGlobalList ) {
+            try {
+                savedState = parseTimelineState( window.localStorage.getItem( timelineStateStorageKey ) )
+            }
+            catch {
+                savedState = null
+            }
+        }
+
+        const requestedCategory = new URLSearchParams( window.location.search ).get( 'view' )
+        const hasRequestedCategory = categoryOptions.some( option => option.value === requestedCategory )
+
+        if ( this.isGlobalList ) {
+            if ( hasRequestedCategory ) {
                 this.selectedCategory = requestedCategory as ListingCategory
-                this.$nextTick( () => this.scrollToFocusedListing( 'auto' ) )
+            }
+            else if ( savedState ) {
+                this.selectedCategory = savedState.selectedCategory
+
+                if ( this.selectedCategory !== 'total' ) {
+                    const url = new URL( window.location.href )
+                    url.searchParams.set( 'view', this.selectedCategory )
+                    window.history.replaceState( window.history.state, '', url )
+                }
             }
         }
 
         try {
-            if ( window.localStorage.getItem( sortStorageKey ) === 'timeline' ) {
-                this.setSortMode( 'timeline', true )
-            }
+            this.sortMode = savedState?.sortMode
+                || ( window.localStorage.getItem( sortStorageKey ) === 'timeline' ? 'timeline' : 'release' )
         }
         catch {
-            // Browsers can disable local storage.
+            this.sortMode = savedState?.sortMode || 'release'
         }
+
+        this.expandedListingId = savedState?.expandedListingId || null
+        window.addEventListener( 'pagehide', this.saveState )
+
+        this.$nextTick( () => {
+            const row = this.$refs.row as HTMLElement | undefined
+
+            if ( savedState && ( !hasRequestedCategory || savedState.selectedCategory === this.selectedCategory ) && row ) {
+                row.scrollLeft = savedState.scrollLeft
+            }
+            else {
+                this.scrollToFocusedListing( 'auto' )
+            }
+        } )
+    },
+    beforeUnmount () {
+        window.removeEventListener( 'pagehide', this.saveState )
+        window.cancelAnimationFrame( this.stateSaveFrame )
     },
     computed: {
         filteredListings (): FilteredListings {
             const categoryFilters: ActiveListingFilters = []
 
             if ( this.isGlobalList ) {
-                if ( this.selectedCategory === 'mcu' ) categoryFilters.push( [ isMCU, true ] )
-                if ( this.selectedCategory === 'movies' ) categoryFilters.push( [ isMovie, true ] )
-                if ( this.selectedCategory === 'series' ) categoryFilters.push( [ isShow, true ] )
+                if ( this.selectedCategory === 'mcu' ) {
+                    categoryFilters.push( [ isMCU, true ] )
+                }
+                if ( this.selectedCategory === 'movies' ) {
+                    categoryFilters.push( [ isMovie, true ] )
+                }
+                if ( this.selectedCategory === 'series' ) {
+                    categoryFilters.push( [ isShow, true ] )
+                }
             }
 
             return new FilteredListings( {
@@ -221,7 +273,9 @@ export default defineComponent( {
     methods: {
         closeCategoryMenu (): void {
             const menu = this.$refs.categoryMenu as HTMLDetailsElement | undefined
-            if ( menu ) menu.open = false
+            if ( menu ) {
+                menu.open = false
+            }
         },
 
         selectCategory ( category: ListingCategory ): void {
@@ -229,8 +283,12 @@ export default defineComponent( {
 
             const url = new URL( window.location.href )
 
-            if ( category === 'total' ) url.searchParams.delete( 'view' )
-            else url.searchParams.set( 'view', category )
+            if ( category === 'total' ) {
+                url.searchParams.delete( 'view' )
+            }
+            else {
+                url.searchParams.set( 'view', category )
+            }
 
             if ( !this.isGlobalList ) {
                 window.location.assign( `/${ url.search }` )
@@ -239,10 +297,16 @@ export default defineComponent( {
 
             window.history.replaceState( null, '', url )
 
-            if ( this.selectedCategory === category ) return
+            if ( this.selectedCategory === category ) {
+                return
+            }
 
             this.selectedCategory = category
-            this.$nextTick( () => this.scrollToFocusedListing( 'smooth' ) )
+            this.expandedListingId = null
+            this.$nextTick( () => {
+                this.scrollToFocusedListing( 'smooth' )
+                this.saveState()
+            } )
         },
 
         scrollToFocusedListing ( behavior: ScrollBehavior ): void {
@@ -257,23 +321,69 @@ export default defineComponent( {
             }
         },
 
-        setSortMode ( mode: SortMode, restoring = false ): void {
+        setSortMode ( mode: SortMode ): void {
             if ( this.sortMode === mode ) {
                 return
             }
 
             this.sortMode = mode
 
-            if ( !restoring ) {
-                try {
-                    window.localStorage.setItem( sortStorageKey, mode )
-                }
-                catch {
-                    // Keep the control usable when storage is unavailable.
-                }
+            try {
+                window.localStorage.setItem( sortStorageKey, mode )
+            }
+            catch {
+                // Keep the control usable when storage is unavailable.
             }
 
-            this.$nextTick( () => this.scrollToFocusedListing( restoring ? 'auto' : 'smooth' ) )
+            this.$nextTick( () => {
+                this.scrollToFocusedListing( 'smooth' )
+                this.saveState()
+            } )
+        },
+
+        expandListing ( listing: MappedListing ): void {
+            this.expandedListingId = listing.elementId
+            this.saveState()
+        },
+
+        contractListing (): void {
+            this.expandedListingId = null
+            this.saveState()
+        },
+
+        scheduleStateSave (): void {
+            if ( !this.isGlobalList || this.stateSaveFrame ) {
+                return
+            }
+
+            this.stateSaveFrame = window.requestAnimationFrame( () => {
+                this.stateSaveFrame = 0
+                this.saveState()
+            } )
+        },
+
+        saveState (): void {
+            if ( !this.isGlobalList ) {
+                return
+            }
+
+            const row = this.$refs.row as HTMLElement | undefined
+
+            if ( !row ) {
+                return
+            }
+
+            try {
+                window.localStorage.setItem( timelineStateStorageKey, JSON.stringify( {
+                    scrollLeft: row.scrollLeft,
+                    sortMode: this.sortMode,
+                    selectedCategory: this.selectedCategory,
+                    expandedListingId: this.expandedListingId,
+                } satisfies TimelineState ) )
+            }
+            catch {
+                // Keep navigation usable when storage is unavailable.
+            }
         },
 
         isFocusedListing ( listing: MappedListing ): boolean {
