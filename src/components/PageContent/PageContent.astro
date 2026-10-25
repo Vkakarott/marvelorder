@@ -125,16 +125,14 @@ const remainingCharacters = characters.slice( 6 )
     <div class="detail-content">
         <div class="detail-grid">
             <section id="personagens" class="detail-characters" aria-labelledby="characters-title">
-                <p class="section-number">Universo Marvel</p>
-                <h2 id="characters-title">Personagens</h2>
-                <p class="characters-intro">Heróis, vilões e outros personagens presentes neste título.</p>
+                <h2 id="characters-title" class="section-number">Personagens</h2>
 
                 { characters.length > 0
                     ? (
                         <>
                             <ul class="character-list">
-                                { featuredCharacters.map( character => (
-                                    <li><span class="character-initial" aria-hidden="true">{ character.charAt( 0 ) }</span><span>{ character }</span></li>
+                                { featuredCharacters.map( ( character, index ) => (
+                                    <li><span class="character-rank" aria-hidden="true">{ String( index + 1 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
                                 ) ) }
                             </ul>
                             { remainingCharacters.length > 0 && (
@@ -144,8 +142,8 @@ const remainingCharacters = characters.slice( 6 )
                                         <span class="show-less-label">Ver menos</span>
                                     </summary>
                                     <ul class="character-list">
-                                        { remainingCharacters.map( character => (
-                                            <li><span class="character-initial" aria-hidden="true">{ character.charAt( 0 ) }</span><span>{ character }</span></li>
+                                        { remainingCharacters.map( ( character, index ) => (
+                                            <li><span class="character-rank" aria-hidden="true">{ String( index + 7 ).padStart( 2, '0' ) }</span><span>{ character }</span></li>
                                         ) ) }
                                     </ul>
                                 </details>
@@ -444,62 +442,48 @@ const remainingCharacters = characters.slice( 6 )
     .detail-characters {
         min-width: 0;
     }
-    .detail-characters h2 {
-        margin: 0;
-        color: #fff;
-        font-size: clamp(2rem, 3vw, 2.8rem);
-        font-weight: 900;
-        letter-spacing: -0.04em;
-    }
-    .characters-intro,
     .characters-empty {
         max-width: 55ch;
-        margin: 0.75rem 0 1.75rem;
+        margin: 0;
         color: #aeb8c8;
         line-height: 1.6;
     }
     .character-list {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.7rem;
+        column-gap: clamp(0.75rem, 2vw, 1.5rem);
         margin: 0;
         padding: 0;
         list-style: none;
     }
     .character-list li {
-        display: flex;
-        align-items: center;
-        gap: 0.65rem;
+        display: grid;
+        grid-template-columns: 2rem minmax(0, 1fr);
+        align-items: baseline;
+        gap: 0.4rem;
         min-width: 0;
-        min-height: 3.25rem;
-        padding: 0.5rem 0.7rem;
-        border: 1px solid rgba(251, 113, 133, 0.25);
-        border-radius: 0.7rem;
-        background: rgba(251, 113, 133, 0.08);
-        color: #fce7eb;
-        font-size: 0.85rem;
+        padding: 0.7rem 0.15rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        color: #e5e7eb;
+        font-size: 0.88rem;
         font-weight: 650;
-        line-height: 1.25;
+        line-height: 1.35;
         overflow-wrap: anywhere;
     }
-    .character-initial {
-        display: grid;
-        flex: 0 0 1.8rem;
-        width: 1.8rem;
-        height: 1.8rem;
-        place-items: center;
-        border-radius: 50%;
-        background: rgba(251, 113, 133, 0.12);
+    .character-rank {
         color: #fda4af;
-        font-size: 0.75rem;
+        font-size: 0.68rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
     }
     .more-characters {
-        margin-top: 1.25rem;
+        margin-top: 1rem;
     }
     .more-characters summary {
         width: fit-content;
         cursor: pointer;
         color: #fda4af;
+        font-size: 0.8rem;
         font-weight: 700;
     }
     .more-characters summary:focus-visible {
