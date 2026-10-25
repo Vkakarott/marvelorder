@@ -28,8 +28,8 @@ const tmdbUrl = listing.id && ( isSeries || isMovie )
     ? `https://www.themoviedb.org/${ isSeries ? 'tv' : 'movie' }/${ listing.id }`
     : 'https://www.themoviedb.org/'
 const characters = getCharactersForListing( listing, characterSnapshot as CharacterSnapshot )
-const featuredCharacters = characters.slice( 0, 18 )
-const remainingCharacters = characters.slice( 18 )
+const featuredCharacters = characters.slice( 0, 6 )
+const remainingCharacters = characters.slice( 6 )
 ---
 
 <article class="detail-page">
@@ -133,13 +133,20 @@ const remainingCharacters = characters.slice( 18 )
                     ? (
                         <>
                             <ul class="character-list">
-                                { featuredCharacters.map( character => <li>{ character }</li> ) }
+                                { featuredCharacters.map( character => (
+                                    <li><span class="character-initial" aria-hidden="true">{ character.charAt( 0 ) }</span><span>{ character }</span></li>
+                                ) ) }
                             </ul>
                             { remainingCharacters.length > 0 && (
                                 <details class="more-characters">
-                                    <summary>Ver todos os { characters.length } personagens</summary>
+                                    <summary>
+                                        <span class="show-more-label">Ver mais ({ remainingCharacters.length })</span>
+                                        <span class="show-less-label">Ver menos</span>
+                                    </summary>
                                     <ul class="character-list">
-                                        { remainingCharacters.map( character => <li>{ character }</li> ) }
+                                        { remainingCharacters.map( character => (
+                                            <li><span class="character-initial" aria-hidden="true">{ character.charAt( 0 ) }</span><span>{ character }</span></li>
+                                        ) ) }
                                     </ul>
                                 </details>
                             ) }
@@ -452,21 +459,39 @@ const remainingCharacters = characters.slice( 18 )
         line-height: 1.6;
     }
     .character-list {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 0.7rem;
         margin: 0;
         padding: 0;
         list-style: none;
     }
     .character-list li {
-        padding: 0.65rem 0.85rem;
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        min-width: 0;
+        min-height: 3.25rem;
+        padding: 0.5rem 0.7rem;
         border: 1px solid rgba(251, 113, 133, 0.25);
         border-radius: 0.7rem;
         background: rgba(251, 113, 133, 0.08);
         color: #fce7eb;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         font-weight: 650;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+    .character-initial {
+        display: grid;
+        flex: 0 0 1.8rem;
+        width: 1.8rem;
+        height: 1.8rem;
+        place-items: center;
+        border-radius: 50%;
+        background: rgba(251, 113, 133, 0.12);
+        color: #fda4af;
+        font-size: 0.75rem;
     }
     .more-characters {
         margin-top: 1.25rem;
@@ -476,6 +501,18 @@ const remainingCharacters = characters.slice( 18 )
         cursor: pointer;
         color: #fda4af;
         font-weight: 700;
+    }
+    .more-characters summary:focus-visible {
+        border-radius: 0.25rem;
+        outline: 2px solid #fda4af;
+        outline-offset: 4px;
+    }
+    .more-characters .show-less-label,
+    .more-characters[open] .show-more-label {
+        display: none;
+    }
+    .more-characters[open] .show-less-label {
+        display: inline;
     }
     .more-characters .character-list {
         margin-top: 1rem;
