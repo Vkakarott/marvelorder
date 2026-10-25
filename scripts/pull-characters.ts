@@ -144,6 +144,12 @@ async function main () {
         }
     }
 
+    const populatedCount = [ ...identities ].filter( identity => snapshot.titles[ identity ]?.characters.length ).length
+
+    if ( identities.size >= 20 && populatedCount / identities.size < 0.1 ) {
+        throw new Error( `Character coverage is unexpectedly low: ${ populatedCount }/${ identities.size }` )
+    }
+
     snapshot.titles = Object.fromEntries(
         Object.entries( snapshot.titles ).sort( ( [ left ], [ right ] ) => left.localeCompare( right ) ),
     )

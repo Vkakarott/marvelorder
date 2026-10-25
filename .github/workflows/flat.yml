@@ -2,12 +2,20 @@ name: Data Layering
 on:
   schedule:
     - cron: 0 0 * * *
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      characters_only:
+        description: Update character credits without pulling other data
+        type: boolean
+        default: false
   push:
     paths:
       - .github/workflows/flat.yml
 permissions:
   contents: write
+concurrency:
+  group: data-layering
+  cancel-in-progress: false
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -26,11 +34,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Pull MCU Timeline Sheet
+        if: ${{ inputs.characters_only != true }}
         run: npm run pull-mcu-timeline-sheet
       - name: Pull TMDB data
+        if: ${{ inputs.characters_only != true }}
         run: npm run pull
       - name: Pull character credits
         run: npm run pull-characters
+      - name: Validate data and build
+        run: npm run netlify-build
       - name: Commit data changes
         run: |
           git add -A
