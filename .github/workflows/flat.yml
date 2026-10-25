@@ -19,6 +19,8 @@ concurrency:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -27,12 +29,10 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
-      - name: Setup ENV Variables
-        # https://www.base64encode.org/
-        run: |
-          echo ${{ secrets.ACTIONS_ENV }} | base64 -d > ./.env
       - name: Install dependencies
         run: npm ci
+      - name: Check TMDB credentials
+        run: test -n "$TMDB_API_KEY"
       - name: Pull MCU Timeline Sheet
         if: ${{ inputs.characters_only != true }}
         run: npm run pull-mcu-timeline-sheet
