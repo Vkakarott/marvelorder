@@ -219,12 +219,12 @@ export default defineComponent( {
     transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
 }
 .offer-link span {
-    color: #fda4af;
+    color: var(--title-accent);
 }
 .offer-link:hover,
 .offer-link:focus-visible {
-    border-color: #fb7185;
-    background: rgba(251, 113, 133, 0.12);
+    border-color: var(--title-accent);
+    background: rgba(var(--title-accent-rgb), 0.12);
     color: #fff;
 }
 .watch-source {

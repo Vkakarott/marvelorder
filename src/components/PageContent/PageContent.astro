@@ -1,5 +1,4 @@
 ---
-import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files'
 import { ensureMappedListing } from '~/src/helpers/node/listing'
 import { hasFanartLogo, isMcuSheetOrdered, isUpcoming } from '~/src/helpers/listing-filters'
 import { getCharactersForListing, type CharacterSnapshot } from '~/src/helpers/characters'
@@ -11,7 +10,7 @@ import SeenButton from '~/src/components/seen-button.vue'
 import TmdbImage from '~/src/components/tmdb-image.vue'
 import WatchProviders from '~/src/components/watch-providers.vue'
 
-const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing
+const { listing } = Astro.props as { listing: Listing }
 const mappedListing = ensureMappedListing( listing )
 const title = listing.localized_title || listing.title || listing.name || 'Título sem nome'
 const isSeries = listing.type === 'tv' || listing.media_type === 'tv' || listing.tags?.includes( 'tv' )
@@ -173,7 +172,7 @@ const featuredCharacters = characters.slice( 0, 10 )
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
-        background: radial-gradient(circle at 80% 35%, #442039 0, #11172b 38%, #070912 78%);
+        background: radial-gradient(circle at 80% 35%, rgba(var(--title-accent-rgb), 0.28) 0, #11172b 38%, #070912 78%);
     }
     .hero-atmosphere {
         position: absolute;
@@ -250,19 +249,19 @@ const featuredCharacters = characters.slice( 0, 10 )
         width: 3px;
         height: 3px;
         border-radius: 50%;
-        background: #fb7185;
+        background: var(--title-accent);
     }
     .rating-star {
-        color: #fb7185;
+        color: var(--title-accent);
     }
     .hero-upcoming {
         width: fit-content;
         margin-top: 1.5rem;
         padding: 0.45rem 0.7rem;
-        border: 1px solid rgba(251, 113, 133, 0.55);
+        border: 1px solid rgba(var(--title-accent-rgb), 0.55);
         border-radius: 0.5rem;
-        background: rgba(136, 19, 55, 0.25);
-        color: #fecdd3;
+        background: rgba(var(--title-accent-rgb), 0.1);
+        color: var(--title-accent-hover);
         font-size: 0.8rem;
         font-weight: 800;
     }
@@ -292,16 +291,16 @@ const featuredCharacters = characters.slice( 0, 10 )
         min-height: 3rem;
         padding: 0.7rem 1.15rem;
         border-radius: 0.6rem;
-        background: #fb7185;
-        color: #190b12;
+        background: var(--title-accent);
+        color: var(--title-accent-text);
         font-weight: 800;
         text-decoration: none;
         transition: transform 180ms ease, background 180ms ease;
     }
     .hero-primary-action:hover {
         transform: translateY(-2px);
-        background: #fda4af;
-        color: #190b12;
+        background: var(--title-accent-hover);
+        color: var(--title-accent-text);
     }
     .hero-actions :global(button) {
         min-height: 3rem;
@@ -329,7 +328,7 @@ const featuredCharacters = characters.slice( 0, 10 )
     .visual-orbit::after {
         position: absolute;
         inset: 12%;
-        border: 1px solid rgba(251, 113, 133, 0.26);
+        border: 1px solid rgba(var(--title-accent-rgb), 0.26);
         border-radius: 50%;
         content: '';
     }
@@ -338,7 +337,7 @@ const featuredCharacters = characters.slice( 0, 10 )
         width: 75%;
         aspect-ratio: 1;
         border-radius: 50%;
-        background: #f43f5e;
+        background: var(--title-accent);
         filter: blur(100px);
         opacity: 0.23;
     }
@@ -350,7 +349,7 @@ const featuredCharacters = characters.slice( 0, 10 )
         border: 1px solid rgba(255, 255, 255, 0.28);
         border-radius: 1rem;
         background: #111827;
-        box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.6), 0 0 4rem rgba(251, 113, 133, 0.18);
+        box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.6), 0 0 4rem rgba(var(--title-accent-rgb), 0.18);
     }
     .poster-frame {
         width: min(72%, 24rem);
@@ -376,7 +375,7 @@ const featuredCharacters = characters.slice( 0, 10 )
         place-items: center;
         border: 1px solid rgba(255, 255, 255, 0.22);
         border-radius: 1rem;
-        background: linear-gradient(145deg, #2a1830, #0d1222);
+        background: linear-gradient(145deg, rgba(var(--title-accent-rgb), 0.2), #0d1222);
         color: rgba(255, 255, 255, 0.75);
         font-size: 12rem;
         font-weight: 900;
@@ -411,7 +410,7 @@ const featuredCharacters = characters.slice( 0, 10 )
     }
     .section-number {
         margin: 0 0 1.25rem;
-        color: #fb7185;
+        color: var(--title-accent);
         font-size: 0.7rem;
         font-weight: 800;
         letter-spacing: 0.14em;
@@ -455,7 +454,7 @@ const featuredCharacters = characters.slice( 0, 10 )
         overflow-wrap: anywhere;
     }
     .character-rank {
-        color: #fda4af;
+        color: var(--title-accent);
         font-size: 0.68rem;
         font-weight: 800;
         letter-spacing: 0.04em;

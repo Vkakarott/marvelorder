@@ -7,11 +7,18 @@ import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer/Footer.astro';
 import PageContent from '../components/PageContent/PageContent.astro';
 import BackLink from '../components/BackLink.astro';
+import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files';
+import { getPosterPalette, type PosterPaletteSnapshot } from '~/src/helpers/poster-palette';
+import type { Listing } from '~/src/helpers/types';
+import posterPaletteSnapshot from '~/src/json/poster-palettes.json';
 import { expandImagePathPlaceholders } from '../helpers/image-paths';
 import * as CONFIG from '../config';
 
 const rawContent = expandImagePathPlaceholders( Astro.props.content ?? {} );
 const content = { ...rawContent, title: rawContent.localized_title || rawContent.title };
+const listing = await getSingleListingFromUrl( Astro.url.href ) as Listing;
+const posterPalette = getPosterPalette( listing.poster_path, posterPaletteSnapshot as PosterPaletteSnapshot );
+const paletteStyle = `--title-accent: ${ posterPalette.accent }; --title-accent-hover: ${ posterPalette.hover }; --title-accent-rgb: ${ posterPalette.rgb }; --title-accent-text: ${ posterPalette.buttonText }`;
 ---
 
 <html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'pt-BR'} class="initial">
@@ -65,7 +72,7 @@ const content = { ...rawContent, title: rawContent.localized_title || rawContent
 		</style>
 	</head>
 
-	<body class="main-layout theme-dark">
+	<body class="main-layout theme-dark" style={paletteStyle}>
 		<Header />
 		<header class="detail-header">
 			<a class="detail-brand" href="/" aria-label="CineArc - página inicial">
@@ -74,7 +81,7 @@ const content = { ...rawContent, title: rawContent.localized_title || rawContent
 			<BackLink href="/" />
 		</header>
 		<main id="main-content" class="detail-main">
-			<PageContent />
+			<PageContent {listing} />
 		</main>
 
 		<Footer />

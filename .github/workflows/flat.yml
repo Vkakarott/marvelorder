@@ -30,6 +30,8 @@ jobs:
         run: npm run pull
       - name: Pull character credits
         run: npm run pull-characters
+      - name: Pull poster palettes
+        run: npm run pull-poster-palettes
       - name: Validate data and build
         run: npm run netlify-build
       - name: Commit data changes
