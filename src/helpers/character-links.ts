@@ -4,6 +4,7 @@ import type { Listing } from './types.ts'
 
 export interface CharacterRegistry {
     version: 1
+    redirects?: Record<string, string>
     characters: Record<string, {
         name: string
         scopeTitle: string | null
@@ -50,6 +51,7 @@ export function extendCharacterRegistry (
 
     const next: CharacterRegistry = {
         version: 1,
+        ...( registry.redirects ? { redirects: { ...registry.redirects } } : {} ),
         characters: { ...registry.characters },
         versions: { ...registry.versions },
         participations: [ ...registry.participations ],
@@ -126,6 +128,16 @@ export function validateCharacterRegistry ( registry: CharacterRegistry, snapsho
         participationIds.add( participation.id )
         titleRoles.add( titleRole )
     }
+
+    for ( const [ previousId, canonicalId ] of Object.entries( registry.redirects || {} ) ) {
+        if ( !/^(ch|ver)_[0-9a-f-]{36}$/.test( previousId )
+            || !( registry.characters[ canonicalId ] || registry.versions[ canonicalId ] )
+            || registry.characters[ previousId ]
+            || registry.versions[ previousId ]
+            || previousId === canonicalId ) {
+            throw new Error( `Invalid character redirect: ${ previousId }` )
+        }
+    }
 }
 
 export function buildCharacterTimelineIndex (
@@ -161,6 +173,12 @@ export function buildCharacterTimelineIndex (
         const version = registry.versions[ id ]
         const character = registry.characters[ version.characterId ]
         entries[ id ] = { name: character.name, scopeTitle: version.scopeTitle, titleIds: [ ...titles ].sort() }
+    }
+
+    for ( const [ previousId, canonicalId ] of Object.entries( registry.redirects || {} ) ) {
+        if ( entries[ canonicalId ] ) {
+            entries[ previousId ] = entries[ canonicalId ]
+        }
     }
 
     return { entries }

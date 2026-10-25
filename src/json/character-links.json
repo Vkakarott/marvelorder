@@ -3008,8 +3008,8 @@
     },
     "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd": {
       "name": "Thor",
-      "scopeTitle": "movie:10195",
-      "evidenceUrl": null
+      "scopeTitle": null,
+      "evidenceUrl": "https://www.marvel.com/characters/thor-thor-odinson/on-screen"
     },
     "ch_74cd1d49-8385-4829-8c52-e41b9208c200": {
       "name": "Jane Foster",
@@ -3323,11 +3323,6 @@
     },
     "ch_f5f13443-3e99-47f3-8bbf-9b358b5a1c2e": {
       "name": "Bruce Banner / The Hulk",
-      "scopeTitle": "movie:24428",
-      "evidenceUrl": null
-    },
-    "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e": {
-      "name": "Thor",
       "scopeTitle": "movie:24428",
       "evidenceUrl": null
     },
@@ -3659,11 +3654,6 @@
     "ch_73d627b5-fb9b-4493-bcc9-558111d3fe09": {
       "name": "Agent Johnson",
       "scopeTitle": "movie:211387",
-      "evidenceUrl": null
-    },
-    "ch_18f100df-39b1-4627-8db8-5db09a92ea03": {
-      "name": "Thor",
-      "scopeTitle": "movie:76338",
       "evidenceUrl": null
     },
     "ch_131ba3e0-dfd4-4990-b1a5-c521d17560a2": {
@@ -4159,11 +4149,6 @@
     "ch_e825b762-257e-47fd-9247-994d62ff612b": {
       "name": "Blake Tower",
       "scopeTitle": "tv:61889",
-      "evidenceUrl": null
-    },
-    "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6": {
-      "name": "Thor",
-      "scopeTitle": "movie:99861",
       "evidenceUrl": null
     },
     "ch_a05932e5-421f-4049-a1cd-474a36eea02b": {
@@ -5086,11 +5071,6 @@
       "scopeTitle": "tv:69629",
       "evidenceUrl": null
     },
-    "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b": {
-      "name": "Thor",
-      "scopeTitle": "movie:284053",
-      "evidenceUrl": null
-    },
     "ch_bf9eced0-cff5-44ee-8e3b-f9a2185cc019": {
       "name": "Bruce Banner / Hulk",
       "scopeTitle": "movie:284053",
@@ -5313,11 +5293,6 @@
     },
     "ch_95fbd98d-3c27-49e2-b722-9d708a96cf37": {
       "name": "Steve Rogers / Captain America",
-      "scopeTitle": "movie:299536",
-      "evidenceUrl": null
-    },
-    "ch_a1c86449-c793-4576-80df-ff197fe14521": {
-      "name": "Thor",
       "scopeTitle": "movie:299536",
       "evidenceUrl": null
     },
@@ -5778,11 +5753,6 @@
     },
     "ch_d82b3766-e326-4db5-884d-48be24505346": {
       "name": "Bruce Banner / Hulk",
-      "scopeTitle": "movie:299534",
-      "evidenceUrl": null
-    },
-    "ch_5991bc37-faf1-4580-a858-d8339efd05b3": {
-      "name": "Thor",
       "scopeTitle": "movie:299534",
       "evidenceUrl": null
     },
@@ -6814,11 +6784,6 @@
     "ch_9d9f6fbd-0b42-4b60-8203-f8c3b44b236e": {
       "name": "Agent Deever",
       "scopeTitle": "tv:92782",
-      "evidenceUrl": null
-    },
-    "ch_c9995423-94f8-4580-b022-9447c4667eeb": {
-      "name": "Thor",
-      "scopeTitle": "movie:616037",
       "evidenceUrl": null
     },
     "ch_cceec926-f768-48b1-bfa0-3806df0f45e1": {
@@ -11500,8 +11465,8 @@
     },
     "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2": {
       "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-      "scopeTitle": "movie:10195",
-      "continuity": null
+      "scopeTitle": null,
+      "continuity": "mcu-main"
     },
     "ver_c0d9532a-50c2-4a0e-afbf-23fccaf96b16": {
       "characterId": "ch_74cd1d49-8385-4829-8c52-e41b9208c200",
@@ -11815,11 +11780,6 @@
     },
     "ver_8f72bd78-2648-4cf4-b01f-9eda571becc1": {
       "characterId": "ch_f5f13443-3e99-47f3-8bbf-9b358b5a1c2e",
-      "scopeTitle": "movie:24428",
-      "continuity": null
-    },
-    "ver_2aac6df5-933d-4233-a62c-9679ddc40f5c": {
-      "characterId": "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e",
       "scopeTitle": "movie:24428",
       "continuity": null
     },
@@ -12151,11 +12111,6 @@
     "ver_0764e7cc-f6ad-4133-8f1e-b53d671c6603": {
       "characterId": "ch_73d627b5-fb9b-4493-bcc9-558111d3fe09",
       "scopeTitle": "movie:211387",
-      "continuity": null
-    },
-    "ver_abd4e56c-b247-46f7-aba5-4d65fa4fb373": {
-      "characterId": "ch_18f100df-39b1-4627-8db8-5db09a92ea03",
-      "scopeTitle": "movie:76338",
       "continuity": null
     },
     "ver_9b934e9c-7e1d-4ea4-8943-e5ee83030286": {
@@ -12651,11 +12606,6 @@
     "ver_6d2842f3-74b9-40f6-a9f3-09c2c81511bf": {
       "characterId": "ch_e825b762-257e-47fd-9247-994d62ff612b",
       "scopeTitle": "tv:61889",
-      "continuity": null
-    },
-    "ver_eb81f2fb-0f47-4cd3-96d0-84ceb010fa53": {
-      "characterId": "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6",
-      "scopeTitle": "movie:99861",
       "continuity": null
     },
     "ver_e7021052-1dcf-4088-b788-5f9ef6754933": {
@@ -13578,11 +13528,6 @@
       "scopeTitle": "tv:69629",
       "continuity": null
     },
-    "ver_d171d451-8a91-4885-acb6-8e1a706a20da": {
-      "characterId": "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b",
-      "scopeTitle": "movie:284053",
-      "continuity": null
-    },
     "ver_0fcead77-253d-47e0-b01f-cbcdd97f3df1": {
       "characterId": "ch_bf9eced0-cff5-44ee-8e3b-f9a2185cc019",
       "scopeTitle": "movie:284053",
@@ -13805,11 +13750,6 @@
     },
     "ver_31490dcf-3906-4dfe-a2d9-8639c6c11b6f": {
       "characterId": "ch_95fbd98d-3c27-49e2-b722-9d708a96cf37",
-      "scopeTitle": "movie:299536",
-      "continuity": null
-    },
-    "ver_75053204-3c88-48f3-86b3-3cdaeef41d00": {
-      "characterId": "ch_a1c86449-c793-4576-80df-ff197fe14521",
       "scopeTitle": "movie:299536",
       "continuity": null
     },
@@ -14270,11 +14210,6 @@
     },
     "ver_2561780d-4bc1-4ef6-a309-99e1689cff0d": {
       "characterId": "ch_d82b3766-e326-4db5-884d-48be24505346",
-      "scopeTitle": "movie:299534",
-      "continuity": null
-    },
-    "ver_c53ea199-7c4a-4cac-8197-2f4e2dbcb3ed": {
-      "characterId": "ch_5991bc37-faf1-4580-a858-d8339efd05b3",
       "scopeTitle": "movie:299534",
       "continuity": null
     },
@@ -15306,11 +15241,6 @@
     "ver_8e84c37b-78ef-41b5-b822-caf964bddb79": {
       "characterId": "ch_9d9f6fbd-0b42-4b60-8203-f8c3b44b236e",
       "scopeTitle": "tv:92782",
-      "continuity": null
-    },
-    "ver_d5fdc1f8-6954-48c4-9e27-ad92a2a2383d": {
-      "characterId": "ch_c9995423-94f8-4580-b022-9447c4667eeb",
-      "scopeTitle": "movie:616037",
       "continuity": null
     },
     "ver_ba5d1a74-eacb-4ce3-ad73-ce02d2e4ded7": {
@@ -23002,8 +22932,8 @@
       "id": "part_9a7c2ce3-b1f1-4068-bef9-c68ccc61a0df",
       "titleId": "movie:24428",
       "rawName": "Thor",
-      "characterId": "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e",
-      "versionId": "ver_2aac6df5-933d-4233-a62c-9679ddc40f5c",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/24428/cast"
     },
@@ -23605,8 +23535,8 @@
       "id": "part_28f8bc10-20c6-44d4-998a-1230a3291137",
       "titleId": "movie:76338",
       "rawName": "Thor",
-      "characterId": "ch_18f100df-39b1-4627-8db8-5db09a92ea03",
-      "versionId": "ver_abd4e56c-b247-46f7-aba5-4d65fa4fb373",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/76338/cast"
     },
@@ -24515,8 +24445,8 @@
       "id": "part_b4f41717-a77b-4f47-bec8-1f9afdb60303",
       "titleId": "movie:99861",
       "rawName": "Thor",
-      "characterId": "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6",
-      "versionId": "ver_eb81f2fb-0f47-4cd3-96d0-84ceb010fa53",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/99861/cast"
     },
@@ -26180,8 +26110,8 @@
       "id": "part_6945d50e-f891-40da-be44-435182465f61",
       "titleId": "movie:284053",
       "rawName": "Thor",
-      "characterId": "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b",
-      "versionId": "ver_d171d451-8a91-4885-acb6-8e1a706a20da",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/284053/cast"
     },
@@ -26604,8 +26534,8 @@
       "id": "part_3101f764-3ad5-4158-87d3-08e64a0524f7",
       "titleId": "movie:299536",
       "rawName": "Thor",
-      "characterId": "ch_a1c86449-c793-4576-80df-ff197fe14521",
-      "versionId": "ver_75053204-3c88-48f3-86b3-3cdaeef41d00",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/299536/cast"
     },
@@ -27441,8 +27371,8 @@
       "id": "part_5d741339-543c-42df-a09d-f71738fe7d63",
       "titleId": "movie:299534",
       "rawName": "Thor",
-      "characterId": "ch_5991bc37-faf1-4580-a858-d8339efd05b3",
-      "versionId": "ver_c53ea199-7c4a-4cac-8197-2f4e2dbcb3ed",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/299534/cast"
     },
@@ -29304,8 +29234,8 @@
       "id": "part_db2a9920-5d6a-4662-a0ea-fc12f603eb29",
       "titleId": "movie:616037",
       "rawName": "Thor",
-      "characterId": "ch_c9995423-94f8-4580-b022-9447c4667eeb",
-      "versionId": "ver_d5fdc1f8-6954-48c4-9e27-ad92a2a2383d",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/616037/cast"
     },
@@ -32314,6 +32244,32 @@
       "versionId": "ver_ae853735-f52a-44be-9bea-6d05e1247d30",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/1293690/cast"
+    },
+    {
+      "id": "part_b0476602-f708-4e9d-808e-37654150ad87",
+      "titleId": "movie:284052",
+      "rawName": "Thor",
+      "characterId": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+      "versionId": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/284052/cast",
+      "verificationUrl": "https://www.marvel.com/movies/doctor-strange"
     }
-  ]
+  ],
+  "redirects": {
+    "ch_18f100df-39b1-4627-8db8-5db09a92ea03": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_abd4e56c-b247-46f7-aba5-4d65fa4fb373": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_d171d451-8a91-4885-acb6-8e1a706a20da": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_c9995423-94f8-4580-b022-9447c4667eeb": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_d5fdc1f8-6954-48c4-9e27-ad92a2a2383d": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_2aac6df5-933d-4233-a62c-9679ddc40f5c": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_eb81f2fb-0f47-4cd3-96d0-84ceb010fa53": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_a1c86449-c793-4576-80df-ff197fe14521": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_75053204-3c88-48f3-86b3-3cdaeef41d00": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_5991bc37-faf1-4580-a858-d8339efd05b3": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_c53ea199-7c4a-4cac-8197-2f4e2dbcb3ed": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2"
+  }
 }

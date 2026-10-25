@@ -46,6 +46,29 @@ describe( 'character timeline links', () => {
         expect( getCharacterLink( 'movie:24428', 'Tony Stark / Iron Man', registry ) ).toBe( `/?personagem=${ tony.characterId }` )
     } )
 
+    it( 'shows the same verified MCU Thor titles from Thor and Ragnarok', async () => {
+        const homepage = await getHomepageListings()
+        const homepageIndex = buildCharacterTimelineIndex( registry, snapshot, homepage )
+        const expected = [ 10195, 76338, 284053, 616037, 24428, 99861, 299536, 299534, 284052 ]
+        const links = [ 'movie:10195', 'movie:284053', 'movie:616037' ].map( titleId => getCharacterLink( titleId, 'Thor', registry ) )
+
+        expect( new Set( links ).size ).toBe( 1 )
+        expect( links[ 0 ] ).toMatch( /^\/\?personagem=ch_/ )
+
+        for ( const link of links ) {
+            const selected = parseCharacterSelection( new URL( link!, 'https://example.com' ).search, homepageIndex )
+            const actual = filterListingsByCharacters( homepage, selected, homepageIndex ).map( title => title.id )
+            expect( actual.sort( ( a, b ) => a - b ) ).toEqual( [ ...expected ].sort( ( a, b ) => a - b ) )
+        }
+
+        const oldRagnarokId = 'ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b'
+        expect( homepageIndex.entries[ oldRagnarokId ].titleIds ).toEqual( homepageIndex.entries[ new URL( links[ 0 ]!, 'https://example.com' ).searchParams.get( 'personagem' )! ].titleIds )
+        expect( getCharacterLink( 'movie:616037', 'Jane Foster / The Mighty Thor', registry ) ).not.toBe( links[ 0 ] )
+        expect( getCharacterLink( 'movie:284053', 'Actor Thor', registry ) ).not.toBe( links[ 0 ] )
+        expect( getCharacterLink( 'movie:26881', 'Thor', registry ) ).not.toBe( links[ 0 ] )
+        expect( getCharacterLink( 'tv:91363', 'Thor', registry ) ).not.toBe( links[ 0 ] )
+    } )
+
     it( 'supports multiple characters, ignores duplicate query values and deduplicates season cards', () => {
         const spider = registry.participations.find( item => item.titleId === 'tv:888' )!
         const tony = registry.participations.find( item => item.titleId === 'movie:1726' && item.rawName.includes( 'Tony Stark' ) )!
