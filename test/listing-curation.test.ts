@@ -51,8 +51,9 @@ function makeListingFile ( frontmatter: string, id: number, tags: string[] ) {
 describe( 'decideAutoDraft', () => {
     const catalog = readCatalog()
 
-    test( 'never touches the 22 existing drafts, new or not', () => {
-        const drafts = catalog.filter( ( { frontmatter } ) => frontmatter.draft === true )
+    test( 'never touches the 22 owner drafts, new or not', () => {
+        // Drafts without autoDraft are the owner's own; tool-made ones carry a reason
+        const drafts = catalog.filter( ( { frontmatter } ) => frontmatter.draft === true && !frontmatter.autoDraft )
 
         expect( drafts ).toHaveLength( 22 )
 
@@ -109,16 +110,28 @@ describe( 'addDraftToMarkdown', () => {
 } )
 
 describe( 'applySuppressions and draftGoneListings', () => {
-    test( 'applies the list to the real catalog once and stays idempotent', async () => {
+    test( 'drafts every suppressed id in the real catalog and stays idempotent', async () => {
         const files = new Map( readCatalog().map( ( { path, markdown } ) => [ path, markdown ] ) )
+        files.set( 'synthetic.md', makeListingFile( 'title: "LEGO Marvel Avengers: Strange Tails"\n', 305165, [ 'tv' ] ) )
         const io = makeMemoryIO( files )
 
         const first = await applySuppressions( { io, matter: codec, suppressions } )
         const second = await applySuppressions( { io, matter: codec, suppressions } )
+        const suppressedIdentities = new Set( suppressions.map( entry => entry.identity ) )
 
-        expect( first.length ).toBeGreaterThan( 0 )
+        expect( first ).toContain( 'synthetic.md' )
         expect( second ).toEqual( [] )
-        expect( first.every( path => /-(\d+)\.md$/.test( path ) ) ).toBe( true )
+
+        for ( const [ path, markdown ] of files ) {
+            const { listing, frontmatter } = path === 'synthetic.md'
+                ? { listing: { id: 305165, tags: [ 'tv' ] }, frontmatter: matter( markdown ).data }
+                : getDataFromListingContents( { markdown, matter } )
+            const identity = `${ listing.tags?.includes( 'tv' ) ? 'tv' : 'movie' }:${ listing.id }`
+
+            if ( suppressedIdentities.has( identity ) ) {
+                expect( frontmatter.draft, path ).toBe( true )
+            }
+        }
     } )
 
     test( 'marks gone ids as draft, keeps the file and skips explicit choices', async () => {
