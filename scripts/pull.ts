@@ -39,6 +39,7 @@ import { persistListingRedirects } from '../src/helpers/listing-redirects.ts'
 import { decideAutoDraft, type Suppression } from '../src/helpers/listing-curation.ts'
 import { applySuppressions, draftGoneListings } from '../src/helpers/listing-curation-files.ts'
 import { checkRegressionBudget } from '../src/helpers/regression-budget.ts'
+import { pickIdentitiesToCheck, recordChecks, type ExistenceCache } from '../src/helpers/orphan-sweep.ts'
 import suppressionFile from '../src/json/listing-suppressions.json' with { type: 'json' }
 
 // https://github.com/RebeccaStevens/deepmerge-ts/blob/beae8b841561bd206150ef02fe10db94856c6e45/docs/deepmergeCustom.md
@@ -712,6 +713,35 @@ async function draftGoneListingFiles ( report: any ) {
     console.log( `TMDB 404 confirmed for ${ [ ...goneIdentities ].join( ', ' ) || 'no ids' }; drafted ${ drafted.length } files.` )
 }
 
+// Listing files that discovery no longer returns are probed in small batches,
+// so old broken ids are drafted over time without a burst of API calls.
+const maxOrphanChecks = getNumberEnv( 'MAX_ORPHAN_CHECKS', 20 )
+const orphanRefreshDays = getNumberEnv( 'ORPHAN_REFRESH_DAYS', 30 )
+const existenceCachePath = `${ storePath }/tmdb-existence.json`
+
+async function readExistenceCache (): Promise<ExistenceCache> {
+    return ( await exists( existenceCachePath ) ) ? JSON.parse( await readFile( existenceCachePath, 'utf8' ) ) : {}
+}
+
+async function sweepOrphanListingFiles ( nextListings: any[] ) {
+    const entries = await readListingEntries( listingStoreIO, matter )
+    const cache = await readExistenceCache()
+    const today = new Date().toISOString().slice( 0, 10 )
+    const listed = new Set( nextListings.map( ( listing: any ) => getListingIdentity( listing ) as string ) )
+    const batch = pickIdentitiesToCheck( entries, listed, cache, { today, limit: maxOrphanChecks, refreshDays: orphanRefreshDays } )
+    const results = new Map<string, boolean>()
+
+    for ( const identity of batch ) {
+        results.set( identity, await isTmdbRecordGone( identity ) )
+    }
+
+    const goneIdentities = new Set( [ ...results ].filter( ( [ , gone ] ) => gone ).map( ( [ identity ] ) => identity ) )
+    const drafted = await draftGoneListings( { io: listingStoreIO, matter, goneIdentities } )
+
+    await writeJSON( existenceCachePath, recordChecks( cache, results, today ) )
+    console.log( `Orphan sweep checked ${ batch.length } files, ${ goneIdentities.size } gone, drafted ${ drafted.length }.` )
+}
+
 function assertWithinRegressionBudget ( report: any ) {
     const result = checkRegressionBudget( report.counts, {
         maxMissingRatio: getNumberEnv( 'MAX_MISSING_RATIO', 0.25 ),
@@ -763,6 +793,8 @@ function assertWithinRegressionBudget ( report: any ) {
     console.log( `Applied the suppression list to ${ suppressed.length } files.` )
 
     await draftGoneListingFiles( tmdbRegressionReport )
+
+    await sweepOrphanListingFiles( sortedListings )
 
     console.log('Pull complete.')
 
