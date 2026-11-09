@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'The Marvel Action Hour: Fantastic Four'
 slug: the-marvel-action-hour-fantastic-four
 description: "The Marvel Action Hour, mais tarde Marvel Action Universe, foi um bloco de televisão sindicado de 1994-1996 da Genesis Entertainment apresentando adaptações animadas da Marvel Comics."

@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "extra-lego"
 title: 'LEGO Marvel Avengers: Mission Demolition'
 slug: lego-marvel-avengers-mission-demolition
 description: "Um jovem aspirante a herói e fã de superheróis liberta acidentalmente um poderoso novo vilão, que deseja livrar o mundo dos Vingadores."

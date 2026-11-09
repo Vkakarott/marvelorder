@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Agents of S.H.I.E.L.D.: Academy'
 slug: agents-of-shield-academy
 description: "Três Agentes da S.H.I.E.L.D. os fãs, Noelle Mabry, Frank Moran e Ralph Lammie Jr., competem em diversos desafios relacionados à série de TV para ganhar uma participação em sua terceira temporada. Os três competidores apareceram mais tarde como S.H.I.E.L.D. agentes em \"Absolution\", a primeira parte do final da 3ª temporada em duas partes de Agents of SHIELD."
