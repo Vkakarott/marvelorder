@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The Scarlet Witch
 slug: the-scarlet-witch
 description: "O retorno de Wanda Maximoff, também conhecida como Feiticeira Escarlate. Trama a definir."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: I Am Groot
 slug: i-am-groot
 description: "Uma série de curtas apresentando a muda Groot junto com vários personagens novos e inusitados."

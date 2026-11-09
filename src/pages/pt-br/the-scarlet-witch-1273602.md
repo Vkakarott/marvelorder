@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: The Scarlet Witch
 slug: the-scarlet-witch
 description: "Um filme solo de 'Feiticeira Escarlate' está supostamente nos primeiros trabalhos no Marvel Studios."

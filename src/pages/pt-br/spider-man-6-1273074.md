@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Spider-Man 6
 slug: spider-man-6
 description: "O terceiro filme da trilogia planejada do Homem-Aranha de Tom Holland."

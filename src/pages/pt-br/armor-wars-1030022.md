@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Armor Wars
 slug: armor-wars
 description: "James Rhodes, também conhecido como War Machine, enfrenta as consequências do pior medo de Tony Stark se tornar realidade: o que acontece quando sua tecnologia cai em mãos erradas?"

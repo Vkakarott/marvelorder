@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Deadpool''s Maximum Reactions: Korg and Deadpool'
 slug: deadpools-maximum-reactions-korg-and-deadpool
 description: ''

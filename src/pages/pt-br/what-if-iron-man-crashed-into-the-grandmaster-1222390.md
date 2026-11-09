@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If... Iron Man Crashed Into the Grandmaster?
 slug: what-if-iron-man-crashed-into-the-grandmaster
 description: "Tony Stark desafia o Grande Mestre, levando a uma partida mortal de Grande Prêmio que virou derby de demolição."

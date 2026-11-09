@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Mephisto
 slug: mephisto
 description: "Um especial de Halloween da Disney+ centrado em Mephisto da Marvel Comics."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Stark Expo Shorts
 slug: stark-expo-shorts
 description: "Stark Expo Shorts é uma série de vídeos curtos lançados pela Stark Industries para promover a Stark Expo, um evento que apresenta os mais recentes avanços tecnológicos. A série consiste em cinco episódios, cada um com duração aproximada de 1 minuto, e foi ao ar pela primeira vez em 30 de março de 2010."

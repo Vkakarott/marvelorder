@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Doctor Strange 3
 slug: doctor-strange-3
 description: Rumores de sequência de Doutor Estranho no Multiverso da Loucura.

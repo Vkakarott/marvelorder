@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Deadpool''s Maximum Reactions: Korg and Deadpool'
 slug: deadpools-maximum-reactions-korg-and-deadpool
 description: "Deadpool e Korg reagem ao trailer de Free Guy."

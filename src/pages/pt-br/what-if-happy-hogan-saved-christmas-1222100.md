@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If... Happy Hogan Saved Christmas?
 slug: what-if-happy-hogan-saved-christmas
 description: "Happy Hogan se propõe a provar seu talento como herói quando Justin Hammer sitia a Torre dos Vingadores durante a festa anual de Natal."

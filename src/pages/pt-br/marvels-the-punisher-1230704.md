@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Marvel's The Punisher
 slug: marvels-the-punisher
 description: "Um ex-fuzileiro naval que pretende punir os criminosos responsáveis ​​pelo assassinato de sua família se vê envolvido em uma conspiração militar."

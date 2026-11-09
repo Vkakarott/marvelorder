@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Astonishing X-Men: Gifted'
 slug: astonishing-x-men-gifted
 description: "Ciclope e Emma Frost reformam os X-Men com o propósito expresso de “surpreender” o mundo. Mas quando as últimas notícias sobre uma cura para o gene mutante chegam inesperadamente às ondas do rádio, isso atrapalhará seus novos planos antes mesmo de começarem?"

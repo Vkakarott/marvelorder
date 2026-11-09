@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Untitled Shang-Chi and the Legend of the Ten Rings Sequel
 slug: untitled-shang-chi-and-the-legend-of-the-ten-rings-sequel
 description: "A sequência do filme de 2021. Trama a definir."

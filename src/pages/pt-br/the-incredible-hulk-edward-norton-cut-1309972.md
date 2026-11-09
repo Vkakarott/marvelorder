@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The Incredible Hulk: Edward Norton Cut'
 slug: the-incredible-hulk-edward-norton-cut
 description: "O cientista Bruce Banner (Edward Norton) busca desesperadamente uma cura para a radiação gama que contaminou suas células e o transformou no Hulk. Separado de seu verdadeiro amor, Betty Ross (Liv Tyler), e forçado a se esconder de seu inimigo, o general Thunderbolt Ross (William Hurt), Banner logo se depara com uma nova ameaça: um inimigo extremamente poderoso conhecido como A Abominação (Tim Roth)."

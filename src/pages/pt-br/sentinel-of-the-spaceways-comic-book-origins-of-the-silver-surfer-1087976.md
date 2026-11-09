@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Sentinel of the Spaceways: Comic Book Origins of the Silver Surfer'
 slug: sentinel-of-the-spaceways-comic-book-origins-of-the-silver-surfer
 description: "Neste documentário, o criador do Quarteto Fantástico, Stan Lee, o escritor/artista Jim Starlin e os escritores Ron Marz, Steve Englehart e JM DeMatteis examinam o início do Surfista nos quadrinhos e acompanham seu desenvolvimento ao longo dos anos."

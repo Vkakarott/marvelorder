@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'No Way Home: The More Fun Stuff Version'
 slug: no-way-home-the-more-fun-stuff-version
 description: "Os três homens-aranha retornam nesta versão estendida mais divertida de Homem-Aranha: No Way Home."

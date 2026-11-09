@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Werewolf By Night In Color
 slug: werewolf-by-night-in-color
 description: ''

@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Are You My Groot?
 slug: are-you-my-groot
 description: "Groot tropeça em um ovo estranho em um ninho enquanto explora o planeta alienígena Terma. Ele instantaneamente se apaixona pela pequena criatura que surge quando o ovo quebra, adotando-a como sua."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Peter Parker's Diary/Vlog
 slug: peter-parkers-diaryvlog
 description: "A versão estendida do vlog do Peter Parker, também conhecido como Homem-Aranha. A versão original tocada no final do filme Homecoming."

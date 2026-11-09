@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The Young Avengers
 slug: the-young-avengers
 description: "Um filme de ‘Jovens Vingadores’ está supostamente em desenvolvimento no Marvel Studios."

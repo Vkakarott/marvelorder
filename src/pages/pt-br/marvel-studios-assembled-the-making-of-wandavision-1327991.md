@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Marvel Studios: Assembled: The Making of WandaVision'
 slug: marvel-studios-assembled-the-making-of-wandavision
 description: ''

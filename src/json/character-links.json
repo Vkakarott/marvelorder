@@ -8526,6 +8526,56 @@
       "name": "Shaun / Shang-Chi",
       "scopeTitle": "movie:1737233",
       "evidenceUrl": null
+    },
+    "ch_f9ae38f6-d997-416f-bd9b-2413e1e35285": {
+      "name": "Christine Everhart",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_232c241a-c4c7-4401-96b7-a213a09d383a": {
+      "name": "Will Adams",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_d6d2ce52-6b9e-4170-9c40-b09e107d7a5b": {
+      "name": "Steve Rogers / Captain America",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_a9663d1a-aec5-42cf-b658-bb89aa9fd26d": {
+      "name": "Scott Lang",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_81899835-637d-4ebe-921d-9057a8f46bdb": {
+      "name": "Natasha Romanoff / Black Widow",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_823e9891-63c2-4f73-9c82-1647d67d8b01": {
+      "name": "President Ellis",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_c9df265c-5acd-474b-9c91-0fa28a5d9471": {
+      "name": "Darren Cross",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_ba518514-7c42-40d8-8977-f7fa52bef4f5": {
+      "name": "Clint Barton / Hawkeye",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_a59d3981-754e-4873-b80b-8d1504115b0c": {
+      "name": "Jackson Norris",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
+    },
+    "ch_148bd1b5-1968-46d2-b4d8-98e9fa11d2ea": {
+      "name": "Brock Rumlow / Crossbones",
+      "scopeTitle": "tv:69069",
+      "evidenceUrl": null
     }
   },
   "versions": {
@@ -17037,6 +17087,56 @@
     "ver_1cca4b52-24e9-4261-ba57-ec5bf3ee8fec": {
       "characterId": "ch_fcfc9182-bd64-49fb-86e3-22405074178b",
       "scopeTitle": "movie:1737233",
+      "continuity": null
+    },
+    "ver_25aa0328-61e2-45a3-879d-c6beaf60e745": {
+      "characterId": "ch_f9ae38f6-d997-416f-bd9b-2413e1e35285",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_981dd28c-3256-4764-b075-c08bad7e146c": {
+      "characterId": "ch_232c241a-c4c7-4401-96b7-a213a09d383a",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_92ba9eec-58d1-44d9-a645-89820b045f1f": {
+      "characterId": "ch_d6d2ce52-6b9e-4170-9c40-b09e107d7a5b",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_880abc17-21b5-4e3c-9cba-9e8f080ed9eb": {
+      "characterId": "ch_a9663d1a-aec5-42cf-b658-bb89aa9fd26d",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_2c43352a-902d-4356-b533-865c12be229c": {
+      "characterId": "ch_81899835-637d-4ebe-921d-9057a8f46bdb",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_71321537-6bde-4c20-b1dd-7e54f263e746": {
+      "characterId": "ch_823e9891-63c2-4f73-9c82-1647d67d8b01",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_548abdb1-7ff2-43a5-8723-074d46512737": {
+      "characterId": "ch_c9df265c-5acd-474b-9c91-0fa28a5d9471",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_1719bb8b-85df-48ed-9d04-9a7091fa7d34": {
+      "characterId": "ch_ba518514-7c42-40d8-8977-f7fa52bef4f5",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_0051edf4-7f94-4c15-87cc-29d21750d5d1": {
+      "characterId": "ch_a59d3981-754e-4873-b80b-8d1504115b0c",
+      "scopeTitle": "tv:69069",
+      "continuity": null
+    },
+    "ver_8ff41dcd-4453-4e43-9bad-6cc390f13798": {
+      "characterId": "ch_148bd1b5-1968-46d2-b4d8-98e9fa11d2ea",
+      "scopeTitle": "tv:69069",
       "continuity": null
     }
   },
@@ -32479,6 +32579,96 @@
       "versionId": "ver_1cca4b52-24e9-4261-ba57-ec5bf3ee8fec",
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/1737233/cast"
+    },
+    {
+      "id": "part_15a7d67d-20e8-45af-a128-887354fc1010",
+      "titleId": "tv:69069",
+      "rawName": "Christine Everhart",
+      "characterId": "ch_f9ae38f6-d997-416f-bd9b-2413e1e35285",
+      "versionId": "ver_25aa0328-61e2-45a3-879d-c6beaf60e745",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_d1b18366-f303-43ad-8e28-275b95a6d130",
+      "titleId": "tv:69069",
+      "rawName": "Will Adams",
+      "characterId": "ch_232c241a-c4c7-4401-96b7-a213a09d383a",
+      "versionId": "ver_981dd28c-3256-4764-b075-c08bad7e146c",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_2c7ee245-b7c1-4185-92d4-9980b69000df",
+      "titleId": "tv:69069",
+      "rawName": "Steve Rogers / Captain America",
+      "characterId": "ch_d6d2ce52-6b9e-4170-9c40-b09e107d7a5b",
+      "versionId": "ver_92ba9eec-58d1-44d9-a645-89820b045f1f",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_f500b69b-94cf-4144-8a5e-9a0cf93178ab",
+      "titleId": "tv:69069",
+      "rawName": "Scott Lang",
+      "characterId": "ch_a9663d1a-aec5-42cf-b658-bb89aa9fd26d",
+      "versionId": "ver_880abc17-21b5-4e3c-9cba-9e8f080ed9eb",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_e5fb038d-9cef-4cdf-a509-ebdbb0a8c19e",
+      "titleId": "tv:69069",
+      "rawName": "Natasha Romanoff / Black Widow",
+      "characterId": "ch_81899835-637d-4ebe-921d-9057a8f46bdb",
+      "versionId": "ver_2c43352a-902d-4356-b533-865c12be229c",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_7c7d3fec-4e8f-458c-8579-0d671e1afcbc",
+      "titleId": "tv:69069",
+      "rawName": "President Ellis",
+      "characterId": "ch_823e9891-63c2-4f73-9c82-1647d67d8b01",
+      "versionId": "ver_71321537-6bde-4c20-b1dd-7e54f263e746",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_b7761702-2ca9-4315-9215-cc4faebfd79a",
+      "titleId": "tv:69069",
+      "rawName": "Darren Cross",
+      "characterId": "ch_c9df265c-5acd-474b-9c91-0fa28a5d9471",
+      "versionId": "ver_548abdb1-7ff2-43a5-8723-074d46512737",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_baa8a2d2-3c79-41e2-8567-c49c05ad24b2",
+      "titleId": "tv:69069",
+      "rawName": "Clint Barton / Hawkeye",
+      "characterId": "ch_ba518514-7c42-40d8-8977-f7fa52bef4f5",
+      "versionId": "ver_1719bb8b-85df-48ed-9d04-9a7091fa7d34",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_473d5370-ca71-41a8-acb4-6dbbdb2b3353",
+      "titleId": "tv:69069",
+      "rawName": "Jackson Norris",
+      "characterId": "ch_a59d3981-754e-4873-b80b-8d1504115b0c",
+      "versionId": "ver_0051edf4-7f94-4c15-87cc-29d21750d5d1",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
+    },
+    {
+      "id": "part_fd58d28f-e9ec-40c1-a5dd-baa482d05893",
+      "titleId": "tv:69069",
+      "rawName": "Brock Rumlow / Crossbones",
+      "characterId": "ch_148bd1b5-1968-46d2-b4d8-98e9fa11d2ea",
+      "versionId": "ver_8ff41dcd-4453-4e43-9bad-6cc390f13798",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/69069/cast"
     }
   ]
 }

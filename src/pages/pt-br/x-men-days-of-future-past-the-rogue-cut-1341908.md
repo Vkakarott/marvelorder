@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'X-Men: Days of Future Past - The Rogue Cut'
 slug: x-men-days-of-future-past-the-rogue-cut
 description: "The X-Men: Days of Future Past Rogue Cut inclui uma versão estendida e nunca antes vista do filme e quase 2 horas de todos os novos recursos especiais, bem como a versão teatral."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If... Captain Carter Fought the Hydra Stomper?
 slug: what-if-captain-carter-fought-the-hydra-stomper
 description: "A missão da Capitã Carter para salvar Steve Rogers a coloca em rota de colisão com novos inimigos."

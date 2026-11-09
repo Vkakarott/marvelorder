@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Groot Noses Around
 slug: groot-noses-around
 description: "Quando Groot adquire o sentido do olfato, ele aprende rapidamente a não enfiar seu novo nariz onde ele não pertence."

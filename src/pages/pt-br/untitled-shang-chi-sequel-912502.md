@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Untitled Shang-Chi Sequel
 slug: untitled-shang-chi-sequel
 description: "Sequela do filme de 2021 “Shang-Chi e a Lenda dos Dez Anéis”."

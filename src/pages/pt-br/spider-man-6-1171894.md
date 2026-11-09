@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Spider-Man 6
 slug: spider-man-6
 description: ''

@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Marvel Super Heroes 4D
 slug: marvel-super-heroes-4d
 description: "Em reconhecimento pelo seu histórico de realizações notáveis, os bravos combatentes do crime – Capitão América, Homem-Aranha, Homem de Ferro, Wolverine, Hulk e Sra. Marvel – estão a caminho do Palácio de Buckingham para receber prêmios de Sua Majestade a Rainha Elizabeth II. Em vez disso, surge um mega-vilão furtivo do passado e, através do seu invencível robô de batalha, ele começa a causar estragos. Agora, cabe aos poderosos defensores deter o malvado megalomaníaco rancoroso. Os super-heróis da Marvel conseguirão salvar Londres?"

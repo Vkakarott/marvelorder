@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Marvel's Iron Fist
 slug: marvels-iron-fist
 description: "Danny Rand ressurge 15 anos depois de ser dado como morto. Agora, com o poder do Punho de Ferro, ele procura recuperar o seu passado e cumprir o seu destino."

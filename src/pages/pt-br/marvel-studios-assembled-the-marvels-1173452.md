@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'Marvel Studios Assembled: The Marvels'
 slug: marvel-studios-assembled-the-marvels
 description: "A produção de As Maravilhas (2023)"

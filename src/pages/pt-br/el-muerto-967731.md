@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: El Muerto
 slug: el-muerto
 description: "Um lutador ganha superforça graças a uma máscara mística que é transmitida a toda a sua família."

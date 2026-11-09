@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If... Peter Quill Attacked Earth's Mightiest Heroes?
 slug: what-if-peter-quill-attacked-earths-mightiest-heroes
 description: "Quando Ego e o jovem Peter Quill atacam a Terra em 1988, Howard Stark e Peggy Carter formam uma equipe para detê-los."

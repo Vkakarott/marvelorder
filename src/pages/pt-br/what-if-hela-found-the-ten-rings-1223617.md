@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If... Hela Found the Ten Rings?
 slug: what-if-hela-found-the-ten-rings
 description: "Hela – destituída de seus poderes e banida para a Terra – encontra uma nova fonte de poder: os Dez Anéis."

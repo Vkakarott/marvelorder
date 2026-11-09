@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Spider Woman
 slug: spider-woman
 description: "Um spin-off da trilogia de versos de aranha que se concentra principalmente nas personagens Gwen Stacy, Jessica Drew e Cindy Moon"

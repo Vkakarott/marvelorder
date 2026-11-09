@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: X-Men Collection
 slug: x-men-collection
 description: "X-Men é uma série de filmes de super-heróis americana baseada na equipe de super-heróis de mesmo nome da Marvel Comics. Este universo da 20th Century Fox começou com X-Men (2000) e deve terminar com Deadpool 3 (2024), onde fará a transição para o MCU."

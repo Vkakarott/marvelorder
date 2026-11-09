@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The Punisher: Dirty Laundry'
 slug: the-punisher-dirty-laundry
 description: "Em um bairro ruim, a caminho de uma lavanderia para lavar roupa, Frank Castle testemunha uma cruel gangue de rua assediando várias pessoas."

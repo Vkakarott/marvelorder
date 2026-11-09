@@ -1,4 +1,5 @@
 ---
+draft: false
 title: MCU Collection
 slug: mcu-collection
 description: "O Universo Cinematográfico Marvel é uma franquia de mídia americana e universo compartilhado centrado em uma série de filmes de super-heróis produzidos pela Marvel Studios."

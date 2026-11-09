@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'ASSEMBLED: The Making of What If...?'
 slug: assembled-the-making-of-what-if
 description: "ASSEMBLED explora o processo criativo por trás desta série animada inventiva e alucinante."

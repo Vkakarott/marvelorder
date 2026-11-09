@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: 'X-Men: Days of Future Past - The Rogue Cut'
 slug: x-men-days-of-future-past-the-rogue-cut
 description: ''

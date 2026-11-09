@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Werewolf By Night in Color
 slug: werewolf-by-night-in-color
 description: "Agora apresentado em cores, \"Werewolf by Night in Color\" da Marvel Studios se passa em uma noite escura e sombria, enquanto uma conspiração secreta de caçadores de monstros emerge das sombras e se reúne no agourento Templo de Bloodstone após a morte de seu líder. Num estranho e macabro memorial à vida do líder, os participantes são lançados numa competição mortal por uma poderosa relíquia."

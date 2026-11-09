@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Doctor Strange 3
 slug: doctor-strange-3
 description: "Uma conclusão da trilogia Doctor Strange no Universo Cinematográfico Marvel, confirmada em andamento no Marvel Studios."

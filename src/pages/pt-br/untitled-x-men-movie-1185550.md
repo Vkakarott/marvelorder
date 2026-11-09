@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Untitled X-Men movie
 slug: untitled-x-men-movie
 description: "A Marvel Studios iniciou oficialmente o desenvolvimento de um filme ‘X-MEN’, com os escritores começando a se encontrar neste outono."

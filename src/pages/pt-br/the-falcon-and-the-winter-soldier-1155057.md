@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The Falcon and the Winter Soldier
 slug: the-falcon-and-the-winter-soldier
 description: "Após os eventos de 'Vingadores: Ultimato', Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura global que testa suas habilidades – e sua paciência. Esta é uma edição de fã que transforma a série em um longa-metragem."

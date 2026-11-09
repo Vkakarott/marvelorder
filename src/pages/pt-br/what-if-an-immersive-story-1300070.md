@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What If...? – An Immersive Story
 slug: what-if-an-immersive-story
 description: "Você foi escolhido! Entre nas possibilidades ilimitadas de What If…? universo nesta imersiva história Disney+ Original exclusivamente no Apple Vision Pro, onde você será recrutado pelo The Watcher para ajudar a capturar vilões multiversais que se desviaram de seu destino e o apelidaram de Herói do Multiverso, sendo transportados para mundos diferentes. Fique cara a cara com variantes de seus personagens favoritos e aprenda a aproveitar o poder das Pedras do Infinito. Mas,…tudo pode não ser tudo o que parece."

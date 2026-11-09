@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Marvel's Daredevil
 slug: marvels-daredevil
 description: "O advogado Matt Murdock usa seus sentidos aguçados por ter ficado cego quando menino para combater o crime à noite nas ruas de Hell's Kitchen como o Demolidor."

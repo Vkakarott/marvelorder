@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Doctor Strange 3
 slug: doctor-strange-3
 description: "Foi noticiado que Sam Raimi retornará para dirigir o terceiro filme da trilogia ‘Doutor Estranho’ no MCU."

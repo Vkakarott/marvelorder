@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Logan Noir
 slug: logan-noir
 description: "Em um futuro onde os mutantes estão quase extintos, um Logan idoso e cansado leva uma vida tranquila. Mas quando Laura, uma criança mutante perseguida por cientistas, pede ajuda a ele, ele deve levá-la para um lugar seguro."

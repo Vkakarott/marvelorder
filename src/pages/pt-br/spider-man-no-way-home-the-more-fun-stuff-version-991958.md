@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Spider-Man No Way Home: The More Fun Stuff Version'
 slug: spider-man-no-way-home-the-more-fun-stuff-version
 description: "Uma versão estendida de ‘Homem-Aranha: No Way Home’ com até 15 minutos de conteúdo adicionado!"

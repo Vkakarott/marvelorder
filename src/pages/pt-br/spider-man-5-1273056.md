@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Spider-Man 5
 slug: spider-man-5
 description: "O segundo filme da trilogia planejada do Homem-Aranha de Tom Holland."

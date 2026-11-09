@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: WHIH Newsfront
 slug: whih-newsfront
 description: "WHIH Newsfront é uma falsa série digital americana de atualidades que serve como centro de várias campanhas de marketing viral para os estúdios da Marvel. Baseados na rede de televisão fictícia WHIH World News que aparece em todo o Universo Cinematográfico Marvel (MCU), os vídeos do YouTube começaram como marketing para o filme Homem-Formiga e tratam de grandes eventos retratados nos filmes e séries de televisão do MCU. Os vídeos foram criados pela Marvel Studios em parceria com o Google."

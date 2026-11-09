@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Untitled X-Men Movie
 slug: untitled-x-men-movie
 description: "Ambientado no Universo Cinematográfico Marvel (MCU) e baseado nos personagens da Marvel Comics de mesmo nome."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Untitled Sentry Special
 slug: untitled-sentry-special
 description: "Uma apresentação especial do Marvel Studios adaptando o super-herói da Marvel Comics, Sentinela."

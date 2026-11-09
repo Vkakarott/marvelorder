@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: The Mutants
 slug: the-mutants
 description: "O suposto título do primeiro filme centrado em mutantes da Marvel Studios."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Champions
 slug: champions
 description: "Um próximo programa de TV ambientado no Universo Cinematográfico Marvel (MCU) baseado na equipe de mesmo nome da Marvel Comics. Trama a definir."

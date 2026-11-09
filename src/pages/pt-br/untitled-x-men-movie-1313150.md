@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Untitled X-Men Movie
 slug: untitled-x-men-movie
 description: "Um filme de ação ao vivo da Marvel Studios baseado em histórias em quadrinhos populares publicadas pela Marvel Comics."

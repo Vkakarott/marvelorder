@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Marvel''s Agents of S.H.I.E.L.D.: Double Agent'
 slug: marvels-agents-of-shield-double-agent
 description: "Temos um Agente Duplo e ele se uniu à Lexus para divulgar material confidencial do próximo episódio. Veja o que o Agente Duplo da Marvel descobriu neste primeiro webisódio.\n\nHá um agente duplo no conjunto de Agentes da S.H.I.E.L.D. (2013). Reportando-se a um misterioso Mastermind, ele foge da segurança e reúne informações confidenciais para as legiões de fãs que estão sempre ansiosos pelas próximas notícias emocionantes da Marvel."

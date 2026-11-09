@@ -1,4 +1,6 @@
 ---
+draft: true
+autoDraft: "tmdb-404"
 title: Marvel's Luke Cage
 slug: marvels-luke-cage
 description: "Com superforça e durabilidade graças a um experimento sabotado, um homem injustamente acusado escapa da prisão para se tornar um super-herói de aluguel."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Deadpool and Korg React
 slug: deadpool-and-korg-react
 description: "Deadpool e Korg reagem ao trailer de Free Guy."
