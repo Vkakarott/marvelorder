@@ -39,7 +39,7 @@ import { persistListingRedirects } from '../src/helpers/listing-redirects.ts'
 import { decideAutoDraft, type Suppression } from '../src/helpers/listing-curation.ts'
 import { applySuppressions, draftGoneListings } from '../src/helpers/listing-curation-files.ts'
 import { checkRegressionBudget } from '../src/helpers/regression-budget.ts'
-import { pickIdentitiesToCheck, recordChecks, type ExistenceCache } from '../src/helpers/orphan-sweep.ts'
+import { hasKnownMediaType, pickIdentitiesToCheck, recordChecks, type ExistenceCache } from '../src/helpers/orphan-sweep.ts'
 import suppressionFile from '../src/json/listing-suppressions.json' with { type: 'json' }
 
 // https://github.com/RebeccaStevens/deepmerge-ts/blob/beae8b841561bd206150ef02fe10db94856c6e45/docs/deepmergeCustom.md
@@ -624,6 +624,11 @@ const listingStoreIO = {
 
 async function isTmdbRecordGone ( identity: string ) {
     const [ type, id ] = identity.split( ':' )
+
+    // Without a known media type a 404 proves nothing
+    if ( !hasKnownMediaType( identity ) ) {
+        return false
+    }
 
     try {
         await tmdbGet( `https://api.themoviedb.org/3/${ type }/${ id }`, { params: { api_key: process.env.TMDB_API_KEY } } )

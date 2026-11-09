@@ -25,6 +25,12 @@ describe( 'pickIdentitiesToCheck', () => {
         expect( pickIdentitiesToCheck( entries, new Set( [ 'tv:1' ] ), {}, { ...options, limit: 10 } ) ).toEqual( [ 'tv:2' ] )
     } )
 
+    test( 'never probes an identity without a media type', () => {
+        const entry: ListingFileEntry = { path: '9.md', frontmatter: {}, tmdbSection: '', tmdb: { id: 9 } }
+
+        expect( pickIdentitiesToCheck( [ entry ], new Set(), {}, options ) ).toEqual( [] )
+    } )
+
     test( 'limits the batch and probes never-checked files before old checks', () => {
         const cache: ExistenceCache = { 'tv:1': { checkedAt: '2026-08-01', gone: false } }
         const entries = [ makeEntry( 1 ), makeEntry( 2 ), makeEntry( 3 ) ]

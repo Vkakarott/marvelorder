@@ -32,11 +32,16 @@ function isStale ( record: ExistenceRecord | undefined, options: SweepOptions ):
     return !Number.isFinite( ageMs ) || ageMs >= options.refreshDays * DAY_MS
 }
 
+// An identity without a media type can't be probed: /3/unknown/<id> always 404s.
+export function hasKnownMediaType ( identity: string ): boolean {
+    return identity.startsWith( 'movie:' ) || identity.startsWith( 'tv:' )
+}
+
 // Files with any explicit draft are already hidden, so they are never probed.
 function isCandidate ( entry: ListingFileEntry, listed: Set<string> ): boolean {
     const identity = getEntryIdentity( entry )
 
-    return identity !== null && !listed.has( identity ) && entry.frontmatter.draft === undefined
+    return identity !== null && hasKnownMediaType( identity ) && !listed.has( identity ) && entry.frontmatter.draft === undefined
 }
 
 export function pickIdentitiesToCheck (
