@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
-import { parseSheetRecords } from '~/src/helpers/node/mcu-timeline-sheet.ts'
+import { parseSheetRecords, summarizeTextBody } from '~/src/helpers/node/mcu-timeline-sheet.ts'
 
 describe( 'parseSheetRecords', () => {
     test( 'rejects a response without records', () => {
@@ -15,6 +15,17 @@ describe( 'parseSheetRecords', () => {
     test( 'rejects non-object bodies', () => {
         expect( parseSheetRecords( '<html>login</html>' ).ok ).toBe( false )
         expect( parseSheetRecords( null ).ok ).toBe( false )
+    } )
+
+    test( 'explains an Apps Script error page', () => {
+        const page = '<!DOCTYPE html><html><head><title>Erro</title><script>var a = 1</script></head><body><div>Execution failed. The Rhino runtime is deprecated and no longer supported.</div></body></html>'
+        const result = parseSheetRecords( page )
+
+        expect( summarizeTextBody( page ) ).toBe( 'Erro Execution failed. The Rhino runtime is deprecated and no longer supported.' )
+        expect( result ).toEqual( {
+            ok: false,
+            reason: 'response is text instead of JSON: "Erro Execution failed. The Rhino runtime is deprecated and no longer supported."',
+        } )
     } )
 
     test( 'rejects records that are not an array or are empty', () => {

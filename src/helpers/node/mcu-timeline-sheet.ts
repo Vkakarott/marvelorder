@@ -127,12 +127,27 @@ function cleanSheetRecord ( record: MCUTimelineSheetRecord, recordIndex: number 
     return Object.fromEntries( cleanedEntries ) as unknown as MCUTimelineSheetRecord
 }
 
+// Apps Script reports failures as an HTML page; surface its visible message.
+export function summarizeTextBody ( body: string, maxLength = 160 ): string {
+    const visibleText = body
+        .replace( /<(script|style)[\s\S]*?<\/\1>/gi, ' ' )
+        .replace( /<[^>]+>/g, ' ' )
+        .replace( /\s+/g, ' ' )
+        .trim()
+
+    return visibleText.slice( 0, maxLength ) || 'empty body'
+}
+
 export type SheetRecordsResult =
     | { ok: true, records: MCUTimelineSheetRecord[] }
     | { ok: false, reason: string }
 
 // An invalid upstream payload must never replace the last known good sheet
 export function parseSheetRecords ( data: unknown ): SheetRecordsResult {
+    if ( typeof data === 'string' ) {
+        return { ok: false, reason: `response is text instead of JSON: "${ summarizeTextBody( data ) }"` }
+    }
+
     if ( data === null || typeof data !== 'object' ) {
         return { ok: false, reason: `response body is ${ data === null ? 'null' : typeof data }, expected an object` }
     }
