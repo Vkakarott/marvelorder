@@ -1,0 +1,23 @@
+{
+	"decidedAt": "2026-11-08",
+	"source": "Owner review of the TMDB audit run on 2026-11-08 (GitHub Actions run 42541159621 and a local pull)",
+	"suppressions": [
+		{ "identity": "tv:332379", "title": "Countdown to Avengers: Doomsday Official Podcast", "reason": "extra-podcast" },
+		{ "identity": "tv:318417", "title": "Daredevil: Born Again Official Podcast", "reason": "extra-podcast" },
+		{ "identity": "movie:787923", "title": "Marvel's Behind the Mask", "reason": "extra-documentary" },
+		{ "identity": "movie:1806719", "title": "On the Frontline: An Inside Look at Captain America's Battlegrounds", "reason": "extra-documentary" },
+		{ "identity": "movie:1806732", "title": "On Set with Anthony Mackie: Cut the Check!", "reason": "extra-documentary" },
+		{ "identity": "movie:1806737", "title": "Steve Rogers' Notebook", "reason": "extra-documentary" },
+		{ "identity": "tv:212344", "title": "Marvel Super Heroes: What the--?!", "reason": "extra-short" },
+		{ "identity": "movie:1810734", "title": "Stephen King's N.", "reason": "unrelated-title" },
+		{ "identity": "movie:1760058", "title": "Symbiote Spider-Man: The Saga of the Black Costume", "reason": "extra-documentary" },
+		{ "identity": "tv:336541", "title": "Avengers: Secret Wars (Shorts)", "reason": "extra-short" },
+		{ "identity": "movie:1730724", "title": "The Origin of the Silver Surfer", "reason": "extra-short" },
+		{ "identity": "tv:305165", "title": "LEGO Marvel Avengers: Strange Tails", "reason": "extra-lego" },
+		{ "identity": "movie:1359227", "title": "LEGO Marvel Avengers: Mission Demolition", "reason": "extra-lego" },
+		{ "identity": "movie:1154598", "title": "LEGO Marvel Avengers: Code Red", "reason": "extra-lego" },
+		{ "identity": "movie:1750432", "title": "Spidey and the Avengers: Halloween Team-Up!", "reason": "extra-kids-special" },
+		{ "identity": "tv:310764", "title": "Agents of S.H.I.E.L.D.: Academy", "reason": "tmdb-404" },
+		{ "identity": "tv:228384", "title": "The Marvel Action Hour: Fantastic Four", "reason": "tmdb-404" }
+	]
+}
