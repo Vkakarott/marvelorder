@@ -9,6 +9,8 @@ import { storePath } from '~/src/config.ts'
 import {
     matchOrderedEntryToSavedListing,
     organizeOrderData,
+    parseSheetRecords,
+    type SheetRecordsResult,
 } from '~/src/helpers/node/mcu-timeline-sheet.ts'
 import {
     makeInUniverseMarkdown,
@@ -73,6 +75,24 @@ function buildReadmeList ( matchesMap: Map<number, any> ) {
     return `\n\n${ readmeListLines.join( '\n' ) }\n\n`
 }
 
+async function fetchSheetRecords (): Promise<SheetRecordsResult> {
+    try {
+        const response = await axios( macroUrl, {
+            params: {
+                id: mcuTimelineSheetId,
+                sheet: 'Chronological Order',
+                header: 1,
+                startRow: 4,
+            },
+        } )
+
+        return parseSheetRecords( response.data )
+    }
+    catch ( error ) {
+        return { ok: false, reason: `request failed: ${ ( error as Error ).message }` }
+    }
+}
+
 ( async () => {
     const listingFiles = await getListingFiles()
 
@@ -90,46 +110,15 @@ function buildReadmeList ( matchesMap: Map<number, any> ) {
         listingsSort: 'default',
     } )
 
-    const fetchedSheet: {
-        records: MCUTimelineSheetRecord[]
-    } = await axios( macroUrl, {
-        params: {
-            id: mcuTimelineSheetId,
-            sheet: 'Chronological Order',
-            header: 1,
-            startRow: 4,
-        },
-    } ).then( ( res ) => {
-        return {
-            ...res.data,
-            records: res.data.records.map( ( record: MCUTimelineSheetRecord, recordIndex ) => {
-                const cleanedRecordEntries = Object.entries( record )
-                    .filter( ( [ key ] ) => {
-                        const hasKey = key.length > 0
+    const fetchedSheet = await fetchSheetRecords()
 
-                        return hasKey
-                    } )
-                    .map( ( [ key, value ]: any ) => {
-                        const isNotes = key.toLowerCase() === 'notes'
+    if ( !fetchedSheet.ok ) {
+        // Keep the checked-in sheet and every mcuTimelineOrder untouched so
+        // the workflow can continue to the TMDB pull (ADR-001)
+        console.warn( `MCU timeline sheet skipped, keeping existing data: ${ fetchedSheet.reason }` )
 
-                        if ( !isNotes ) {
-                            return [ key, value ]
-                        }
-
-                        const isBelowDetailsRows = recordIndex > 30
-
-                        return [
-                            key,
-                            isBelowDetailsRows ? value : '',
-                        ]
-                    } )
-
-                // console.log( 'cleanedRecordEntries', cleanedRecordEntries )
-
-                return Object.fromEntries( cleanedRecordEntries )
-            } ),
-        }
-    } )
+        process.exit( 0 )
+    }
 
     const sheetJsonPath = `${ storePath }/mcu-timeline-sheet.json`
 

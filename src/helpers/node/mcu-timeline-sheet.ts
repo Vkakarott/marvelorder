@@ -110,3 +110,44 @@ export function organizeOrderData ( rawOrderData: MCUTimelineSheetRecord[] ) {
 
     return organizedOrder
 }
+
+// Notes only matter below the details rows at the top of the sheet
+const DETAILS_ROWS_COUNT = 30
+
+function cleanSheetRecord ( record: MCUTimelineSheetRecord, recordIndex: number ) {
+    const cleanedEntries = Object.entries( record )
+        .filter( ( [ key ] ) => key.length > 0 )
+        .map( ( [ key, value ] ) => {
+            const isNotes = key.toLowerCase() === 'notes'
+            const isBelowDetailsRows = recordIndex > DETAILS_ROWS_COUNT
+
+            return [ key, isNotes && !isBelowDetailsRows ? '' : value ]
+        } )
+
+    return Object.fromEntries( cleanedEntries ) as unknown as MCUTimelineSheetRecord
+}
+
+export type SheetRecordsResult =
+    | { ok: true, records: MCUTimelineSheetRecord[] }
+    | { ok: false, reason: string }
+
+// An invalid upstream payload must never replace the last known good sheet
+export function parseSheetRecords ( data: unknown ): SheetRecordsResult {
+    if ( data === null || typeof data !== 'object' ) {
+        return { ok: false, reason: `response body is ${ data === null ? 'null' : typeof data }, expected an object` }
+    }
+
+    const { records } = data as { records?: unknown }
+
+    if ( !Array.isArray( records ) ) {
+        return { ok: false, reason: `"records" is ${ records === undefined ? 'missing' : typeof records }, expected an array` }
+    }
+
+    const validRecords = records.filter( ( record ) => record !== null && typeof record === 'object' )
+
+    if ( validRecords.length === 0 ) {
+        return { ok: false, reason: '"records" has no usable rows' }
+    }
+
+    return { ok: true, records: validRecords.map( cleanSheetRecord ) }
+}
