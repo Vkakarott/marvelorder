@@ -4,7 +4,10 @@ import {
     getAuthoritativeReleaseDateOverride,
     normalizeListingObservation,
 } from '~/src/helpers/node/listing-source-overrides.ts'
-import { getSingleListingFromUrl } from '~/src/helpers/node/listing-files.ts'
+import {
+    getListingFromFile,
+    getSingleListingFromUrl,
+} from '~/src/helpers/node/listing-files.ts'
 
 test( 'Detail pages use the same release dates as the homepage', async () => {
     const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/pt-br/eyes-of-wakanda-241388/' )
@@ -16,9 +19,13 @@ test( 'Detail pages use the same release dates as the homepage', async () => {
 
 test( 'Detail pages use TMDB artwork when no artwork is defined in frontmatter', async () => {
     const eyesOfWakanda = await getSingleListingFromUrl( 'https://cinearc.example/pt-br/eyes-of-wakanda-241388/' )
+    // Compare against the TMDB block of the same file, which the sync rewrites daily
+    const { tmdb } = await getListingFromFile( './src/pages/pt-br/eyes-of-wakanda-241388.md' )
 
-    expect( eyesOfWakanda.poster_path ).toBe( '/bG23nZW96LxmWkJjsagRZI9hF6t.jpg' )
-    expect( eyesOfWakanda.backdrop_path ).toBe( '/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg' )
+    expect( tmdb.poster_path ).toMatch( /^\/.+\.jpg$/ )
+    expect( tmdb.backdrop_path ).toMatch( /^\/.+\.jpg$/ )
+    expect( eyesOfWakanda.poster_path ).toBe( tmdb.poster_path )
+    expect( eyesOfWakanda.backdrop_path ).toBe( tmdb.backdrop_path )
 } )
 
 test( 'Artwork explicitly defined in frontmatter takes precedence over TMDB artwork', () => {
