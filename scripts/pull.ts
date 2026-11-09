@@ -36,6 +36,10 @@ import {
     isCompatibleReplacement,
 } from '../src/helpers/listing-identity.ts'
 import { persistListingRedirects } from '../src/helpers/listing-redirects.ts'
+import { decideAutoDraft, type Suppression } from '../src/helpers/listing-curation.ts'
+import { applySuppressions, draftGoneListings } from '../src/helpers/listing-curation-files.ts'
+import { checkRegressionBudget } from '../src/helpers/regression-budget.ts'
+import suppressionFile from '../src/json/listing-suppressions.json' with { type: 'json' }
 
 // https://github.com/RebeccaStevens/deepmerge-ts/blob/beae8b841561bd206150ef02fe10db94856c6e45/docs/deepmergeCustom.md
 const deepmergeListings = deepmergeCustom( {
@@ -573,6 +577,8 @@ async function writeTmdbDataOnly ( listing ) {
 
 }
 
+const suppressions = suppressionFile.suppressions as Suppression[]
+
 async function saveListingsAsMarkdown ( listings ) {
 
     for ( const listing of listings ) {
@@ -586,8 +592,12 @@ async function saveListingsAsMarkdown ( listings ) {
             continue
         }
 
+        // Rules only judge titles that are new to the catalog; an explicit
+        // frontmatter draft can't exist yet, so nothing is overridden here
+        const autoDraft = decideAutoDraft( { frontmatter: {}, listing, suppressions, isNew: true } )
+
         await upsertListingMarkdown( {
-            listing,
+            listing: { ...listing, ...autoDraft },
             tmdb: listing,
             readMarkdownFile,
             writeMarkdownFile,
@@ -673,6 +683,46 @@ async function consolidateListings ( report: any, previousListings: any[], nextL
     console.log( `Consolidated ${ result.plans.length } listings into one file per identity.` )
 }
 
+// A missing id is drafted only after TMDB itself answers 404. Files are kept,
+// so the owner can undo it with `draft: false`, which is never overridden.
+const maxGoneChecks = getNumberEnv( 'MAX_GONE_CHECKS', 25 )
+
+async function draftGoneListingFiles ( report: any ) {
+    const suspects: string[] = report.missingIds.map( ( missing: any ) => `${ missing.type || 'unknown' }:${ missing.id }` )
+
+    if ( suspects.length === 0 ) {
+        return
+    }
+
+    if ( suspects.length > maxGoneChecks ) {
+        console.warn( `Skipped 404 checks for ${ suspects.length } missing ids, above the limit of ${ maxGoneChecks }.` )
+        return
+    }
+
+    const goneIdentities = new Set<string>()
+
+    for ( const identity of suspects ) {
+        if ( await isTmdbRecordGone( identity ) ) {
+            goneIdentities.add( identity )
+        }
+    }
+
+    const drafted = await draftGoneListings( { io: listingStoreIO, matter, goneIdentities } )
+
+    console.log( `TMDB 404 confirmed for ${ [ ...goneIdentities ].join( ', ' ) || 'no ids' }; drafted ${ drafted.length } files.` )
+}
+
+function assertWithinRegressionBudget ( report: any ) {
+    const result = checkRegressionBudget( report.counts, {
+        maxMissingRatio: getNumberEnv( 'MAX_MISSING_RATIO', 0.25 ),
+        minMissing: getNumberEnv( 'MIN_MISSING_TO_BLOCK', 10 ),
+    } )
+
+    if ( !result.ok ) {
+        throw new Error( `TMDB regression budget exceeded, keeping the last known good data: ${ result.reason }` )
+    }
+}
+
 ;(async () => {
     const previousListings = await readListingsSnapshot()
 
@@ -699,11 +749,20 @@ async function consolidateListings ( report: any, previousListings: any[], nextL
         console.warn( 'TMDB regression audit detected changes that need review.', tmdbRegressionReport.counts )
     }
 
+    // Blocks only partial-upstream scale losses; routine churn still flows
+    assertWithinRegressionBudget( tmdbRegressionReport )
+
     await writeJSON( `${ storePath }/listings.json`, sortedListings )
 
     await saveListingsAsMarkdown( sortedListings )
 
     await consolidateListings( tmdbRegressionReport, previousListings, sortedListings )
+
+    const suppressed = await applySuppressions( { io: listingStoreIO, matter, suppressions } )
+
+    console.log( `Applied the suppression list to ${ suppressed.length } files.` )
+
+    await draftGoneListingFiles( tmdbRegressionReport )
 
     console.log('Pull complete.')
 
