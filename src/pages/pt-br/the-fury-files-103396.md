@@ -52,6 +52,7 @@ type: tv
     "overview": "The mysterious Fury gives viewers top-secret access to S.H.I.E.L.D. intel on key Marvel heroes and villains by bringing together a mix of animation and motion comic art.",
     "poster_path": "/fEpnfXuukOOkZTbJh6qylrdahbu.jpg",
     "first_air_date": "2017-10-18",
+    "softcore": false,
     "name": "The Fury Files",
     "vote_average": 5.6,
     "title": "The Fury Files",

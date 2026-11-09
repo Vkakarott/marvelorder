@@ -27,7 +27,7 @@ localized_title: "Doutor Estranho"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/mQ30ClWsTO8QBTkbwArIifkRlhZ.jpg",
+    "backdrop_path": "/r72uEx8x2aFNygkr1cJeDIZJsbG.jpg",
     "genre_ids": [
         28,
         16,
@@ -35,14 +35,15 @@ localized_title: "Doutor Estranho"
         878
     ],
     "id": 14830,
+    "title": "Doctor Strange",
     "original_language": "en",
     "original_title": "Doctor Strange",
     "overview": "Dr. Stephen Strange embarks on a wondrous journey to the heights of a Tibetan mountain, where he seeks healing at the feet of the mysterious Ancient One.",
     "poster_path": "/7ygcpWXsWmEc83j7zE8P0lvC0Q.jpg",
     "release_date": "2007-08-14",
-    "title": "Doctor Strange",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.776,
+    "vote_average": 6.741,
     "slug": "doctor-strange",
     "tags": [
         "movie",

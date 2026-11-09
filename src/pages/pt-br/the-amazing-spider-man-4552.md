@@ -19,7 +19,7 @@ localized_title: "Homem-Aranha"
     "id": 4552,
     "name": "The Amazing Spider-Man",
     "original_name": "The Amazing Spider-Man",
-    "overview": "The first live-action TV series based on the popular comic book.",
+    "overview": "Peter Parker uses his newly acquired spider powers to fight criminals.",
     "poster_path": "/kUTCJhSnH3Dt0KVzcQp8DnbmsjN.jpg",
     "media_type": "tv",
     "original_language": "en",
@@ -28,6 +28,7 @@ localized_title: "Homem-Aranha"
         10759
     ],
     "first_air_date": "1978-04-05",
+    "softcore": false,
     "vote_average": 6.3,
     "origin_country": [
         "US"

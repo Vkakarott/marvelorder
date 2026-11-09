@@ -24,14 +24,15 @@ localized_title: "Homem-Formiga e a Vespa: Quantumania"
         878
     ],
     "id": 640146,
+    "title": "Ant-Man and the Wasp: Quantumania",
     "original_language": "en",
     "original_title": "Ant-Man and the Wasp: Quantumania",
     "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
     "poster_path": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
     "release_date": "2023-02-15",
-    "title": "Ant-Man and the Wasp: Quantumania",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.238,
+    "vote_average": 6.195,
     "slug": "ant-man-and-the-wasp-quantumania",
     "tags": [
         "movie",

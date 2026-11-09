@@ -28,9 +28,10 @@ localized_title: "Homem Aranha: O Desafio do Dragão"
         14,
         10770
     ],
-    "release_date": "1981-05-09",
+    "release_date": "1980-12-05",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.5,
+    "vote_average": 5.464,
     "slug": "spider-man-the-dragons-challenge",
     "tags": [
         "list-8204862"

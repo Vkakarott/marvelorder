@@ -32,8 +32,9 @@ localized_title: "Homem-Aranha: Ação Sem Limites"
     "overview": "Spider-Man travels to Counter-Earth to rescue a Terran shuttle crew trapped there and discovers a tyrannical & warped version of his world.",
     "poster_path": "/hNdf1WmFil9IV7rabBe6PnAmYnI.jpg",
     "first_air_date": "1999-10-02",
+    "softcore": false,
     "name": "Spider-Man Unlimited",
-    "vote_average": 7.502,
+    "vote_average": 7.566,
     "title": "Spider-Man Unlimited",
     "slug": "spider-man-unlimited",
     "tags": [

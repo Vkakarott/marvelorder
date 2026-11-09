@@ -27,8 +27,9 @@ localized_title: "Marvel Zumbis"
     "overview": "After the Avengers are overtaken by a zombie plague, a desperate group of survivors discover the key to bringing an end to the super-powered undead, racing across a dystopian landscape and risking life and limb to save their world.",
     "poster_path": "/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg",
     "first_air_date": "2025-09-24",
+    "softcore": false,
     "name": "Marvel Zombies",
-    "vote_average": 7.204,
+    "vote_average": 7.3,
     "title": "Marvel Zombies",
     "slug": "marvel-zombies",
     "tags": [

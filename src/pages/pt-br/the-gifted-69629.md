@@ -29,8 +29,9 @@ overview: "Um casal tem a vida abalada após a súbita descoberta de que seus fi
     "overview": "A suburban couple's ordinary lives are rocked by the sudden discovery that their children possess mutant powers. Forced to go on the run from a hostile government, the family joins up with an underground network of mutants and must fight to survive.",
     "poster_path": "/nshCqszjTNuqhrB53vrSqWO18sE.jpg",
     "first_air_date": "2017-10-02",
+    "softcore": false,
     "name": "The Gifted",
-    "vote_average": 7.6,
+    "vote_average": 7.583,
     "title": "The Gifted",
     "slug": "the-gifted",
     "tags": [

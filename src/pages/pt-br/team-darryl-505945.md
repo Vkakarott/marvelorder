@@ -21,14 +21,15 @@ localized_title: "Marvel One Shot: Equipe Darryl"
         878
     ],
     "id": 505945,
+    "title": "Team Darryl",
     "original_language": "en",
     "original_title": "Team Darryl",
     "overview": "Fresh off being unseated as the ruler of Sakaar, the Grandmaster makes his way to Earth to start a new life. It's been over a year since Thor left Australia and Darryl has been struggling to pay his rent. Now Darryl needs a new roommate to help make the monthly payments. Unfortunately for Darryl, the Grandmaster was the only one who answered Darryl's \"Roommate Needed\" ad and with no viable options, the Grandmaster moves in.",
     "poster_path": "/edroTAeTEM9ILyAnumA0ALxRSne.jpg",
     "release_date": "2018-02-20",
-    "title": "Team Darryl",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.12,
+    "vote_average": 6.2,
     "slug": "team-darryl",
     "tags": [
         "movie",

@@ -42,8 +42,9 @@ tags:
     "overview": "Facing a powerful new enemy, the team of mutant superheroes find themselves further imperiled when a \"cure\" for mutants is discovered.",
     "poster_path": "/kkpr7lhAmXfNTT4KsbMcHJ0GNyE.jpg",
     "first_air_date": "2009-10-28",
+    "softcore": false,
     "name": "Astonishing X-Men",
-    "vote_average": 5.7,
+    "vote_average": 5.8,
     "title": "Astonishing X-Men",
     "slug": "astonishing-x-men",
     "tags": [

@@ -33,14 +33,15 @@ localized_title: "O Carinha"
         878
     ],
     "id": 1010819,
+    "title": "The Little Guy",
     "original_language": "en",
     "original_title": "The Little Guy",
     "overview": "Groot discovers a miniature civilization that believes the seemingly enormous tree toddler is the hero they’ve been waiting for.",
-    "poster_path": "/8L6MWRrXHTyz9GcHY0cannRCtnk.jpg",
+    "poster_path": "/lPzcizL8PdS2U1q0rfhlVn00b9l.jpg",
     "release_date": "2022-08-10",
-    "title": "The Little Guy",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.318,
+    "vote_average": 7.28,
     "slug": "the-little-guy",
     "tags": [
         "movie",

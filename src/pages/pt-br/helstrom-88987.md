@@ -30,8 +30,9 @@ overview: "Daimon e Ana Hellstrom são dois irmãos que embarcam numa caça cont
     "overview": "Daimon and Ana Helstrom are the son and daughter of a mysterious and powerful serial killer. The siblings have a complicated dynamic as they track down the terrorizing worst of humanity — each with their attitude and skills.",
     "poster_path": "/5QmcKsepYpO9XYsWNLwsiULoaAu.jpg",
     "first_air_date": "2020-10-16",
+    "softcore": false,
     "name": "Helstrom",
-    "vote_average": 6.692,
+    "vote_average": 6.679,
     "title": "Helstrom",
     "slug": "helstrom",
     "tags": [

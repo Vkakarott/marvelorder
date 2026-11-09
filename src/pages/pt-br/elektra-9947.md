@@ -15,21 +15,22 @@ overview: "Torturada pelo passado, Elektra é obcecada por sua morte e seu miste
 ```json
 {
     "adult": false,
-    "backdrop_path": "/tFK3pEREZQDA6cjAXwJEGvSseHQ.jpg",
+    "backdrop_path": "/kRpokiyfzyQHkQ0meMmvqPzQXnj.jpg",
     "genre_ids": [
         28,
         14,
         12
     ],
     "id": 9947,
+    "title": "Elektra",
     "original_language": "en",
     "original_title": "Elektra",
     "overview": "Elektra the warrior survives a near-death experience, becomes an assassin-for-hire, and tries to protect her two latest targets, a single father and his young daughter, from a group of supernatural assassins.",
-    "poster_path": "/9Azi1GBNj3gPPwmQWAMcATg7JOl.jpg",
+    "poster_path": "/Z4dAOxjAHTUZO6DJ2WVAsxzwe3.jpg",
     "release_date": "2005-01-13",
-    "title": "Elektra",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.048,
+    "vote_average": 5.05,
     "slug": "elektra",
     "tags": [
         "movie",

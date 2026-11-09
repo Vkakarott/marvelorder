@@ -23,14 +23,15 @@ localized_title: "Homem-Aranha"
         878
     ],
     "id": 557,
+    "title": "Spider-Man",
     "original_language": "en",
     "original_title": "Spider-Man",
     "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
-    "poster_path": "/kjdJntyBeEvqm9w97QGBdxPptzj.jpg",
+    "poster_path": "/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
     "release_date": "2002-05-01",
-    "title": "Spider-Man",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.322,
+    "vote_average": 7.362,
     "slug": "spider-man",
     "tags": [
         "movie",

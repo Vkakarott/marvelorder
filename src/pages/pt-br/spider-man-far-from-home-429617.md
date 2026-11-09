@@ -16,21 +16,22 @@ localized_title: "Homem-Aranha: Longe de Casa"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/34jW8LvjRplM8Pv06cBFDpLlenR.jpg",
+    "backdrop_path": "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
     "genre_ids": [
         28,
         12,
         878
     ],
     "id": 429617,
+    "title": "Spider-Man: Far From Home",
     "original_language": "en",
     "original_title": "Spider-Man: Far From Home",
     "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
     "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
     "release_date": "2019-06-28",
-    "title": "Spider-Man: Far From Home",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.396,
+    "vote_average": 7.386,
     "slug": "spider-man-far-from-home",
     "tags": [
         "movie",

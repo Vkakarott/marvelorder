@@ -14,7 +14,7 @@ localized_title: "Coração de Ferro"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg",
+    "backdrop_path": "/vno2LrEQr3lTOk3U1G1ihZsy64b.jpg",
     "genre_ids": [
         10765,
         80,
@@ -29,8 +29,9 @@ localized_title: "Coração de Ferro"
     "overview": "After the events of Black Panther: Wakanda Forever, technology is pitted against magic when Riri Williams, a young, genius inventor determined to make her mark on the world, returns to her hometown of Chicago. Her unique take on building iron suits is brilliant, but in pursuit of her ambitions, she finds herself wrapped up with the mysterious yet charming Parker Robbins aka \"The Hood.\"",
     "poster_path": "/dOh6MJpdlQhYpLBhzhNQeYGKTZ5.jpg",
     "first_air_date": "2025-06-24",
+    "softcore": false,
     "name": "Ironheart",
-    "vote_average": 5.34,
+    "vote_average": 5.3,
     "title": "Ironheart",
     "slug": "ironheart",
     "tags": [

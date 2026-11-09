@@ -15,9 +15,10 @@ localized_title: "Demolidor: Renascido"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/qsVW888AvaRiQqhYj8hI2DtYNor.jpg",
+    "backdrop_path": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
     "genre_ids": [
         18,
+        10759,
         80
     ],
     "id": 202555,
@@ -29,8 +30,9 @@ localized_title: "Demolidor: Renascido"
     "overview": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
     "poster_path": "/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
     "first_air_date": "2025-03-04",
+    "softcore": false,
     "name": "Daredevil: Born Again",
-    "vote_average": 8,
+    "vote_average": 8.2,
     "title": "Daredevil: Born Again",
     "slug": "daredevil-born-again",
     "tags": [

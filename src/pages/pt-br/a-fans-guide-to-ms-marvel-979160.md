@@ -18,14 +18,15 @@ localized_title: "Ms. Marvel: Guia Para Fãs"
         99
     ],
     "id": 979160,
+    "title": "A Fan's Guide to Ms. Marvel",
     "original_language": "en",
     "original_title": "A Fan's Guide to Ms. Marvel",
     "overview": "A documentary short that gives you an exclusive look behind the groundbreaking original series, \"Ms. Marvel\", from its comic book origins to its development and production as Marvel Studios’ next hit series on Disney+. It features interviews with its award winning filmmaking team and the show’s captivating star, newcomer Iman Vellani.",
     "poster_path": "/aolMYjs6QWonQFlnRGvU3o5zeQH.jpg",
     "release_date": "2022-06-01",
-    "title": "A Fan's Guide to Ms. Marvel",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.054,
+    "vote_average": 7.051,
     "slug": "a-fans-guide-to-ms-marvel",
     "tags": [
         "movie",

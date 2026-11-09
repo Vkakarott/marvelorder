@@ -23,14 +23,15 @@ localized_title: "Motoqueiro Fantasma"
         14
     ],
     "id": 1250,
+    "title": "Ghost Rider",
     "original_language": "en",
     "original_title": "Ghost Rider",
     "overview": "In order to save his dying father, young stunt cyclist Johnny Blaze sells his soul to Mephistopheles and sadly parts from the pure-hearted Roxanne Simpson, the love of his life. Years later, Johnny's path crosses again with Roxanne, now a go-getting reporter, and also with Mephistopheles, who offers to release Johnny's soul if Johnny becomes the fabled, fiery 'Ghost Rider'.",
-    "poster_path": "/1pyU94dAY7npDQCKuxCSyX9KthN.jpg",
+    "poster_path": "/4quwR1VwZouD0YF9AaD72kQAjxH.jpg",
     "release_date": "2007-01-15",
-    "title": "Ghost Rider",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.591,
+    "vote_average": 5.625,
     "slug": "ghost-rider",
     "tags": [
         "movie",

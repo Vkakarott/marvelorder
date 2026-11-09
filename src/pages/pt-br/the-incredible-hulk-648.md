@@ -27,7 +27,8 @@ localized_title: "O Incrível Hulk"
         18
     ],
     "first_air_date": "1977-11-04",
-    "vote_average": 7.229,
+    "softcore": false,
+    "vote_average": 7.244,
     "origin_country": [
         "US"
     ],

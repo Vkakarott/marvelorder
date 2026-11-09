@@ -29,14 +29,15 @@ localized_title: "Avante: Nos Bastidores de Deadpool & Wolverine"
         99
     ],
     "id": 1386628,
+    "title": "Marvel Studios Assembled: The Making of Deadpool & Wolverine",
     "original_language": "en",
     "original_title": "Marvel Studios Assembled: The Making of Deadpool & Wolverine",
     "overview": "Hugh Jackman, Ryan Reynolds, and director Shawn Levy sit down and spill the proverbial beans about how \"Deadpool & Wolverine\" was conceived, carried to term, and then birthed.",
     "poster_path": "/3dQyDFxTY6o3v67ncYCExog6aPH.jpg",
     "release_date": "2024-11-11",
-    "title": "Marvel Studios Assembled: The Making of Deadpool & Wolverine",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.7,
+    "vote_average": 6.8,
     "slug": "marvel-studios-assembled-the-making-of-deadpool-and-wolverine",
     "tags": [
         "movie",

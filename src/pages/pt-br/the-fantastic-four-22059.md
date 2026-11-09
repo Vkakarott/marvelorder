@@ -14,7 +14,7 @@ localized_title: "O Quarteto Fantástico"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/2uCDSV7t4qyKyENzS0mipE6CYbc.jpg",
+    "backdrop_path": "/2uBGbCx6eOo9EMtQt3DnhMSKzB8.jpg",
     "id": 22059,
     "title": "The Fantastic Four",
     "original_title": "The Fantastic Four",
@@ -27,9 +27,10 @@ localized_title: "O Quarteto Fantástico"
         878,
         12
     ],
-    "release_date": "1994-05-31",
+    "release_date": "1994-01-19",
+    "softcore": false,
     "video": false,
-    "vote_average": 4.386,
+    "vote_average": 4.4,
     "slug": "the-fantastic-four",
     "tags": [
         "list-8204862"

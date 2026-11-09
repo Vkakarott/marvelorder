@@ -23,14 +23,15 @@ localized_title: "Shang-Chi e a Lenda dos Dez Anéis"
         14
     ],
     "id": 566525,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
     "original_language": "en",
     "original_title": "Shang-Chi and the Legend of the Ten Rings",
     "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-    "poster_path": "/d08HqqeBQSwN8i8MEvpsZ8Cb438.jpg",
+    "poster_path": "/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
     "release_date": "2021-09-01",
-    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.495,
+    "vote_average": 7.5,
     "slug": "shang-chi-and-the-legend-of-the-ten-rings",
     "tags": [
         "movie",

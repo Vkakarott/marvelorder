@@ -45,7 +45,7 @@ watchLinks:
     "title": "Japanese Spiderman: Episode 0",
     "original_title": "スパイダーマン",
     "overview": "The Iron Cross Army are sabotaging oil-tankers with the help of their monster, the Sea-Devil, a semi-mechanical anthropomorphic swordfish with an ability to shoot torpedoes from its mouth. Spiderman employs the help of the interpol agent Juzo Mamiya to help him stop the Iron Cross Army.",
-    "poster_path": "/mVeOiXqSIYRLkuC8HtLKpHRzuek.jpg",
+    "poster_path": "/hi98SQoZgxBMHmWsbhxyh5tNQcB.jpg",
     "media_type": "movie",
     "original_language": "ja",
     "genre_ids": [
@@ -53,8 +53,9 @@ watchLinks:
         878
     ],
     "release_date": "1978-07-22",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.125,
+    "vote_average": 6.3,
     "slug": "japanese-spiderman-episode-0",
     "tags": [
         "list-8204862"

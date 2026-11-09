@@ -17,20 +17,20 @@ localized_title: "Era uma Vez um Deadpool"
     "adult": false,
     "backdrop_path": "/5ZSwZPKgcTJJwhxjbOHeoBTVaKh.jpg",
     "genre_ids": [
-        35,
         28,
-        12,
-        878
+        35,
+        12
     ],
     "id": 567604,
+    "title": "Once Upon a Deadpool",
     "original_language": "en",
     "original_title": "Once Upon a Deadpool",
-    "overview": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story that's full of magic, wonder, and zero Fs.",
+    "overview": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
     "poster_path": "/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
     "release_date": "2018-12-11",
-    "title": "Once Upon a Deadpool",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.097,
+    "vote_average": 7.1,
     "slug": "once-upon-a-deadpool",
     "tags": [
         "movie",

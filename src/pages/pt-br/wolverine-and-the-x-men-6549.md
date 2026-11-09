@@ -15,7 +15,7 @@ localized_title: "Wolverine e os X-Men"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/uPbpYFYXlUdTDEmfoubKNfdEZZx.jpg",
+    "backdrop_path": "/ix5tWGa7m7qGmXOmEBJgqv91T6F.jpg",
     "genre_ids": [
         16,
         10759,
@@ -31,8 +31,9 @@ localized_title: "Wolverine e os X-Men"
     "overview": "Wolverine and the X-Men must join together again to not only battle the increasingly powerful Mutant Response Division, but also to prevent a catastrophic future that Xavier has warned Wolverine must never come to pass.",
     "poster_path": "/oSeJ2nESB77iC6SLo4qcqoadjdt.jpg",
     "first_air_date": "2009-01-23",
+    "softcore": false,
     "name": "Wolverine and the X-Men",
-    "vote_average": 7.49,
+    "vote_average": 7.6,
     "title": "Wolverine and the X-Men",
     "slug": "wolverine-and-the-x-men",
     "tags": [

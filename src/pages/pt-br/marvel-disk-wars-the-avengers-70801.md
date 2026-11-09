@@ -28,8 +28,9 @@ overview: "A História gira em torno dos Vingadores: Homem de Ferro, Capitão Am
     "overview": "A group of teenagers join forces with the Avengers, Earth's mightiest heroes, to fight against the tyrannical Loki and his mighty empire.",
     "poster_path": "/6wQAZaWSvBJOIIt68cqmC0KJjeE.jpg",
     "first_air_date": "2014-04-02",
+    "softcore": false,
     "name": "Marvel Disk Wars: The Avengers",
-    "vote_average": 6.333,
+    "vote_average": 6.8,
     "title": "Marvel Disk Wars: The Avengers",
     "slug": "marvel-disk-wars-the-avengers",
     "tags": [

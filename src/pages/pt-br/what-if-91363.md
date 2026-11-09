@@ -31,8 +31,9 @@ overview: "\"What If…?\" reinventa os acontecimentos do UCM, mudando a histór
     "overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments.",
     "poster_path": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
     "first_air_date": "2021-08-11",
+    "softcore": false,
     "name": "What If...?",
-    "vote_average": 8.062,
+    "vote_average": 8,
     "title": "What If...?",
     "slug": "what-if",
     "tags": [

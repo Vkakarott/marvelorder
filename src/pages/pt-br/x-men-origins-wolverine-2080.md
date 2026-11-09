@@ -22,14 +22,15 @@ localized_title: "X-Men Origens: Wolverine"
         878
     ],
     "id": 2080,
+    "title": "X-Men Origins: Wolverine",
     "original_language": "en",
     "original_title": "X-Men Origins: Wolverine",
-    "overview": "After seeking to live a normal life, Logan sets out to avenge the death of his girlfriend by undergoing the mutant Weapon X program and becoming Wolverine.",
+    "overview": "After seeking to live a normal life after 200 years, Logan sets out to avenge a death by undergoing the mutant Weapon X program and becoming Wolverine.",
     "poster_path": "/yj8LbTju1p7CUJg7US2unSBk33s.jpg",
     "release_date": "2009-04-28",
-    "title": "X-Men Origins: Wolverine",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.286,
+    "vote_average": 6.299,
     "slug": "x-men-origins-wolverine",
     "tags": [
         "movie",

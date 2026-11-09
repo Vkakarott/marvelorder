@@ -15,21 +15,22 @@ localized_title: "Marvel One-Shot: Todos Saúdem o Rei"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/yoigAFjhEhJM6O6hQT9TiKH6EL7.jpg",
+    "backdrop_path": "/bqlB2qn10NgjMFloZrOdQBEqjga.jpg",
     "genre_ids": [
         28,
         35,
         14
     ],
     "id": 253980,
+    "title": "Marvel One-Shot: All Hail the King",
     "original_language": "en",
     "original_title": "Marvel One-Shot: All Hail the King",
     "overview": "A documentary filmmaker interviews the now-famous Trevor Slattery from behind bars.",
     "poster_path": "/y0QYZPWgeGKOvyrzi6Oz3aJPxJa.jpg",
     "release_date": "2014-02-04",
-    "title": "Marvel One-Shot: All Hail the King",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.733,
+    "vote_average": 6.75,
     "slug": "marvel-one-shot-all-hail-the-king",
     "tags": [
         "movie",

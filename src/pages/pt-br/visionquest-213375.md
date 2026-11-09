@@ -26,9 +26,10 @@ tags:
 ```json
 {
     "adult": false,
-    "backdrop_path": "/hgo15B8eUnbEjszVV1qdV8sGz9S.jpg",
+    "backdrop_path": "/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
     "genre_ids": [
-        10765
+        10765,
+        18
     ],
     "id": 213375,
     "origin_country": [
@@ -36,11 +37,12 @@ tags:
     ],
     "original_language": "en",
     "original_name": "VisionQuest",
-    "overview": "After the events of WandaVision, White Vision struggles to connect with the memories given to him as he lacks the emotions or feelings associated with them.",
-    "poster_path": "/6j60tGRAjBmWRPTOEwhW6oRbPMP.jpg",
-    "first_air_date": "2026-10-14",
+    "overview": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+    "poster_path": "/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+    "first_air_date": "2026-10-13",
+    "softcore": false,
     "name": "VisionQuest",
-    "vote_average": 0,
+    "vote_average": 8.657,
     "title": "VisionQuest",
     "slug": "visionquest",
     "tags": [

@@ -21,14 +21,15 @@ localized_title: "Guardiões da Galáxia: Especial de Festas"
         12
     ],
     "id": 774752,
+    "title": "The Guardians of the Galaxy Holiday Special",
     "original_language": "en",
     "original_title": "The Guardians of the Galaxy Holiday Special",
     "overview": "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present.",
     "poster_path": "/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg",
     "release_date": "2022-11-24",
-    "title": "The Guardians of the Galaxy Holiday Special",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.096,
+    "vote_average": 7.075,
     "slug": "the-guardians-of-the-galaxy-holiday-special",
     "tags": [
         "movie",

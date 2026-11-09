@@ -18,14 +18,15 @@ localized_title: "Thunderbolts*"
         12
     ],
     "id": 986056,
+    "title": "Thunderbolts*",
     "original_language": "en",
     "original_title": "Thunderbolts*",
     "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
     "poster_path": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
     "release_date": "2025-04-30",
-    "title": "Thunderbolts*",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.289,
+    "vote_average": 7.296,
     "slug": "thunderbolts",
     "tags": [
         "movie",

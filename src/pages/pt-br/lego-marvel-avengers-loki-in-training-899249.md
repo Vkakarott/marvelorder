@@ -33,14 +33,15 @@ localized_title: "LEGO Marvel Avengers: Loki em Treinamento"
         28
     ],
     "id": 899249,
+    "title": "LEGO Marvel Avengers: Loki in Training",
     "original_language": "en",
     "original_title": "LEGO Marvel Avengers: Loki in Training",
     "overview": "Loki declares he wants to be an Avenger, so Iron Man decides to make Loki an \"Avenger In Training.\" It's a great plan until Thanos arrives on Earth looking for Loki.",
     "poster_path": "/eyBifMbovoQbyuNXHOFYo7tsInp.jpg",
     "release_date": "2021-11-01",
-    "title": "LEGO Marvel Avengers: Loki in Training",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.1,
+    "vote_average": 6.9,
     "slug": "lego-marvel-avengers-loki-in-training",
     "tags": [
         "movie",

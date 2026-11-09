@@ -18,8 +18,8 @@ localized_title: "Falcão e o Soldado Invernal"
     "backdrop_path": "/aTjbqMONy77fHJrIYu14g1F0d5h.jpg",
     "genre_ids": [
         10759,
-        18,
-        10765
+        10765,
+        18
     ],
     "id": 88396,
     "origin_country": [
@@ -30,8 +30,9 @@ localized_title: "Falcão e o Soldado Invernal"
     "overview": "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
     "poster_path": "/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
     "first_air_date": "2021-03-19",
+    "softcore": false,
     "name": "The Falcon and the Winter Soldier",
-    "vote_average": 7.603,
+    "vote_average": 7.582,
     "title": "The Falcon and the Winter Soldier",
     "slug": "the-falcon-and-the-winter-soldier",
     "tags": [

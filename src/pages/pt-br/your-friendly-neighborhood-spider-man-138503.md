@@ -37,8 +37,7 @@ type: tv
     "genre_ids": [
         16,
         10759,
-        10765,
-        35
+        10765
     ],
     "id": 138503,
     "origin_country": [
@@ -49,8 +48,9 @@ type: tv
     "overview": "Peter Parker is on his way to becoming a hero, but his path to get there is anything but ordinary.",
     "poster_path": "/kjcsNeqF52YUQ2rUBGLMHwLkxvR.jpg",
     "first_air_date": "2025-01-29",
+    "softcore": false,
     "name": "Your Friendly Neighborhood Spider-Man",
-    "vote_average": 7.76,
+    "vote_average": 7.8,
     "title": "Your Friendly Neighborhood Spider-Man",
     "slug": "your-friendly-neighborhood-spider-man",
     "tags": [

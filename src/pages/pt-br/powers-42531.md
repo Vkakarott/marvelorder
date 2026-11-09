@@ -23,7 +23,8 @@ overview: "Em um mundo onde seres humanos e super-heróis coexistem, um detetive
         10765
     ],
     "first_air_date": "2015-03-10",
-    "vote_average": 6.6,
+    "softcore": false,
+    "vote_average": 6.7,
     "origin_country": [
         "US"
     ],

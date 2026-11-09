@@ -28,8 +28,9 @@ localized_title: "A Morte do Incrível Hulk"
         10770
     ],
     "release_date": "1990-02-18",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.6,
+    "vote_average": 5.8,
     "slug": "the-death-of-the-incredible-hulk",
     "tags": [
         "list-8204862"

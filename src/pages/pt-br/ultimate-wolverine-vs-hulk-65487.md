@@ -39,8 +39,9 @@ tags:
     "overview": "Following Hulk's murderous rampage through Manhattan, Dr. Bruce Banner was sentenced to execution, bringing an end to The Hulk . Or did it? When reports of a mysterious creature start creeping in from around the world, Nick Fury starts to get suspicious. Not only is Fury worried about Banner's rage turning him into an unstoppable monster, but his existence is the one secret that can bring down Nick Fury! Turning to the only man he can trust, Fury enlists Wolverine to help, and Wolverine is glad to take down Banner by any means necessary!",
     "poster_path": "/iv1b9LHi54A5fHm5xoz3NPvO0kd.jpg",
     "first_air_date": "2013-09-09",
+    "softcore": false,
     "name": "Ultimate Wolverine vs. Hulk",
-    "vote_average": 6,
+    "vote_average": 5.2,
     "title": "Ultimate Wolverine vs. Hulk",
     "slug": "ultimate-wolverine-vs-hulk",
     "tags": [

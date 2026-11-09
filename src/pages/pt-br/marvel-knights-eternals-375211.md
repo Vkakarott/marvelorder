@@ -16,14 +16,15 @@ overview: "Você tem milhares de anos. Você tem poderes incríveis. Você assis
         16
     ],
     "id": 375211,
+    "title": "Marvel Knights: Eternals",
     "original_language": "en",
     "original_title": "Marvel Knights: Eternals",
     "overview": "You are thousands of years old. You have amazing powers. You have watched civilizations rise and fall. So why does no one remember any of this? Best-selling author, Neil Gaiman (Marvel: 1602) is joined by superstar artist, John Romita. Jr. (Amazing Spider-Man), to bring you the extraordinary tale of The Eternals. Medical student Mark Curry's world is turned upside-down when he meets Ike Harris, a man who believes that he is part of a centuries-old race of super-powered beings put here on Earth by aliens to preserve and safeguard the planet — and even crazier, tried to convince Mark that he is one too.",
     "poster_path": "/wVWDDzB0sWEIEMh0TXgqRa8X65o.jpg",
     "release_date": "2014-09-16",
-    "title": "Marvel Knights: Eternals",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.73,
+    "vote_average": 6.7,
     "slug": "marvel-knights-eternals",
     "tags": [
         "movie",

@@ -45,8 +45,9 @@ localized_title: "LEGO Marvel: Problemas Climáticos"
     "overview": "The Environmental Clean-up Conference is off to anything but a smooth start when Tony Stark realizes his fellow competitor is his rival Justin Hammer!",
     "poster_path": "/yeCEBB9eLeJ4nmj00ePD7eqeWYx.jpg",
     "first_air_date": "2020-11-01",
+    "softcore": false,
     "name": "LEGO Marvel Avengers: Climate Conundrum",
-    "vote_average": 4.667,
+    "vote_average": 4.6,
     "title": "LEGO Marvel Avengers: Climate Conundrum",
     "slug": "lego-marvel-avengers-climate-conundrum",
     "tags": [

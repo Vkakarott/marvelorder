@@ -40,6 +40,7 @@ tags:
     "overview": "It's claw versus claw as Logan faces his age-old foe in the latest Marvel Knights Animation, Wolverine Vs. Sabretooth.",
     "poster_path": "/8jsJQxU1st9BpuOm0byuBH1IZXV.jpg",
     "first_air_date": "2014-01-14",
+    "softcore": false,
     "name": "Wolverine Versus Sabretooth",
     "vote_average": 6,
     "title": "Wolverine Versus Sabretooth",

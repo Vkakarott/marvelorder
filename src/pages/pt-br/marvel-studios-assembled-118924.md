@@ -44,8 +44,9 @@ id: 118924
     "overview": "Go behind the scenes of the shows and movies of the Marvel Cinematic Universe, following the filmmakers, cast and crew, and Marvel heroes every step of the way.",
     "poster_path": "/v2BHRwtQVkt5fssLdo5MpFgHJPY.jpg",
     "first_air_date": "2021-03-12",
+    "softcore": false,
     "name": "Marvel Studios Assembled",
-    "vote_average": 7.2,
+    "vote_average": 7.158,
     "title": "Marvel Studios Assembled",
     "slug": "marvel-studios-assembled",
     "tags": [

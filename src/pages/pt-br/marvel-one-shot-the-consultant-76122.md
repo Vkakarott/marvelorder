@@ -22,14 +22,15 @@ localized_title: "Marvel One Shot: O Consultor"
         28
     ],
     "id": 76122,
+    "title": "Marvel One-Shot: The Consultant",
     "original_language": "en",
     "original_title": "Marvel One-Shot: The Consultant",
     "overview": "Agent Coulson informs Agent Sitwell that the World Security Council wishes Emil Blonsky to be released from prison to join the Avengers Initiative. As Nick Fury doesn't want to release Blonsky, the two agents decide to send a patsy to sabotage the meeting...",
     "poster_path": "/xqNLXUUvBnfVk6m3QFGGU0Grgs7.jpg",
     "release_date": "2011-09-13",
-    "title": "Marvel One-Shot: The Consultant",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.301,
+    "vote_average": 6.325,
     "slug": "marvel-one-shot-the-consultant",
     "tags": [
         "movie",

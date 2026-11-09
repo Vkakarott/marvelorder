@@ -14,12 +14,12 @@ localized_title: "Homem-Aranha: A Série Animada"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/lN09YohDmsqyljNzykQxV0quvK.jpg",
+    "backdrop_path": "/tszlsbfyTOPSZe2z6K4mwHtcnmI.jpg",
     "id": 888,
     "name": "Spider-Man",
     "original_name": "Spider-Man",
     "overview": "Bitten by a neogenetic spider, Peter Parker develops spider-like superpowers. He uses these to fight crime while trying to balance it with the struggles of his personal life.",
-    "poster_path": "/wXthtEN5kdWA1bHz03lkuCJS6hA.jpg",
+    "poster_path": "/1BX1HZZqDoLDx9Ry4oET6dA9293.jpg",
     "media_type": "tv",
     "original_language": "en",
     "genre_ids": [
@@ -27,7 +27,8 @@ localized_title: "Homem-Aranha: A Série Animada"
         10759
     ],
     "first_air_date": "1994-11-19",
-    "vote_average": 8.3,
+    "softcore": false,
+    "vote_average": 8.313,
     "origin_country": [
         "US"
     ],

@@ -24,17 +24,20 @@ localized_title: X-Men
 ```json
 {
     "adult": false,
-    "backdrop_path": null,
+    "backdrop_path": "/30avL0vOOqlbN5kODDZZHDwbkr8.jpg",
     "genre_ids": [
-        878
+        878,
+        28,
+        12
     ],
     "id": 1293690,
+    "title": "Untitled X-Men Film",
     "original_language": "en",
     "original_title": "Untitled X-Men Film",
-    "overview": "An upcoming film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics team of the same name. Plot TBA.",
-    "poster_path": null,
-    "release_date": "",
-    "title": "Untitled X-Men Film",
+    "overview": "A film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics team. Plot TBA.",
+    "poster_path": "/jSn3jOzI91dOx4aVdfMrirWXH6R.jpg",
+    "release_date": "2028-05-04",
+    "softcore": false,
     "video": false,
     "vote_average": 0,
     "slug": "untitled-x-men-film",

@@ -26,8 +26,9 @@ localized_title: "Lendas da Marvel"
     "overview": "Revisit the epic heroes, villains and moments from across the MCU in preparation for the stories still to come. Each dynamic segment feeds directly into the upcoming series — setting the stage for future events. This series weaves together the many threads that constitute the unparalleled Marvel Cinematic Universe.",
     "poster_path": "/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
     "first_air_date": "2021-01-08",
+    "softcore": false,
     "name": "Marvel Studios Legends",
-    "vote_average": 7.4,
+    "vote_average": 7.354,
     "title": "Marvel Studios Legends",
     "slug": "marvel-studios-legends",
     "tags": [

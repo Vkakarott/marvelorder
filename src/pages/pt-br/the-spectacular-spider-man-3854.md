@@ -32,8 +32,9 @@ localized_title: "O Espetacular Homem-Aranha"
     "overview": "Having spent the summer engaging common criminals with his new-found powers, not so typical 16-year-old Peter Parker must conceal his secret identity and battle super-villains in the real world as he enters his junior year of high school.",
     "poster_path": "/dCNxOhXT7c4lqYuRpdM3m8s9XDp.jpg",
     "first_air_date": "2008-03-08",
+    "softcore": false,
     "name": "The Spectacular Spider-Man",
-    "vote_average": 8.597,
+    "vote_average": 8.627,
     "title": "The Spectacular Spider-Man",
     "slug": "the-spectacular-spider-man",
     "tags": [

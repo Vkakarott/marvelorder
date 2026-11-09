@@ -15,7 +15,7 @@ localized_title: "Marvel - Os Defensores"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/72jj9y2Ejeub0mycZvkrPfT59sW.jpg",
+    "backdrop_path": "/ycAWXhAhyaE7g3JBAaierK4LgNg.jpg",
     "genre_ids": [
         10765,
         10759,
@@ -30,8 +30,9 @@ localized_title: "Marvel - Os Defensores"
     "overview": "Daredevil, Jessica Jones, Luke Cage and Iron Fist join forces to take on common enemies as a sinister conspiracy threatens New York City.",
     "poster_path": "/49XzINhH4LFsgz7cx6TOPcHUJUL.jpg",
     "first_air_date": "2017-08-18",
+    "softcore": false,
     "name": "Marvel's The Defenders",
-    "vote_average": 7.063,
+    "vote_average": 7.029,
     "title": "Marvel's The Defenders",
     "slug": "marvels-the-defenders",
     "tags": [

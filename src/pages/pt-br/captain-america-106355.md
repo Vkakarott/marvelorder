@@ -29,8 +29,9 @@ localized_title: "Capitão América"
         878
     ],
     "release_date": "1944-02-05",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.309,
+    "vote_average": 5.3,
     "slug": "captain-america",
     "tags": [
         "list-8204862"

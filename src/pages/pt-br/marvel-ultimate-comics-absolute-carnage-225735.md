@@ -24,7 +24,7 @@ tags:
 ```json
 {
     "adult": false,
-    "backdrop_path": null,
+    "backdrop_path": "/53VPLchqVQZq9JEn4E3PX9pzSJS.jpg",
     "genre_ids": [],
     "id": 225735,
     "origin_country": [
@@ -33,8 +33,9 @@ tags:
     "original_language": "en",
     "original_name": "Marvel Ultimate Comics: Absolute Carnage",
     "overview": "Norman Osborn’s compulsion to destroy Spider-Man led to him joining with the Carnage symbiote to become the Red Goblin! But when he was defeated & the symbiote was violently ripped from him, it broke his psyche & made him believe he was Cletus Kasady",
-    "poster_path": null,
+    "poster_path": "/fxAaS1rN8YqYGLRf6ygJwYoKOtY.jpg",
     "first_air_date": "2019-08-14",
+    "softcore": false,
     "name": "Marvel Ultimate Comics: Absolute Carnage",
     "vote_average": 0,
     "title": "Marvel Ultimate Comics: Absolute Carnage",

@@ -17,18 +17,20 @@ localized_title: "O Incrível Hulk"
     "title": "The Incredible Hulk",
     "original_title": "The Incredible Hulk",
     "overview": "An accidental overdose of gamma radiation causes a mutation in scientist David Banner's DNA: now whenever he becomes angry, he metamorphoses into a seven-foot-tall, 330-pound, mindless muscular green creature.",
-    "poster_path": "/eMdysVpG2i3PzydIqkY4jt2YUZ8.jpg",
+    "poster_path": "/nCstm2LAXwT60QkejeU0fcYUSXS.jpg",
     "media_type": "movie",
     "original_language": "en",
     "genre_ids": [
         28,
         12,
         878,
-        10770
+        10770,
+        18
     ],
     "release_date": "1977-11-04",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.4,
+    "vote_average": 6.5,
     "slug": "the-incredible-hulk",
     "tags": [
         "list-8204862"

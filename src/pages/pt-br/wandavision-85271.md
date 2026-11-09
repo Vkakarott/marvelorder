@@ -15,7 +15,7 @@ overview: "Wanda Maximoff  e Visão, um casal de super-heróis com uma vida perf
 ```json
 {
     "adult": false,
-    "backdrop_path": "/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg",
+    "backdrop_path": "/fSCb3lzRbHknuKD7apdH4RYJLkc.jpg",
     "genre_ids": [
         10765,
         9648,
@@ -28,10 +28,11 @@ overview: "Wanda Maximoff  e Visão, um casal de super-heróis com uma vida perf
     "original_language": "en",
     "original_name": "WandaVision",
     "overview": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
-    "poster_path": "/glKDfE6btIRcVB5zrjspRIs4r52.jpg",
+    "poster_path": "/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
     "first_air_date": "2021-01-15",
+    "softcore": false,
     "name": "WandaVision",
-    "vote_average": 8.194,
+    "vote_average": 8.2,
     "title": "WandaVision",
     "slug": "wandavision",
     "tags": [

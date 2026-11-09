@@ -40,14 +40,15 @@ id: 758025
         12
     ],
     "id": 758025,
+    "title": "Peter's To-Do List",
     "original_language": "en",
     "original_title": "Peter's To-Do List",
     "overview": "On the eve of his departure to Europe, Peter Parker tells Ned Leeds that he has several things to do before they leave.",
-    "poster_path": "/2LoW0WMYHwhxXQr1wz6xCVRiX9.jpg",
+    "poster_path": "/9OOhqOVo37DQnQ6OUPz0Qlek5Uv.jpg",
     "release_date": "2019-09-17",
-    "title": "Peter's To-Do List",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.906,
+    "vote_average": 7,
     "slug": "peters-to-do-list",
     "tags": [
         "movie",

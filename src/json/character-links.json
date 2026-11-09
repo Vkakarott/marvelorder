@@ -1,5 +1,21 @@
 {
   "version": 1,
+  "redirects": {
+    "ch_18f100df-39b1-4627-8db8-5db09a92ea03": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_abd4e56c-b247-46f7-aba5-4d65fa4fb373": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_d171d451-8a91-4885-acb6-8e1a706a20da": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_c9995423-94f8-4580-b022-9447c4667eeb": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_d5fdc1f8-6954-48c4-9e27-ad92a2a2383d": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_2aac6df5-933d-4233-a62c-9679ddc40f5c": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_eb81f2fb-0f47-4cd3-96d0-84ceb010fa53": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_a1c86449-c793-4576-80df-ff197fe14521": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_75053204-3c88-48f3-86b3-3cdaeef41d00": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
+    "ch_5991bc37-faf1-4580-a858-d8339efd05b3": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
+    "ver_c53ea199-7c4a-4cac-8197-2f4e2dbcb3ed": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2"
+  },
   "characters": {
     "ch_0947ebac-b97a-4541-b9a0-07d7a1f752ff": {
       "name": "Peter Parker / Spider-Man",
@@ -8454,6 +8470,61 @@
     "ch_1eaf8c90-c783-4e83-aa04-4c097d20d435": {
       "name": "Angel",
       "scopeTitle": "movie:1293690",
+      "evidenceUrl": null
+    },
+    "ch_54b8aec8-d4a0-4582-a4f6-fd0ab7ce206c": {
+      "name": "Mr. Fantastic",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_0de3c409-cce4-4373-98b7-737f1422a313": {
+      "name": "Invisible Woman",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_fe3c157a-189d-4bdb-9ae6-0d5bb69ff0be": {
+      "name": "Johnny Storm",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_b435547b-3b88-4195-82d3-bccaaf4963ee": {
+      "name": "Ben Grimm",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_b15ecb67-27bf-4eb7-b842-774f58c8194e": {
+      "name": "H.E.R.B.I.E. / Peter Parker / Trapster",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_152e03ec-0715-4abf-94a9-1082c15bcf00": {
+      "name": "Alicia Masters",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_e52f686f-75ea-4edb-a1a6-cfc08ae7c7f5": {
+      "name": "Victor Von Doom / Dr. Doom / Mole Man",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_3fa77a82-8078-4316-a532-d912411e46d0": {
+      "name": "Courtney Bonner-Davis",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_8019188a-572e-46fd-add2-d88bfddb8ba6": {
+      "name": "Mr. Bonner-Davis / Ronan the Accuser",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_cecb3ba7-2c7f-431d-9f64-35e98239a0e3": {
+      "name": "Namor",
+      "scopeTitle": "tv:132",
+      "evidenceUrl": null
+    },
+    "ch_fcfc9182-bd64-49fb-86e3-22405074178b": {
+      "name": "Shaun / Shang-Chi",
+      "scopeTitle": "movie:1737233",
       "evidenceUrl": null
     }
   },
@@ -16911,6 +16982,61 @@
     "ver_ae853735-f52a-44be-9bea-6d05e1247d30": {
       "characterId": "ch_1eaf8c90-c783-4e83-aa04-4c097d20d435",
       "scopeTitle": "movie:1293690",
+      "continuity": null
+    },
+    "ver_3835c9ba-7fe1-457b-919a-0dd63901fe01": {
+      "characterId": "ch_54b8aec8-d4a0-4582-a4f6-fd0ab7ce206c",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_967bed96-3e20-4c3a-8009-7306dde44b69": {
+      "characterId": "ch_0de3c409-cce4-4373-98b7-737f1422a313",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_a1e2e81b-e435-462b-b366-41118d83a779": {
+      "characterId": "ch_fe3c157a-189d-4bdb-9ae6-0d5bb69ff0be",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_760e8bc1-042a-4a14-bd45-6a668e96ca87": {
+      "characterId": "ch_b435547b-3b88-4195-82d3-bccaaf4963ee",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_7d226eab-f5aa-457b-90de-e0cb34abeb8e": {
+      "characterId": "ch_b15ecb67-27bf-4eb7-b842-774f58c8194e",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_673f3963-aba8-49fc-99cd-95c21cb03f7b": {
+      "characterId": "ch_152e03ec-0715-4abf-94a9-1082c15bcf00",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_8430e3ab-3052-4b75-925d-40d6cfba64ce": {
+      "characterId": "ch_e52f686f-75ea-4edb-a1a6-cfc08ae7c7f5",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_ed241083-edf7-4665-921a-d1ac916d2824": {
+      "characterId": "ch_3fa77a82-8078-4316-a532-d912411e46d0",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_ffe3417f-3bda-4963-97e2-938d7e451ce8": {
+      "characterId": "ch_8019188a-572e-46fd-add2-d88bfddb8ba6",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_15612bf1-27c0-4e97-aba5-14349ff19fda": {
+      "characterId": "ch_cecb3ba7-2c7f-431d-9f64-35e98239a0e3",
+      "scopeTitle": "tv:132",
+      "continuity": null
+    },
+    "ver_1cca4b52-24e9-4261-ba57-ec5bf3ee8fec": {
+      "characterId": "ch_fcfc9182-bd64-49fb-86e3-22405074178b",
+      "scopeTitle": "movie:1737233",
       "continuity": null
     }
   },
@@ -32254,22 +32380,105 @@
       "sourceKind": "legacy_character_snapshot",
       "sourceUrl": "https://www.themoviedb.org/movie/284052/cast",
       "verificationUrl": "https://www.marvel.com/movies/doctor-strange"
+    },
+    {
+      "id": "part_e536816b-c9ac-474e-9c87-1278cbb2ba3d",
+      "titleId": "tv:132",
+      "rawName": "Mr. Fantastic",
+      "characterId": "ch_54b8aec8-d4a0-4582-a4f6-fd0ab7ce206c",
+      "versionId": "ver_3835c9ba-7fe1-457b-919a-0dd63901fe01",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_152b17f9-d5f1-4051-a35d-e03b5bfaaea9",
+      "titleId": "tv:132",
+      "rawName": "Invisible Woman",
+      "characterId": "ch_0de3c409-cce4-4373-98b7-737f1422a313",
+      "versionId": "ver_967bed96-3e20-4c3a-8009-7306dde44b69",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_790b0eaa-614f-41f8-9c9b-ce220170c9be",
+      "titleId": "tv:132",
+      "rawName": "Johnny Storm",
+      "characterId": "ch_fe3c157a-189d-4bdb-9ae6-0d5bb69ff0be",
+      "versionId": "ver_a1e2e81b-e435-462b-b366-41118d83a779",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_2061675a-9473-4346-8138-cf272351f9bb",
+      "titleId": "tv:132",
+      "rawName": "Ben Grimm",
+      "characterId": "ch_b435547b-3b88-4195-82d3-bccaaf4963ee",
+      "versionId": "ver_760e8bc1-042a-4a14-bd45-6a668e96ca87",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_7482e212-f9d5-4d96-882a-43e68bdc04c5",
+      "titleId": "tv:132",
+      "rawName": "H.E.R.B.I.E. / Peter Parker / Trapster",
+      "characterId": "ch_b15ecb67-27bf-4eb7-b842-774f58c8194e",
+      "versionId": "ver_7d226eab-f5aa-457b-90de-e0cb34abeb8e",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_77ac4dcb-6fbc-43d8-85c2-25a784f7a44c",
+      "titleId": "tv:132",
+      "rawName": "Alicia Masters",
+      "characterId": "ch_152e03ec-0715-4abf-94a9-1082c15bcf00",
+      "versionId": "ver_673f3963-aba8-49fc-99cd-95c21cb03f7b",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_7826a83f-a019-4db9-a2c0-8290ac120e80",
+      "titleId": "tv:132",
+      "rawName": "Victor Von Doom / Dr. Doom / Mole Man",
+      "characterId": "ch_e52f686f-75ea-4edb-a1a6-cfc08ae7c7f5",
+      "versionId": "ver_8430e3ab-3052-4b75-925d-40d6cfba64ce",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_05c579e5-5455-4374-8f39-0676dd89aebe",
+      "titleId": "tv:132",
+      "rawName": "Courtney Bonner-Davis",
+      "characterId": "ch_3fa77a82-8078-4316-a532-d912411e46d0",
+      "versionId": "ver_ed241083-edf7-4665-921a-d1ac916d2824",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_ee072550-8950-4e85-b292-adb723072d5e",
+      "titleId": "tv:132",
+      "rawName": "Mr. Bonner-Davis / Ronan the Accuser",
+      "characterId": "ch_8019188a-572e-46fd-add2-d88bfddb8ba6",
+      "versionId": "ver_ffe3417f-3bda-4963-97e2-938d7e451ce8",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_53245777-c2fa-4b4b-9cfc-9cc088a79e61",
+      "titleId": "tv:132",
+      "rawName": "Namor",
+      "characterId": "ch_cecb3ba7-2c7f-431d-9f64-35e98239a0e3",
+      "versionId": "ver_15612bf1-27c0-4e97-aba5-14349ff19fda",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/tv/132/cast"
+    },
+    {
+      "id": "part_0e5ab46d-c880-4749-98db-8c5967425497",
+      "titleId": "movie:1737233",
+      "rawName": "Shaun / Shang-Chi",
+      "characterId": "ch_fcfc9182-bd64-49fb-86e3-22405074178b",
+      "versionId": "ver_1cca4b52-24e9-4261-ba57-ec5bf3ee8fec",
+      "sourceKind": "legacy_character_snapshot",
+      "sourceUrl": "https://www.themoviedb.org/movie/1737233/cast"
     }
-  ],
-  "redirects": {
-    "ch_18f100df-39b1-4627-8db8-5db09a92ea03": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_abd4e56c-b247-46f7-aba5-4d65fa4fb373": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_33c3d57e-19a9-422c-8a6d-3ece1934eb2b": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_d171d451-8a91-4885-acb6-8e1a706a20da": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_c9995423-94f8-4580-b022-9447c4667eeb": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_d5fdc1f8-6954-48c4-9e27-ad92a2a2383d": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_f294b233-0a3d-4ec6-a722-35f1d49d821e": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_2aac6df5-933d-4233-a62c-9679ddc40f5c": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_a94f32c8-f138-471c-97a1-4e1979b02dd6": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_eb81f2fb-0f47-4cd3-96d0-84ceb010fa53": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_a1c86449-c793-4576-80df-ff197fe14521": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_75053204-3c88-48f3-86b3-3cdaeef41d00": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2",
-    "ch_5991bc37-faf1-4580-a858-d8339efd05b3": "ch_6bf315ee-4182-4a45-bfd0-9ed75fa76ddd",
-    "ver_c53ea199-7c4a-4cac-8197-2f4e2dbcb3ed": "ver_cbe95856-c135-40c9-bf9d-898c85ca51b2"
-  }
+  ]
 }

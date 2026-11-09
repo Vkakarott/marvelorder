@@ -27,21 +27,22 @@ localized_title: "Homem-Aranha: Um Novo Dia"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/jenQoCLJ4FEfFGZS13op91jlxjy.jpg",
+    "backdrop_path": "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
     "genre_ids": [
         878,
         28,
         12
     ],
     "id": 969681,
+    "title": "Spider-Man: Brand New Day",
     "original_language": "en",
     "original_title": "Spider-Man: Brand New Day",
-    "overview": "Four years after the events of Spider-Man: No Way Home, Peter Parker is no more and Spider-Man is at the top of his game keeping New York City safe. Things are going well until an unusual trail of crimes pulls Spider-Man into a web of mystery larger than he's ever faced before. In order to take on what's ahead, Spider-Man not only needs to be at the top of his physical and mental game, but he must also be prepared to face the repercussions of his past!",
-    "poster_path": "/9JCQtDCSpPR2ld55yNlEg1VwcQo.jpg",
-    "release_date": "2026-07-28",
-    "title": "Spider-Man: Brand New Day",
+    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "release_date": "2026-07-29",
+    "softcore": false,
     "video": false,
-    "vote_average": 0,
+    "vote_average": 8.478,
     "slug": "spider-man-brand-new-day",
     "tags": [
         "movie",

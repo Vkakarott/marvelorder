@@ -22,14 +22,15 @@ localized_title: "Marvel One Shot: Equipe Thor: Primeira Parte"
         878
     ],
     "id": 413279,
+    "title": "Team Thor",
     "original_language": "en",
     "original_title": "Team Thor",
     "overview": "Discover what Thor was up to during the events of Captain America: Civil War.",
-    "poster_path": "/jVSmX89BvsQV2z3wh2IVYVNVw1a.jpg",
+    "poster_path": "/hpHvGuMc46pppwpcW0Xk7eys3L4.jpg",
     "release_date": "2016-08-28",
-    "title": "Team Thor",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.225,
+    "vote_average": 7.222,
     "slug": "team-thor",
     "tags": [
         "movie",

@@ -21,14 +21,15 @@ localized_title: "Wolverine: Imortal"
         12
     ],
     "id": 76170,
+    "title": "The Wolverine",
     "original_language": "en",
     "original_title": "The Wolverine",
     "overview": "Wolverine faces his ultimate nemesis - and tests of his physical, emotional, and mortal limits - in a life-changing voyage to modern-day Japan.",
     "poster_path": "/t2wVAcoRlKvEIVSbiYDb8d0QqqS.jpg",
-    "release_date": "2013-07-21",
-    "title": "The Wolverine",
+    "release_date": "2013-07-24",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.431,
+    "vote_average": 6.435,
     "slug": "the-wolverine",
     "tags": [
         "movie",

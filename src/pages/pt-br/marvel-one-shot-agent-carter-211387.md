@@ -21,14 +21,15 @@ localized_title: "Marvel One-Shot: Agente Carter"
         878
     ],
     "id": 211387,
+    "title": "Marvel One-Shot: Agent Carter",
     "original_language": "en",
     "original_title": "Marvel One-Shot: Agent Carter",
-    "overview": "One year after the events of Captain America: The First Avenger, Agent Peggy Carter, a member of the Strategic Scientific Reserve, searches for the mysterious Zodiac.",
+    "overview": "Agent Peggy Carter is relegated to a desk job and frustrated at her male boss and comrades' sexist dismissal of her place in the SSR. Ordered to work late one night, Carter gets an alert that the villain Zodiac has been spotted and decides to take care of it herself.",
     "poster_path": "/4vFKKWPvCVDJTOWiwReBfpAMScP.jpg",
     "release_date": "2013-10-04",
-    "title": "Marvel One-Shot: Agent Carter",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.237,
+    "vote_average": 7.2,
     "slug": "marvel-one-shot-agent-carter",
     "tags": [
         "movie",

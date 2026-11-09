@@ -43,8 +43,9 @@ localized_title: "Homem de Ferro e seus Amigos Incríveis"
     "overview": "Follow the adventures (and misadventures) of best friends and super geniuses, Tony Stark, Riri Williams and Amadeus Cho as they work together to solve problems both big and small and protect their city.",
     "poster_path": "/3NlFaIdOkBg2VC3Imi1kbeeGynw.jpg",
     "first_air_date": "2025-08-11",
+    "softcore": false,
     "name": "Iron Man and His Awesome Friends",
-    "vote_average": 4.2,
+    "vote_average": 4.3,
     "title": "Iron Man and His Awesome Friends",
     "slug": "iron-man-and-his-awesome-friends",
     "tags": [

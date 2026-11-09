@@ -23,14 +23,15 @@ localized_title: "Peter Porker: O Espetacular Porco-Aranha"
         878
     ],
     "id": 583055,
+    "title": "Spider-Ham: Caught in a Ham",
     "original_language": "en",
     "original_title": "Spider-Ham: Caught in a Ham",
-    "overview": "Spider-Ham: Caught in a Ham follows Spider-Ham as he faces off against bad guys, chows down on hot dogs, and makes plenty of food-based puns.",
+    "overview": "Spider-Ham faces off against bad guys, chows down on hot dogs, and makes plenty of food-based puns.",
     "poster_path": "/hCcuPPSGTohyg4YqPJornTwLL03.jpg",
     "release_date": "2019-03-19",
-    "title": "Spider-Ham: Caught in a Ham",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.851,
+    "vote_average": 6.8,
     "slug": "spider-ham-caught-in-a-ham",
     "tags": [
         "movie",

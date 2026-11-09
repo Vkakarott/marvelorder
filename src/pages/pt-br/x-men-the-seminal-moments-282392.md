@@ -35,6 +35,7 @@ tags:
     "overview": "This online documentary series from Marvel celebrates the X-Men comic books that changed the Marvel Universe forever. These new retrospectives take both longtime and new X-Men fans back to some of the greatest moments in the Marvel Universe, setting the scene for the most important story in the history of mutantkind. These short films feature voices from Marvel’s past and present – including legendary creators like Adam Kubert, Chris Claremont, Larry Hama, Jonathan Hickman, Al Ewing and more – as they look back and share their thoughts (and inside looks) into the most influential moments that redefined and reignited the X-Men, leading to bold new directions that drew in generations of fans around the world.",
     "poster_path": "/glePmJT47vRcWok4LSd0opY0CqX.jpg",
     "first_air_date": "2019-05-20",
+    "softcore": false,
     "name": "X-Men: The Seminal Moments",
     "vote_average": 10,
     "title": "X-Men: The Seminal Moments",

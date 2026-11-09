@@ -30,7 +30,8 @@ localized_title: "Os Super-Heróis da Marvel"
         10762
     ],
     "first_air_date": "1966-09-05",
-    "vote_average": 6.5,
+    "softcore": false,
+    "vote_average": 6.8,
     "origin_country": [
         "US"
     ],

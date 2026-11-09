@@ -49,10 +49,11 @@ watchLinks:
     "original_language": "en",
     "original_name": "The Fantastic Four",
     "overview": "The first animated series based on Marvel's comic book series Fantastic Four.",
-    "poster_path": "/8zwysNUXr5z3mDZSFEv1fZ8qo08.jpg",
+    "poster_path": "/o2jhtGqOR3UAWg4wIBu21Ub4ecP.jpg",
     "first_air_date": "1967-09-09",
+    "softcore": false,
     "name": "The Fantastic Four",
-    "vote_average": 7.1,
+    "vote_average": 7.172,
     "title": "The Fantastic Four",
     "slug": "the-fantastic-four",
     "tags": [

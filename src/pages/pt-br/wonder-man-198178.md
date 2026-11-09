@@ -15,7 +15,7 @@ Other titles
 ```json
 {
     "adult": false,
-    "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
+    "backdrop_path": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
     "genre_ids": [
         35,
         18
@@ -29,6 +29,7 @@ Other titles
     "overview": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
     "poster_path": "/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
     "first_air_date": "2026-01-27",
+    "softcore": false,
     "name": "Wonder Man",
     "vote_average": 7.1,
     "title": "Wonder Man",

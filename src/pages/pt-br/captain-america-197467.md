@@ -30,8 +30,9 @@ localized_title: "Capitão América"
         10770
     ],
     "release_date": "1979-01-19",
+    "softcore": false,
     "video": false,
-    "vote_average": 3.97,
+    "vote_average": 3.9,
     "slug": "captain-america",
     "tags": [
         "list-8204862"

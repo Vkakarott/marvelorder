@@ -30,7 +30,9 @@ localized_title: "Conheça Homem de Ferro e seus Amigos Incríveis"
     "backdrop_path": "/iE0hoRpswifSpguQLVNhTe76JpL.jpg",
     "genre_ids": [
         10762,
-        16
+        16,
+        10759,
+        10765
     ],
     "id": 294895,
     "origin_country": [
@@ -41,6 +43,7 @@ localized_title: "Conheça Homem de Ferro e seus Amigos Incríveis"
     "overview": "Join young genius inventor Tony Stark (Iron Man) and his team of heroic friends as they embark on thrilling adventures, using their tech, teamwork, and quick thinking to save the day!",
     "poster_path": "/gg1Jo5iwoiuVwxGV7FgWxBlZSh5.jpg",
     "first_air_date": "2025-07-14",
+    "softcore": false,
     "name": "Meet Iron Man and His Awesome Friends",
     "vote_average": 3.8,
     "title": "Meet Iron Man and His Awesome Friends",

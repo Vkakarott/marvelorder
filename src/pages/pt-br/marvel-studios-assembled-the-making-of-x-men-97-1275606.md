@@ -24,19 +24,20 @@ localized_title: "Avante: Nos Bastidores de X-Men '97"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/dfqaWaAKbKyKFKiMyzqBzGKTnSB.jpg",
+    "backdrop_path": "/cWCJQO0x7qt4ua14ioGLCDLnpAq.jpg",
     "genre_ids": [
         99
     ],
     "id": 1275606,
+    "title": "Marvel Studios Assembled: The Making of X-Men '97",
     "original_language": "en",
     "original_title": "Marvel Studios Assembled: The Making of X-Men '97",
     "overview": "Spend time with the original cast, along with new voices, as this behind-the-scenes special recalls the birth of \"X-Men: The Animated Series,\" and its revival thirty years later as \"X-Men '97.\"",
     "poster_path": "/6YIhiAzNB9PPgIPA04tD1xaSBMw.jpg",
     "release_date": "2024-05-21",
-    "title": "Marvel Studios Assembled: The Making of X-Men '97",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.769,
+    "vote_average": 6.167,
     "slug": "marvel-studios-assembled-the-making-of-x-men-97",
     "tags": [
         "movie",

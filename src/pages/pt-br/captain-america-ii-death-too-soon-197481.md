@@ -30,8 +30,9 @@ localized_title: "Capitão América II"
         10770
     ],
     "release_date": "1979-11-23",
+    "softcore": false,
     "video": false,
-    "vote_average": 3.742,
+    "vote_average": 3.8,
     "slug": "captain-america-ii-death-too-soon",
     "tags": [
         "list-8204862"

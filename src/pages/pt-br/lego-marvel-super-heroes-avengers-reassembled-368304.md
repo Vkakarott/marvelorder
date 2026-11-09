@@ -25,20 +25,23 @@ localized_title: "LEGO Super-Heróis da Marvel: Vingadores Reunidos!"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/rGGRv7XXpDBVGD2BtbKWENfZOkf.jpg",
+    "backdrop_path": "/4vWtpIyqdakMEwqEpNhjW2TLjJR.jpg",
     "genre_ids": [
         10751,
-        16
+        16,
+        878,
+        28
     ],
     "id": 368304,
+    "title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
     "original_language": "en",
     "original_title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
     "overview": "The Avengers are forced to “party” with Ultron when he seeks to disassemble the team by taking control of Iron Man’s armor and enact a nefarious scheme to take over the world.",
-    "poster_path": "/xUBZNoY7idPfqKZepnDEv7Qc8GC.jpg",
+    "poster_path": "/2PMcA3X5rhBuQbiavLQLDqkXYfi.jpg",
     "release_date": "2015-11-16",
-    "title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.595,
+    "vote_average": 6.5,
     "slug": "lego-marvel-super-heroes-avengers-reassembled",
     "tags": [
         "movie",

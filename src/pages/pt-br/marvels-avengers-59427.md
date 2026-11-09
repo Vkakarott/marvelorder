@@ -30,7 +30,8 @@ localized_title: "Os Vingadores Unidos"
         10765
     ],
     "first_air_date": "2013-05-26",
-    "vote_average": 7.6,
+    "softcore": false,
+    "vote_average": 7.515,
     "origin_country": [
         "US"
     ],

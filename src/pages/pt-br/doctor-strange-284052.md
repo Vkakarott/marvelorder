@@ -16,21 +16,22 @@ localized_title: "Doutor Estranho"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/3zvZ699gMW2RhWc0GisIukzq0Ls.jpg",
+    "backdrop_path": "/kkoiH8ZWxJ9WSAjOadGtuHUQxbm.jpg",
     "genre_ids": [
         14,
         12,
         28
     ],
     "id": 284052,
+    "title": "Doctor Strange",
     "original_language": "en",
     "original_title": "Doctor Strange",
     "overview": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
-    "poster_path": "/xf8PbyQcR5ucXErmZNzdKR0s8ya.jpg",
+    "poster_path": "/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
     "release_date": "2016-10-25",
-    "title": "Doctor Strange",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.418,
+    "vote_average": 7.425,
     "slug": "doctor-strange",
     "tags": [
         "movie",

@@ -15,7 +15,7 @@ overview: "Com base nos quadrinhos populares da Marvel, esta maravilhosa histór
 ```json
 {
     "adult": false,
-    "backdrop_path": "/rC8p2xuywf4633s1gBinfENKbqF.jpg",
+    "backdrop_path": "/ypjekzMRMvdrx4PRA7v1DNyCmTR.jpg",
     "genre_ids": [
         10762,
         16,
@@ -30,10 +30,11 @@ overview: "Com base nos quadrinhos populares da Marvel, esta maravilhosa histór
     "original_language": "en",
     "original_name": "X-Men: Evolution",
     "overview": "Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight for a world that fears and hates them.",
-    "poster_path": "/HEzbwsX1VniBSwZ4LrxwlfWhfW.jpg",
+    "poster_path": "/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
     "first_air_date": "2000-11-04",
+    "softcore": false,
     "name": "X-Men: Evolution",
-    "vote_average": 7.976,
+    "vote_average": 7.956,
     "title": "X-Men: Evolution",
     "slug": "x-men-evolution",
     "tags": [

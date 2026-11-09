@@ -33,8 +33,9 @@ localized_title: "O Julgamento do Incrível Hulk"
         10770
     ],
     "release_date": "1989-05-07",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.373,
+    "vote_average": 6.4,
     "slug": "the-trial-of-the-incredible-hulk",
     "tags": [
         "list-8204862"

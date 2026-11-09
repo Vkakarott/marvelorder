@@ -15,7 +15,7 @@ localized_title: "Gavião Arqueiro"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/1R68vl3d5s86JsS2NPjl8UoMqIS.jpg",
+    "backdrop_path": "/uHESULlKh7VSc0MRcqfyIf9Alk4.jpg",
     "genre_ids": [
         18,
         35,
@@ -30,8 +30,9 @@ localized_title: "Gavião Arqueiro"
     "overview": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit.",
     "poster_path": "/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
     "first_air_date": "2021-11-24",
+    "softcore": false,
     "name": "Hawkeye",
-    "vote_average": 7.799,
+    "vote_average": 7.765,
     "title": "Hawkeye",
     "slug": "hawkeye",
     "tags": [

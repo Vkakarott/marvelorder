@@ -14,7 +14,7 @@ localized_title: "Assassímio da Marvel"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/sqEyRJvBVF1YphHPWCfCRNWdIMe.jpg",
+    "backdrop_path": "/yT5ZZ3kOtCzJJVLKKp2YCNrOKrh.jpg",
     "genre_ids": [
         16,
         10759
@@ -26,10 +26,11 @@ localized_title: "Assassímio da Marvel"
     "original_language": "en",
     "original_name": "Marvel's Hit-Monkey",
     "overview": "After a high-profile political assassination goes sideways, an injured hitman hides out amongst a tribe of snow monkeys in the mountains of Japan.",
-    "poster_path": "/1aK7hApRSDUv8xxDQXyQil7qBjN.jpg",
+    "poster_path": "/y3ee57YPBhP8RHadX920UjURAWu.jpg",
     "first_air_date": "2021-11-17",
+    "softcore": false,
     "name": "Marvel's Hit-Monkey",
-    "vote_average": 7.747,
+    "vote_average": 7.755,
     "title": "Marvel's Hit-Monkey",
     "slug": "marvels-hit-monkey",
     "tags": [

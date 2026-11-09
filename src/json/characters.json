@@ -1103,6 +1103,16 @@
         "Nick Fury"
       ]
     },
+    "movie:1731190": {
+      "fetchedAt": "2026-11-09",
+      "characters": []
+    },
+    "movie:1737233": {
+      "fetchedAt": "2026-11-09",
+      "characters": [
+        "Shaun / Shang-Chi"
+      ]
+    },
     "movie:1738010": {
       "fetchedAt": "2026-10-25",
       "characters": [
@@ -7677,6 +7687,10 @@
         "The Supreme Intelligence",
         "Ultron / Jasper Sitwell"
       ]
+    },
+    "tv:337844": {
+      "fetchedAt": "2026-11-09",
+      "characters": []
     },
     "tv:38247": {
       "fetchedAt": "2026-10-25",

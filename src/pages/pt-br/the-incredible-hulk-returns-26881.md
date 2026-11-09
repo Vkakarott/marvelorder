@@ -21,7 +21,7 @@ localized_title: "A Volta do Incrível Hulk"
     "title": "The Incredible Hulk Returns",
     "original_title": "The Incredible Hulk Returns",
     "overview": "Years after the end of the original series, David Banner continues his wandering search for a cure for the condition that turns him into the Hulk. He reunites with former colleague Don Blake, unaware of his mystical connection to Thor. When a criminal organization threatens their lives, Banner is forced to unleash the Hulk once again, marking the character’s return after the series finale.",
-    "poster_path": "/dw7eBKL26HEkA89BKvNVsjx7gGL.jpg",
+    "poster_path": "/rDAWdpW0uzUj9c4YPeuanPGWHBq.jpg",
     "media_type": "movie",
     "original_language": "en",
     "genre_ids": [
@@ -31,8 +31,9 @@ localized_title: "A Volta do Incrível Hulk"
         10770
     ],
     "release_date": "1988-05-22",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.2,
+    "vote_average": 6.3,
     "slug": "the-incredible-hulk-returns",
     "tags": [
         "list-8204862"

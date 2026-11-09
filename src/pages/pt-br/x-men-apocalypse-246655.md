@@ -17,20 +17,20 @@ localized_title: "X-Men: Apocalipse"
     "adult": false,
     "backdrop_path": "/sTQNRqLbfCXolrb5CizAW1dj528.jpg",
     "genre_ids": [
-        28,
-        12,
         878,
-        14
+        14,
+        28
     ],
     "id": 246655,
+    "title": "X-Men: Apocalypse",
     "original_language": "en",
     "original_title": "X-Men: Apocalypse",
     "overview": "After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan.",
     "poster_path": "/ikA8UhYdTGpqbatFa93nIf6noSr.jpg",
     "release_date": "2016-05-18",
-    "title": "X-Men: Apocalypse",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.521,
+    "vote_average": 6.53,
     "slug": "x-men-apocalypse",
     "tags": [
         "movie",

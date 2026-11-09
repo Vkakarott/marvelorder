@@ -25,14 +25,15 @@ localized_title: "Vingadores: Ultimato"
         28
     ],
     "id": 299534,
+    "title": "Avengers: Endgame",
     "original_language": "en",
     "original_title": "Avengers: Endgame",
     "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-    "poster_path": "/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+    "poster_path": "/jtDv3lCnST0fZRvdYFwR5CVwK2x.jpg",
     "release_date": "2019-04-24",
-    "title": "Avengers: Endgame",
+    "softcore": false,
     "video": false,
-    "vote_average": 8.235,
+    "vote_average": 8.2,
     "slug": "avengers-endgame",
     "tags": [
         "movie",

@@ -25,11 +25,13 @@ localized_title: "Homem-Aranha: O Filme"
         878,
         28,
         80,
-        10770
+        10770,
+        12
     ],
     "release_date": "1977-09-14",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.302,
+    "vote_average": 6.295,
     "slug": "spider-man",
     "tags": [
         "list-8204862"

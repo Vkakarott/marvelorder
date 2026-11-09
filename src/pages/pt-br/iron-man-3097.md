@@ -14,12 +14,12 @@ localized_title: "Homem de Ferro"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/ijOzFQw37jjfZdG1zproCkO6oue.jpg",
+    "backdrop_path": "/dLlymUGv7SonWkvPJAr3peh4uCj.jpg",
     "id": 3097,
     "name": "Iron Man",
     "original_name": "Iron Man",
     "overview": "Industrialist Tony Stark leads a private team of superheroes as Iron Man against the forces of evil.",
-    "poster_path": "/nTQWWH6CFtl37x1nPx8HRwbwvGn.jpg",
+    "poster_path": "/i8bNw4L6PkEn9hkIVX3oxNISrr9.jpg",
     "media_type": "tv",
     "original_language": "en",
     "genre_ids": [
@@ -28,7 +28,8 @@ localized_title: "Homem de Ferro"
         10765
     ],
     "first_air_date": "1994-09-24",
-    "vote_average": 6.648,
+    "softcore": false,
+    "vote_average": 6.8,
     "origin_country": [
         "US"
     ],

@@ -38,7 +38,8 @@ localized_title: "O Homem Elétrico"
         10759
     ],
     "first_air_date": "1997-09-20",
-    "vote_average": 6.2,
+    "softcore": false,
+    "vote_average": 6.5,
     "origin_country": [
         "US"
     ],

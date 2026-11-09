@@ -25,12 +25,13 @@ localized_title: "O Homem-Aranha Contra-Ataca"
         28,
         12,
         10751,
-        14,
-        10770
+        10770,
+        878
     ],
     "release_date": "1978-12-21",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.844,
+    "vote_average": 5.868,
     "slug": "spider-man-strikes-back",
     "tags": [
         "list-8204862"

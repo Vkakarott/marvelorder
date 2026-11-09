@@ -11,7 +11,7 @@ overview: "Um soro experimental chamado Extremis é roubado, e o Homem de Ferro 
 ```json
 {
     "adult": false,
-    "backdrop_path": "/znw6gXnby8fWRR74ZnXqtsfyJvR.jpg",
+    "backdrop_path": "/xa3BGbfBGCEi2mrObmJwJhJwwJd.jpg",
     "genre_ids": [
         16
     ],
@@ -24,6 +24,7 @@ overview: "Um soro experimental chamado Extremis é roubado, e o Homem de Ferro 
     "overview": "An experimental serum called Extremis gets stolen, and Iron Man rockets into action. The ensuing battles test Stark's spirit and Iron Man's power.",
     "poster_path": "/w10ClxT6uqnyxJZiMAx2ty9GkWu.jpg",
     "first_air_date": "2010-11-30",
+    "softcore": false,
     "name": "Iron Man: Extremis",
     "vote_average": 6.4,
     "title": "Iron Man: Extremis",

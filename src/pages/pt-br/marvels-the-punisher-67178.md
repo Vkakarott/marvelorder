@@ -15,7 +15,7 @@ localized_title: "Marvel - O Justiceiro"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg",
+    "backdrop_path": "/9czVEnJemvP6gcJlMEjUeuISL1c.jpg",
     "genre_ids": [
         10759,
         80,
@@ -28,10 +28,11 @@ localized_title: "Marvel - O Justiceiro"
     "original_language": "en",
     "original_name": "Marvel's The Punisher",
     "overview": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.",
-    "poster_path": "/9tepVli4YijTCHyiATRvoR4c64X.jpg",
+    "poster_path": "/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
     "first_air_date": "2017-11-17",
+    "softcore": false,
     "name": "Marvel's The Punisher",
-    "vote_average": 8.132,
+    "vote_average": 8.157,
     "title": "Marvel's The Punisher",
     "slug": "marvels-the-punisher",
     "tags": [

@@ -29,8 +29,9 @@ localized_title: "O Casamento do Incrível Hulk"
         18
     ],
     "release_date": "1980-01-30",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.61,
+    "vote_average": 6.7,
     "slug": "bride-of-the-incredible-hulk",
     "tags": [
         "list-8204862"

@@ -33,14 +33,15 @@ localized_title: "Groot Toma Banho"
         878
     ],
     "id": 1010821,
+    "title": "Groot Takes a Bath",
     "original_language": "en",
     "original_title": "Groot Takes a Bath",
     "overview": "Everybody needs some alone time to relax and wash up, but things go quite differently when you’re a Flora Colossi toddler.",
-    "poster_path": "/uUpl9VhaJ6ciOS2jSEgvVo1iSDh.jpg",
+    "poster_path": "/egBOw7NBMuM283SOltESKq0gJjJ.jpg",
     "release_date": "2022-08-10",
-    "title": "Groot Takes a Bath",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.137,
+    "vote_average": 7.104,
     "slug": "groot-takes-a-bath",
     "tags": [
         "movie",

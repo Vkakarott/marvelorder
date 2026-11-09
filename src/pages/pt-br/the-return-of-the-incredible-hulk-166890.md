@@ -18,7 +18,7 @@ localized_title: "O Retorno do Incrível Hulk"
     "title": "The Return of the Incredible Hulk",
     "original_title": "The Return of the Incredible Hulk",
     "overview": "Continuing his solitary flight, David Banner arrives in a small town where he saves the life of a young heiress, the target of a deadly conspiracy orchestrated by her stepmother and a corrupt physician. While working undercover to protect the girl and dismantle the plot, Banner must struggle to contain the beast within, especially when the arrival of reporter Jack McGee threatens to expose his secret to the world.",
-    "poster_path": "/myEZ1ne2jvM09NRPm3PwUedPqiO.jpg",
+    "poster_path": "/8p1v6XyUUBES5kCWxNyAdEGkcfq.jpg",
     "media_type": "movie",
     "original_language": "en",
     "genre_ids": [
@@ -28,8 +28,9 @@ localized_title: "O Retorno do Incrível Hulk"
         878
     ],
     "release_date": "1977-11-28",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.9,
+    "vote_average": 6.1,
     "slug": "the-return-of-the-incredible-hulk",
     "tags": [
         "list-8204862"

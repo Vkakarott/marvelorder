@@ -31,8 +31,9 @@ localized_title: "Agentes da S.H.I.E.L.D. da Marvel"
     "overview": "Agent Phil Coulson of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) puts together a team of agents to investigate the new, the strange and the unknown around the globe, protecting the ordinary from the extraordinary.",
     "poster_path": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
     "first_air_date": "2013-09-24",
+    "softcore": false,
     "name": "Marvel's Agents of S.H.I.E.L.D.",
-    "vote_average": 7.472,
+    "vote_average": 7.485,
     "title": "Marvel's Agents of S.H.I.E.L.D.",
     "slug": "marvels-agents-of-shield",
     "tags": [

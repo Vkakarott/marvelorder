@@ -27,10 +27,11 @@ localized_title: "Invasão Secreta"
     "original_language": "en",
     "original_name": "Secret Invasion",
     "overview": "Nick Fury and Talos discover a faction of shapeshifting Skrulls who have been infiltrating Earth for years.",
-    "poster_path": "/f5ZMzzCvt2IzVDxr54gHPv9jlC9.jpg",
+    "poster_path": "/3rINdUPSy9AklJg74jWHOyUXuZd.jpg",
     "first_air_date": "2023-06-21",
+    "softcore": false,
     "name": "Secret Invasion",
-    "vote_average": 6.506,
+    "vote_average": 6.4,
     "title": "Secret Invasion",
     "slug": "secret-invasion",
     "tags": [

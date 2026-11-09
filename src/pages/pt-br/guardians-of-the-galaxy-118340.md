@@ -23,14 +23,15 @@ localized_title: "Guardiões da Galáxia"
         12
     ],
     "id": 118340,
+    "title": "Guardians of the Galaxy",
     "original_language": "en",
     "original_title": "Guardians of the Galaxy",
     "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
     "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
     "release_date": "2014-07-30",
-    "title": "Guardians of the Galaxy",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.905,
+    "vote_average": 7.908,
     "slug": "guardians-of-the-galaxy",
     "tags": [
         "movie",

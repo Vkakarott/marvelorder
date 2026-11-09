@@ -29,14 +29,15 @@ localized_title: "Nos Bastidores de Ms. Marvel"
         99
     ],
     "id": 1001912,
+    "title": "Marvel Studios Assembled: The Making of Ms. Marvel",
     "original_language": "en",
     "original_title": "Marvel Studios Assembled: The Making of Ms. Marvel",
     "overview": "Go behind-the-scenes every step of the way with immersive footage from the making of the series, along with insightful interviews on set from the cast and crew of Ms. Marvel as we watch Iman Vellani and her character, Kamala Khan, become the fan-favorite superhero right before our eyes.",
     "poster_path": "/6m0rG2bS90FOlUaxEq8ZPCTQMei.jpg",
     "release_date": "2022-08-03",
-    "title": "Marvel Studios Assembled: The Making of Ms. Marvel",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.75,
+    "vote_average": 6.8,
     "slug": "marvel-studios-assembled-the-making-of-ms-marvel",
     "tags": [
         "movie",

@@ -45,8 +45,9 @@ localized_title: "O Incrível Hulk"
     "overview": "When research scientist Bruce Banner is blasted with a gamma ray bomb during an experiment gone wrong, he develops a dangerous alter ego -- a mean, green monster known as the Incredible Hulk -- who emerges when he gets angry.",
     "poster_path": "/wa60s9NSvrH87NFCArmobnIyNnh.jpg",
     "first_air_date": "1996-09-08",
+    "softcore": false,
     "name": "The Incredible Hulk",
-    "vote_average": 6.288,
+    "vote_average": 6.371,
     "title": "The Incredible Hulk",
     "slug": "the-incredible-hulk",
     "tags": [

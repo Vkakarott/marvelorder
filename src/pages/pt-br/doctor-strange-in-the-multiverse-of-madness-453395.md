@@ -15,21 +15,22 @@ localized_title: "Doutor Estranho no Multiverso da Loucura"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/gUNRlH66yNDH3NQblYMIwgZXJ2u.jpg",
+    "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
     "genre_ids": [
         14,
         28,
         12
     ],
     "id": 453395,
+    "title": "Doctor Strange in the Multiverse of Madness",
     "original_language": "en",
     "original_title": "Doctor Strange in the Multiverse of Madness",
     "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
     "poster_path": "/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
     "release_date": "2022-05-04",
-    "title": "Doctor Strange in the Multiverse of Madness",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.227,
+    "vote_average": 7.219,
     "slug": "doctor-strange-in-the-multiverse-of-madness",
     "tags": [
         "movie",

@@ -11,7 +11,7 @@ localized_title: "Mulher-Aranha: Agente da S.W.O.R.D."
 ```json
 {
     "adult": false,
-    "backdrop_path": "/sH1RoZI7226e7B3tfRC7cRJBUDy.jpg",
+    "backdrop_path": "/d5Sy0oXMMfVOquaKuYRNHNdJl14.jpg",
     "genre_ids": [
         16,
         10759
@@ -25,8 +25,9 @@ localized_title: "Mulher-Aranha: Agente da S.W.O.R.D."
     "overview": "Feeling like the most hated person on Earth after the events of Secret Invasion, Jessica Drew aka Spider-Woman is approached by a mysterious stranger to join S.W.O.R.D. (Sentient World Observation and Response Department), a counter-terrorism and intelligence agency for extraterrestrial threats.",
     "poster_path": "/93pxdXPT8RC2pArLU3iQPGyQkAX.jpg",
     "first_air_date": "2009-08-18",
+    "softcore": false,
     "name": "Marvel Knights: Spider-Woman, Agent of S.W.O.R.D.",
-    "vote_average": 5.3,
+    "vote_average": 5.2,
     "title": "Marvel Knights: Spider-Woman, Agent of S.W.O.R.D.",
     "slug": "marvel-knights-spider-woman-agent-of-sword",
     "tags": [

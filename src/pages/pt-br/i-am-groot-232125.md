@@ -28,7 +28,7 @@ localized_title: "Eu Sou Groot"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/bAnHzJ6AMhOhnV3C0kTxkpCqpgM.jpg",
+    "backdrop_path": "/AcqVeohiVgGEFTKwjvL57YHsnGU.jpg",
     "genre_ids": [
         16,
         35,
@@ -45,8 +45,9 @@ localized_title: "Eu Sou Groot"
     "overview": "There's no guarding the galaxy from this mischievous toddler! Get ready as Baby Groot takes center stage in his very own collection of shorts, exploring his glory days growing up and getting into trouble among the stars.",
     "poster_path": "/lYwFSsP4KsoRhOLhJvBFp3GEGEm.jpg",
     "first_air_date": "2022-08-10",
+    "softcore": false,
     "name": "I Am Groot",
-    "vote_average": 7.051,
+    "vote_average": 7,
     "title": "I Am Groot",
     "slug": "i-am-groot",
     "tags": [

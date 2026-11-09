@@ -21,14 +21,15 @@ localized_title: "Demolidor: O Homem Sem Medo"
         28
     ],
     "id": 9480,
+    "title": "Daredevil",
     "original_language": "en",
     "original_title": "Daredevil",
-    "overview": "A man blinded in a childhood accident fights crime using his superhumanly-elevated remaining senses.",
+    "overview": "By day, blind attorney Matt Murdock toils for justice in Hell's Kitchen. By night, he's Daredevil, The Man Without Fear - a powerful, masked vigilante stalking the dark streets with an uncanny \"radar sense\" that allows him to \"see\" with superhuman capabilities. But when the love of his life, fiery Elektra Natchios, is targeted by New York City's ruthless Kingpin of crime and his deadly assassin Bullseye, Daredevil may be about to meet his match.",
     "poster_path": "/oCDBwSkntYamuw8VJIxMRCtDBmi.jpg",
     "release_date": "2003-02-14",
-    "title": "Daredevil",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.292,
+    "vote_average": 5.305,
     "slug": "daredevil",
     "tags": [
         "movie",

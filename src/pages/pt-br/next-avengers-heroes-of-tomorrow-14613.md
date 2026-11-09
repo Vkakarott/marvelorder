@@ -28,7 +28,7 @@ localized_title: "Os Novos Vingadores: Heróis do Amanhã"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/6V6rhHkqYvJGlxIQ9mvZuIoY6c9.jpg",
+    "backdrop_path": "/iYY8wiLHASWDxhGWTXfqr4XOAGG.jpg",
     "genre_ids": [
         16,
         10751,
@@ -37,14 +37,15 @@ localized_title: "Os Novos Vingadores: Heróis do Amanhã"
         878
     ],
     "id": 14613,
+    "title": "Next Avengers: Heroes of Tomorrow",
     "original_language": "en",
     "original_title": "Next Avengers: Heroes of Tomorrow",
     "overview": "The children of the Avengers hone their powers and go head to head with the very enemy responsible for their parents' demise.",
     "poster_path": "/1y4J9HZJoTIMdt77wCq80uXaQJ.jpg",
     "release_date": "2008-09-02",
-    "title": "Next Avengers: Heroes of Tomorrow",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.023,
+    "vote_average": 7.1,
     "slug": "next-avengers-heroes-of-tomorrow",
     "tags": [
         "movie",

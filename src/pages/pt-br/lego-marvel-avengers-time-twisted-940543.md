@@ -35,14 +35,15 @@ localized_title: "LEGO Marvel Vingadores: Time Twisted"
         12
     ],
     "id": 940543,
+    "title": "LEGO Marvel Avengers: Time Twisted",
     "original_language": "en",
     "original_title": "LEGO Marvel Avengers: Time Twisted",
     "overview": "When Thanos steals the quantum tunnel, the Avengers embark on a mission to stop him from changing history.",
     "poster_path": "/7nA9AjJ8iZvbBPsFPC2FNoFj568.jpg",
     "release_date": "2022-01-17",
-    "title": "LEGO Marvel Avengers: Time Twisted",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.184,
+    "vote_average": 7,
     "slug": "lego-marvel-avengers-time-twisted",
     "tags": [
         "movie",

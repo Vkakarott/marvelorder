@@ -33,8 +33,9 @@ localized_title: "Os Vingadores: Os Super-Heróis Mais Poderosos da Terra"
     "overview": "The most powerful villains on the planet escape from prison. However, none of the superheroes can stop them without help, not even S.H.I.E.L.D. The Avengers then join forces to fight evil, and discover that as a group they are stronger.",
     "poster_path": "/r1JDhMrqCOZKh7lc0vQlRYQ46cE.jpg",
     "first_air_date": "2010-10-20",
+    "softcore": false,
     "name": "The Avengers: Earth's Mightiest Heroes",
-    "vote_average": 8.196,
+    "vote_average": 8.2,
     "title": "The Avengers: Earth's Mightiest Heroes",
     "slug": "the-avengers-earths-mightiest-heroes",
     "tags": [

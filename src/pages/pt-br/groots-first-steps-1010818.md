@@ -34,14 +34,15 @@ localized_title: "Os Primeiros Passos de Groot"
         878
     ],
     "id": 1010818,
+    "title": "Groot's First Steps",
     "original_language": "en",
     "original_title": "Groot's First Steps",
     "overview": "Following the events of “Guardians of the Galaxy Vol. 1,” Baby Groot is finally ready to try taking his first steps out of his pot—only to learn you have to walk before you can run.",
     "poster_path": "/1ifiV9ZJD4tC3tRYcnLIzH0meaB.jpg",
     "release_date": "2022-08-10",
-    "title": "Groot's First Steps",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.001,
+    "vote_average": 6.975,
     "slug": "groots-first-steps",
     "tags": [
         "movie",

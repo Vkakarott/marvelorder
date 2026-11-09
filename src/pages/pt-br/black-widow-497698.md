@@ -23,14 +23,15 @@ localized_title: "Viúva Negra"
         878
     ],
     "id": 497698,
+    "title": "Black Widow",
     "original_language": "en",
     "original_title": "Black Widow",
     "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-    "poster_path": "/7JPpIjhD2V0sKyFvhB9khUMa30d.jpg",
+    "poster_path": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
     "release_date": "2021-07-07",
-    "title": "Black Widow",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.172,
+    "vote_average": 7.14,
     "slug": "black-widow",
     "tags": [
         "movie",

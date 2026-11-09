@@ -35,14 +35,15 @@ localized_title: "LEGO Marvel Vingadores: Missão Demolição"
         878
     ],
     "id": 1359227,
+    "title": "LEGO Marvel Avengers: Mission Demolition",
     "original_language": "en",
     "original_title": "LEGO Marvel Avengers: Mission Demolition",
     "overview": "A young, aspiring hero and superhero fan inadvertently unleashes a powerful new villain looking to rid the world of the Avengers.",
-    "poster_path": "/k3LGf9afqmUZiAJ9nffBinpOhOI.jpg",
+    "poster_path": "/s3qM33JHOntz2D7o6FGRf5yuI1v.jpg",
     "release_date": "2024-10-17",
-    "title": "LEGO Marvel Avengers: Mission Demolition",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.7,
+    "vote_average": 6.5,
     "slug": "lego-marvel-avengers-mission-demolition",
     "tags": [
         "movie",

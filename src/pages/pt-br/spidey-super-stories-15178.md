@@ -34,9 +34,11 @@ localized_title: "Super Histórias do Spidey"
     "original_language": "en",
     "genre_ids": [],
     "first_air_date": "1974-10-21",
+    "softcore": false,
     "vote_average": 0,
     "origin_country": [
-        "US"
+        "US",
+        "PH"
     ],
     "title": "Spidey Super Stories",
     "slug": "spidey-super-stories",

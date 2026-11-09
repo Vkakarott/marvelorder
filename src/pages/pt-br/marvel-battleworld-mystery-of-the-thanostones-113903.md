@@ -26,6 +26,7 @@ localized_title: "Marvel Battleworld: O Mistério das Pedras de Thanos"
     "overview": "Can Iron Man and this rag-tag group - Captain Marvel, Spider-Ham, Groot, and Throg - figure out what the Mad Titan Thanos wants and why they've been brought to this strange, new world?",
     "poster_path": "/wu7VuEO9eRCtul31pV8MvWwAxyI.jpg",
     "first_air_date": "2020-06-17",
+    "softcore": false,
     "name": "Marvel Battleworld: Mystery of the Thanostones",
     "vote_average": 6.3,
     "title": "Marvel Battleworld: Mystery of the Thanostones",

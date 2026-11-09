@@ -15,10 +15,9 @@ localized_title: "Marvel - Luke Cage"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/j7AHhA0bH5FlVPVMFcKNOLC4PMv.jpg",
+    "backdrop_path": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
     "genre_ids": [
         18,
-        10765,
         10759,
         80
     ],
@@ -31,8 +30,9 @@ localized_title: "Marvel - Luke Cage"
     "overview": "Given superstrength and durability by a sabotaged experiment, a wrongly accused man escapes prison to become a superhero for hire.",
     "poster_path": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
     "first_air_date": "2016-09-30",
+    "softcore": false,
     "name": "Marvel's Luke Cage",
-    "vote_average": 6.925,
+    "vote_average": 6.907,
     "title": "Marvel's Luke Cage",
     "slug": "marvels-luke-cage",
     "tags": [

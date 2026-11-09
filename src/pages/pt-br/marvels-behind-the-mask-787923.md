@@ -18,14 +18,15 @@ localized_title: "Marvel Por Trás da Máscara"
         99
     ],
     "id": 787923,
+    "title": "Marvel's Behind the Mask",
     "original_language": "en",
     "original_title": "Marvel's Behind the Mask",
     "overview": "A documentary special that explores the power of identity behind the iconic superheroes we know and love today. These legendary Marvel creations and stories have not only reflected the world outside our window – they have become a reflection of our own identities and who we truly are.",
     "poster_path": "/p71YgDQk5sFHTqF3FBygLPmZEX5.jpg",
     "release_date": "2021-02-12",
-    "title": "Marvel's Behind the Mask",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.08,
+    "vote_average": 7,
     "slug": "marvels-behind-the-mask",
     "tags": [
         "movie",

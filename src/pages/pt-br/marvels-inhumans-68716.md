@@ -31,8 +31,9 @@ localized_title: "Inumanos da Marvel"
     "overview": "After the Royal Family of Inhumans is splintered by a military coup, they barely escape to Hawaii where their surprising interactions with the lush world and humanity around them may prove to not only save them, but Earth itself.",
     "poster_path": "/zKfGip55oJ9tdzhyd9ayGyFFhuo.jpg",
     "first_air_date": "2017-09-29",
+    "softcore": false,
     "name": "Marvel's Inhumans",
-    "vote_average": 5.866,
+    "vote_average": 5.803,
     "title": "Marvel's Inhumans",
     "slug": "marvels-inhumans",
     "tags": [

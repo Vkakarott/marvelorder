@@ -28,10 +28,11 @@ localized_title: "O Surfista Prateado"
     "original_language": "en",
     "original_name": "Silver Surfer",
     "overview": "The adventures of the cosmic wanderer as he seeks his lost home after rebelling from his master.",
-    "poster_path": "/a3QzBZjbZ6b26RS6LY828IbJWL2.jpg",
+    "poster_path": "/18rhdRDXAAHUTsbWtIQn2ZkjRL9.jpg",
     "first_air_date": "1998-02-07",
+    "softcore": false,
     "name": "Silver Surfer",
-    "vote_average": 7.266,
+    "vote_average": 7.354,
     "title": "Silver Surfer",
     "slug": "silver-surfer",
     "tags": [

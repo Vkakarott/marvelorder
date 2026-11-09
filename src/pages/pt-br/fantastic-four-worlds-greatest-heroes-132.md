@@ -21,7 +21,7 @@ localized_title: "Quarteto Fantástico: Os Maiores Heróis da Terra"
         16,
         10759,
         10765,
-        10762
+        10751
     ],
     "id": 132,
     "origin_country": [
@@ -32,8 +32,9 @@ localized_title: "Quarteto Fantástico: Os Maiores Heróis da Terra"
     "overview": "Mr. Fantastic, the Invisible Woman, the Human Torch, and the Thing battle some of their greatest foes, including Doctor Doom, Ronan the Accuser, the Multiple Man, and Mole Man.",
     "poster_path": "/zCtCW0JlbMpzfQDAX1bO1o1KLi.jpg",
     "first_air_date": "2006-09-02",
+    "softcore": false,
     "name": "Fantastic Four: World's Greatest Heroes",
-    "vote_average": 7.5,
+    "vote_average": 7.564,
     "title": "Fantastic Four: World's Greatest Heroes",
     "slug": "fantastic-four-worlds-greatest-heroes",
     "tags": [

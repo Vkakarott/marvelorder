@@ -17,21 +17,22 @@ localized_title: "Homem-Aranha 3"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/w1oD1MzHjnBJc5snKupIQaSBLIh.jpg",
+    "backdrop_path": "/FfAU0PUs8AJkMU2VbkVNFtRXR4.jpg",
     "genre_ids": [
         28,
         12,
         878
     ],
     "id": 559,
+    "title": "Spider-Man 3",
     "original_language": "en",
     "original_title": "Spider-Man 3",
     "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
     "poster_path": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
     "release_date": "2007-05-01",
-    "title": "Spider-Man 3",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.453,
+    "vote_average": 6.489,
     "slug": "spider-man-3",
     "tags": [
         "movie",

@@ -23,14 +23,15 @@ localized_title: "Guardiões da Galáxia - Vol. 2"
         28
     ],
     "id": 283995,
+    "title": "Guardians of the Galaxy Vol. 2",
     "original_language": "en",
     "original_title": "Guardians of the Galaxy Vol. 2",
     "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
     "poster_path": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
-    "release_date": "2017-04-19",
-    "title": "Guardians of the Galaxy Vol. 2",
+    "release_date": "2017-04-25",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.609,
+    "vote_average": 7.608,
     "slug": "guardians-of-the-galaxy-vol-2",
     "tags": [
         "movie",

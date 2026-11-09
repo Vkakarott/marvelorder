@@ -32,8 +32,9 @@ localized_title: "Doutor Estranho"
         878
     ],
     "release_date": "1978-09-06",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.004,
+    "vote_average": 6,
     "slug": "dr-strange",
     "tags": [
         "list-8204862"

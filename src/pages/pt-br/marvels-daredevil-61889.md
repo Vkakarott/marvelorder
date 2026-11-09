@@ -16,7 +16,7 @@ localized_title: "Marvel - Demolidor"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/qsnXwGS7KBbX4JLqHvICngtR8qg.jpg",
+    "backdrop_path": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
     "genre_ids": [
         80,
         18,
@@ -31,8 +31,9 @@ localized_title: "Marvel - Demolidor"
     "overview": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil.",
     "poster_path": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
     "first_air_date": "2015-04-10",
+    "softcore": false,
     "name": "Marvel's Daredevil",
-    "vote_average": 8.158,
+    "vote_average": 8.2,
     "title": "Marvel's Daredevil",
     "slug": "marvels-daredevil",
     "tags": [

@@ -25,14 +25,15 @@ localized_title: "O Homem-Coisa: A Natureza do Medo"
         10749
     ],
     "id": 18882,
+    "title": "Man-Thing",
     "original_language": "en",
     "original_title": "Man-Thing",
     "overview": "Agents of an oil tycoon vanish while exploring a swamp marked for drilling. The local sheriff investigates and faces a Seminole legend come to life: Man-Thing, a shambling swamp-monster whose touch burns those who feel fear.",
     "poster_path": "/kfPPnOygXSGaBFpsCUyu7xQdkoO.jpg",
     "release_date": "2005-04-21",
-    "title": "Man-Thing",
+    "softcore": false,
     "video": false,
-    "vote_average": 4.304,
+    "vote_average": 4.3,
     "slug": "man-thing",
     "tags": [
         "movie",

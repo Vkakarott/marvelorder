@@ -14,21 +14,22 @@ localized_title: "Marvel One-Shot: Artigo 47"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/pC36ONAaKMXStlvutYFcAbMemCM.jpg",
+    "backdrop_path": "/mli3yXV5umu0Hsy5Fww6whIJYyg.jpg",
     "genre_ids": [
         878,
         28,
         14
     ],
     "id": 119569,
+    "title": "Marvel One-Shot: Item 47",
     "original_language": "en",
     "original_title": "Marvel One-Shot: Item 47",
     "overview": "Benny and Claire, a down-on-their-luck couple, find a discarded Chitauri weapon referred to as 'Item 47'.",
     "poster_path": "/hnSxG8clwLuAXEkp9emc8HCUcHD.jpg",
     "release_date": "2012-08-29",
-    "title": "Marvel One-Shot: Item 47",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.426,
+    "vote_average": 6.4,
     "slug": "marvel-one-shot-item-47",
     "tags": [
         "movie",

@@ -15,14 +15,15 @@ overview: "Um olhar emocionante para o futuro dos filmes da Marvel Studios e as 
         99
     ],
     "id": 647375,
+    "title": "Marvel Studios: Expanding the Universe",
     "original_language": "en",
     "original_title": "Marvel Studios: Expanding the Universe",
     "overview": "An exciting look into the future of Marvel Studios' films and upcoming Disney+ series.",
     "poster_path": "/dU7qXzttvOUvSlwwpEFQDsLnThK.jpg",
     "release_date": "2019-11-12",
-    "title": "Marvel Studios: Expanding the Universe",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.9,
+    "vote_average": 5.714,
     "slug": "marvel-studios-expanding-the-universe",
     "tags": [
         "movie",

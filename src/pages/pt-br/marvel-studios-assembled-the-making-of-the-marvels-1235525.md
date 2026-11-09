@@ -29,14 +29,15 @@ localized_title: "Avante: Nos Bastidores de As Marvels"
         99
     ],
     "id": 1235525,
+    "title": "Marvel Studios Assembled: The Making of The Marvels",
     "original_language": "en",
     "original_title": "Marvel Studios Assembled: The Making of The Marvels",
     "overview": "Take an intergalactic trip with the cast and crew of \"The Marvels\" as they tell their experiences making this weird and wonderful film. Step into all the departments of production and discover how they created complex fight scenes, countless alien life forms, and some of the most elaborate sets ever. From dance parties to kitten days, the cast and crew had an unforgettable time making the movie.",
     "poster_path": "/mTLNy3pATFxHLxftiHAzMNgjenX.jpg",
     "release_date": "2024-02-06",
-    "title": "Marvel Studios Assembled: The Making of The Marvels",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.2,
+    "vote_average": 5.3,
     "slug": "marvel-studios-assembled-the-making-of-the-marvels",
     "tags": [
         "movie",

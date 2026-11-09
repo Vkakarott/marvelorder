@@ -32,21 +32,23 @@ localized_title: "O Justiceiro: Uma Última Morte"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/kgkunH8fDAm1MaB7jeZtHVm6VW3.jpg",
+    "backdrop_path": "/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
     "genre_ids": [
         28,
+        18,
         80
     ],
     "id": 1439930,
+    "title": "The Punisher: One Last Kill",
     "original_language": "en",
-    "original_title": "Untitled 'The Punisher' Special",
-    "overview": "A special presentation set in the Marvel Cinematic Universe on Disney+. Plot TBA.",
-    "poster_path": "/eg4NXYYkdtNRhoflZLKrK71Tvzf.jpg",
+    "original_title": "The Punisher: One Last Kill",
+    "overview": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+    "poster_path": "/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
     "release_date": "2026-05-12",
-    "title": "Untitled 'The Punisher' Special",
+    "softcore": false,
     "video": false,
-    "vote_average": 0,
-    "slug": "untitled-the-punisher-special",
+    "vote_average": 8.25,
+    "slug": "the-punisher-one-last-kill",
     "tags": [
         "movie",
         "company-420"

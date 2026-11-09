@@ -29,8 +29,9 @@ overview: "Se passa pouco depois do começo da quarta temporada de S.H.I.E.L.D. 
     "overview": "Elena \"Yo-Yo\" Rodriguez, an Inhuman with the ability to move at super-speed, is required to sign the Sokovia Accords. However, the restrictions of the Accords are in direct conflict with a personal mission she's desperate to fulfill, one that will test her abilities and will include tense encounters with S.H.I.E.L.D. team members.",
     "poster_path": "/bwJej7WdmGRMCMyuDlotwAqVX7S.jpg",
     "first_air_date": "2016-12-13",
+    "softcore": false,
     "name": "Marvel's Agents of S.H.I.E.L.D.: Slingshot",
-    "vote_average": 7.106,
+    "vote_average": 7.082,
     "title": "Marvel's Agents of S.H.I.E.L.D.: Slingshot",
     "slug": "marvels-agents-of-shield-slingshot",
     "tags": [

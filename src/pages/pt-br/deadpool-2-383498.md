@@ -20,14 +20,15 @@ overview: "Quando o super soldado Cable chega em uma missão para assassinar o j
         12
     ],
     "id": 383498,
+    "title": "Deadpool 2",
     "original_language": "en",
     "original_title": "Deadpool 2",
     "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
-    "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+    "poster_path": "/gyfPKfFYcVW54MoqhYlwwDDIfJR.jpg",
     "release_date": "2018-05-15",
-    "title": "Deadpool 2",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.489,
+    "vote_average": 7.488,
     "slug": "deadpool-2",
     "tags": [
         "movie",

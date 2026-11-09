@@ -31,8 +31,9 @@ localized_title: "Manto e Adaga"
     "overview": "Two teenagers from very different backgrounds awaken to newly acquired superpowers which mysteriously link them to one another.",
     "poster_path": "/pYnRJuBPEqZO1o4fcxBTgmKNHfy.jpg",
     "first_air_date": "2018-06-07",
+    "softcore": false,
     "name": "Marvel's Cloak & Dagger",
-    "vote_average": 7.092,
+    "vote_average": 7.079,
     "title": "Marvel's Cloak & Dagger",
     "slug": "marvels-cloak-and-dagger",
     "tags": [

@@ -25,14 +25,15 @@ localized_title: "Marvel One Shot: Aconteceu Uma Coisa Engraçada no Caminho do 
         35
     ],
     "id": 76535,
+    "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
     "original_language": "en",
     "original_title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
     "overview": "Agent Coulson stops at a convenience store and deals with a coincidental robbery during his visit.",
-    "poster_path": "/ugrdgmZlSuiavH0NFurhlUPIRD0.jpg",
+    "poster_path": "/njrOqsmFH4pxBrhcoslqLfw2OGk.jpg",
     "release_date": "2011-10-25",
-    "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.816,
+    "vote_average": 6.865,
     "slug": "marvel-one-shot-a-funny-thing-happened-on-the-way-to-thors-hammer",
     "tags": [
         "movie",

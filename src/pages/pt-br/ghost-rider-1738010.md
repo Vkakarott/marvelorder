@@ -31,20 +31,20 @@ localized_title: "Motoqueiro Fantasma"
         14
     ],
     "id": 1738010,
+    "title": "Ghost Rider",
     "original_language": "en",
     "original_title": "Ghost Rider",
     "overview": "A film set in the Marvel Cinematic Universe (MCU) based on the Marvel Comics character of the same name. Plot TBA.",
     "poster_path": "/zgC1zo3lyujoEiIMnUrHltvPmZg.jpg",
-    "release_date": "",
-    "title": "Ghost Rider",
+    "release_date": "2028-07-27",
+    "softcore": false,
     "video": false,
     "vote_average": 0,
     "slug": "ghost-rider",
     "tags": [
         "movie",
         "company-420"
-    ],
-    "media_type": "movie"
+    ]
 }
 
 ```

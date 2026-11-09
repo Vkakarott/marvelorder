@@ -27,8 +27,9 @@ localized_title: "Mulher-Hulk: Defensora de Heróis"
     "overview": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.",
     "poster_path": "/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
     "first_air_date": "2022-08-18",
+    "softcore": false,
     "name": "She-Hulk: Attorney at Law",
-    "vote_average": 6.105,
+    "vote_average": 6.053,
     "title": "She-Hulk: Attorney at Law",
     "slug": "she-hulk-attorney-at-law",
     "tags": [

@@ -15,21 +15,22 @@ localized_title: "Capitão América: Admirável Mundo Novo"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/8eifdha9GQeZAkexgtD45546XKx.jpg",
+    "backdrop_path": "/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg",
     "genre_ids": [
         28,
         53,
         878
     ],
     "id": 822119,
+    "title": "Captain America: Brave New World",
     "original_language": "en",
     "original_title": "Captain America: Brave New World",
     "overview": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.",
     "poster_path": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
     "release_date": "2025-02-12",
-    "title": "Captain America: Brave New World",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.979,
+    "vote_average": 5.953,
     "slug": "captain-america-brave-new-world",
     "tags": [
         "movie",

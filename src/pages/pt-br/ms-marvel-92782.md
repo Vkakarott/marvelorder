@@ -30,8 +30,9 @@ overview: "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora j
     "overview": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
     "poster_path": "/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
     "first_air_date": "2022-06-08",
+    "softcore": false,
     "name": "Ms. Marvel",
-    "vote_average": 6.297,
+    "vote_average": 6.259,
     "title": "Ms. Marvel",
     "slug": "ms-marvel",
     "tags": [

@@ -17,21 +17,22 @@ localized_title: "O Espetacular Homem-Aranha"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/HVcza6tJtWFrLriuh3Ano4Vt46.jpg",
+    "backdrop_path": "/sxskOU71CO8LaNX2LOtjYFUtKv7.jpg",
     "genre_ids": [
         28,
         12,
         878
     ],
     "id": 1930,
+    "title": "The Amazing Spider-Man",
     "original_language": "en",
     "original_title": "The Amazing Spider-Man",
-    "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+    "overview": "A teenage Peter Parker grapples with both high school and amazing super-human crises as his alter-ego Spider-Man.",
     "poster_path": "/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg",
     "release_date": "2012-06-23",
-    "title": "The Amazing Spider-Man",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.73,
+    "vote_average": 6.768,
     "slug": "the-amazing-spider-man",
     "tags": [
         "movie",

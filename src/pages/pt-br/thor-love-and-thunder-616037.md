@@ -23,14 +23,15 @@ localized_title: "Thor: Amor e Trovão"
         35
     ],
     "id": 616037,
+    "title": "Thor: Love and Thunder",
     "original_language": "en",
     "original_title": "Thor: Love and Thunder",
     "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
     "poster_path": "/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
     "release_date": "2022-07-06",
-    "title": "Thor: Love and Thunder",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.376,
+    "vote_average": 6.346,
     "slug": "thor-love-and-thunder",
     "tags": [
         "movie",

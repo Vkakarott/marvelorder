@@ -14,22 +14,22 @@ localized_title: "X-Men: O Confronto Final"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/sBl1n4Oi2wX81EtXIb8NsPqJf3W.jpg",
+    "backdrop_path": "/nLMXULCGLnzRxz11txPzPqbOHSz.jpg",
     "genre_ids": [
         12,
         28,
-        878,
-        53
+        878
     ],
     "id": 36668,
+    "title": "X-Men: The Last Stand",
     "original_language": "en",
     "original_title": "X-Men: The Last Stand",
-    "overview": "When a cure is found to treat mutations, lines are drawn amongst the X-Men—led by Professor Charles Xavier—and the Brotherhood, a band of powerful mutants organised under Xavier's former ally, Magneto.",
+    "overview": "When a cure is found to treat mutations, lines are drawn amongst the X-Men led by Professor Charles Xavier, and Magneto's Brotherhood of Mutants.",
     "poster_path": "/a2xicU8DpKtRizOHjQLC1JyCSRS.jpg",
     "release_date": "2006-05-24",
-    "title": "X-Men: The Last Stand",
+    "softcore": false,
     "video": false,
-    "vote_average": 6.417,
+    "vote_average": 6.428,
     "slug": "x-men-the-last-stand",
     "tags": [
         "movie",

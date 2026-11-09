@@ -27,10 +27,11 @@ localized_title: "Marvel - Jessica Jones"
     "original_language": "en",
     "original_name": "Marvel's Jessica Jones",
     "overview": "After a tragic ending to her short-lived super hero stint, Jessica Jones is rebuilding her personal life and career as a detective who gets pulled into cases involving people with extraordinary abilities in New York City.",
-    "poster_path": "/paf9wL3mOW9LT3ZjRxXqJcjeMEv.jpg",
+    "poster_path": "/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
     "first_air_date": "2015-11-20",
+    "softcore": false,
     "name": "Marvel's Jessica Jones",
-    "vote_average": 7.5,
+    "vote_average": 7.472,
     "title": "Marvel's Jessica Jones",
     "slug": "marvels-jessica-jones",
     "tags": [

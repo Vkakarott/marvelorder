@@ -15,25 +15,23 @@ localized_title: "Howard, o Super-Herói"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/uiFvf7rKju8Zd7kTqpKzFjaRvZ2.jpg",
+    "backdrop_path": "/3KQe8Vzma7ZAYE25mJjgIG4Gj5e.jpg",
     "id": 10658,
     "title": "Howard the Duck",
     "original_title": "Howard the Duck",
     "overview": "A scientific experiment unknowingly brings extraterrestrial life forms to the Earth through a laser beam. First is the cigar-smoking drake, Howard, from the duck's planet. A few kids try to keep him from the greedy scientists and help him back to his planet, but then a much less friendly being arrives through the beam...",
-    "poster_path": "/eU0dWo8PJgsSAZFbcyHiUpuLSyW.jpg",
+    "poster_path": "/30tnH0hy6S5FjGCfCdnkBd3wqS2.jpg",
     "media_type": "movie",
     "original_language": "en",
     "genre_ids": [
-        14,
         35,
-        28,
         12,
-        10749,
         878
     ],
     "release_date": "1986-08-01",
+    "softcore": false,
     "video": false,
-    "vote_average": 5.426,
+    "vote_average": 5.456,
     "slug": "howard-the-duck",
     "tags": [
         "list-8204859"

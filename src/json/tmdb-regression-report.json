@@ -1,18 +1,53 @@
 {
-	"generatedAt": "2026-03-25T00:40:36.117Z",
+	"generatedAt": "2026-11-09T01:35:31.697Z",
 	"counts": {
-		"previousListings": 250,
-		"nextListings": 251,
-		"missingIds": 0,
-		"titleChanges": 0,
-		"suspiciousTitleChanges": 0,
+		"previousListings": 252,
+		"nextListings": 268,
+		"missingIds": 3,
+		"titleChanges": 1,
+		"suspiciousTitleChanges": 1,
 		"typeChanges": 0,
 		"dateCleared": 0,
 		"adultFlagFlips": 0
 	},
-	"missingIds": [],
-	"titleChanges": [],
-	"suspiciousTitleChanges": [],
+	"missingIds": [
+		{
+			"id": 1657196,
+			"title": "The Punisher: One Last Kill",
+			"type": "movie",
+			"date": "2026-05-12"
+		},
+		{
+			"id": 310764,
+			"title": "Agents of S.H.I.E.L.D.: Academy",
+			"type": "tv",
+			"date": "2016-03-10"
+		},
+		{
+			"id": 228384,
+			"title": "The Marvel Action Hour: Fantastic Four",
+			"type": "tv",
+			"date": "1994-09-23"
+		}
+	],
+	"titleChanges": [
+		{
+			"id": 1439930,
+			"previousTitle": "Untitled 'The Punisher' Special",
+			"nextTitle": "The Punisher: One Last Kill",
+			"previousDate": "2026-05-12",
+			"nextDate": "2026-05-12"
+		}
+	],
+	"suspiciousTitleChanges": [
+		{
+			"id": 1439930,
+			"previousTitle": "Untitled 'The Punisher' Special",
+			"nextTitle": "The Punisher: One Last Kill",
+			"previousDate": "2026-05-12",
+			"nextDate": "2026-05-12"
+		}
+	],
 	"typeChanges": [],
 	"dateCleared": [],
 	"adultFlagFlips": []

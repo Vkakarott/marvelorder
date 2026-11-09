@@ -14,7 +14,7 @@ localized_title: "Legião"
 ```json
 {
     "adult": false,
-    "backdrop_path": "/87eP7ITTrOWvkA4EqCuoRdyjzLy.jpg",
+    "backdrop_path": "/2t9ROV4QPkJF7iBAW8z0ReqDUoB.jpg",
     "genre_ids": [
         10759,
         10765,
@@ -29,8 +29,9 @@ localized_title: "Legião"
     "overview": "David Haller, AKA Legion, is a troubled young man who may be more than human. Diagnosed as schizophrenic, David has been in and out of psychiatric hospitals for years. But after a strange encounter with a fellow patient, he’s confronted with the possibility that the voices he hears and the visions he sees might be real.",
     "poster_path": "/xhJtYVTsdXQCIlB5hAXkMCPUG9y.jpg",
     "first_air_date": "2017-02-08",
+    "softcore": false,
     "name": "Legion",
-    "vote_average": 7.504,
+    "vote_average": 7.506,
     "title": "Legion",
     "slug": "legion",
     "tags": [

@@ -24,14 +24,15 @@ localized_title: "Homem de Ferro"
         12
     ],
     "id": 1726,
+    "title": "Iron Man",
     "original_language": "en",
     "original_title": "Iron Man",
     "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
     "poster_path": "/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
     "release_date": "2008-04-30",
-    "title": "Iron Man",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.657,
+    "vote_average": 7.668,
     "slug": "iron-man",
     "tags": [
         "movie",

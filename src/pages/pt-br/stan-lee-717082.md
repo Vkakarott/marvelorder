@@ -17,14 +17,15 @@ overview: "Documentário oficial sobre Stan Lee, \"O Cara\", e sua influência n
         99
     ],
     "id": 717082,
+    "title": "Stan Lee",
     "original_language": "en",
     "original_title": "Stan Lee",
     "overview": "Celebrate the legacy of Stan Lee as the co-creator of such legendary characters as Fantastic Four, Iron Man, the X-Men, The Avengers, and hundreds more.",
     "poster_path": "/iWBOKF0yl7pHK9y8fqRIBqf9fOJ.jpg",
     "release_date": "2023-06-10",
-    "title": "Stan Lee",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.133,
+    "vote_average": 7.2,
     "slug": "stan-lee",
     "tags": [
         "movie",

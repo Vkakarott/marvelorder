@@ -30,8 +30,8 @@ localized_title: "Olhos de Wakanda"
     "backdrop_path": "/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
     "genre_ids": [
         16,
-        10759,
-        10765
+        10765,
+        10759
     ],
     "id": 241388,
     "origin_country": [
@@ -40,10 +40,11 @@ localized_title: "Olhos de Wakanda"
     "original_language": "en",
     "original_name": "Eyes of Wakanda",
     "overview": "Follow the adventures of brave Wakandan warriors throughout history in this globe-trotting adventure, where they must carry out dangerous missions to retrieve Vibranium artifacts from the enemies of Wakanda. They are the Hatut Zaraze and this is their story.",
-    "poster_path": "/bG23nZW96LxmWkJjsagRZI9hF6t.jpg",
+    "poster_path": "/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
     "first_air_date": "2025-08-01",
+    "softcore": false,
     "name": "Eyes of Wakanda",
-    "vote_average": 6.173,
+    "vote_average": 6.2,
     "title": "Eyes of Wakanda",
     "slug": "eyes-of-wakanda",
     "tags": [

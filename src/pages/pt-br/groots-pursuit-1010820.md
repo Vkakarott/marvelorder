@@ -33,14 +33,15 @@ localized_title: "A Busca de Groot"
         878
     ],
     "id": 1010820,
+    "title": "Groot's Pursuit",
     "original_language": "en",
     "original_title": "Groot's Pursuit",
     "overview": "Groot investigates a spooky noise that’s been haunting the Quadrant, which leads to an intense dance off.",
     "poster_path": "/z5AQHYTTx7DzG9CRd01ny9DtqNE.jpg",
     "release_date": "2022-08-10",
-    "title": "Groot's Pursuit",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.104,
+    "vote_average": 7.046,
     "slug": "groots-pursuit",
     "tags": [
         "movie",

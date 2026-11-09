@@ -20,14 +20,15 @@ localized_title: "No Good Dead"
         80
     ],
     "id": 558144,
+    "title": "Deadpool: No Good Deed",
     "original_language": "en",
     "original_title": "Deadpool: No Good Deed",
     "overview": "Deadpool sees an opportunity to save the day, but it doesn't go entirely as planned.",
-    "poster_path": "/wlKU9yB0Q8nfPMakBcSBT0JGS7.jpg",
+    "poster_path": "/dpHmdsLoKjuGnAhsYI4D65S7wTQ.jpg",
     "release_date": "2017-03-03",
-    "title": "Deadpool: No Good Deed",
+    "softcore": false,
     "video": false,
-    "vote_average": 7.155,
+    "vote_average": 7.2,
     "slug": "deadpool-no-good-deed",
     "tags": [
         "movie",
