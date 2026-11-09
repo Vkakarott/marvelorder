@@ -12,6 +12,7 @@ import {
     parseSheetRecords,
     type SheetRecordsResult,
 } from '~/src/helpers/node/mcu-timeline-sheet.ts'
+import { parseSheetCsv } from '~/src/helpers/node/mcu-timeline-csv.ts'
 import {
     makeInUniverseMarkdown,
     makeUpcomingListingsMarkdown,
@@ -75,7 +76,9 @@ function buildReadmeList ( matchesMap: Map<number, any> ) {
     return `\n\n${ readmeListLines.join( '\n' ) }\n\n`
 }
 
-async function fetchSheetRecords (): Promise<SheetRecordsResult> {
+const sheetCsvUrl = `https://docs.google.com/spreadsheets/d/${ mcuTimelineSheetId }/gviz/tq`
+
+async function fetchAppsScriptRecords (): Promise<SheetRecordsResult> {
     try {
         const response = await axios( macroUrl, {
             params: {
@@ -91,6 +94,40 @@ async function fetchSheetRecords (): Promise<SheetRecordsResult> {
     catch ( error ) {
         return { ok: false, reason: `request failed: ${ ( error as Error ).message }` }
     }
+}
+
+async function fetchCsvRecords (): Promise<SheetRecordsResult> {
+    try {
+        const response = await axios( sheetCsvUrl, {
+            params: { tqx: 'out:csv', sheet: 'Chronological Order' },
+            responseType: 'text',
+        } )
+
+        return parseSheetCsv( response.data )
+    }
+    catch ( error ) {
+        return { ok: false, reason: `request failed: ${ ( error as Error ).message }` }
+    }
+}
+
+// Apps Script first, public CSV as a fallback. A result far smaller than the
+// checked-in sheet is treated as partial and rejected.
+async function fetchSheetRecords ( existingCount: number ): Promise<SheetRecordsResult> {
+    const minRecords = Math.floor( existingCount * 0.9 )
+    const attempts: string[] = []
+
+    for ( const [ source, fetchRecords ] of [ [ 'Apps Script', fetchAppsScriptRecords ], [ 'CSV export', fetchCsvRecords ] ] as const ) {
+        const result = await fetchRecords()
+
+        if ( result.ok && result.records.length >= minRecords ) {
+            console.log( `MCU timeline sheet read from ${ source } (${ result.records.length } records).` )
+            return result
+        }
+
+        attempts.push( `${ source }: ${ result.ok ? `only ${ result.records.length } records, expected at least ${ minRecords }` : result.reason }` )
+    }
+
+    return { ok: false, reason: attempts.join( '; ' ) }
 }
 
 ( async () => {
@@ -110,7 +147,8 @@ async function fetchSheetRecords (): Promise<SheetRecordsResult> {
         listingsSort: 'default',
     } )
 
-    const fetchedSheet = await fetchSheetRecords()
+    const existingCount = ( await fs.readJson( `${ storePath }/mcu-timeline-sheet.json` ) ).records.length
+    const fetchedSheet = await fetchSheetRecords( existingCount )
 
     if ( !fetchedSheet.ok ) {
         // Keep the checked-in sheet and every mcuTimelineOrder untouched so
