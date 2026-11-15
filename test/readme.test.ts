@@ -1,3 +1,6 @@
+import fs from 'fs-extra'
+import os from 'node:os'
+import { join } from 'node:path'
 import { expect, test } from 'vitest'
 
 import { getUpcomingListings } from '~/src/helpers/node/listing-files.ts'
@@ -5,6 +8,7 @@ import { ensureMappedListings } from '~/src/helpers/node/listing.ts'
 import {
     makeUpcomingListingsMarkdown,
     updateMarkdownContent,
+    updateReadmeListContent,
 } from '~/src/helpers/node/readme.ts'
 
 const testMarkdown = `
@@ -68,4 +72,29 @@ test( 'Can catch missing start marker', async () => {
             markerString: 'upcoming-list',
         } )
     } ).toThrowError( 'upcoming-list' )
+} )
+
+test( 'Skips README lists whose markers were removed', async () => {
+    const directory = await fs.mkdtemp( join( os.tmpdir(), 'readme-' ) )
+    const readmePath = join( directory, 'README.md' )
+    const rebrandedReadme = '# CineArc\n\nNo generated lists here.\n'
+
+    await fs.writeFile( readmePath, rebrandedReadme )
+
+    expect( await updateReadmeListContent( 'Test', 'viewing-order-list', readmePath ) ).toBe( false )
+    expect( await fs.readFile( readmePath, 'utf8' ) ).toBe( rebrandedReadme )
+
+    await fs.remove( directory )
+} )
+
+test( 'Updates README lists that still have their markers', async () => {
+    const directory = await fs.mkdtemp( join( os.tmpdir(), 'readme-' ) )
+    const readmePath = join( directory, 'README.md' )
+
+    await fs.writeFile( readmePath, testMarkdown )
+
+    expect( await updateReadmeListContent( 'Fresh', 'upcoming-list', readmePath ) ).toBe( true )
+    expect( await fs.readFile( readmePath, 'utf8' ) ).toContain( '<!-- start-upcoming-list -->Fresh<!-- end-upcoming-list -->' )
+
+    await fs.remove( directory )
 } )

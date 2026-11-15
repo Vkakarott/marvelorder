@@ -62,11 +62,25 @@ export function makeUpcomingListingsMarkdown ( upcomingListings: MappedListing[]
     return `\n\n${ markdownLines.join( '\n' ) }\n\n`
 }
 
-export async function updateReadmeListContent ( newListMarkdown: string, markerString: string ) {
-    // Get README.md content
-    const readmeContent = await fs.readFile( './README.md', 'utf8' )
+function hasListMarkers ( sourceMarkdown: string, markerString: string ): boolean {
+    return sourceMarkdown.includes( `<!-- start-${ markerString } -->` )
+        && sourceMarkdown.includes( `<!-- end-${ markerString } -->` )
+}
 
-    // console.log( 'readmeContent', readmeContent )
+// Returns false, leaving the README untouched, when it no longer carries the
+// list markers (e.g. a rebranded README), so syncing never fails on it.
+export async function updateReadmeListContent (
+    newListMarkdown: string,
+    markerString: string,
+    readmePath = './README.md',
+): Promise<boolean> {
+    const readmeContent = await fs.readFile( readmePath, 'utf8' )
+
+    if ( !hasListMarkers( readmeContent, markerString ) ) {
+        console.warn( `README has no ${ markerString } markers, skipping that list.` )
+
+        return false
+    }
 
     const newReadmeListContent = updateMarkdownContent( {
         sourceMarkdown: readmeContent,
@@ -74,11 +88,9 @@ export async function updateReadmeListContent ( newListMarkdown: string, markerS
         markerString,
     } )
 
-    // console.log( 'newReadmeListContent', newReadmeListContent )
+    await fs.writeFile( readmePath, newReadmeListContent )
 
-    await fs.writeFile( './README.md', newReadmeListContent )
-
-    return newReadmeListContent
+    return true
 }
 
 const inUniverseTypeMap = {
