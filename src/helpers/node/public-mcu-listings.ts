@@ -6,6 +6,7 @@ import {
     isMcuSheetOrdered,
 } from '~/src/helpers/listing-filters.ts'
 import { getAllListings } from '~/src/helpers/node/listing-files.ts'
+import { inheritFirstSeasonLogos } from '~/src/helpers/node/series-logos.ts'
 import {
     canonicalizeTimelineListings,
     isFanEditListing,
@@ -28,10 +29,10 @@ export async function getPublicMcuReleaseListings () {
         listingsSort: 'default',
     } )
 
-    return canonicalizeTimelineListings( getRawListings( filteredListings ), {
+    return inheritFirstSeasonLogos( canonicalizeTimelineListings( getRawListings( filteredListings ), {
         collapseUndatedTitles: true,
         sortByReleaseDate: true,
-    } )
+    } ) )
 }
 
 export async function getPublicMcuTimelineListings () {
@@ -45,5 +46,5 @@ export async function getPublicMcuTimelineListings () {
         listingsSort: 'none',
     } )
 
-    return canonicalizeTimelineListings( getRawListings( filteredListings ) )
+    return inheritFirstSeasonLogos( canonicalizeTimelineListings( getRawListings( filteredListings ) ) )
 }
