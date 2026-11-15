@@ -5,6 +5,7 @@ import {
     canonicalizeTimelineListings,
     datesMatchByPrecision,
     getCanonicalTimelineListingKey,
+    getTimelineMonthMatchValue,
     isFanEditListing,
 } from '~/src/helpers/node/timeline-matcher.ts'
 import type { Listing } from '~/src/helpers/types.ts'
@@ -154,4 +155,13 @@ test( 'Public MCU release listings do not repeat a series as its fan edit movie'
     const falconListings = releaseListings.filter( ( listing ) => listing.title === 'The Falcon and the Winter Soldier' )
 
     expect( falconListings.map( ( listing ) => listing.id ) ).toEqual( [ 88396 ] )
+} )
+
+test( 'Sheet dates match listings in ISO datetime and long-form formats', () => {
+    expect( getTimelineMonthMatchValue( '2021-01-15T05:00:00.000Z' ) ).toBe( '2021-01' )
+    expect( getTimelineMonthMatchValue( 'March 19, 2021' ) ).toBe( '2021-03' )
+    expect( datesMatchByPrecision( '2021-03-26T04:00:00.000Z', '2021-03-26' ) ).toBe( true )
+    expect( datesMatchByPrecision( 'March 19, 2021', '2021-03-19' ) ).toBe( true )
+    expect( datesMatchByPrecision( 'March 19, 2021', '2021-03-20' ) ).toBe( false )
+    expect( datesMatchByPrecision( 'March 19, 2021', '2021-03-20', 1 ) ).toBe( true )
 } )

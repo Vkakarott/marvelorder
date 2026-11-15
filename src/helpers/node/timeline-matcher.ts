@@ -12,6 +12,8 @@ export type ExpectedTimelineMediaType = 'movie' | 'tv' | 'either'
 const preciseDatePattern = /^\d{4}-\d{2}-\d{2}$/
 const yearMonthPattern = /^\d{4}-\d{2}$/
 const yearOnlyPattern = /^\d{4}$/
+const isoDateTimePattern = /^(\d{4}-\d{2}-\d{2})T/
+const longDatePattern = /^([a-z]+)\s+(\d{1,2}),\s*(\d{4})$/i
 const seasonPattern = /^(winter|spring|summer|fall)\s+(\d{4})$/i
 
 const seasonMonths = new Map( [
@@ -273,8 +275,32 @@ export function normalizeTitleForTimelineMatch ( title: string ) {
     return stripMarvelPrefixForMatching( slug )
 }
 
-export function getPreciseDateMatchValue ( date: string ) {
+const monthNumbers = new Map( [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december',
+].map( ( monthName, index ) => [ monthName, String( index + 1 ).padStart( 2, '0' ) ] ) )
+
+// Sheet dates arrive as plain dates, ISO datetimes or long-form text ("March 19, 2021")
+export function normalizeSheetDate ( date: string ): string {
     const trimmedDate = date.trim()
+    const isoDateTimeMatch = trimmedDate.match( isoDateTimePattern )
+
+    if ( isoDateTimeMatch ) {
+        return isoDateTimeMatch[ 1 ]
+    }
+
+    const longDateMatch = trimmedDate.match( longDatePattern )
+    const month = monthNumbers.get( longDateMatch?.[ 1 ].toLowerCase() ?? '' )
+
+    if ( !longDateMatch || !month ) {
+        return trimmedDate
+    }
+
+    return `${ longDateMatch[ 3 ] }-${ month }-${ longDateMatch[ 2 ].padStart( 2, '0' ) }`
+}
+
+export function getPreciseDateMatchValue ( date: string ) {
+    const trimmedDate = normalizeSheetDate( date )
 
     if ( preciseDatePattern.test( trimmedDate ) ) {
         return trimmedDate
@@ -284,7 +310,7 @@ export function getPreciseDateMatchValue ( date: string ) {
 }
 
 export function getTimelineMonthMatchValue ( date: string ) {
-    const trimmedDate = date.trim()
+    const trimmedDate = normalizeSheetDate( date )
 
     if ( preciseDatePattern.test( trimmedDate ) ) {
         return trimmedDate.slice( 0, 7 )
