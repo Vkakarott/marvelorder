@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/wjKbFUkniQltWnjPS1nCfAN1Rb3.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B09SJ3BYZ4?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 597
+mcuTimelineOrder: 603
 overview: "Gravemente doente com um raro distúrbio sanguíneo e determinado a salvar outros sofrendo o mesmo destino, o Dr. Morbius tenta uma aposta desesperada. O que primeiramente parece ser um sucesso radical, libera uma escuridão dentro dele e transforma esse médico em um caçador."
 ---
 ## TMDB Data

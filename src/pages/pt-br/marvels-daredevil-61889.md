@@ -8,7 +8,7 @@ logo_on_black: >-
   {tmdb-path}/ojZQWLfaN16Ix0a3BKoKB0VyCZ6.webp?crop.top=0.3&crop.bottom=0.3
 watchLinks:
   amazon: none
-mcuTimelineOrder: 82
+mcuTimelineOrder: 92
 overview: "Cego desde pequeno, Matt Murdock luta contra a injustiça durante o dia como advogado e à noite nas ruas de Hell’s Kitchen, Nova York."
 localized_title: "Marvel - Demolidor"
 ---

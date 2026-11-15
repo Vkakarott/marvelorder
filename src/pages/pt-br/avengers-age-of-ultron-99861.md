@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/the-avengers-2-51eca0725c412.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07FYX2MT3?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 127
+mcuTimelineOrder: 132
 tags:
   - has-thor
 overview: "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron. Com o destino da Terra em jogo, os Vingadores terão que se unir para mais uma vez salvar a raça humana da extinção."

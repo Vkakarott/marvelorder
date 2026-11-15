@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/uwQbAHY7cttDgcX2Av1mm51PsRx.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00IMYSVY8?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 53
+mcuTimelineOrder: 54
 tags:
   - has-thor
 overview: "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo."

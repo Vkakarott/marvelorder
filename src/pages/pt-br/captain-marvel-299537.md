@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/captain-marvel-5bc353bd435c3.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07P76GTJR?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 24
+mcuTimelineOrder: 28
 overview: "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte-americana. Com a ajuda de Nick Fury, Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao conflito intergalático com os Skrulls."
 localized_title: "Capitã Marvel"
 ---

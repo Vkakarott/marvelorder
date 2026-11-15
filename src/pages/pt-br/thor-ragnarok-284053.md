@@ -9,7 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B076XWTHP8?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 384
+mcuTimelineOrder: 390
 tags:
   - has-thor
 overview: "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela."

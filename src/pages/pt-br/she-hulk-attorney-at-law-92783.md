@@ -5,7 +5,7 @@ description: "Jennifer Walters — uma advogada especializada em casos envolvend
 layout: ../../layouts/MainLayout.astro
 type: tv
 logo_on_black: "{tmdb-path}/9DjjTb8SEquq25sScE0SXRZiKZ1.webp"
-mcuTimelineOrder: 605
+mcuTimelineOrder: 631
 overview: "Jennifer Walters — uma advogada especializada em casos envolvendo super-humanos — deve lidar com a complicada vida de uma mulher solteira de trinta e poucos anos que, por acaso, é uma hulk superpoderosa de 2 metros."
 localized_title: "Mulher-Hulk: Defensora de Heróis"
 ---

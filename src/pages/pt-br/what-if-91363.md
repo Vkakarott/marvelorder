@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{tmdb-path}/wzFmZOBRSYbrPxJE2nkhq2tAKwI.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 483
+mcuTimelineOrder: 490
 tags:
   - has-thor
 overview: "\"What If…?\" reinventa os acontecimentos do UCM, mudando a história de forma surpreendente."

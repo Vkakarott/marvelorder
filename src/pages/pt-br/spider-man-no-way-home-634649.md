@@ -11,7 +11,7 @@ type: movie
 logo_on_black: '{tmdb-path}/5RjyUm9HP2ZRwvqCqK9sDqlQHxa.webp'
 watchLinks:
   amazon: 'https://www.amazon.com/dp/B09NMFWBL2?linkCode=osi&th=1&psc=1'
-mcuTimelineOrder: 568
+mcuTimelineOrder: 590
 overview: >-
   Peter Parker é desmascarado e não consegue mais separar sua vida normal dos
   grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor

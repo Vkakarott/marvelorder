@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/7UGKZ5c0HSwro6n7GChl8uyaIfy.webp"
 watchLinks:
   amazon: none
 vote_average: 8
-mcuTimelineOrder: 616
+mcuTimelineOrder: 648
 overview: "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora jogar videogames e escrever fanfictions, além de ser fã de super-heróis e ter uma imaginação sem limites – especialmente quando se trata da Capitã Marvel. Kamala sente que não se encaixa na escola e, às vezes, nem mesmo em casa. Mas um dia ela descobre que tem superpoderes como os heróis que sempre admirou... e a vida fica bem melhor com superpoderes, não é?"
 ---
 ## TMDB Data

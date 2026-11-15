@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/sU5ltHiXFBB2daTrBL3BFc9w8Hr.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B073HL8JW4?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 254
+mcuTimelineOrder: 238
 overview: "Depois de atuar ao lado dos Vingadores, chegou a hora de Peter Parker voltar para casa e para a sua vida, já não mais tão normal."
 localized_title: "Homem-Aranha: De Volta ao Lar"
 ---

@@ -9,7 +9,7 @@ overview: "Thor parte em uma jornada de autodescoberta, diferente de tudo que el
 vote_average: 1
 tags:
   - has-thor
-mcuTimelineOrder: 626
+mcuTimelineOrder: 658
 localized_title: "Thor: Amor e Trovão"
 ---
 ## TMDB Data

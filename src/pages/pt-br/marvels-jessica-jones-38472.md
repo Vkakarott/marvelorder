@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-aka-jessica-jones-55f55caf06d6e.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 95
+mcuTimelineOrder: 106
 overview: "Assombrada pelos traumas do passado, Jessica Jones usa seus poderes como detetive particular para encontrar e deter o perverso Kilgrave."
 localized_title: "Marvel - Jessica Jones"
 ---

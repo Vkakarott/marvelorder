@@ -3,7 +3,6 @@ title: 'Thor: Tales of Asgard'
 slug: thor-tales-of-asgard
 description: "Antes de Thor usar seu poderoso martelo, ele lidera uma missão para encontrar a mística Espada Perdida de Surtur. Junto com ele estão seu irmão Loki, feiticeiro promissor, e os lendários Três Guerreiros."
 layout: ../../layouts/MainLayout.astro
-mcuTimelineOrder: 35
 logo_on_black: "{tmdb-path}/1ic3ktivx7wpjBM9bR0k4xi3aZi.webp"
 overview: "Antes de Thor usar seu poderoso martelo, ele lidera uma missão para encontrar a mística Espada Perdida de Surtur. Junto com ele estão seu irmão Loki, feiticeiro promissor, e os lendários Três Guerreiros."
 localized_title: "Thor: O Filho de Asgard"

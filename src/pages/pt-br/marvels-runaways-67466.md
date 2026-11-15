@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-runaways-59f759d7c6d0a.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 297
+mcuTimelineOrder: 328
 overview: "Depois de descobrir um segredo terrível sobre seus pais, seis jovens de Los Angeles se unem contra eles. Agora eles precisam balancear amizade, romance e superpoderes."
 localized_title: "Fugitivos, da Marvel"
 ---

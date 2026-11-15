@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/doctor-strange-579c974e516ca.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B01M4QJGX2?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 375
+mcuTimelineOrder: 253
 overview: "Após sua carreira ser destruída, um brilhante, porém arrogante, cirurgião ganha uma nova chance em sua vida quando um feiticeiro o treina para se tornar o Mago Supremo."
 localized_title: "Doutor Estranho"
 ---

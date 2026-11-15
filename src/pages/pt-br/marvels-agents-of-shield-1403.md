@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/marvels-agents-of-shield-52521ded92142.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00EY7LT9Q?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 46
+mcuTimelineOrder: 47
 overview: "Agente Phil Coulson da S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) reúne uma equipe de agentes para investigar o novo, o estranho e o desconhecido em todo o mundo, protegendo o comum do extraordinário."
 localized_title: "Agentes da S.H.I.E.L.D. da Marvel"
 ---

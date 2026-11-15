@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{fanart-path}/iron-fist-2017-589781e36a330.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 206
+mcuTimelineOrder: 181
 overview: "Quinze anos depois de ter sido dado como morto, Danny Rand ressurge. Com a força do Punho de Ferro, ele espera recuperar seu passado e cumprir seu destino."
 localized_title: "Marvel - Punho de Ferro"
 ---

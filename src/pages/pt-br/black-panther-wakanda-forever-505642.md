@@ -6,7 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/6N6Rr1Y5wsi2KbTP4hFAP3hnWQE.webp"
 overview: "A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda."
-mcuTimelineOrder: 599
+mcuTimelineOrder: 625
 localized_title: "Pantera Negra: Wakanda para Sempre"
 ---
 ## TMDB Data

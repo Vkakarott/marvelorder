@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/hQ4OntIEfd4R4kP6wBzCfbc0ymR.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B00QROGCPU?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 70
+mcuTimelineOrder: 77
 overview: "Abduzido da Terra quando ainda era criança, Peter Quill fez carreira como saqueador e se auto denominou \"Senhor das Estrelas\". Quando rouba uma esfera, na qual o poderoso vilão Ronan, da raça kree, está interessado, passa a ser procurado por vários caçadores de recompensas. Para escapar do perigo, Quill une forças com quatro personagens fora do sistema: Groot, uma árvore humanóide (Vin Diesel), a sombria e perigosa Gamora, o guaxinim rápido no gatilho Rocket Racoon e o vingativo Drax, o Destruidor. A esfera roubada é capaz de mudar o destino de todo o universo."
 localized_title: "Guardiões da Galáxia"
 ---

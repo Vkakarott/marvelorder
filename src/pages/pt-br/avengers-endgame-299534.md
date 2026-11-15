@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/avengers-infinity-war---part-ii-5c0c46d26f593.webp
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07R21NC3J?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 466
+mcuTimelineOrder: 480
 tags:
   - has-thor
 overview: "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências."

@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/ct5a6qPoZLQG7VjLuf2WOUheEZP.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0716DT6G3?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 72
+mcuTimelineOrder: 80
 overview: "Os Guardiões precisam lutar para manter sua recém descoberta família unida, enquanto descobrem os mistérios sobre o verdadeiro pai de Peter Quill."
 localized_title: "Guardiões da Galáxia - Vol. 2"
 ---

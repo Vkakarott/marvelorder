@@ -7,7 +7,7 @@ type: movie
 logo_on_black: "{tmdb-path}/fpwAkeawcsUWPl34Gomy1SajOTw.webp"
 watchLinks:
   amazon: 'https://amzn.to/3nbCKA0'
-mcuTimelineOrder: 586
+mcuTimelineOrder: 612
 overview: "Doutor Estranho, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso."
 localized_title: "Doutor Estranho no Multiverso da Loucura"
 ---

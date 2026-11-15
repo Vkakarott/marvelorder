@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{tmdb-path}/12RGdH6KG8E1ORDe7GuMdTbAIjl.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 255
+mcuTimelineOrder: 239
 overview: "O ex-marine Frank Castle só quer punir os criminosos responsáveis pela morte da sua família, mas torna-se alvo de uma conspiração militar."
 localized_title: "Marvel - O Justiceiro"
 ---

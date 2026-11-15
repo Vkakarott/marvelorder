@@ -6,7 +6,7 @@ layout: ../../layouts/MainLayout.astro
 type: movie
 logo_on_black: "{tmdb-path}/A7NLWwvgzlbg8RBJKPHlEszdD74.webp"
 overview: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
-mcuTimelineOrder: 628
+mcuTimelineOrder: 660
 localized_title: "Guardiões da Galáxia: Especial de Festas"
 ---
 ## TMDB Data

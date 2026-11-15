@@ -7,7 +7,7 @@ type: tv
 logo_on_black: "{fanart-path}/marvels-luke-cage-57931ed78bc64.webp"
 watchLinks:
   amazon: none
-mcuTimelineOrder: 139
+mcuTimelineOrder: 151
 overview: "Um ex-presidiário com pele indestrutível luta para limpar seu nome e salvar o bairro onde vive. Ele não queria confusão, mas a população precisava muito de um herói."
 localized_title: "Marvel - Luke Cage"
 ---

@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/black-panther-579698eae2bd2.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07CSKDGFF?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 239
+mcuTimelineOrder: 226
 overview: "O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país."
 localized_title: "Pantera Negra"
 ---

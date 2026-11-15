@@ -9,7 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B000UU4NE4?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 546
+mcuTimelineOrder: 568
 overview: "O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter, que apesar de aumentar seus poderes, revela o lado obscuro de sua personalidade. Os vilões Venon e Homem-Areia tentam destruir o super-herói."
 localized_title: "Homem-Aranha 3"
 ---

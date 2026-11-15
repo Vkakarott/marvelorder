@@ -8,7 +8,6 @@ logo_on_black: >-
   {fanart-path}/marvel-one-shot-a-funny-thing-happened-on-the-way-to-thors-h-53a438986236d.webp
 watchLinks:
   amazon: none
-mcuTimelineOrder: 35
 overview: "O curta-metragem acompanha o Agente Coulson após ele deixar o laboratório de Tony Stark em Malibu durante o filme Homem de Ferro 2, e ocorre antes que ele chegue ao local da cratera em Thor.  Coulson para em um posto de gasolina para abastecer o seu carro e entra em uma loja de conveniências onde fica em dúvida entre quais rosquinhas vai comprar. Em seguida, dois ladrões entram na loja e mantém a balconista na mira de uma arma. Eis que o Agente Coulson age."
 localized_title: "Marvel One Shot: Aconteceu Uma Coisa Engraçada no Caminho do Martelo de Thor"
 ---

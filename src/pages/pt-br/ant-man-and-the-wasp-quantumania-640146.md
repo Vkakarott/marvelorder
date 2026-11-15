@@ -9,7 +9,7 @@ tags:
   - movie
   - company-420
   - has-kang
-mcuTimelineOrder: 631
+mcuTimelineOrder: 675
 overview: "Scott Lang e Hope van Dyne em suas jornadas como super-heróis. Scott e sua família são puxados para o Reino Quântico, onde eles precisarão enfrentar um novo e terrível vilão: Kang, o Conquistador e M.O.D.O.K.."
 localized_title: "Homem-Formiga e a Vespa: Quantumania"
 ---

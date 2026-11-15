@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/marvels-the-inhumans-590cc04b00a44.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B0756NHJD3?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 243
+mcuTimelineOrder: 227
 overview: "Após um golpe militar na cidade secreta de Attilan, uma família real de super-humanos liderada pelo Raio Negro é obrigada a se refugiar na Terra."
 localized_title: "Inumanos da Marvel"
 ---

@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/uRc0RTpUszMFakhXouZzK1clLsb.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B09P4K9BVK?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 469
+mcuTimelineOrder: 610
 overview: "Após os eventos de \"Vingadores: Ultimato\", os Eternos, uma raça alienígena imortal criada pelos Celestiais que vivem em segredo na Terra há mais de 7000 anos, se reúnem após uma tragédia inesperada para proteger a humanidade de seus colegas malignos: os Deviantes."
 localized_title: "Eternos"
 ---

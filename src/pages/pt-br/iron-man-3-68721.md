@@ -9,7 +9,7 @@ logo_on_black: >-
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B07VGNTNV7?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 41
+mcuTimelineOrder: 60
 overview: "Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso."
 localized_title: "Homem de Ferro 3"
 ---

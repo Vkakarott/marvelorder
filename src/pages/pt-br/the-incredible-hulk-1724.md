@@ -8,7 +8,7 @@ logo_on_black: "{tmdb-path}/zaHqckCJEwrUptgpU7VWzRsD7ET.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B001LM1456?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 33
+mcuTimelineOrder: 38
 overview: "Vivendo escondido e longe de Betty Ross, a mulher que ama, o cientista Bruce Banner busca um meio de retirar a radiação gama que está em seu sangue. Ao mesmo tempo ele precisa fugir da perseguição do general Ross, seu grande inimigo, e da máquina militar que tenta capturá-lo, na intenção de explorar o poder que faz com que Banner se transforme no Hulk."
 localized_title: "O Incrível Hulk"
 ---

@@ -8,7 +8,7 @@ logo_on_black: "{fanart-path}/marvels-the-avengers-53f39d73300c2.webp"
 watchLinks:
   amazon: >-
     https://www.amazon.com/dp/B009GEEMLY?linkCode=osi&th=1&psc=1
-mcuTimelineOrder: 38
+mcuTimelineOrder: 43
 tags:
   - has-thor
 overview: "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade."
