@@ -6,6 +6,8 @@ import {
     isMcuSheetOrdered,
 } from '~/src/helpers/listing-filters.ts'
 import { getAllListings } from '~/src/helpers/node/listing-files.ts'
+import { applyLogoSuggestions } from '~/src/helpers/logo-suggestions.ts'
+import { readLogoSuggestions } from '~/src/helpers/node/logo-suggestions-store.ts'
 import { curateReleaseListings } from '~/src/helpers/node/release-curation.ts'
 import { inheritFirstSeasonLogos } from '~/src/helpers/node/series-logos.ts'
 import {
@@ -18,6 +20,11 @@ function getRawListings ( filteredListings: FilteredListings ): Listing[] {
     return filteredListings.list
         .map( listing => listing.sourceListing )
         .filter( listing => !isFanEditListing( listing ) )
+}
+
+// Suggested logos fill the gaps first, then every series shares its first season logo.
+async function withLogos ( listings: Listing[] ): Promise<Listing[]> {
+    return inheritFirstSeasonLogos( applyLogoSuggestions( listings, await readLogoSuggestions() ) )
 }
 
 export async function getPublicMcuReleaseListings () {
@@ -36,7 +43,7 @@ export async function getPublicMcuReleaseListings () {
         today: new Date(),
     } )
 
-    return inheritFirstSeasonLogos( canonicalizeTimelineListings( curatedListings, {
+    return withLogos( canonicalizeTimelineListings( curatedListings, {
         collapseUndatedTitles: true,
         sortByReleaseDate: true,
     } ) )
@@ -53,5 +60,5 @@ export async function getPublicMcuTimelineListings () {
         listingsSort: 'none',
     } )
 
-    return inheritFirstSeasonLogos( canonicalizeTimelineListings( getRawListings( filteredListings ) ) )
+    return withLogos( canonicalizeTimelineListings( getRawListings( filteredListings ) ) )
 }
