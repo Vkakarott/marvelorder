@@ -8,6 +8,7 @@ logo_on_black: >-
   {tmdb-path}/uNtmLHraxsxblx4hVXcfnj5BAlF.webp?crop.top=0.21&crop.bottom=0.42
 watchLinks:
   amazon: none
+mcuTimelineOrder: 559
 overview: "Após os acontecimentos de “Vingadores: Ultimato”, o Falcão, Sam Wilson e o Soldado Invernal, Bucky Barnes se unem em uma aventura global que testa suas habilidades e sua paciência."
 localized_title: "Falcão e o Soldado Invernal"
 ---

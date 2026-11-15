@@ -165,3 +165,12 @@ test( 'Sheet dates match listings in ISO datetime and long-form formats', () => 
     expect( datesMatchByPrecision( 'March 19, 2021', '2021-03-20' ) ).toBe( false )
     expect( datesMatchByPrecision( 'March 19, 2021', '2021-03-20', 1 ) ).toBe( true )
 } )
+
+test( 'Public MCU timeline lists The Falcon and the Winter Soldier between WandaVision and Hawkeye', async () => {
+    const timelineListings = await getPublicMcuTimelineListings()
+    const getOrder = ( id: number ) => timelineListings.find( ( listing ) => listing.id === id )?.mcuTimelineOrder
+
+    expect( getOrder( 88396 ) ).toBeTypeOf( 'number' )
+    expect( getOrder( 88396 ) ).toBeGreaterThan( getOrder( 85271 ) as number )
+    expect( getOrder( 88396 ) ).toBeLessThan( getOrder( 88329 ) as number )
+} )
