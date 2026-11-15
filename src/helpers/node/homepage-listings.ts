@@ -312,10 +312,10 @@ function isHomepageLegoObservation (
     return /\blego\b/i.test( getHomepageCombinedSignalText( listing ) )
 }
 
-function isHomepageVariantEditionObservation (
+export function isHomepageVariantEditionObservation (
     listing: Pick<Listing, 'title' | 'description' | 'overview'>,
 ) {
-    return /\b(extended cut|extended version|added content|presented in color|in color|black and white|special edition|alternate cut|director s cut|rogue cut|norton cut|more fun stuff version|theatrical version|noir)\b/i
+    return /\b(extended cut|extended version|added content|presented in color|in color|black and white|special edition|alternate cut|director s cut|rogue cut|norton cut|more fun stuff version|theatrical version|noir|versao estendida|versao ampliada)\b/i
         .test( getHomepageCombinedSignalText( listing ) )
 }
 

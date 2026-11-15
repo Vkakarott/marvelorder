@@ -3,7 +3,7 @@ import type { Listing } from '~/src/helpers/types.ts'
 import { getDateString } from '~/src/helpers/listing.ts'
 import { normalizeTitleForTimelineMatch } from '~/src/helpers/node/timeline-matcher.ts'
 
-function isSeries ( listing: Listing ): boolean {
+export function isSeries ( listing: Listing ): boolean {
     return listing.type === 'tv' || listing.media_type === 'tv' || Boolean( listing.tags?.includes( 'tv' ) )
 }
 

@@ -6,11 +6,13 @@ import {
     isMcuSheetOrdered,
 } from '~/src/helpers/listing-filters.ts'
 import { getAllListings } from '~/src/helpers/node/listing-files.ts'
+import { curateReleaseListings } from '~/src/helpers/node/release-curation.ts'
 import { inheritFirstSeasonLogos } from '~/src/helpers/node/series-logos.ts'
 import {
     canonicalizeTimelineListings,
     isFanEditListing,
 } from '~/src/helpers/node/timeline-matcher.ts'
+import { readGoneListingChecker } from '~/src/helpers/node/tmdb-existence.ts'
 
 function getRawListings ( filteredListings: FilteredListings ): Listing[] {
     return filteredListings.list
@@ -29,7 +31,12 @@ export async function getPublicMcuReleaseListings () {
         listingsSort: 'default',
     } )
 
-    return inheritFirstSeasonLogos( canonicalizeTimelineListings( getRawListings( filteredListings ), {
+    const curatedListings = curateReleaseListings( getRawListings( filteredListings ), {
+        isGone: await readGoneListingChecker(),
+        today: new Date(),
+    } )
+
+    return inheritFirstSeasonLogos( canonicalizeTimelineListings( curatedListings, {
         collapseUndatedTitles: true,
         sortByReleaseDate: true,
     } ) )
