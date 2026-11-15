@@ -5,6 +5,7 @@ import {
     canonicalizeTimelineListings,
     datesMatchByPrecision,
     getCanonicalTimelineListingKey,
+    isFanEditListing,
 } from '~/src/helpers/node/timeline-matcher.ts'
 import type { Listing } from '~/src/helpers/types.ts'
 import {
@@ -138,4 +139,19 @@ test( 'Public MCU release listings collapse current duplicate MCU cards', async 
     expect( listings.filter( listing => listing.title === 'Spider-Man 4' ) ).toHaveLength( 0 )
     expect( listings.filter( listing => listing.title === 'Avengers: Doomsday' ) ).toHaveLength( 1 )
     expect( listings.filter( listing => listing.title === 'Avengers 5' ) ).toHaveLength( 0 )
+} )
+
+test( 'Fan edits are detected from English and Portuguese overviews', () => {
+    expect( isFanEditListing( { overview: 'This is a fan edit turning the series into a feature length film.' } ) ).toBe( true )
+    expect( isFanEditListing( { overview: 'Esta é uma edição de fã que transforma a série em um longa-metragem.' } ) ).toBe( true )
+    expect( isFanEditListing( { description: 'Esta e uma Edicao de Fa.' } ) ).toBe( true )
+    expect( isFanEditListing( { overview: 'Sam Wilson e Bucky Barnes se unem em uma aventura global.' } ) ).toBe( false )
+    expect( isFanEditListing( {} ) ).toBe( false )
+} )
+
+test( 'Public MCU release listings do not repeat a series as its fan edit movie', async () => {
+    const releaseListings = await getPublicMcuReleaseListings()
+    const falconListings = releaseListings.filter( ( listing ) => listing.title === 'The Falcon and the Winter Soldier' )
+
+    expect( falconListings.map( ( listing ) => listing.id ) ).toEqual( [ 88396 ] )
 } )

@@ -47,6 +47,17 @@ function stripMarvelPrefixForMatching ( slug: string ) {
     return workingSlug
 }
 
+const fanEditSignalPattern = /\b(?:fan edit|edicao de fa)\b/
+
+export function isFanEditListing ( listing: Pick<Listing, 'description' | 'overview'> ): boolean {
+    const signalText = `${ listing.description || '' } ${ listing.overview || '' }`
+        .normalize( 'NFD' )
+        .replace( /\p{Diacritic}/gu, '' )
+        .toLowerCase()
+
+    return fanEditSignalPattern.test( signalText )
+}
+
 function dedupeTags ( tags: string[] = [] ) {
     return Array.from( new Set( tags ) )
 }

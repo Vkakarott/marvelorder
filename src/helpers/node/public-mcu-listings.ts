@@ -6,10 +6,15 @@ import {
     isMcuSheetOrdered,
 } from '~/src/helpers/listing-filters.ts'
 import { getAllListings } from '~/src/helpers/node/listing-files.ts'
-import { canonicalizeTimelineListings } from '~/src/helpers/node/timeline-matcher.ts'
+import {
+    canonicalizeTimelineListings,
+    isFanEditListing,
+} from '~/src/helpers/node/timeline-matcher.ts'
 
 function getRawListings ( filteredListings: FilteredListings ): Listing[] {
-    return filteredListings.list.map( listing => listing.sourceListing )
+    return filteredListings.list
+        .map( listing => listing.sourceListing )
+        .filter( listing => !isFanEditListing( listing ) )
 }
 
 export async function getPublicMcuReleaseListings () {
