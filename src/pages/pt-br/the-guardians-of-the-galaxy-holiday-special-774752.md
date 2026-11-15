@@ -4,7 +4,6 @@ slug: the-guardians-of-the-galaxy-holiday-special
 description: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
 layout: ../../layouts/MainLayout.astro
 type: movie
-release_date: 2022-12
 logo_on_black: "{tmdb-path}/A7NLWwvgzlbg8RBJKPHlEszdD74.webp"
 overview: "Com a missão de tornar o Natal inesquecível para Quill, os Guardiões vão à Terra em busca do presente perfeito."
 mcuTimelineOrder: 628

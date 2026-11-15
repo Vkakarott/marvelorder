@@ -26,7 +26,6 @@ genre_ids:
 original_language: en
 original_title: 'Spider-Man: No Way Home'
 poster_path: /gZkWGmCEoa4hiV94G8xALYMuHrV.jpg
-release_date: '2021-08-22'
 video: false
 vote_average: 0
 tags:
