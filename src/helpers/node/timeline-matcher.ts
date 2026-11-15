@@ -368,6 +368,30 @@ export function datesMatchByPrecision ( sourceDate: string, listingDate: string,
     return sourceMonthDate.length > 0 && sourceMonthDate === listingMonthDate
 }
 
+function isApproximateDateMatch ( sourceDate: string, listingDate: string ) {
+    const preciseSourceDate = getPreciseDateMatchValue( sourceDate )
+    const preciseListingDate = getPreciseDateMatchValue( listingDate )
+
+    return preciseSourceDate.length > 0
+        && preciseListingDate.length > 0
+        && preciseSourceDate !== preciseListingDate
+}
+
+const leadingArticlePattern = /^(?:the|a|an)-/
+
+function getStrictTitleKey ( title: string ) {
+    return normalizeTitleForTimelineMatch( title ).replace( leadingArticlePattern, '' )
+}
+
+// A date that is only close (a sheet's US date against TMDB's earliest release)
+// proves nothing alone, so it also needs the same title and a confirmed media type.
+function isStrictTimelineMatch ( listing: Listing, title: string, expectedMediaType: ExpectedTimelineMediaType ) {
+    const isSameTitle = getStrictTitleKey( listing.title || '' ) === getStrictTitleKey( title )
+    const isConfirmedType = expectedMediaType === 'either' || getMediaCompatibilityScore( listing, expectedMediaType ) > 0
+
+    return isSameTitle && isConfirmedType
+}
+
 export function isPrimaryTimelineCandidate ( listing: Pick<Listing, 'title' | 'tags' | 'description' | 'overview'> ) {
     return getPrimaryMatchBlockReason( listing ).length === 0
 }
@@ -425,6 +449,10 @@ export function scoreTimelineListingMatch ( listing: Listing, {
     }
 
     if ( !isPrimaryTimelineCandidate( listing ) ) {
+        return Number.NEGATIVE_INFINITY
+    }
+
+    if ( isApproximateDateMatch( date, listingDate ) && !isStrictTimelineMatch( listing, title, expectedMediaType ) ) {
         return Number.NEGATIVE_INFINITY
     }
 

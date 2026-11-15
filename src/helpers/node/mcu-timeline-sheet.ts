@@ -10,11 +10,21 @@ import {
     matchesTimelineListing,
 } from '~/src/helpers/node/timeline-matcher.ts'
 
-function parseOrderedTitle ( rawTitle: string ) {
+// The sheet carries US dates, TMDB the earliest release anywhere. Films differ
+// by up to 16 days across the catalog (The Amazing Spider-Man 2 is the widest).
+export const sheetDayTolerance = 16
+
+const reReleasePattern = /\s*\|\s*Re-Release\s*$/i
+const standaloneEpisodePattern = /\s+Episode\s+\d+:.*$/
+
+// Re-release rows and the episodes of a web series are not listings of their own.
+function parseOrderedTitle ( sheetTitle: string ) {
+    const rawTitle = sheetTitle.replace( reReleasePattern, '' )
     const [
-        listingTitle,
+        seasonedTitle,
         seasonParts = '',
     ] = rawTitle.split( ' Season ' )
+    const listingTitle = seasonParts.length === 0 ? seasonedTitle.replace( standaloneEpisodePattern, '' ) : seasonedTitle
 
     const [
         seasonNumber = '',
@@ -39,6 +49,7 @@ export function matchListingToOrdered ( listing, orderedEntry ) {
         title: orderedEntry.title,
         date: orderedEntry.premiereDate,
         expectedMediaType: getExpectedMediaTypeFromOrderedEntry( orderedEntry ),
+        dayTolerance: sheetDayTolerance,
     } )
 }
 
@@ -47,6 +58,7 @@ export function matchOrderedEntryToSavedListing ( orderedEntry, savedListings ) 
         title: orderedEntry.title,
         date: orderedEntry.premiereDate,
         expectedMediaType: getExpectedMediaTypeFromOrderedEntry( orderedEntry ),
+        dayTolerance: sheetDayTolerance,
     } )
 }
 
