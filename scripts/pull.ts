@@ -39,6 +39,7 @@ import { persistListingRedirects } from '../src/helpers/listing-redirects.ts'
 import { decideAutoDraft, type Suppression } from '../src/helpers/listing-curation.ts'
 import { applySuppressions, draftGoneListings } from '../src/helpers/listing-curation-files.ts'
 import { checkRegressionBudget } from '../src/helpers/regression-budget.ts'
+import { fillMissingImages, imageLanguageParam } from '../src/helpers/tmdb-images.ts'
 import { hasKnownMediaType, pickIdentitiesToCheck, recordChecks, type ExistenceCache } from '../src/helpers/orphan-sweep.ts'
 import suppressionFile from '../src/json/listing-suppressions.json' with { type: 'json' }
 
@@ -747,6 +748,30 @@ async function sweepOrphanListingFiles ( nextListings: any[] ) {
     console.log( `Orphan sweep checked ${ batch.length } files, ${ goneIdentities.size } gone, drafted ${ drafted.length }.` )
 }
 
+// List endpoints omit images that only exist in other languages, so listings
+// that came back bare are looked up through /images in a few languages.
+const maxImageLookups = getNumberEnv( 'MAX_IMAGE_LOOKUPS', 25 )
+
+async function fetchTmdbImages ( identity: string ) {
+    const [ type, id ] = identity.split( ':' )
+    const { data } = await tmdbGet( `https://api.themoviedb.org/3/${ type }/${ id }/images`, {
+        params: { api_key: process.env.TMDB_API_KEY, include_image_language: imageLanguageParam },
+    } )
+
+    return data
+}
+
+async function fillMissingListingImages ( listings: any[] ) {
+    const existenceCache = await readExistenceCache()
+    const filled = await fillMissingImages( listings, {
+        limit: maxImageLookups,
+        isGone: ( identity ) => existenceCache[ identity ]?.gone === true,
+        fetchImages: fetchTmdbImages,
+    } )
+
+    console.log( `Filled missing images for ${ filled } listings from TMDB images.` )
+}
+
 function assertWithinRegressionBudget ( report: any ) {
     const result = checkRegressionBudget( report.counts, {
         maxMissingRatio: getNumberEnv( 'MAX_MISSING_RATIO', 0.25 ),
@@ -786,6 +811,8 @@ function assertWithinRegressionBudget ( report: any ) {
 
     // Blocks only partial-upstream scale losses; routine churn still flows
     assertWithinRegressionBudget( tmdbRegressionReport )
+
+    await fillMissingListingImages( sortedListings )
 
     await writeJSON( `${ storePath }/listings.json`, sortedListings )
 
