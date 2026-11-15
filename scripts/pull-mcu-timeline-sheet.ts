@@ -7,11 +7,11 @@ import type { MCUTimelineSheetRecord } from '~/src/helpers/types'
 import { storePath } from '~/src/config.ts'
 
 import {
-    matchOrderedEntryToSavedListing,
-    organizeOrderData,
     parseSheetRecords,
     type SheetRecordsResult,
 } from '~/src/helpers/node/mcu-timeline-sheet.ts'
+import { applyTimelineOrderPlan } from '~/src/helpers/node/timeline-order-files.ts'
+import { checkPlanBudget, planTimelineOrderSync } from '~/src/helpers/node/timeline-order-sync.ts'
 import { parseSheetCsv } from '~/src/helpers/node/mcu-timeline-csv.ts'
 import {
     makeInUniverseMarkdown,
@@ -19,14 +19,10 @@ import {
     updateReadmeListContent,
 } from '~/src/helpers/node/readme.ts'
 
-import { upsertListingMarkdown } from '~/src/helpers/markdown-page.ts'
-
 import {
     getListingDetailsFromPaths,
     getListingFiles,
-    getListingFromFile,
     getUpcomingListings,
-    writeMarkdownFileNode,
 } from '~/src/helpers/node/listing-files.ts'
 import {
     FilteredListings,
@@ -40,12 +36,6 @@ import { saveMoviesFandomTimeline } from '~/src/helpers/node/movies-fandom-timel
 
 const macroUrl = 'https://script.google.com/macros/s/AKfycbzGvKKUIaqsMuCj7-A2YRhR-f7GZjl4kSxSN1YyLkS01_CfiyE/exec'
 const mcuTimelineSheetId = '1Xfe--9Wshbb3ru0JplA2PnEwN7mVawazKmhWJjr_wKs'
-
-async function readMarkdownFileNode ( filePath: string ) {
-    // const markdownContent = await fs.readFile( filePath, 'utf8' )
-
-    return await getListingFromFile( filePath )
-}
 
 const typesReadmeMap = {
     'movie': '🎬 Marvel Studios',
@@ -136,7 +126,6 @@ async function fetchSheetRecords ( existingCount: number ): Promise<SheetRecords
     // console.log( 'listingFiles', listingFiles )
 
     const listingsDetails = await getListingDetailsFromPaths( listingFiles )
-    const listingDetailsMap = new Map( listingsDetails.map( ( details: any ) => [ details.listing.id, details ] ) )
     const allListings = listingsDetails.map( ( details: any ) => details.listing )
 
     const orderableListings = new FilteredListings( {
@@ -148,7 +137,10 @@ async function fetchSheetRecords ( existingCount: number ): Promise<SheetRecords
     } )
 
     const existingCount = ( await fs.readJson( `${ storePath }/mcu-timeline-sheet.json` ) ).records.length
-    const fetchedSheet = await fetchSheetRecords( existingCount )
+    // --offline renumbers from the checked-in sheet instead of fetching it
+    const fetchedSheet: SheetRecordsResult = process.argv.includes( '--offline' )
+        ? { ok: true, records: ( await fs.readJson( `${ storePath }/mcu-timeline-sheet.json` ) ).records }
+        : await fetchSheetRecords( existingCount )
 
     if ( !fetchedSheet.ok ) {
         // Keep the checked-in sheet and every mcuTimelineOrder untouched so
@@ -185,71 +177,26 @@ async function fetchSheetRecords ( existingCount: number ): Promise<SheetRecords
 
     const mergedSheet = { records: mergedRecords }
 
-    // Write data to JSON
-    await fs.writeFile( `${ storePath }/mcu-timeline-sheet.json`, JSON.stringify( mergedSheet, null, 2 ) )
+    const plan = planTimelineOrderSync( mergedSheet.records, orderableListings.list )
+    const budget = checkPlanBudget( plan, orderableListings.list )
 
-    const orderedDetails = organizeOrderData( mergedSheet.records )
+    if ( !budget.ok ) {
+        // Keep the checked-in sheet and every mcuTimelineOrder untouched (ADR-001)
+        console.warn( `MCU timeline order skipped, keeping existing data: ${ budget.reason }` )
 
-    const matches = new Map()
-
-    // console.log('orderedDetails', orderedDetails)
-
-    const matchableOrderedTypes = new Set( [
-        'movie',
-        'disney-plus',
-        'disney-plus-netflix',
-        'abc',
-        'freeform',
-        'hulu',
-        'web-series',
-        'sony',
-
-        // 'whih',
-        // 'other'
-    ] )
-
-    for ( const entry of Object.entries( orderedDetails ) ) {
-        const [
-            ,
-            orderedDetails = null as any,
-        ] = entry
-
-        // console.log('orderedDetails.timelineType', orderedDetails.timelineType)
-
-        // Skip entries not from matchable types
-        if ( !matchableOrderedTypes.has( orderedDetails.timelineType ) ) {
-            continue
-        }
-
-        const unmatchedListings = orderableListings.list.filter( listing => !matches.has( listing.id ) )
-        const matchingListing = matchOrderedEntryToSavedListing( orderedDetails, unmatchedListings )
-
-        if ( !matchingListing ) {
-            continue
-        }
-
-        const details: any = listingDetailsMap.get( matchingListing.id )
-
-        matches.set( details.listing.id, {
-            ...orderedDetails,
-            listing: matchingListing,
-        } )
-
-        await upsertListingMarkdown( {
-            listing: {
-                id: details.listing.id,
-                slug: matchingListing.slug,
-                overview: matchingListing.sourceListing.overview,
-                title: matchingListing.title,
-
-                mcuTimelineOrder: orderedDetails.mcuTimelineOrder,
-            },
-            tmdb: {},
-            readMarkdownFile: readMarkdownFileNode,
-            writeMarkdownFile: writeMarkdownFileNode,
-            exists: fs.exists,
-        } )
+        process.exit( 0 )
     }
+
+    await fs.writeFile( sheetJsonPath, JSON.stringify( mergedSheet, null, 2 ) )
+    await applyTimelineOrderPlan( plan )
+
+    console.log( `Timeline order: ${ plan.matches.length } matched, ${ plan.updates.length } renumbered, ${ plan.clears.length } cleared.` )
+
+    if ( process.argv.includes( '--orders-only' ) ) {
+        process.exit( 0 )
+    }
+
+    const matches = new Map( plan.matches.map( ( { listing, entry } ) => [ listing.id, { ...entry, listing } ] ) )
 
     console.log( 'Updating README viewing-order-list' )
 
