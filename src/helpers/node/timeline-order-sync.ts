@@ -31,6 +31,7 @@ export const matchableOrderedTypes = new Set( [
     'hulu',
     'web-series',
     'sony',
+    'one-shot',
 ] )
 
 const minClearsAllowed = 5
