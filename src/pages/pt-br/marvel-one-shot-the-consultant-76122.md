@@ -9,6 +9,7 @@ watchLinks:
   amazon: none
 overview: "Após tudo o que envolveu O Incrível Hulk, o agente da S.H.I.E.L.D. Phil Coulson tem más notícias para dar ao agente Jasper Sitwell: O Conselho de Segurança Mundial quer que Emil Blonsky se una à Iniciativa Vingadores, e Coulson tem ordens para obter sua libertação do general Thaddeus Ross. Incapazes de desafiar o pedido do Conselho, Coulson e Sitwell elaboram um plano para sabotá-lo... com uma arma secreta muito especial."
 localized_title: "Marvel One Shot: O Consultor"
+mcuTimelineOrder: 41
 ---
 ## TMDB Data
 ```json
